@@ -77,7 +77,7 @@
 <%
 SanGorgonioReport converter = new SanGorgonioReport();
 converter.setFilePath(System.getenv("OPENSHIFT_DATA_DIR") + File.separator + "datafile.txt");
-System.out.println("sang file=" + System.getenv("OPENSHIFT_DATA_DIR") + File.separator + "datafile.txt");
+System.out.println("sang file=" + System.getenv("OPENSHIFT_DATA_DIR") + "datafile.txt");
 Set<WaterReport> results = converter.convert();
 
 int i = 0;
