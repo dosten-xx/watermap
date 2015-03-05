@@ -21,11 +21,13 @@ public class WaterReport implements Serializable
    private String source = null;
    private Date lastReport = null;
    private String location = null;
-   
+   private String url = null;
+
    /**
     * Default construtor.
     */
-   public WaterReport() {}
+   public WaterReport()
+   {}
 
    @Override
    public boolean equals(Object obj)
@@ -99,6 +101,11 @@ public class WaterReport implements Serializable
       return state;
    }
 
+   public String getUrl()
+   {
+      return url;
+   }
+
    @Override
    public int hashCode()
    {
@@ -147,6 +154,11 @@ public class WaterReport implements Serializable
    public void setState(WaterState state)
    {
       this.state = state;
+   }
+
+   public void setUrl(String url)
+   {
+      this.url = url;
    }
 
    @Override

@@ -30,7 +30,8 @@ public class SanGorgonioReport
 {
    private static Map<String, String> locationCoords = null;
    private static final SimpleDateFormat dateFormatter = new SimpleDateFormat("yyyy-MM-dd");
-   private static final String SOURCE = "San Gorgonio Water Report http://gohere";
+   private static final String SOURCE_TITLE = "San Gorgonio Water Report";
+   private static final String SOURCE_URL = "http://www.howlingduck.com/cgi-local/display_water_data.pl";
 
    static {
       locationCoords = new HashMap<String, String>();
@@ -123,7 +124,8 @@ public class SanGorgonioReport
             wr.setLocation("San Gorgonio");
             wr.setDescription(fields.get(2));
             wr.setName(fields.get(1));
-            wr.setSource(SOURCE);
+            wr.setSource(SOURCE_TITLE);
+            wr.setUrl(SOURCE_URL);
 
             if (locationCoords.containsKey(wr.getName())) {
                List<String> coords = Splitter.on(',').splitToList(locationCoords.get(wr.getName()));

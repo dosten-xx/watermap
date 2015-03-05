@@ -5,25 +5,17 @@
 <!doctype html>
 <html>
 <head>
-<title>Map Examples</title>
+<title>SoCal Watermap</title>
 <link rel="stylesheet" href="/resources/ol3/ol.css" type="text/css" />
 <link rel="stylesheet" href="/resources/css/samples.css" type="text/css" />
 <link rel="stylesheet" href="/resources/bootstrap/bootstrap.min.css" type="text/css">
 <link rel="stylesheet" href="/resources/bootstrap/bootstrap-responsive.min.css" type="text/css">
-<style type="text/css">
-#map {
-	position: relative;
-}
-
-#popup {
-	padding-bottom: 45px;
-}
-</style>
 </head>
 <body>
 	<div id="map" class="map"></div>
 	<div id="popup" class="popup"></div>
-	<script src="http://code.jquery.com/jquery-1.11.2.min.js" type="text/javascript"></script>
+	<!-- script src="http://code.jquery.com/jquery-1.11.2.min.js" type="text/javascript"></script-->
+	<script src="/resources/jquery/jquery-2.1.3.min.js" type="text/javascript"></script>
 	<script src="/resources/bootstrap/bootstrap.min.js" type="text/javascript"></script>
 	<script src="/resources/ol3/ol-debug.js" type="text/javascript"></script>
 	<script type="text/javascript">
@@ -77,7 +69,7 @@
 <%
 SanGorgonioReport converter = new SanGorgonioReport();
 converter.setFilePath(System.getenv("OPENSHIFT_DATA_DIR") + File.separator + "datafile.txt");
-System.out.println("sang file=" + System.getenv("OPENSHIFT_DATA_DIR") + "datafile.txt");
+System.out.println("sang file=" + System.getenv("OPENSHIFT_DATA_DIR") + File.separator + "datafile.txt");
 Set<WaterReport> results = converter.convert();
 
 int i = 0;
@@ -93,7 +85,8 @@ var iconFeature<%=i %> = new ol.Feature({
 	description : "<%=wr.getDescription() %>",
 	status : '<%=wr.getState() %>',
 	lastReport : '<%=wr.getLastReport() %>',
-	source : '<%=wr.getSource() %>'
+	source : '<%=wr.getSource() %>',
+	url: '<%=wr.getUrl() %>'
 });
 
 <%
