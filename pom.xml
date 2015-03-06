@@ -10,16 +10,12 @@
 	<description>Southern California Watermap</description>
 	<inceptionYear>2015</inceptionYear>
 	<url>http://watermap-ostennet.rhcloud.com</url>
-	
-	<!-- 
-	<organizations>
-		<organization>
-			<name>osten.net</name>
-			<url>http://osten.net</url>
-		</organization>
-	</organizations>
-	-->
-	
+
+	<organization>
+		<name>osten.net</name>
+		<url>http://osten.net</url>
+	</organization>
+
 	<licenses>
 		<license>
 			<name>Apache License, Version 2.0</name>
@@ -28,16 +24,38 @@
 		</license>
 	</licenses>
 
+	<developers>
+		<developer>
+			<id>ostenda-xx</id>
+			<name>Darren Osten</name>
+			<email>darren@osten.net</email>
+			<url>http://blog.osten.net</url>
+			<organization>osten.net</organization>
+			<roles>
+				<role>admin</role>
+			</roles>
+			<timezone>-8</timezone>
+		</developer>
+	</developers>
+
+	<prerequisites>
+		<maven>3.2.0</maven>
+	</prerequisites>
+
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<version.wildfly.maven.plugin>1.0.2.Final</version.wildfly.maven.plugin>
-		<version.jboss.bom>8.2.1.Final</version.jboss.bom>
-		<version.compiler.plugin>3.1</version.compiler.plugin>
-		<version.surefire.plugin>2.16</version.surefire.plugin>
-		<version.war.plugin>2.5</version.war.plugin>
 		<maven.compiler.target>1.7</maven.compiler.target>
 		<maven.compiler.source>1.7</maven.compiler.source>
 		<maven.compiler.executable>${env.OPENSHIFT_WILDFLY_DIR}usr/lib/jvm/jdk1.8.0_05/bin/javac</maven.compiler.executable>
+
+		<version.jboss.bom>8.2.1.Final</version.jboss.bom>
+		<version.jsoup>1.8.1</version.jsoup>
+		<version.jaxb2>1.6</version.jaxb2>
+
+		<version.wildfly.maven.plugin>1.0.2.Final</version.wildfly.maven.plugin>
+		<version.compiler.plugin>3.1</version.compiler.plugin>
+		<version.surefire.plugin>2.16</version.surefire.plugin>
+		<version.war.plugin>2.5</version.war.plugin>
 	</properties>
 
 	<dependencyManagement>
@@ -136,8 +154,16 @@
 			<artifactId>guava</artifactId>
 			<version>18.0</version>
 		</dependency>
+
+		<dependency>
+			<groupId>org.jsoup</groupId>
+			<artifactId>jsoup</artifactId>
+			<version>${version.jsoup}</version>
+			<type>jar</type>
+			<scope>compile</scope>
+		</dependency>
   
-          <!-- Needed for running tests (you may also use TestNG) -->
+        <!-- Needed for running tests (you may also use TestNG) -->
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
@@ -176,6 +202,7 @@
 					<target>1.7</target>
 				</configuration>
 			</plugin>
+
 			<plugin>
 				<artifactId>maven-war-plugin</artifactId>
 				<version>${version.war.plugin}</version>
@@ -185,6 +212,7 @@
 					<warName>ROOT</warName>
 				</configuration>
 			</plugin>
+			
             <!-- The WildFly plugin deploys your war to a local WildFly container -->
             <!-- To use, run: mvn package wildfly:deploy -->
 			<plugin>
@@ -192,6 +220,7 @@
 				<artifactId>wildfly-maven-plugin</artifactId>
 				<version>${version.wildfly.maven.plugin}</version>
 			</plugin>
+
 		</plugins>
 	</build>
 
@@ -271,6 +300,34 @@
 				</plugins>
 			</build>
 		</profile>
+
+		<profile>
+			<id>jaxb</id>
+			<build>
+				<plugins>
+					<plugin>
+						<groupId>org.codehaus.mojo</groupId>
+						<artifactId>jaxb2-maven-plugin</artifactId>
+						<version>${version.jaxb2}</version>
+						<executions>
+							<execution>
+								<id>xjc</id>
+								<goals>
+									<goal>xjc</goal>
+								</goals>
+							</execution>
+						</executions>
+						<configuration>
+							<packageName>net.osten.watermap.pct.xml</packageName>
+							<sources>
+								<source>${project.src.directory}/main/xsd</source>
+							</sources>
+						</configuration>
+					</plugin>
+				</plugins>
+			</build>
+		</profile>
+
 	</profiles>
 
 </project>

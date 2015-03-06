@@ -1,0 +1,4279 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" creator="MapSource 6.16.3" version="1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+
+  <metadata>
+    <link href="http://www.garmin.com">
+      <text>Garmin International</text>
+    </link>
+    <time>2015-01-23T19:35:28Z</time>
+    <bounds maxlat="33.27305001206696" maxlon="-116.41253041103482" minlat="32.589709991589189" minlon="-116.64528999477625"/>
+  </metadata>
+
+  <wpt lat="32.589709991589189" lon="-116.46695997565985">
+    <ele>890.62560000000008</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0000</name>
+    <cmt>Copyright 2013 Halfmile Media</cmt>
+    <desc>Copyright 2013 Halfmile Media</desc>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.595849987119436" lon="-116.46671002730727">
+    <ele>837.52599999999995</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0000-5</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.600579978898168" lon="-116.47007997147739">
+    <ele>812.31600000000003</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0001</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.605869965627789" lon="-116.47302000783384">
+    <ele>794.38800000000003</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0001-5</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.605309970676899" lon="-116.47906000725925">
+    <ele>785.88099999999997</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0002</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.607279969379306" lon="-116.48307996802032">
+    <ele>754.27599999999995</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0002-5</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.607000013813376" lon="-116.48881997913122">
+    <ele>744.95899999999995</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0003</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.60604003444314" lon="-116.49272996932268">
+    <ele>767.822</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0003-5</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.606029976159334" lon="-116.49678999558091">
+    <ele>757.65700000000004</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0004</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.607079977169633" lon="-116.49981996975839">
+    <ele>719.28200000000004</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0004-5</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.60907000862062" lon="-116.50446002371609">
+    <ele>758.91499999999996</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0005</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.609560014680028" lon="-116.50702999904752">
+    <ele>789.80399999999997</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0005-5</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.614699965342879" lon="-116.50758999399841">
+    <ele>854.12300000000005</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0006</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.619310012087226" lon="-116.50775997899473">
+    <ele>862.721</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0006-5</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.623329972848296" lon="-116.5073399618268">
+    <ele>885.72400000000005</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0007</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.627919986844063" lon="-116.51083999313414">
+    <ele>926.59500000000003</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0007-5</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.629520008340478" lon="-116.51533001102507">
+    <ele>962.61900000000003</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0008</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.626620037481189" lon="-116.51668997481465">
+    <ele>1028.5419999999999</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0008-5</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.624829998239875" lon="-116.52018003165722">
+    <ele>1025.106</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0009</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.628479981794953" lon="-116.52374996803701">
+    <ele>1011.9450000000001</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0009-5</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.63440003618598" lon="-116.52568995952606">
+    <ele>1028.9100000000001</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0010</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.639449965208769" lon="-116.52504002675414">
+    <ele>1030.9770000000001</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0010-5</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.644399981945753" lon="-116.5236399974674">
+    <ele>1023.622</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0011</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.64780999161303" lon="-116.52399002574384">
+    <ele>1031.5160000000001</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0011-5</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.650039996951818" lon="-116.5293800085783">
+    <ele>985.60699999999997</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0012</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.651189994066954" lon="-116.5336299687624">
+    <ele>955.06600000000003</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0012-5</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.65302998945117" lon="-116.54021001420915">
+    <ele>949.27499999999998</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0013</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.655210038647056" lon="-116.54567996039987">
+    <ele>925.93399999999997</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0013-5</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.660029968246818" lon="-116.55071999877691">
+    <ele>890.34500000000003</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0014</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.655880004167557" lon="-116.54481997713447">
+    <ele>867.34500000000003</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0014-5</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.657510032877326" lon="-116.54470003210008">
+    <ele>771.57399999999996</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0015</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.662270031869411" lon="-116.54460003599524">
+    <ele>725.75900000000001</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0015-5</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.664020005613565" lon="-116.54074997641146">
+    <ele>807.06799999999998</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0016</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.666570032015443" lon="-116.53825996443629">
+    <ele>917.72199999999998</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0016-5</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.668429976329207" lon="-116.53361001983285">
+    <ele>952.47000000000003</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0017</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.671479983255267" lon="-116.53102998621762">
+    <ele>1014.3440000000001</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0017-5</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.671330031007528" lon="-116.52517003007233">
+    <ele>1064.7909999999999</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0018</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.673230040818453" lon="-116.51937000453472">
+    <ele>1042.096</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0018-5</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.67836001701653" lon="-116.51976998895407">
+    <ele>1047.8989999999999</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0019</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.682179985567927" lon="-116.52370998635888">
+    <ele>1005.8579999999999</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0019-5</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.6828099694103" lon="-116.51670003309846">
+    <ele>935.85199999999998</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0020</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.688430035486817" lon="-116.51467001996934">
+    <ele>927.79300000000001</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0020-5</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.69037002697587" lon="-116.50761002674699">
+    <ele>953.899</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0021</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.693499997258186" lon="-116.50124003179371">
+    <ele>977.69200000000001</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0021-5</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.696700040251017" lon="-116.4975899644196">
+    <ele>989.50900000000001</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0022</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.697679968550801" lon="-116.4950100146234">
+    <ele>1030.163</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0022-5</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.704239981248975" lon="-116.49593998678029">
+    <ele>1049.213</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0023</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.709229979664087" lon="-116.4988299831748">
+    <ele>1019.654</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0023-5</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.713889982551336" lon="-116.49761997163296">
+    <ele>938.04899999999998</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0024</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.719629993662238" lon="-116.4970999583602">
+    <ele>937.26300000000003</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0024-5</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.726090010255575" lon="-116.49533003568649">
+    <ele>945.17899999999997</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0025</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.72925996221602" lon="-116.49081001058221">
+    <ele>942.85599999999999</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0025-5</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.728669960051775" lon="-116.48371003568172">
+    <ele>967.02099999999996</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0026</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.733500031754375" lon="-116.48089002817869">
+    <ele>962.36599999999999</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0026-5</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.731819963082671" lon="-116.47591997869313">
+    <ele>986.76599999999996</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0027</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.73026998154819" lon="-116.47184000350535">
+    <ele>1043.02</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0027-5</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.733990037813783" lon="-116.46812003105879">
+    <ele>1097.7070000000001</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0028</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.739919982850552" lon="-116.46572004072368">
+    <ele>1146.886</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0028-5</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.744259964674711" lon="-116.46287002600729">
+    <ele>1148.221</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0029</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.748979981988668" lon="-116.45858997479081">
+    <ele>1189.9090000000001</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0029-5</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.74760995991528" lon="-116.45326000638306">
+    <ele>1196.934</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0030</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.747659999877214" lon="-116.44689998589456">
+    <ele>1243.0630000000001</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0030-5</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.751490026712418" lon="-116.44219002686441">
+    <ele>1277.52</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0031</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.757619963958859" lon="-116.43910003826022">
+    <ele>1309.875</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0031-5</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.764160027727485" lon="-116.43868999555707">
+    <ele>1295.3209999999999</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0032</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.770249983295798" lon="-116.43934001214802">
+    <ele>1351.9100000000001</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0032-5</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.775920005515218" lon="-116.43966003321111">
+    <ele>1408.99</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0033</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.779420036822557" lon="-116.43727999180555">
+    <ele>1470.425</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0033-5</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.78527001850307" lon="-116.4351499825716">
+    <ele>1506.123</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0034</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.788620013743639" lon="-116.43195999786258">
+    <ele>1495.971</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0034-5</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.790369987487793" lon="-116.42809996381402">
+    <ele>1564.0419999999999</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0035</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.796520041301847" lon="-116.42633004114032">
+    <ele>1610.655</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0035-5</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.80076002702117" lon="-116.42203004099429">
+    <ele>1614.992</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0036</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.806020006537437" lon="-116.4231900125742">
+    <ele>1611.136</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0036-5</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.812150027602911" lon="-116.42125999554992">
+    <ele>1589.8610000000001</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0037</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.816469976678491" lon="-116.41610998660326">
+    <ele>1638.943</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0037-5</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.819659961387515" lon="-116.41550003550947">
+    <ele>1695.712</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0038</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.824549963697791" lon="-116.41777002252638">
+    <ele>1761.787</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0038-5</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.83099003136158" lon="-116.41758000478148">
+    <ele>1809.808</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0039</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.836280018091202" lon="-116.41962996684015">
+    <ele>1839.1079999999999</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0039-5</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.842280035838485" lon="-116.41797998920083">
+    <ele>1842.2719999999999</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0040</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.84873996861279" lon="-116.41862003132701">
+    <ele>1814.0809999999999</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0040-5</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.854879964143038" lon="-116.41912998631597">
+    <ele>1766.846</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0041</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.858140021562576" lon="-116.41521002165973">
+    <ele>1813.6669999999999</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0041-5</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.862749984487891" lon="-116.41265999525785">
+    <ele>1825.2370000000001</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0042</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.868499970063567" lon="-116.41341000795364">
+    <ele>1810.1220000000001</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0042-5</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.87393999285996" lon="-116.41652002930641">
+    <ele>1808.5429999999999</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0043</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.878980031237006" lon="-116.4215699583292">
+    <ele>1787.1859999999999</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0043-5</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.88522002287209" lon="-116.42029004171491">
+    <ele>1792.1969999999999</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0044</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.888839999213815" lon="-116.42605000175536">
+    <ele>1800.2429999999999</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0044-5</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.893699994310737" lon="-116.42735003493726">
+    <ele>1824.8099999999999</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0045</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.898109965026379" lon="-116.43206996843219">
+    <ele>1810.8779999999999</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0045-5</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.892440026625991" lon="-116.43461999483407">
+    <ele>1766.4960000000001</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0046</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.895609978586435" lon="-116.44007996656001">
+    <ele>1755.624</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0046-5</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.896959967911243" lon="-116.44542996771634">
+    <ele>1691.3810000000001</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0047</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.895960006862879" lon="-116.4484900329262">
+    <ele>1658.8219999999999</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0047-5</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.898559989407659" lon="-116.45263999700546">
+    <ele>1657.3869999999999</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0048</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.903949972242117" lon="-116.45496999844909">
+    <ele>1645.646</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0048-5</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.908620033413172" lon="-116.45460999570787">
+    <ele>1682.0809999999999</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0049</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.915069991722703" lon="-116.45414999686182">
+    <ele>1704.7829999999999</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0049-5</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.918589971959591" lon="-116.45834002643824">
+    <ele>1666.9512</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0050</name>
+    <cmt>Copyright 2013 Halfmile Media</cmt>
+    <desc>Copyright 2013 Halfmile Media</desc>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.923209993168712" lon="-116.4624899905175">
+    <ele>1686.0129999999999</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0050-5</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.926689991727471" lon="-116.46766003221273">
+    <ele>1690.7349999999999</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0051</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.923370003700256" lon="-116.47145996801555">
+    <ele>1664.7840000000001</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0051-5</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.92297001928091" lon="-116.47480996325612">
+    <ele>1638.751</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0052</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.924589989706874" lon="-116.48047001101077">
+    <ele>1598.905</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0052-5</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.929919958114624" lon="-116.48113000206649">
+    <ele>1644.2249999999999</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0053</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.936279978603125" lon="-116.4833399746567">
+    <ele>1682.8399999999999</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0053-5</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.942149993032217" lon="-116.4854399766773">
+    <ele>1677.028</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0054</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.947220038622618" lon="-116.48911996744573">
+    <ele>1634.3499999999999</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0054-5</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.946990039199591" lon="-116.49406000971794">
+    <ele>1623.883</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0055</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.948889965191483" lon="-116.49858003482223">
+    <ele>1627.7139999999999</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0055-5</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.952859969809651" lon="-116.49973003193736">
+    <ele>1594.2619999999999</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0056</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.955849962309003" lon="-116.50269999168813">
+    <ele>1580.76</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0056-5</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.960200002416968" lon="-116.50437000207603">
+    <ele>1551.7090000000001</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0057</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.965519996359944" lon="-116.50744004175067">
+    <ele>1496.3489999999999</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0057-5</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.969499975442886" lon="-116.51188001967967">
+    <ele>1503.3679999999999</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0058</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.973690005019307" lon="-116.51566000655293">
+    <ele>1515.338</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0058-5</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.977100014686584" lon="-116.5188199840486">
+    <ele>1532.8030000000001</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0059</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.980699958279729" lon="-116.52231004089117">
+    <ele>1525.527</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0059-5</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.984360000118613" lon="-116.52587000280619">
+    <ele>1482.0319999999999</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0060</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.989289984107018" lon="-116.52783002704382">
+    <ele>1459.4829999999999</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0060-5</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.995199980214238" lon="-116.53068004176021">
+    <ele>1475.671</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0061</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.000370021909475" lon="-116.53450998477638">
+    <ele>1453.0360000000001</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0061-5</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.005790011957288" lon="-116.53739000670612">
+    <ele>1436.3969999999999</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0062</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.011300023645163" lon="-116.53808997943997">
+    <ele>1436.76</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0062-5</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.014360005035996" lon="-116.53416004031897">
+    <ele>1335.6759999999999</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0063</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.011900000274181" lon="-116.52948000468314">
+    <ele>1217.3320000000001</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0063-5</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.011720040813088" lon="-116.52406001463532">
+    <ele>1242.4680000000001</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0064</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.015730027109385" lon="-116.52182003483176">
+    <ele>1252.893</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0064-5</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.020760007202625" lon="-116.5214900393039">
+    <ele>1269.9739999999999</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0065</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.023350015282631" lon="-116.51841999962926">
+    <ele>1293.1289999999999</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0065-5</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.026709984987974" lon="-116.51652996428311">
+    <ele>1273.1890000000001</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0066</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.030619975179434" lon="-116.52046996168792">
+    <ele>1298.4079999999999</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0066-5</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.035109993070364" lon="-116.52294002473354">
+    <ele>1247.559</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0067</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.040870036929846" lon="-116.52311000972986">
+    <ele>1210.3119999999999</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0067-5</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.045510007068515" lon="-116.52429998852313">
+    <ele>1159.7270000000001</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0068</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.051180029287934" lon="-116.52327002026141">
+    <ele>1114.8150000000001</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0068-5</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.05420002900064" lon="-116.51802998967469">
+    <ele>1085.6400000000001</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0069</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.054869994521141" lon="-116.51425997726619">
+    <ele>1035.2070000000001</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0069-5</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.059460008516908" lon="-116.51176996529102">
+    <ele>982.04999999999995</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0070</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.065549964085221" lon="-116.5107399970293">
+    <ele>957.63599999999997</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0070-5</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.068150030449033" lon="-116.5043799765408">
+    <ele>952.88999999999999</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0071</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.067579977214336" lon="-116.49845003150403">
+    <ele>1027.7190000000001</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0071-5</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.064610017463565" lon="-116.49363999255002">
+    <ele>947.279</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0072</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.068190012127161" lon="-116.48992002010345">
+    <ele>905.84100000000001</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0072-5</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.067279988899827" lon="-116.48313000798225">
+    <ele>922.59900000000005</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0073</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.067590035498142" lon="-116.4771699719131">
+    <ele>934.71199999999999</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0073-5</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.06793000549078" lon="-116.47134002298117">
+    <ele>872.57799999999997</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0074</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.070160010829568" lon="-116.46619998849928">
+    <ele>803.00199999999995</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0074-5</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.076950022950768" lon="-116.46790000610054">
+    <ele>761.95100000000002</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0075</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.08387003839016" lon="-116.46987000480294">
+    <ele>733.78800000000001</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0075-5</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.089680038392544" lon="-116.46602002903819">
+    <ele>705.78899999999999</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0076</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.09412001632154" lon="-116.46524998359382">
+    <ele>694.94100000000003</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0076-5</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.096390003338456" lon="-116.47256998345256">
+    <ele>696.57500000000005</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0077</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.100920002907515" lon="-116.4716799929738">
+    <ele>715.62800000000004</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0077-5</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.103559967130423" lon="-116.47555000148714">
+    <ele>763.59100000000001</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0078</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.105580005794764" lon="-116.47393003106117">
+    <ele>822.29600000000005</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0078-5</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.107139961794019" lon="-116.47551001980901">
+    <ele>879.79899999999998</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0079</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.109450014308095" lon="-116.47683997638524">
+    <ele>913.98199999999997</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0079-5</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.109880005940795" lon="-116.481429990381">
+    <ele>908.60599999999999</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0080</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.114089984446764" lon="-116.48221001029015">
+    <ele>933.28200000000004</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0080-5</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.114879978820682" lon="-116.48644002154469">
+    <ele>936.702</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0081</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.118749987334013" lon="-116.48556000553071">
+    <ele>937.51300000000003</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0081-5</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.120729960501194" lon="-116.4879699703306">
+    <ele>953.32299999999998</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0082</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.123999992385507" lon="-116.48828999139369">
+    <ele>975.13699999999994</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0082-5</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.127579987049103" lon="-116.48930001072586">
+    <ele>991.78300000000002</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0083</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.12871003523469" lon="-116.49422999471426">
+    <ele>993.78499999999997</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0083-5</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.131020003929734" lon="-116.49603000842035">
+    <ele>1002.152</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0084</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.136119972914457" lon="-116.49531000293791">
+    <ele>1003.88</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0084-5</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.136349972337484" lon="-116.49997998028994">
+    <ele>989.18600000000004</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0085</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.137120017781854" lon="-116.50398996658623">
+    <ele>1003.216</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0085-5</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.140670005232096" lon="-116.50768001563847">
+    <ele>1019.7910000000001</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0086</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.145590014755726" lon="-116.50713996961713">
+    <ele>981.89200000000005</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0086-5</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.146810000762343" lon="-116.51024001650512">
+    <ele>1008.821</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0087</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.147630002349615" lon="-116.51064997538924">
+    <ele>1048.6130000000001</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0087-5</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.149490030482411" lon="-116.51648998260498">
+    <ele>1099.6030000000001</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0088</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.149479972198606" lon="-116.52075997553766">
+    <ele>1087.328</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0088-5</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.151100026443601" lon="-116.52504002675414">
+    <ele>1091.269</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0089</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.154529985040426" lon="-116.52863997034729">
+    <ele>1062.944</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0089-5</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.155920039862394" lon="-116.53489002026618">
+    <ele>1034.077</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0090</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.159990040585399" lon="-116.53981002978981">
+    <ele>1061.0239999999999</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0090-5</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.164479974657297" lon="-116.54402000829577">
+    <ele>1084.0150000000001</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0091</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.169320020824671" lon="-116.54172998853028">
+    <ele>1112.7760000000001</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0091-5</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.171590007841587" lon="-116.54651002027094">
+    <ele>1147.9960000000001</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0092</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.174099968746305" lon="-116.5495499689132">
+    <ele>1188.0619999999999</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0092-5</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.178310031071305" lon="-116.5484999679029">
+    <ele>1229.972</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0093</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.178080031648278" lon="-116.5489299595356">
+    <ele>1252.951</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0093-5</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.177839973941445" lon="-116.55321998521686">
+    <ele>1289.222</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0094</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.181849960237741" lon="-116.55821995809674">
+    <ele>1320.1279999999999</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0094-5</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.184810029342771" lon="-116.56102001667023">
+    <ele>1309.3199999999999</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0095</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.189459973946214" lon="-116.56532999128103">
+    <ele>1327.636</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0095-5</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.193759974092245" lon="-116.5639400202781">
+    <ele>1342.9179999999999</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0096</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.196639996021986" lon="-116.56187999993563">
+    <ele>1327.4010000000001</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0096-5</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.196579981595278" lon="-116.56578999012709">
+    <ele>1297.2380000000001</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0097</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.19841000251472" lon="-116.57047002576292">
+    <ele>1272.5309999999999</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0097-5</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.198549980297685" lon="-116.57304000109434">
+    <ele>1260.058</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0098</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.203019965440035" lon="-116.57458000816405">
+    <ele>1249.607</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0098-5</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.20373997092247" lon="-116.56899003311992">
+    <ele>1222.9490000000001</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0099</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.206619992852211" lon="-116.57261000946164">
+    <ele>1195.5509999999999</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0099-5</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.208290003240108" lon="-116.57803997397423">
+    <ele>1157.6304</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0100</name>
+    <cmt>Copyright 2013 Halfmile Media</cmt>
+    <desc>Copyright 2013 Halfmile Media</desc>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.211419973522425" lon="-116.58189003355801">
+    <ele>1127.5830000000001</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0100-5</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.214769968762994" lon="-116.58649999648333">
+    <ele>1073.0419999999999</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0101</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.218449959531426" lon="-116.59106997773051">
+    <ele>1052.6880000000001</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0101-5</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.221759973093867" lon="-116.58991998061538">
+    <ele>1059.585</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0102</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.223680015653372" lon="-116.589289996773">
+    <ele>1083.9970000000001</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0102-5</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.225810024887323" lon="-116.59579996950924">
+    <ele>1046.9059999999999</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0103</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.22936998680234" lon="-116.5989900380373">
+    <ele>1016.346</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0103-5</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.23605002835393" lon="-116.59916999749839">
+    <ele>1011.976</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0104</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.24266997165978" lon="-116.60052996128798">
+    <ele>1020.288</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0104-5</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.248089961707592" lon="-116.59998999908566">
+    <ele>1022.314</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0105</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.250209996476769" lon="-116.60205999389291">
+    <ele>1084.634</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0105-5</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.253569966182113" lon="-116.60807996056974">
+    <ele>1068.992</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0106</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.254619967192411" lon="-116.61525998264551">
+    <ele>1049.954</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0106-5</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.260570028796792" lon="-116.61814997904003">
+    <ele>1072.7860000000001</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0107</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.263760013505816" lon="-116.62105003371835">
+    <ele>1064.922</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0107-5</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.265460031107068" lon="-116.62733000703156">
+    <ele>1010.351</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0108</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.266299981623888" lon="-116.63461999967694">
+    <ele>984.28499999999997</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0108-5</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.269259966909885" lon="-116.64081003516912">
+    <ele>941.46600000000001</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0109</name>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.27305001206696" lon="-116.64528999477625">
+    <ele>927.5064000000001</ele>
+    <time>2009-11-03T20:03:54Z</time>
+    <name>0109-5</name>
+    <cmt>Copyright 2013 Halfmile Media</cmt>
+    <desc>Copyright 2013 Halfmile Media</desc>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.194404961541295" lon="-116.56332302838564">
+    <ele>1327.7088000000001</ele>
+    <time>2011-04-21T23:18:36Z</time>
+    <name>BGCave</name>
+    <cmt>Billy Goat's cave, very small cave, W side of trail - mi 96.1</cmt>
+    <desc>Billy Goat's cave, very small cave, W side of trail - mi 96.1</desc>
+    <sym>Flag, Blue</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.888128291815519" lon="-116.42585327848792">
+    <ele>1792.2240000000002</ele>
+    <name>BigLagunaTr</name>
+    <cmt>Big Laguna trail junction - mi 44.5</cmt>
+    <desc>Big Laguna trail junction - mi 44.5</desc>
+    <sym>Trail Head</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.729016048833728" lon="-116.48316848091781">
+    <ele>961.03440000000001</ele>
+    <name>BoulderOakCG</name>
+    <cmt>Boulder Oaks Campground, outhouse, water - mi 26</cmt>
+    <desc>Boulder Oaks Campground, outhouse, water - mi 26</desc>
+    <sym>Campground</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.858579820021987" lon="-116.41658800654113">
+    <ele>1797.7104000000002</ele>
+    <name>BurntRanchCG</name>
+    <cmt>Burnt Rancheria Campground, water, showers, [open 4/10 - 10/31] - mi 41.4</cmt>
+    <desc>Burnt Rancheria Campground, water, showers, [open 4/10 - 10/31] - mi 41.4</desc>
+    <sym>Campground</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.108914997428656" lon="-116.47838400676847">
+    <ele>903.12240000000008</ele>
+    <time>2012-12-01T17:28:33Z</time>
+    <name>BV0080</name>
+    <cmt>Small bivy campsite, view - mi 79.7</cmt>
+    <desc>Small bivy campsite, view - mi 79.7</desc>
+    <sym>Campground</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.110116040334105" lon="-116.48065902292728">
+    <ele>916.22880000000009</ele>
+    <time>2012-12-01T17:34:28Z</time>
+    <name>BV0080B</name>
+    <cmt>Bivy campsite in wash - mi 79.9</cmt>
+    <desc>Bivy campsite in wash - mi 79.9</desc>
+    <sym>Campground</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.136112932115793" lon="-116.49515560828149">
+    <ele>1008.888</ele>
+    <name>BV0085</name>
+    <cmt>Small bivy campsite in gully - mi 84.5</cmt>
+    <desc>Small bivy campsite in gully - mi 84.5</desc>
+    <sym>Campground</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.150716973468661" lon="-116.52077497914433">
+    <ele>1093.3176000000001</ele>
+    <time>2011-04-22T18:58:53Z</time>
+    <name>BV0089</name>
+    <cmt>Small bivy campsite - mi 88.6</cmt>
+    <desc>Small bivy campsite - mi 88.6</desc>
+    <sym>Campground</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.149376036599278" lon="-116.52304597198963">
+    <ele>1089.9648</ele>
+    <time>2012-12-01T22:19:52Z</time>
+    <name>BV0089B</name>
+    <cmt>Small bivy campsite, view - mi 88.8</cmt>
+    <desc>Small bivy campsite, view - mi 88.8</desc>
+    <sym>Campground</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.155043963342905" lon="-116.53093803673983">
+    <ele>1049.4264000000001</ele>
+    <time>2012-12-01T22:55:57Z</time>
+    <name>BV0090</name>
+    <cmt>Small trailside bivy campsite - mi 89.7</cmt>
+    <desc>Small trailside bivy campsite - mi 89.7</desc>
+    <sym>Campground</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.173163961619139" lon="-116.54983696527779">
+    <ele>1177.4424000000001</ele>
+    <time>2012-12-02T15:48:43Z</time>
+    <name>BV0092</name>
+    <cmt>Small bivy campsite - mi 92.4</cmt>
+    <desc>Small bivy campsite - mi 92.4</desc>
+    <sym>Campground</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.186098160222173" lon="-116.56247980892658">
+    <ele>1308.8112000000001</ele>
+    <name>BV0095</name>
+    <cmt>Small bivy campsite - mi 95.2</cmt>
+    <desc>Small bivy campsite - mi 95.2</desc>
+    <sym>Campground</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.193713035434484" lon="-116.5653869882226">
+    <ele>1340.8152</ele>
+    <time>2011-04-21T23:28:34Z</time>
+    <name>BV0096</name>
+    <cmt>Small bivy campsite - mi 95.9</cmt>
+    <desc>Small bivy campsite - mi 95.9</desc>
+    <sym>Campground</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.77770216576755" lon="-116.44542024470866">
+    <ele>1269.1872000000001</ele>
+    <name>CibbetsCG</name>
+    <cmt>Cibbets Flat Campground, water, 8/10 mile NW of PCT - mi 32.6</cmt>
+    <desc>Cibbets Flat Campground, water, 8/10 mile NW of PCT - mi 32.6</desc>
+    <sym>Campground</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.607283992692828" lon="-116.50133701041341">
+    <ele>726.64320000000009</ele>
+    <name>CS0005</name>
+    <cmt>Campsite in dry meadow - mi 4.6</cmt>
+    <desc>Campsite in dry meadow - mi 4.6</desc>
+    <sym>Campground</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.801678515970707" lon="-116.42105162143707">
+    <ele>1609.9536000000001</ele>
+    <name>CS0036</name>
+    <cmt>Campsite by large oak tree - mi 36.1</cmt>
+    <desc>Campsite by large oak tree - mi 36.1</desc>
+    <sym>Campground</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.812993414700031" lon="-116.41970599070191">
+    <ele>1603.248</ele>
+    <name>CS0037</name>
+    <cmt>Campsite near Long Creek - mi 37.1</cmt>
+    <desc>Campsite near Long Creek - mi 37.1</desc>
+    <sym>Campground</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.817914262413979" lon="-116.41466150991619">
+    <ele>1650.7968000000001</ele>
+    <name>CS0038</name>
+    <cmt>Campsite among the dead trees - mi 37.6</cmt>
+    <desc>Campsite among the dead trees - mi 37.6</desc>
+    <sym>Campground</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.953649880364537" lon="-116.50040695443749">
+    <ele>1590.7512000000002</ele>
+    <name>CS0056</name>
+    <cmt>Campsite in boulder field - mi 55.9</cmt>
+    <desc>Campsite in boulder field - mi 55.9</desc>
+    <sym>Campground</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.012882778421044" lon="-116.52730464935303">
+    <ele>1182.624</ele>
+    <name>CS0064</name>
+    <cmt>Campsite near dry creekbed just S of Chariot Cyn Rd - mi 63.7</cmt>
+    <desc>Campsite near dry creekbed just S of Chariot Cyn Rd - mi 63.7</desc>
+    <sym>Campground</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.067894969135523" lon="-116.47794999182224">
+    <ele>953.7192</ele>
+    <time>2011-04-23T16:49:58Z</time>
+    <name>CS0073</name>
+    <cmt>Small campsite N of trail - mi 73.4</cmt>
+    <desc>Small campsite N of trail - mi 73.4</desc>
+    <sym>Campground</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.110120985656977" lon="-116.47513342089951">
+    <ele>904.34160000000008</ele>
+    <name>CS0079</name>
+    <cmt>Campsite in sandy dry creek bed - mi 79.4</cmt>
+    <desc>Campsite in sandy dry creek bed - mi 79.4</desc>
+    <sym>Campground</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.1137755792588" lon="-116.48114928044379">
+    <ele>928.4208000000001</ele>
+    <name>CS0080C</name>
+    <cmt>Small sandy campsite under dry waterfall, another campsite in the wash below - mi 80.4</cmt>
+    <desc>Small sandy campsite under dry waterfall, another campsite in the wash below - mi 80.4</desc>
+    <sym>Campground</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.120229979977012" lon="-116.48445703089237">
+    <ele>943.05119999999999</ele>
+    <time>2011-04-22T23:08:38Z</time>
+    <name>CS0082</name>
+    <cmt>Several small campsites in wash below the trail - mi 81.6</cmt>
+    <desc>Several small campsites in wash below the trail - mi 81.6</desc>
+    <sym>Campground</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.123716013506055" lon="-116.48726899176836">
+    <ele>982.37040000000002</ele>
+    <time>2011-04-22T22:36:53Z</time>
+    <name>CS0082B</name>
+    <cmt>Small campsite next to trail, view - mi 82.4</cmt>
+    <desc>Small campsite next to trail, view - mi 82.4</desc>
+    <sym>Campground</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.136838050559163" lon="-116.49755945429206">
+    <ele>1003.0968</ele>
+    <name>CS0085B</name>
+    <cmt>Small campsite next to trail - mi 84.7</cmt>
+    <desc>Small campsite next to trail - mi 84.7</desc>
+    <sym>Campground</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.138322988525033" lon="-116.50305395945907">
+    <ele>1017.4224</ele>
+    <time>2012-12-01T20:04:31Z</time>
+    <name>CS0085C</name>
+    <cmt>Large campsite, better than campsites in the burn area 200 feet before - mi 85.4</cmt>
+    <desc>Large campsite, better than campsites in the burn area 200 feet before - mi 85.4</desc>
+    <sym>Campground</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.140506474301219" lon="-116.5075112041086">
+    <ele>1032.6624000000002</ele>
+    <name>CS0086</name>
+    <cmt>Several campsites on saddle of ridge - mi 86</cmt>
+    <desc>Several campsites on saddle of ridge - mi 86</desc>
+    <sym>Campground</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.145237555727363" lon="-116.50782217271626">
+    <ele>984.50400000000002</ele>
+    <name>CS0087</name>
+    <cmt>Many campsites along wide dry creekbed - mi 86.6</cmt>
+    <desc>Many campsites along wide dry creekbed - mi 86.6</desc>
+    <sym>Campground</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.147815996780992" lon="-116.51792203076184">
+    <ele>1092.4032</ele>
+    <time>2011-04-22T19:12:47Z</time>
+    <name>CS0088</name>
+    <cmt>Several small campsites, view - mi 88.2</cmt>
+    <desc>Several small campsites, view - mi 88.2</desc>
+    <sym>Campground</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.180503323674202" lon="-116.54939264059067">
+    <ele>1235.0496000000001</ele>
+    <name>CS0093</name>
+    <cmt>Small campsite - mi 93.2</cmt>
+    <desc>Small campsite - mi 93.2</desc>
+    <sym>Campground</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.180831978097558" lon="-116.5581860113889">
+    <ele>1311.5544</ele>
+    <time>2011-04-22T15:06:27Z</time>
+    <name>CS0094</name>
+    <cmt>Several small campsites on small ridge, may be hidden from trail by brush - mi 94.4</cmt>
+    <desc>Several small campsites on small ridge, may be hidden from trail by brush - mi 94.4</desc>
+    <sym>Campground</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.269300116226077" lon="-116.64085680618882">
+    <ele>937.25999999999999</ele>
+    <name>CS0109</name>
+    <cmt>Large beach-like campsite - mi 109</cmt>
+    <desc>Large beach-like campsite - mi 109</desc>
+    <sym>Campground</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.167005022987723" lon="-116.5434780344367">
+    <ele>1084.4784</ele>
+    <time>2012-12-02T15:21:30Z</time>
+    <name>CS091</name>
+    <cmt>Several small campsites 100 ft N of the 3rd gate, possible shade from bushes, underground water cistern E of PCT - mi 91.2</cmt>
+    <desc>Several small campsites 100 ft N of the 3rd gate, possible shade from bushes, underground water cistern E of PCT - mi 91.2</desc>
+    <sym>Campground</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.254760531708598" lon="-116.61158761940897">
+    <ele>1078.0776000000001</ele>
+    <name>EagleRock</name>
+    <cmt>Eagle Rock - mi 106.2</cmt>
+    <desc>Eagle Rock - mi 106.2</desc>
+    <sym>Flag, Blue</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.89506389759481" lon="-116.43954788334668">
+    <ele>1750.1616000000001</ele>
+    <name>FosterPtTr</name>
+    <cmt>Foster Point trail junction - mi 46.5</cmt>
+    <desc>Foster Point trail junction - mi 46.5</desc>
+    <sym>Trail Head</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.919769724830985" lon="-116.46073750220239">
+    <ele>1671.2184</ele>
+    <name>GarnetPkTr</name>
+    <cmt>Garnet Peak trail junction - mi 50.2</cmt>
+    <desc>Garnet Peak trail junction - mi 50.2</desc>
+    <sym>Trail Head</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.607767963781953" lon="-116.50248801335692">
+    <ele>736.09199999999998</ele>
+    <time>2011-03-19T16:25:39Z</time>
+    <name>GT0005</name>
+    <cmt>Pipel gate - mi 4.8</cmt>
+    <desc>Pipel gate - mi 4.8</desc>
+    <sym>Flag, Blue</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.623759964480996" lon="-116.51824800297618">
+    <ele>1020.7752</ele>
+    <time>2011-03-19T18:23:40Z</time>
+    <name>GT0009</name>
+    <cmt>Pipe gate - mi 8.8</cmt>
+    <desc>Pipe gate - mi 8.8</desc>
+    <sym>Flag, Blue</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.62357103638351" lon="-116.51935399509966">
+    <ele>1023.2136</ele>
+    <time>2011-03-19T18:26:06Z</time>
+    <name>GT0009b</name>
+    <cmt>Pipe gate - mi 8.8</cmt>
+    <desc>Pipe gate - mi 8.8</desc>
+    <sym>Flag, Blue</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.648739963769913" lon="-116.52800302952528">
+    <ele>1000.9632</ele>
+    <time>2012-01-14T22:27:08Z</time>
+    <name>GT0012</name>
+    <cmt>Pipe gate - mi 11.8</cmt>
+    <desc>Pipe gate - mi 11.8</desc>
+    <sym>Flag, Blue</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.651214972138405" lon="-116.53383096680045">
+    <ele>958.2912</ele>
+    <time>2012-01-14T22:47:14Z</time>
+    <name>GT0012b</name>
+    <cmt>Pipe gate - mi 12.5</cmt>
+    <desc>Pipe gate - mi 12.5</desc>
+    <sym>Flag, Blue</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.689529992640018" lon="-116.51403701864183">
+    <ele>932.9928000000001</ele>
+    <time>2012-01-15T19:05:15Z</time>
+    <name>GT0021</name>
+    <cmt>Pipe gate - mi 20.6</cmt>
+    <desc>Pipe gate - mi 20.6</desc>
+    <sym>Flag, Blue</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.749634021893144" lon="-116.45564599893987">
+    <ele>1186.2816</ele>
+    <time>2012-01-16T00:16:43Z</time>
+    <name>GT0030</name>
+    <cmt>Pipe gate - mi 29.7</cmt>
+    <desc>Pipe gate - mi 29.7</desc>
+    <sym>Flag, Blue</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.050468992441893" lon="-116.52384401299059">
+    <ele>1112.2152000000001</ele>
+    <time>2011-04-24T14:24:25Z</time>
+    <name>GT0068</name>
+    <cmt>Pipe gate - mi 68.4</cmt>
+    <desc>Pipe gate - mi 68.4</desc>
+    <sym>Flag, Blue</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.085513981059194" lon="-116.47002096287906">
+    <ele>724.81440000000009</ele>
+    <time>2011-04-23T15:24:43Z</time>
+    <name>GT0076</name>
+    <cmt>Pipe gate - mi 75.6</cmt>
+    <desc>Pipe gate - mi 75.6</desc>
+    <sym>Flag, Blue</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.140783999115229" lon="-116.50776299647987">
+    <ele>1035.1008000000002</ele>
+    <time>2011-04-22T21:15:57Z</time>
+    <name>GT0086</name>
+    <cmt>Pipe gate, 1st gate N of Hwy 78 - mi 86</cmt>
+    <desc>Pipe gate, 1st gate N of Hwy 78 - mi 86</desc>
+    <sym>Flag, Blue</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.148102993145585" lon="-116.51779403910041">
+    <ele>1094.5368000000001</ele>
+    <time>2011-04-22T19:10:08Z</time>
+    <name>GT0088</name>
+    <cmt>Pipe gate, 2nd gate N of Hwy 78 - mi 88.2</cmt>
+    <desc>Pipe gate, 2nd gate N of Hwy 78 - mi 88.2</desc>
+    <sym>Flag, Blue</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.166741076856852" lon="-116.54354592785239">
+    <ele>1091.7936</ele>
+    <name>GT0091</name>
+    <cmt>Pipe gate, 3rd Gate N of Hwy 78 - mi 91.2</cmt>
+    <desc>Pipe gate, 3rd Gate N of Hwy 78 - mi 91.2</desc>
+    <sym>Flag, Blue</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.175964020192623" lon="-116.55164502561092">
+    <ele>1269.7968000000001</ele>
+    <time>2011-04-22T15:21:43Z</time>
+    <name>GT0094</name>
+    <cmt>Pipe gate, 4th gate N of Hwy 78 - mi 93.8</cmt>
+    <desc>Pipe gate, 4th gate N of Hwy 78 - mi 93.8</desc>
+    <sym>Flag, Blue</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.211540002375841" lon="-116.58190897665918">
+    <ele>1130.5032000000001</ele>
+    <time>2011-04-21T21:18:09Z</time>
+    <name>GT0101</name>
+    <cmt>Pipe gate, 5th gate N of Hwy 78 - mi 100.5</cmt>
+    <desc>Pipe gate, 5th gate N of Hwy 78 - mi 100.5</desc>
+    <sym>Flag, Blue</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.211604962125421" lon="-116.58255798742175">
+    <ele>1121.9688000000001</ele>
+    <time>2011-04-21T21:15:28Z</time>
+    <name>GT0101b</name>
+    <cmt>Pipe gate, 6th gate N of Hwy 78 - mi 100.6</cmt>
+    <desc>Pipe gate, 6th gate N of Hwy 78 - mi 100.6</desc>
+    <sym>Flag, Blue</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.211581995710731" lon="-116.58278203569353">
+    <ele>1120.1400000000001</ele>
+    <time>2011-04-21T21:12:17Z</time>
+    <name>GT0101c</name>
+    <cmt>Pipe gate, 7th gate N of Hwy 78 - mi 100.6</cmt>
+    <desc>Pipe gate, 7th gate N of Hwy 78 - mi 100.6</desc>
+    <sym>Flag, Blue</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.270495962351561" lon="-116.64168401621282">
+    <ele>943.35599999999999</ele>
+    <time>2011-04-21T15:12:37Z</time>
+    <name>GT0109</name>
+    <cmt>Pipe gate - mi 109.2</cmt>
+    <desc>Pipe gate - mi 109.2</desc>
+    <sym>Flag, Blue</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.27126701362431" lon="-116.64286301471293">
+    <ele>937.56479999999999</ele>
+    <time>2011-04-21T15:09:38Z</time>
+    <name>GT0109b</name>
+    <cmt>Pipe gate - mi 109.3</cmt>
+    <desc>Pipe gate - mi 109.3</desc>
+    <sym>Flag, Blue</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.0991455540061" lon="-116.46950061433017">
+    <ele>688.54320000000007</ele>
+    <name>Hwy78</name>
+    <cmt>Highway 78,  paved - mi 77.3</cmt>
+    <desc>Highway 78,  paved - mi 77.3</desc>
+    <sym>Car</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.273047748953104" lon="-116.6452888213098">
+    <ele>923.5440000000001</ele>
+    <name>Hwy79</name>
+    <cmt>Highway 79 - mi 109.5</cmt>
+    <desc>Highway 79 - mi 109.5</desc>
+    <sym>Car</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.734293043613434" lon="-116.48002509959042">
+    <ele>952.1952</ele>
+    <name>Hwy8</name>
+    <cmt>Interstate Hwy 8 - mi 26.6</cmt>
+    <desc>Interstate Hwy 8 - mi 26.6</desc>
+    <sym>Car</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.605528151616454" lon="-116.48319731466472">
+    <ele>752.85599999999999</ele>
+    <name>Hwy94</name>
+    <cmt>Hwy 94 - mi 2.3</cmt>
+    <desc>Hwy 94 - mi 2.3</desc>
+    <sym>Car</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.742983987554908" lon="-116.46463902667165">
+    <ele>1100.9376</ele>
+    <time>2012-01-15T23:28:51Z</time>
+    <name>KitchenCrFalls</name>
+    <cmt>Kitchen Creek Falls, 2/10 mile N of PCT- mi 28.6</cmt>
+    <desc>Kitchen Creek Falls, 2/10 mile N of PCT- mi 28.6</desc>
+    <sym>Water Source</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.88908701390028" lon="-116.45042952150106">
+    <ele>1677.6192000000001</ele>
+    <name>LagunaCG</name>
+    <cmt>Mount Laguna Campground, 7/10 SW of PCT, showers, water, open year round - mi 47.5</cmt>
+    <desc>Mount Laguna Campground, 7/10 SW of PCT, showers, water, open year round - mi 47.5</desc>
+    <sym>Campground</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.684347294270992" lon="-116.51788565330207">
+    <ele>925.9824000000001</ele>
+    <name>LkMorenaCG</name>
+    <cmt>Lake Morena Campground, water, showers - mi 20</cmt>
+    <desc>Lake Morena Campground, water, showers - mi 20</desc>
+    <sym>Campground</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.589720133692026" lon="-116.46698797121644">
+    <ele>891.54000000000008</ele>
+    <name>MexBorder</name>
+    <cmt>Mexican Border, Southern Terminus of the PCT, trial register is behind the monument - mi 0</cmt>
+    <desc>Mexican Border, Southern Terminus of the PCT, trial register is behind the monument - mi 0</desc>
+    <sym>Trail Head</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.905932795256376" lon="-116.4565012883395">
+    <ele>1664.2080000000001</ele>
+    <name>NobleCynTr</name>
+    <cmt>Noble Canyon trail junction - mi 48.7</cmt>
+    <desc>Noble Canyon trail junction - mi 48.7</desc>
+    <sym>Trail Head</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.680169250816107" lon="-116.5121251065284">
+    <ele>945.7944</ele>
+    <name>OakShoreGro</name>
+    <cmt>Oak Shore Grocery, small store w/ deli, 4/10 mile SE of PCT - mi 20</cmt>
+    <desc>Oak Shore Grocery, small store w/ deli, 4/10 mile SE of PCT - mi 20</desc>
+    <sym>Shopping Center</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.994334548711777" lon="-116.54237086884677">
+    <ele>1436.2176000000002</ele>
+    <name>PedroFagesTH</name>
+    <cmt>Pedro Fages Monument, California Riding and Hiking Trail [CRHT] trailhead, access to the PCT from Sunrise Hwy, via a 1.4 mile section of the CRHT - mi 62.4</cmt>
+    <desc>Pedro Fages Monument, California Riding and Hiking Trail [CRHT] trailhead, access to the PCT from Sunrise Hwy, via a 1.4 mile section of the CRHT - mi 62.4</desc>
+    <sym>Trail Head</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.658180836588144" lon="-116.5488660056144">
+    <ele>912.26640000000009</ele>
+    <name>PL0014</name>
+    <cmt>Powerline - mi 13.8</cmt>
+    <desc>Powerline - mi 13.8</desc>
+    <sym>Flag, Blue</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.65818553045392" lon="-116.54795455746353">
+    <ele>876.60480000000007</ele>
+    <name>PL0014b</name>
+    <cmt>Powerline - mi 14.2</cmt>
+    <desc>Powerline - mi 14.2</desc>
+    <sym>Flag, Blue</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.607372589409351" lon="-116.470797797665">
+    <ele>786.38400000000001</ele>
+    <name>PO0001</name>
+    <cmt>Campo Post Office, 2/10 mile NE of PCT - mi 1.4</cmt>
+    <desc>Campo Post Office, 2/10 mile NE of PCT - mi 1.4</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.867127181962132" lon="-116.41915270127356">
+    <ele>1811.1216000000002</ele>
+    <name>PO0043</name>
+    <cmt>Mount Laguna Post Office, 4/10 mile W of PCT, Store, Lodge, next door - mi 42.6</cmt>
+    <desc>Mount Laguna Post Office, 4/10 mile W of PCT, Store, Lodge, next door - mi 42.6</desc>
+    <sym>Post Office</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.196020992472768" lon="-116.56112596392632">
+    <ele>1336.2432000000001</ele>
+    <time>2012-12-02T17:31:38Z</time>
+    <name>RanchitaView</name>
+    <cmt>The small community of Ranchita can be seen 3 miles to the NE - mi 96.4</cmt>
+    <desc>The small community of Ranchita can be seen 3 miles to the NE - mi 96.4</desc>
+    <sym>Flag, Blue</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.623311029747128" lon="-116.51869400404394">
+    <ele>1016.8128</ele>
+    <time>2011-03-19T18:24:44Z</time>
+    <name>RD0009</name>
+    <cmt>Unpaved jeep road - mi 8.8</cmt>
+    <desc>Unpaved jeep road - mi 8.8</desc>
+    <sym>Truck</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.62479898519814" lon="-116.52039200998843">
+    <ele>1017.7272</ele>
+    <time>2011-03-19T18:31:36Z</time>
+    <name>RD0009b</name>
+    <cmt>Unpaved jeep road - mi 9</cmt>
+    <desc>Unpaved jeep road - mi 9</desc>
+    <sym>Truck</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.643348975107074" lon="-116.52418700046837">
+    <ele>1027.4808</ele>
+    <time>2011-08-27T23:04:58Z</time>
+    <name>RD0011</name>
+    <cmt>Unpaved jeep road - mi 10.9</cmt>
+    <desc>Unpaved jeep road - mi 10.9</desc>
+    <sym>Truck</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.660049917176366" lon="-116.55070960521698">
+    <ele>894.89280000000008</ele>
+    <name>RD0014</name>
+    <cmt>PCT joins unpaved South Boundary Rd - mi 14</cmt>
+    <desc>PCT joins unpaved South Boundary Rd - mi 14</desc>
+    <sym>Car</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.654718356207013" lon="-116.54262743890285">
+    <ele>852.22080000000005</ele>
+    <name>RD0015</name>
+    <cmt>PCT departs South Boundary Rd - mi 14.7</cmt>
+    <desc>PCT departs South Boundary Rd - mi 14.7</desc>
+    <sym>Car</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.747544916346669" lon="-116.45133996382356">
+    <ele>1212.7992000000002</ele>
+    <name>RD0030</name>
+    <cmt>Kitchen Creek Rd, paved, pipe gate E of road - mi 30.2</cmt>
+    <desc>Kitchen Creek Rd, paved, pipe gate E of road - mi 30.2</desc>
+    <sym>Car</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.771631069481373" lon="-116.43906407989562">
+    <ele>1347.5208</ele>
+    <name>RD0033</name>
+    <cmt>Fred Canyon Rd - mi 32.6</cmt>
+    <desc>Fred Canyon Rd - mi 32.6</desc>
+    <sym>Car</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.871281085535884" lon="-116.41525754705071">
+    <ele>1828.1904000000002</ele>
+    <name>RD0043</name>
+    <cmt>Cross a paved road, just  N of WR043 - mi 42.8</cmt>
+    <desc>Cross a paved road, just  N of WR043 - mi 42.8</desc>
+    <sym>Car</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.877733893692493" lon="-116.42008108086884">
+    <ele>1798.3200000000002</ele>
+    <name>RD0043b</name>
+    <cmt>Cross another paved road - mi 43.4</cmt>
+    <desc>Cross another paved road - mi 43.4</desc>
+    <sym>Car</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.010641541332006" lon="-116.538753407076">
+    <ele>1433.4744000000001</ele>
+    <name>RD0062</name>
+    <cmt>Mason Valley Truck Trail - mi 62.4</cmt>
+    <desc>Mason Valley Truck Trail - mi 62.4</desc>
+    <sym>Truck</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.013360546901822" lon="-116.52722183614969">
+    <ele>1179.8808000000001</ele>
+    <name>RD0064</name>
+    <cmt>PCT joins Chariot Canyon Rd - mi 63.7</cmt>
+    <desc>PCT joins Chariot Canyon Rd - mi 63.7</desc>
+    <sym>Truck</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.01115183159709" lon="-116.52332534082234">
+    <ele>1250.8992000000001</ele>
+    <name>RD0064b</name>
+    <cmt>PCT departs Chariot Canyon Rd - mi 64.1</cmt>
+    <desc>PCT departs Chariot Canyon Rd - mi 64.1</desc>
+    <sym>Truck</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.159569017589092" lon="-116.53820598497987">
+    <ele>1057.9608000000001</ele>
+    <time>2012-12-01T23:11:54Z</time>
+    <name>RD0090</name>
+    <cmt>Abandoned jeep road, cleared and used as a firebreak in 2012 - mi 90.4</cmt>
+    <desc>Abandoned jeep road, cleared and used as a firebreak in 2012 - mi 90.4</desc>
+    <sym>Truck</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.216818422079086" lon="-116.58794394694269">
+    <ele>1053.0840000000001</ele>
+    <name>RD0101</name>
+    <cmt>Road S22, Montezuma Valley Rd, paved - mi 101.2</cmt>
+    <desc>Road S22, Montezuma Valley Rd, paved - mi 101.2</desc>
+    <sym>Car</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.857324965298176" lon="-116.42337600700557">
+    <ele>1810.5120000000002</ele>
+    <time>2012-01-16T22:09:03Z</time>
+    <name>RedTailRoost</name>
+    <cmt>Red Tail Roost volunteer center, parking, out house. 4/10 mile W of PCT - mi 41</cmt>
+    <desc>Red Tail Roost volunteer center, parking, out house. 4/10 mile W of PCT - mi 41</desc>
+    <sym>Lodge</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.607187516987324" lon="-116.489083673805">
+    <ele>750.11279999999999</ele>
+    <name>RR0003</name>
+    <cmt>Railroad tracks - mi 3</cmt>
+    <desc>Railroad tracks - mi 3</desc>
+    <sym>Flag, Blue</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.980363089591265" lon="-116.52223619632423">
+    <ele>1528.2672</ele>
+    <name>SunriseTr</name>
+    <cmt>Sunrise Trailhead Junction - mi 59.5</cmt>
+    <desc>Sunrise Trailhead Junction - mi 59.5</desc>
+    <sym>Trail Head</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.608394427224994" lon="-116.47438298910856">
+    <ele>781.50720000000001</ele>
+    <name>TradingPost</name>
+    <cmt>Trading Post, small store - mi 1.5</cmt>
+    <desc>Trading Post, small store - mi 1.5</desc>
+    <sym>Flag, Blue</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.672541551291943" lon="-116.56771590001881">
+    <ele>555.95519999999999</ele>
+    <name>WACS016</name>
+    <cmt>Cottonwood Creek below Lake Morena, follow dirt road 1.6 miles W of PCT - mi 15.4</cmt>
+    <desc>Cottonwood Creek below Lake Morena, follow dirt road 1.6 miles W of PCT - mi 15.4</desc>
+    <sym>Drinking Water</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.603062111884356" lon="-116.47013202309608">
+    <ele>798.88080000000002</ele>
+    <name>WR001</name>
+    <cmt>Juvenile Ranch, faucet behind sign - mi 1.2</cmt>
+    <desc>Juvenile Ranch, faucet behind sign - mi 1.2</desc>
+    <sym>Drinking Water</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.607999723404646" lon="-116.49899058043957">
+    <ele>711.70800000000008</ele>
+    <name>WR004</name>
+    <cmt>Creeklet - mi 4.4</cmt>
+    <desc>Creeklet - mi 4.4</desc>
+    <sym>Drinking Water</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.715238714590669" lon="-116.49900793097913">
+    <ele>927.5064000000001</ele>
+    <name>WR024</name>
+    <cmt>Cottonwood Creek Bridge, usually dry - mi 24.1</cmt>
+    <desc>Cottonwood Creek Bridge, usually dry - mi 24.1</desc>
+    <sym>Drinking Water</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.729262979701161" lon="-116.4904164802283">
+    <ele>935.4312000000001</ele>
+    <name>WR026</name>
+    <cmt>Cottonwood Creek bed - mi 25.5</cmt>
+    <desc>Cottonwood Creek bed - mi 25.5</desc>
+    <sym>Drinking Water</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.811006484553218" lon="-116.42247235402465">
+    <ele>1580.9976000000001</ele>
+    <name>WR037</name>
+    <cmt>Long Canyon - mi 36.9</cmt>
+    <desc>Long Canyon - mi 36.9</desc>
+    <sym>Drinking Water</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.819297527894378" lon="-116.41403848305345">
+    <ele>1647.4440000000002</ele>
+    <name>WR038</name>
+    <cmt>Long Canyon Creek ford - mi 37.7</cmt>
+    <desc>Long Canyon Creek ford - mi 37.7</desc>
+    <sym>Drinking Water</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.864152528345585" lon="-116.41253041103482">
+    <ele>1813.8648000000001</ele>
+    <name>WR042</name>
+    <cmt>Burnt Rancheria CG drinking fountain - mi 42.1</cmt>
+    <desc>Burnt Rancheria CG drinking fountain - mi 42.1</desc>
+    <sym>Drinking Water</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.869325587525964" lon="-116.41423939727247">
+    <ele>1809.9024000000002</ele>
+    <name>WR043</name>
+    <cmt>Desert View Picnic Area - mi 42.6</cmt>
+    <desc>Desert View Picnic Area - mi 42.6</desc>
+    <sym>Drinking Water</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.905774461105466" lon="-116.45826266147196">
+    <ele>1659.3312000000001</ele>
+    <name>WR049</name>
+    <cmt>GART faucet, 1/10 mile W of PCT - mi 48.7</cmt>
+    <desc>GART faucet, 1/10 mile W of PCT - mi 48.7</desc>
+    <sym>Drinking Water</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.925106482580304" lon="-116.48238820955157">
+    <ele>1609.3440000000001</ele>
+    <name>WR053</name>
+    <cmt>Pioneer Mail Picnic Area, outhouse - mi 52.6</cmt>
+    <desc>Pioneer Mail Picnic Area, outhouse - mi 52.6</desc>
+    <sym>Drinking Water</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.010341050103307" lon="-116.53751405887306">
+    <ele>1429.5120000000002</ele>
+    <name>WR062</name>
+    <cmt>Mason Valley fire tank, 75 yards E of PCT [usually dry] - mi 62.4</cmt>
+    <desc>Mason Valley fire tank, 75 yards E of PCT [usually dry] - mi 62.4</desc>
+    <sym>Drinking Water</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.023269129917026" lon="-116.52964294888079">
+    <ele>1116.7872</ele>
+    <name>WR064a</name>
+    <cmt>Seasonal creek crossing Chariot Canyon Rd, shade, 8/10 mile N of PCT [2/10 mile N of the State Park boundary sign] - mi 63.7</cmt>
+    <desc>Seasonal creek crossing Chariot Canyon Rd, shade, 8/10 mile N of PCT [2/10 mile N of the State Park boundary sign] - mi 63.7</desc>
+    <sym>Drinking Water</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.029058761894703" lon="-116.53135403059423">
+    <ele>1102.1568</ele>
+    <name>WR064b</name>
+    <cmt>Chariot Canyon Fire Tank, 1.2 miles N of PCT - mi 63.7</cmt>
+    <desc>Chariot Canyon Fire Tank, 1.2 miles N of PCT - mi 63.7</desc>
+    <sym>Triangle, Red</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.035760680213571" lon="-116.53629214502871">
+    <ele>1069.5432000000001</ele>
+    <name>WR064c</name>
+    <cmt>Seasonal Chariot Canyon Spring, 1.4 miles N of PCT, spring is on the W side of the road hidden from view by several large oak trees - mi 63.7</cmt>
+    <desc>Seasonal Chariot Canyon Spring, 1.4 miles N of PCT, spring is on the W side of the road hidden from view by several large oak trees - mi 63.7</desc>
+    <sym>Drinking Water</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.056431375443935" lon="-116.53198803775012">
+    <ele>1004.9256</ele>
+    <name>WR068b</name>
+    <cmt>Spring on Rodriguez Spur Truck Trail, 1.1 miles NW of PCT, 50 feet uphill from the large rust colored water tank - mi 68.4</cmt>
+    <desc>Spring on Rodriguez Spur Truck Trail, 1.1 miles NW of PCT, 50 feet uphill from the large rust colored water tank - mi 68.4</desc>
+    <sym>Drinking Water</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.168450985103846" lon="-116.54010599479079">
+    <ele>1022.2992</ele>
+    <time>2013-12-03T19:19:25Z</time>
+    <name>WR091</name>
+    <cmt>3rd gate water cache, 3/10 mile E of PCT - mi 91.2</cmt>
+    <desc>3rd gate water cache, 3/10 mile E of PCT - mi 91.2</desc>
+    <sym>Drinking Water</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.171673994511366" lon="-116.53818402439356">
+    <ele>1024.1280000000002</ele>
+    <time>2012-12-02T00:26:33Z</time>
+    <name>WR091B</name>
+    <cmt>Underground cistern, 6/10 mile E of PCT - mi 91.2</cmt>
+    <desc>Underground cistern, 6/10 mile E of PCT - mi 91.2</desc>
+    <sym>Drinking Water</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.236036030575633" lon="-116.5966069791466">
+    <ele>1036.3200000000002</ele>
+    <time>2008-11-22T22:18:52Z</time>
+    <name>WR104</name>
+    <cmt>Spring-fed cattle trough, 2/10 mile E of PCT - mi 104</cmt>
+    <desc>Spring-fed cattle trough, 2/10 mile E of PCT - mi 104</desc>
+    <sym>Drinking Water</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.241161145269871" lon="-116.60310328938067">
+    <ele>1007.6688</ele>
+    <name>WR105</name>
+    <cmt>Round concrete trough, 2/10 mile W of PCT - mi 104.4</cmt>
+    <desc>Round concrete trough, 2/10 mile W of PCT - mi 104.4</desc>
+    <sym>Drinking Water</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.258413700386882" lon="-116.61228029988706">
+    <ele>1075.0296000000001</ele>
+    <name>WR106</name>
+    <cmt>Spring-fed metal trough, 3/10 mile N of PCT - mi 106.2</cmt>
+    <desc>Spring-fed metal trough, 3/10 mile N of PCT - mi 106.2</desc>
+    <sym>Drinking Water</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.251003008335829" lon="-116.6122679784894">
+    <ele>1033.8816000000002</ele>
+    <time>2012-01-08T21:59:33Z</time>
+    <name>WR106B</name>
+    <cmt>Large metal water tank, two cattle troughs, 2/10 mi S of PCT - mi 106.2</cmt>
+    <desc>Large metal water tank, two cattle troughs, 2/10 mi S of PCT - mi 106.2</desc>
+    <sym>Drinking Water</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.266300233080983" lon="-116.62600306794047">
+    <ele>1022.2992</ele>
+    <time>2008-03-04T23:35:10Z</time>
+    <name>WR108</name>
+    <cmt>Canada Verde - mi 107.9</cmt>
+    <desc>Canada Verde - mi 107.9</desc>
+    <sym>Drinking Water</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.661417927592993" lon="-116.54550461098552">
+    <ele>699.21120000000008</ele>
+    <name>WRCS015</name>
+    <cmt>Hauser Creek, often dry, several campsites W of trail - mi 15.4</cmt>
+    <desc>Hauser Creek, often dry, several campsites W of trail - mi 15.4</desc>
+    <sym>Campground</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.752986028790474" lon="-116.45172796212137">
+    <ele>1169.5176000000001</ele>
+    <time>2011-05-08T19:58:17Z</time>
+    <name>WRCS030</name>
+    <cmt>Seasonal Yellow Rose Spring, 4/10 mile N on Kitchen Creek Rd, often has water early in the hiking season, good camping if you don't mind the nearby (but seldom used) road - mi 30.2</cmt>
+    <desc>Seasonal Yellow Rose Spring, 4/10 mile N on Kitchen Creek Rd, often has water early in the hiking season, good camping if you don't mind the nearby (but seldom used) road - mi 30.2</desc>
+    <sym>Drinking Water</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.764220964163542" lon="-116.43908897414804">
+    <ele>1277.7216000000001</ele>
+    <time>2012-01-16T17:29:27Z</time>
+    <name>WRCS032</name>
+    <cmt>Fred Canyon, usually dry, campsite W of trail - mi 32</cmt>
+    <desc>Fred Canyon, usually dry, campsite W of trail - mi 32</desc>
+    <sym>Campground</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.829787144437432" lon="-116.42039749771357">
+    <ele>1775.7648000000002</ele>
+    <name>WRCS039</name>
+    <cmt>Lower Morris Meadow, spring, campsite, 3/10 mile NW of PCT - mi 38.8</cmt>
+    <desc>Lower Morris Meadow, spring, campsite, 3/10 mile NW of PCT - mi 38.8</desc>
+    <sym>Campground</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.977880788967013" lon="-116.52692444622517">
+    <ele>1519.7328</ele>
+    <name>WRCS059</name>
+    <cmt>Sunrise Trailhead, outhouse, camping in the open field, water 5/10 mile W of PCT - mi 59.5</cmt>
+    <desc>Sunrise Trailhead, outhouse, camping in the open field, water 5/10 mile W of PCT - mi 59.5</desc>
+    <sym>Campground</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.050184091553092" lon="-116.52431691996753">
+    <ele>1117.7016000000001</ele>
+    <name>WRCS068</name>
+    <cmt>Rodriguez Spur fire tank, campsite - mi 68.4</cmt>
+    <desc>Rodriguez Spur fire tank, campsite - mi 68.4</desc>
+    <sym>Campground</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.095833864063025" lon="-116.47251206450164">
+    <ele>693.72480000000007</ele>
+    <name>WRCS077</name>
+    <cmt>Scissors Crossing, junction of Hwy 78 and S2 - mi 77</cmt>
+    <desc>Scissors Crossing, junction of Hwy 78 and S2 - mi 77</desc>
+    <sym>Campground</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.215517215430737" lon="-116.5881038736552">
+    <ele>1053.0840000000001</ele>
+    <name>WRCS101</name>
+    <cmt>Barrel Spring, trough, shade, campsites [the spring source is 330 ft southbound on the  PCT, then take the unmarked trail W, uphill 150 feet] - mi 101.1</cmt>
+    <desc>Barrel Spring, trough, shade, campsites [the spring source is 330 ft southbound on the  PCT, then take the unmarked trail W, uphill 150 feet] - mi 101.1</desc>
+    <sym>Campground</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.2480981759727" lon="-116.60000575706363">
+    <ele>1027.1760000000002</ele>
+    <name>WRCS105b</name>
+    <cmt>San Ysidro Creek - mi 105</cmt>
+    <desc>San Ysidro Creek - mi 105</desc>
+    <sym>Campground</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+</gpx>

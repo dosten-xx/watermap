@@ -129,6 +129,7 @@ public class SanGorgonioReport
 
             if (locationCoords.containsKey(wr.getName())) {
                List<String> coords = Splitter.on(',').splitToList(locationCoords.get(wr.getName()));
+               // TODO these are reversed!!!
                wr.setLat(new BigDecimal(coords.get(0)));
                wr.setLon(new BigDecimal(coords.get(1)));
             }

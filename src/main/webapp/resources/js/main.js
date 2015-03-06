@@ -12,7 +12,7 @@ var app = window.app;
  *           opt_options Control options.
  */
 app.generateGeoJSONControl = function(opt_options) {
-	alert("creating new control...");
+	//alert("creating new control...");
 	var options = opt_options || {};
 
 	var anchor = document.createElement('select');

@@ -71,6 +71,13 @@ SanGorgonioReport converter = new SanGorgonioReport();
 converter.setFilePath(System.getenv("OPENSHIFT_DATA_DIR") + File.separator + "datafile.txt");
 System.out.println("sang file=" + System.getenv("OPENSHIFT_DATA_DIR") + File.separator + "datafile.txt");
 Set<WaterReport> results = converter.convert();
+System.out.println("map.jsp - results="  + results.size());
+
+PCTReport pctReport = new PCTReport();
+pctReport.setDataDir(System.getenv("OPENSHIFT_DATA_DIR"));
+Set<WaterReport> pct = pctReport.convert();
+results.addAll(pct);
+System.out.println("map.jsp - results="  + results.size());
 
 int i = 0;
 StringBuffer featureList = new StringBuffer();
