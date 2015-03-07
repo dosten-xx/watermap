@@ -165,42 +165,51 @@ public class WaterReport implements Serializable
    public String toString()
    {
       StringBuilder builder = new StringBuilder();
-      builder.append("WaterReport [");
+      builder.append("WaterReport \n   ");
       if (name != null) {
          builder.append("name=");
          builder.append(name);
-         builder.append(", ");
+         builder.append("\n   ");
       }
       if (description != null) {
          builder.append("description=");
          builder.append(description);
-         builder.append(", ");
+         builder.append("\n   ");
       }
       if (lat != null) {
          builder.append("lat=");
          builder.append(lat);
-         builder.append(", ");
+         builder.append("\n   ");
       }
       if (lon != null) {
          builder.append("lon=");
          builder.append(lon);
-         builder.append(", ");
+         builder.append("\n   ");
       }
       if (state != null) {
          builder.append("state=");
          builder.append(state);
-         builder.append(", ");
+         builder.append("\n   ");
       }
       if (source != null) {
          builder.append("source=");
          builder.append(source);
-         builder.append(", ");
+         builder.append("\n   ");
       }
       if (lastReport != null) {
          builder.append("lastReport=");
          builder.append(lastReport);
+         builder.append("\n   ");
       }
-      builder.append("]");
+      if (location != null) {
+         builder.append("location=");
+         builder.append(location);
+         builder.append("\n   ");
+      }
+      if (url != null) {
+         builder.append("url=");
+         builder.append(url);
+      }
       return builder.toString();
    }
 }

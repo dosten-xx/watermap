@@ -4,4 +4,4 @@
 .tern-project
 /target/
 .settings
-
+/temp/

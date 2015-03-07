@@ -21,22 +21,6 @@ public class PCTReportTest
    }
 
    @Test
-   public void testConvertUrl() throws Exception
-   {
-      converter.setFileUrl(this.getClass().getClassLoader().getResource("pct-a.htm"));
-      Set<WaterReport> results = converter.convert();
-      assertNotNull(results);
-      System.out.println("got " + results.size() + " results");
-      assertTrue(results.size() == 51);
-      for (WaterReport wr : results) {
-         System.out.println("wr=" + wr);
-      }
-      
-      System.out.println(System.getenv());
-      System.out.println(System.getProperties());
-   }
-
-   @Test
    public void testConvertDir() throws Exception
    {
       converter.setDataDir(System.getProperty("user.dir") + File.separator + "src/test/resources");

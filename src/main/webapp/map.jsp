@@ -90,6 +90,7 @@ var iconFeature<%=i %> = new ol.Feature({
 	geometry : geom<%= i%>,
 	name : '<%=wr.getName() %>',
 	state : '<%=wr.getState() %>',
+	location : '<%=wr.getLocation() %>',
 	description : "<%=wr.getDescription() %>",
 	status : '<%=wr.getState() %>',
 	lastReport : '<%=wr.getLastReport() %>',

@@ -108,7 +108,7 @@ map.on('click', function(evt) {
 			'placement' : 'right',
 			'html' : true,
 			'title' : feature.get('name'),
-			'content' : feature.get('state') + '<br />' + feature.get('description') + '<br />' + feature.get('lastReport') + '<br />' + '<a target=\'_new\' href=\'' + feature.get('url') + '\'>' + feature.get('source') + '</a>'
+			'content' : feature.get('state') + '<br />' + feature.get('location') + '<br />' + feature.get('description') + '<br />' + feature.get('lastReport') + '<br />' + '<a target=\'_new\' href=\'' + feature.get('url') + '\'>' + feature.get('source') + '</a>'
 		});
 		$(element).popover('show');
 	} else {

@@ -124,6 +124,9 @@ public class PCTReport
          // - look up waypoint in XML file to get coordinates
          String waypoint = cells.get(3).text();
          if (waypoint != null && !waypoint.isEmpty() && waypoint.startsWith("WR")) {
+            
+            // TODO handle names with commas (e.g. WR127, B)
+            
             System.out.println("waypoint=" + waypoint);
             
             String desc = cells.get(4).text();
@@ -133,8 +136,8 @@ public class PCTReport
             String rpt = cells.get(5).text();
 
             WaterReport report = new WaterReport();
-            report.setDescription(rpt + ". " + desc);
-            report.setLocation(waypoint);
+            report.setDescription(rpt);
+            report.setLocation(desc);
             report.setName(waypoint);
             if (date != null && !date.isEmpty()) {
                try {
