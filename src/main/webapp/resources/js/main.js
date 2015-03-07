@@ -11,7 +11,7 @@ var app = window.app;
  * @param {Object=}
  *           opt_options Control options.
  */
-app.generateGeoJSONControl = function(opt_options) {
+app.generateTrailControl = function(opt_options) {
 	//alert("creating new control...");
 	var options = opt_options || {};
 
@@ -21,10 +21,10 @@ app.generateGeoJSONControl = function(opt_options) {
 	anchor.innerHTML = '<option>San Gorgonio</option><option>PCT</option>';
 
 	var this_ = this;
-	var getGeoJSON = function(e) {
+	var getTrail = function(e) {
 		// prevent #export-geojson anchor from getting appended to the url
 		e.preventDefault();
-		alert("in getGeoJSON e=" + e);
+		alert("in getTrail e=" + e);
 		var selectedTrail = document.getElementById('trailSelect');
 		alert("selected trail=" + selectedTrail.value);
 		//var source = options.source;
@@ -34,7 +34,7 @@ app.generateGeoJSONControl = function(opt_options) {
 		//download('export.geojson', JSON.stringify(featuresGeoJSON));
 	};
 
-	anchor.addEventListener('change', getGeoJSON, false);
+	anchor.addEventListener('change', getTrail, false);
 	//anchor.addEventListener('touchstart', getGeoJSON, false);
 
 	var element = document.createElement('div');
@@ -47,18 +47,76 @@ app.generateGeoJSONControl = function(opt_options) {
 	});
 };
 
-ol.inherits(app.generateGeoJSONControl, ol.control.Control);
+ol.inherits(app.generateTrailControl, ol.control.Control);
 
 
 //****************************
 // map init
 //****************************
 
-var vectorLayer = new ol.layer.Vector({
-	source : vectorSource
+// TODO put iconStyles in a separate js file
+var iconStyleHigh = new ol.style.Style({
+	image : new ol.style.Icon(({
+		anchorXUnits : 'fraction',
+		anchorYUnits : 'pixels',
+		opacity : 0.75,
+		src : '/resources/img/icon-high.png'
+	}))
 });
 
-var layer = new ol.layer.Tile({
+var iconStyleMed = new ol.style.Style({
+	image : new ol.style.Icon(({
+		anchorXUnits : 'fraction',
+		anchorYUnits : 'pixels',
+		opacity : 0.75,
+		src : '/resources/img/icon-medium.png'
+	}))
+});
+
+var iconStyleLow = new ol.style.Style({
+	image : new ol.style.Icon(({
+		anchorXUnits : 'fraction',
+		anchorYUnits : 'pixels',
+		opacity : 0.75,
+		src : '/resources/img/icon-low.png'
+	}))
+});
+
+var iconStyleDry = new ol.style.Style({
+	image : new ol.style.Icon(({
+		anchorXUnits : 'fraction',
+		anchorYUnits : 'pixels',
+		opacity : 0.75,
+		src : '/resources/img/icon-dry.png'
+	}))
+});
+
+var iconStyleUnknown = new ol.style.Style({
+	image : new ol.style.Icon(({
+		anchorXUnits : 'fraction',
+		anchorYUnits : 'pixels',
+		opacity : 0.75,
+		src : '/resources/img/icon-unknown.png'
+	}))
+});
+
+
+// add SanG vector layer
+var sangSource = new ol.source.GeoJSON({
+	projection: 'EPSG:3857',
+	url : 'http://localhost:8080/rest/sang'
+});
+
+var sangLayer = new ol.layer.Vector({
+	source: sangSource });
+
+//var vectorLayer = new ol.layer.Vector({
+//	source : vectorSource
+//});
+
+
+// OSM layer
+var osmLayer = new ol.layer.Tile({
 	source : new ol.source.OSM()
 });
 
@@ -72,9 +130,9 @@ var view = new ol.View({
 
 var map = new ol.Map({
 	target : 'map',
-	layers : [ layer, vectorLayer ],
+	layers : [ osmLayer, sangLayer ],
    controls: ol.control.defaults().extend([
-       new app.generateGeoJSONControl({source: null})
+       new app.generateTrailControl({source: null})
      ]),
 	view : view
 });

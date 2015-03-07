@@ -3,8 +3,6 @@
  */
 package net.osten.watermap.rest;
 
-import java.math.BigDecimal;
-import java.math.BigInteger;
 import java.util.Set;
 
 import javax.ejb.EJB;
@@ -20,7 +18,7 @@ import net.osten.watermap.convert.SanGorgonioReport;
 import net.osten.watermap.model.WaterReport;
 
 /**
- * San Gorgonio REST service.
+ * San Gorgonio RESTful service.
  */
 @Path("sang")
 public class SanGorgonioService
@@ -44,7 +42,7 @@ public class SanGorgonioService
 
       for (WaterReport wr : wrs) {
          Point point = new Point();
-         point.setCoords(wr.getLat(), wr.getLon(), null);
+         point.setCoords(wr.getLon(), wr.getLat(), null);
          
          Feature feature = new Feature();
          feature.setGeometry(point);
