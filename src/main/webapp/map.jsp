@@ -82,7 +82,8 @@ System.out.println("map.jsp - results="  + results.size());
 int i = 0;
 StringBuffer featureList = new StringBuffer();
 
-for (WaterReport wr : results) { %>
+for (WaterReport wr : results) { 
+	if (wr.getLat() != null && wr.getLon() != null) { %>
 var point<%=i %> = new ol.geom.Point([<%=wr.getLat() %>, <%=wr.getLon() %> ]);
 var geom<%=i %> = point<%=i %>.transform('EPSG:4326', 'EPSG:3857');
 var iconFeature<%=i %> = new ol.Feature({
@@ -114,12 +115,13 @@ else if (wr.getState() == WaterState.DRY) {
 iconFeature<%=i %>.setStyle(iconStyle<%=state %>);
 
 <%
-	if (i > 0) {
-	   featureList.append(",");
+		if (i > 0) {
+		   featureList.append(",");
+		}
+		featureList.append("iconFeature" + i);
+		
+		i++;
 	}
-	featureList.append("iconFeature" + i);
-	
-	i++;
 }
 %>
 

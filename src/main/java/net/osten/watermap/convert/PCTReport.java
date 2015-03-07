@@ -11,10 +11,8 @@ import java.nio.charset.Charset;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
-import java.util.Map;
 import java.util.Set;
 
 import javax.xml.bind.JAXBContext;
@@ -54,19 +52,24 @@ public class PCTReport
       Set<WaterReport> results = new HashSet<WaterReport>();
 
       // parse waypoints XML file
-      try {
-         JAXBContext jc = JAXBContext.newInstance("net.osten.watermap.pct.xml");
-         Unmarshaller u = jc.createUnmarshaller();
-         @SuppressWarnings("unchecked")
-         GpxType waypointList = (GpxType) ((JAXBElement<GpxType>) u.unmarshal(new FileInputStream("F:\\Unencrypted Folder\\dev\\watermap\\src\\test\\resources\\ca_sec_a_waypoints.gpx"))).getValue();
-         System.out.println("found " + waypointList.getWpt().size() + " waypoints");
-         waypoints.addAll(waypointList.getWpt());
-      }
-      catch (Exception e) {
-         // TODO handle exception
-         e.printStackTrace();
+      if (dataDir != null) {
+         for (char sectionChar : sectionChars) {
+            try {
+               JAXBContext jc = JAXBContext.newInstance("net.osten.watermap.pct.xml");
+               Unmarshaller u = jc.createUnmarshaller();
+               @SuppressWarnings("unchecked")
+               GpxType waypointList = (GpxType) ((JAXBElement<GpxType>) u.unmarshal(new FileInputStream(dataDir + File.separator + "ca_sec_" + sectionChar + "_waypoints.gpx"))).getValue();
+               System.out.println("found " + waypointList.getWpt().size() + " waypoints for section " + sectionChar);
+               waypoints.addAll(waypointList.getWpt());
+            }
+            catch (Exception e) {
+               // TODO handle exception
+               e.printStackTrace();
+            }
+         }
       }
       
+      // parse report files
       if (dataDir == null && fileUrl != null) {
          // parse single file 
          String htmlSource = Resources.asCharSource(fileUrl, Charset.forName("UTF-8")).read();
