@@ -6,7 +6,6 @@ package net.osten.watermap.convert;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
-import java.net.URL;
 import java.nio.charset.Charset;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -33,7 +32,6 @@ import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
 import com.google.common.io.Files;
-import com.google.common.io.Resources;
 
 /**
  * Parser for PCT water report.
@@ -45,9 +43,8 @@ public class PCTReport
    private static final SimpleDateFormat dateFormatter = new SimpleDateFormat("M/d/yy");
    private static final String SOURCE_TITLE = "PCT Water Report";
    private static final String SOURCE_URL = "http://pctwater.com/";
-   private URL fileUrl = null;
    private String dataDir = null;
-   private char[] sectionChars = new char[] {'a','b','c','d','e','f','g'};
+   private char[] sectionChars = new char[] { 'a', 'b', 'c', 'd', 'e', 'f', 'g' };
    private List<WptType> waypoints = new ArrayList<WptType>();
    private Logger log = Logger.getLogger(this.getClass().getName());
 
@@ -64,30 +61,22 @@ public class PCTReport
     * 
     * @return set of water reports
     */
-   public Set<WaterReport> convert() throws IOException
+   public synchronized Set<WaterReport> convert() throws IOException
    {
       Set<WaterReport> results = new HashSet<WaterReport>();
 
       // parse report files
-      if (dataDir == null && fileUrl != null) {
-         // parse single file 
-         String htmlSource = Resources.asCharSource(fileUrl, Charset.forName("UTF-8")).read();
-         Document reportDoc = Jsoup.parse(htmlSource);
-         results.addAll(parseDocument(reportDoc));
-      }
-      else if (dataDir != null) {
-         log.fine("dataDir=" + dataDir);
-         // look for multiple report files - usually 3: a, c, e
-         for (char sectionChar : sectionChars) {
-            String fileName = "pct-" + sectionChar + ".htm";
-            log.fine("fileName=" + fileName);
-            File htmlFile = new File(dataDir + File.separator + fileName);
-            if (htmlFile.exists() && htmlFile.canRead()) {
-               log.fine("reading html file " + htmlFile);
-               String htmlSource = Files.toString(htmlFile, Charset.forName("UTF-8"));
-               Document reportDoc = Jsoup.parse(htmlSource);
-               results.addAll(parseDocument(reportDoc));
-            }
+      log.fine("dataDir=" + dataDir);
+      // look for multiple report files - usually 3: a, c, e
+      for (char sectionChar : sectionChars) {
+         String fileName = "pct-" + sectionChar + ".htm";
+         log.fine("fileName=" + fileName);
+         File htmlFile = new File(dataDir + File.separator + fileName);
+         if (htmlFile.exists() && htmlFile.canRead()) {
+            log.fine("reading html file " + htmlFile);
+            String htmlSource = Files.toString(htmlFile, Charset.forName("UTF-8"));
+            Document reportDoc = Jsoup.parse(htmlSource);
+            results.addAll(parseDocument(reportDoc));
          }
       }
 
@@ -123,11 +112,11 @@ public class PCTReport
          // - look up waypoint in XML file to get coordinates
          String waypoint = cells.get(3).text();
          if (waypoint != null && !waypoint.isEmpty() && waypoint.startsWith("WR")) {
-            
+
             // TODO handle names with commas (e.g. WR127, B)
-            
+
             log.finer("waypoint=" + waypoint);
-            
+
             String desc = cells.get(4).text();
 
             String date = cells.get(6).text();
@@ -154,26 +143,47 @@ public class PCTReport
             // TODO replace with something more elegant
             for (WptType wpt : waypoints) {
                if (wpt.getName().equals(waypoint)) {
-                  //System.out.println("found matching lat/lon");
+                  // System.out.println("found matching lat/lon");
                   // TODO check to see if these are reversed
                   report.setLat(wpt.getLat());
                   report.setLon(wpt.getLon());
+                  break;
                }
             }
 
+            if (report.getLat() == null) {
+               // try with leading 0 in waypoint (i.e. WR0213); this happens in Section B waypoint file
+               String modifiedWaypoint = "WR0" + waypoint.substring(2);
+               for (WptType wpt : waypoints) {
+                  if (wpt.getName().equals(modifiedWaypoint)) {
+                     // System.out.println("found matching lat/lon");
+                     // TODO check to see if these are reversed
+                     report.setLat(wpt.getLat());
+                     report.setLon(wpt.getLon());
+                     break;
+                  }
+               }
+            }
+
+            if (report.getLat() == null) {
+               log.fine("cannot find coords for " + waypoint);
+            }
+
+            log.finest(report.toString());
             results.add(report);
          }
       }
-      
+
+      log.fine("returning " + results.size() + " pct reports");
       return results;
    }
-   
+
    public void initialize()
    {
       log.info("initializing PCT report...");
-      
+
       setDataDir(System.getenv("OPENSHIFT_DATA_DIR"));
-      
+
       // parse waypoints XML files
       if (dataDir != null) {
          for (char sectionChar : sectionChars) {
@@ -190,9 +200,9 @@ public class PCTReport
             }
          }
       }
-      
+
       log.info("imported " + waypoints.size() + " waypoints");
 
       log.info("done initializing PCT report");
-   }   
+   }
 }
