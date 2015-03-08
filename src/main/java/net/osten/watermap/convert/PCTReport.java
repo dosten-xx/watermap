@@ -14,9 +14,13 @@ import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
+import java.util.logging.Logger;
 
+import javax.ejb.Singleton;
+import javax.ejb.Startup;
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBElement;
+import javax.xml.bind.JAXBException;
 import javax.xml.bind.Unmarshaller;
 
 import net.osten.watermap.model.WaterReport;
@@ -34,6 +38,8 @@ import com.google.common.io.Resources;
 /**
  * Parser for PCT water report.
  */
+@Singleton
+@Startup
 public class PCTReport
 {
    private static final SimpleDateFormat dateFormatter = new SimpleDateFormat("M/d/yy");
@@ -43,32 +49,25 @@ public class PCTReport
    private String dataDir = null;
    private char[] sectionChars = new char[] {'a','b','c','d','e','f','g'};
    private List<WptType> waypoints = new ArrayList<WptType>();
+   private Logger log = Logger.getLogger(this.getClass().getName());
 
+   /**
+    * Default constructor.
+    */
    public PCTReport()
-   {}
+   {
+      initialize();
+   }
 
+   /**
+    * Parse the PCT water report Google docs files.
+    * 
+    * @return set of water reports
+    */
    public Set<WaterReport> convert() throws IOException
    {
       Set<WaterReport> results = new HashSet<WaterReport>();
 
-      // parse waypoints XML file
-      if (dataDir != null) {
-         for (char sectionChar : sectionChars) {
-            try {
-               JAXBContext jc = JAXBContext.newInstance("net.osten.watermap.pct.xml");
-               Unmarshaller u = jc.createUnmarshaller();
-               @SuppressWarnings("unchecked")
-               GpxType waypointList = (GpxType) ((JAXBElement<GpxType>) u.unmarshal(new FileInputStream(dataDir + File.separator + "ca_sec_" + sectionChar + "_waypoints.gpx"))).getValue();
-               System.out.println("found " + waypointList.getWpt().size() + " waypoints for section " + sectionChar);
-               waypoints.addAll(waypointList.getWpt());
-            }
-            catch (Exception e) {
-               // TODO handle exception
-               e.printStackTrace();
-            }
-         }
-      }
-      
       // parse report files
       if (dataDir == null && fileUrl != null) {
          // parse single file 
@@ -77,14 +76,14 @@ public class PCTReport
          results.addAll(parseDocument(reportDoc));
       }
       else if (dataDir != null) {
-         System.out.println("dataDir=" + dataDir);
+         log.fine("dataDir=" + dataDir);
          // look for multiple report files - usually 3: a, c, e
          for (char sectionChar : sectionChars) {
             String fileName = "pct-" + sectionChar + ".htm";
-            System.out.println("fileName=" + fileName);
+            log.fine("fileName=" + fileName);
             File htmlFile = new File(dataDir + File.separator + fileName);
             if (htmlFile.exists() && htmlFile.canRead()) {
-               System.out.println("reading html file " + htmlFile);
+               log.fine("reading html file " + htmlFile);
                String htmlSource = Files.toString(htmlFile, Charset.forName("UTF-8"));
                Document reportDoc = Jsoup.parse(htmlSource);
                results.addAll(parseDocument(reportDoc));
@@ -95,26 +94,26 @@ public class PCTReport
       return results;
    }
 
+   /**
+    * Sets the directory where the data files are.
+    * 
+    * @param dataDir data directory
+    */
    public void setDataDir(String dataDir)
    {
       this.dataDir = dataDir;
    }
 
-   public void setFileUrl(URL fileUrl)
-   {
-      this.fileUrl = fileUrl;
-   }
-   
    private Set<WaterReport> parseDocument(Document reportDoc)
    {
       Set<WaterReport> results = new HashSet<WaterReport>();
 
-      System.out.println("reportDoc children=" + reportDoc.children().size());
+      log.finer("reportDoc children=" + reportDoc.children().size());
 
       Element mainTable = reportDoc.getElementById("tblMain");
       // System.out.println("mainTable=" + mainTable);
       Elements rows = mainTable.getElementsByTag("tr");
-      System.out.println("found " + rows.size() + " rows");
+      log.finer("found " + rows.size() + " rows");
 
       for (Element row : rows) {
          Elements cells = row.getElementsByTag("td");
@@ -127,7 +126,7 @@ public class PCTReport
             
             // TODO handle names with commas (e.g. WR127, B)
             
-            System.out.println("waypoint=" + waypoint);
+            log.finer("waypoint=" + waypoint);
             
             String desc = cells.get(4).text();
 
@@ -144,8 +143,7 @@ public class PCTReport
                   report.setLastReport(dateFormatter.parse(date));
                }
                catch (ParseException e) {
-                  // TODO Auto-generated catch block
-                  e.printStackTrace();
+                  log.severe(e.getLocalizedMessage());
                }
             }
             report.setSource(SOURCE_TITLE);
@@ -158,8 +156,8 @@ public class PCTReport
                if (wpt.getName().equals(waypoint)) {
                   //System.out.println("found matching lat/lon");
                   // TODO check to see if these are reversed
-                  report.setLon(wpt.getLat());
-                  report.setLat(wpt.getLon());
+                  report.setLat(wpt.getLat());
+                  report.setLon(wpt.getLon());
                }
             }
 
@@ -169,4 +167,32 @@ public class PCTReport
       
       return results;
    }
+   
+   public void initialize()
+   {
+      log.info("initializing PCT report...");
+      
+      setDataDir(System.getenv("OPENSHIFT_DATA_DIR"));
+      
+      // parse waypoints XML files
+      if (dataDir != null) {
+         for (char sectionChar : sectionChars) {
+            try {
+               JAXBContext jc = JAXBContext.newInstance("net.osten.watermap.pct.xml");
+               Unmarshaller u = jc.createUnmarshaller();
+               @SuppressWarnings("unchecked")
+               GpxType waypointList = (GpxType) ((JAXBElement<GpxType>) u.unmarshal(new FileInputStream(dataDir + File.separator + "ca_sec_" + sectionChar + "_waypoints.gpx"))).getValue();
+               log.fine("found " + waypointList.getWpt().size() + " waypoints for section " + sectionChar);
+               waypoints.addAll(waypointList.getWpt());
+            }
+            catch (JAXBException | IOException e) {
+               log.severe(e.getLocalizedMessage());
+            }
+         }
+      }
+      
+      log.info("imported " + waypoints.size() + " waypoints");
+
+      log.info("done initializing PCT report");
+   }   
 }

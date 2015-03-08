@@ -51,10 +51,9 @@ ol.inherits(app.generateTrailControl, ol.control.Control);
 
 
 //****************************
-// map init
+// icon styles
 //****************************
 
-// TODO put iconStyles in a separate js file
 var iconStyleHigh = new ol.style.Style({
 	image : new ol.style.Icon(({
 		anchorXUnits : 'fraction',
@@ -101,7 +100,12 @@ var iconStyleUnknown = new ol.style.Style({
 });
 
 
-// add SanG vector layer
+//****************************
+// water report vector layers
+//****************************
+
+// TODO DEO need to configure url's (not hard-coded)
+
 var sangSource = new ol.source.GeoJSON({
 	projection: 'EPSG:3857',
 	url : 'http://localhost:8080/rest/sang'
@@ -110,12 +114,19 @@ var sangSource = new ol.source.GeoJSON({
 var sangLayer = new ol.layer.Vector({
 	source: sangSource });
 
-//var vectorLayer = new ol.layer.Vector({
-//	source : vectorSource
-//});
+var pctSource = new ol.source.GeoJSON({
+	projection: 'EPSG:3857',
+	url : 'http://localhost:8080/rest/pct'
+});
+
+var pctLayer = new ol.layer.Vector({
+	source: pctSource });
 
 
+//****************************
 // OSM layer
+//****************************
+
 var osmLayer = new ol.layer.Tile({
 	source : new ol.source.OSM()
 });
@@ -130,16 +141,18 @@ var view = new ol.View({
 
 var map = new ol.Map({
 	target : 'map',
-	layers : [ osmLayer, sangLayer ],
+	layers : [ osmLayer, sangLayer, pctLayer ],
    controls: ol.control.defaults().extend([
        new app.generateTrailControl({source: null})
      ]),
 	view : view
 });
 
+
 // ****************************
 // popup handling
 // ****************************
+
 var element = document.getElementById('popup');
 
 var popup = new ol.Overlay({
