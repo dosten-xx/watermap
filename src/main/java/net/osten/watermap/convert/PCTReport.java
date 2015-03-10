@@ -44,7 +44,7 @@ public class PCTReport
    private static final String SOURCE_TITLE = "PCT Water Report";
    private static final String SOURCE_URL = "http://pctwater.com/";
    private String dataDir = null;
-   private char[] sectionChars = new char[] { 'a', 'b', 'c', 'd', 'e', 'f', 'g' };
+   private char[] sectionChars = new char[] { 'A', 'B', 'C', 'D', 'E', 'F', 'G' };
    private List<WptType> waypoints = new ArrayList<WptType>();
    private Logger log = Logger.getLogger(this.getClass().getName());
 
@@ -189,7 +189,7 @@ public class PCTReport
                JAXBContext jc = JAXBContext.newInstance("net.osten.watermap.pct.xml");
                Unmarshaller u = jc.createUnmarshaller();
                @SuppressWarnings("unchecked")
-               GpxType waypointList = (GpxType) ((JAXBElement<GpxType>) u.unmarshal(new FileInputStream(dataDir + File.separator + "ca_sec_" + sectionChar + "_waypoints.gpx"))).getValue();
+               GpxType waypointList = (GpxType) ((JAXBElement<GpxType>) u.unmarshal(new FileInputStream(dataDir + File.separator + "CA_Sec_" + sectionChar + "_waypoints.gpx"))).getValue();
                log.fine("found " + waypointList.getWpt().size() + " waypoints for section " + sectionChar);
                waypoints.addAll(waypointList.getWpt());
             }

@@ -98,6 +98,9 @@
             <logger category="com.arjuna">
                 <level name="WARN"/>
             </logger>
+            <logger category="javax">
+                <level name="INFO"/>
+            </logger>
             <logger category="org.apache.tomcat.util.modeler">
                 <level name="WARN"/>
             </logger>
@@ -105,6 +108,9 @@
                 <level name="DEBUG"/>
             </logger>
             <logger category="org.jboss">
+                <level name="INFO"/>
+            </logger>
+            <logger category="io.undertow">
                 <level name="INFO"/>
             </logger>
             <logger category="sun.rmi">
