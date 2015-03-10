@@ -1,4 +1,4 @@
-// ****************************
+//****************************
 // Custom controls
 // ****************************
 
@@ -51,7 +51,7 @@ ol.inherits(app.generateTrailControl, ol.control.Control);
 
 
 //****************************
-// icon styles
+// Vector layer styles
 //****************************
 
 var iconStyleHigh = new ol.style.Style({
@@ -99,6 +99,35 @@ var iconStyleUnknown = new ol.style.Style({
 	}))
 });
 
+var styleCache = {};
+
+var wrStyleStroke = new ol.style.Stroke({
+	color : [255, 50, 50, 0.4],
+	width : 1.25
+});
+
+var wrStyleFill = new ol.style.Fill({
+	color : [255, 50, 50, 0.4]
+});
+
+function wrStyle(feature, resolution) {
+	var state = feature.get('state');
+	// TODO DEO set default - if (!state) { show default }
+	if (!styleCache[state]) {
+		styleCache[state] = new ol.style.Style({
+			//text: feature.get('name'), // TODO DEO add name to text style
+			image : new ol.style.Circle({
+				radius : 5,
+				stroke : wrStyleStroke,
+				fill : wrStyleFill
+			}),
+			fill : wrStyleFill,
+			stroke : wrStyleStroke
+		})
+	}
+	
+	return [styleCache[state]];
+};
 
 //****************************
 // water report vector layers
@@ -112,7 +141,9 @@ var sangSource = new ol.source.GeoJSON({
 });
 
 var sangLayer = new ol.layer.Vector({
-	source: sangSource });
+	source: sangSource,
+	style: wrStyle 
+});
 
 var pctSource = new ol.source.GeoJSON({
 	projection: 'EPSG:3857',
@@ -120,7 +151,8 @@ var pctSource = new ol.source.GeoJSON({
 });
 
 var pctLayer = new ol.layer.Vector({
-	source: pctSource });
+	source: pctSource
+});
 
 
 //****************************

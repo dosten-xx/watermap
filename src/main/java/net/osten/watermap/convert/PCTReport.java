@@ -144,7 +144,6 @@ public class PCTReport
             for (WptType wpt : waypoints) {
                if (wpt.getName().equals(waypoint)) {
                   // System.out.println("found matching lat/lon");
-                  // TODO check to see if these are reversed
                   report.setLat(wpt.getLat());
                   report.setLon(wpt.getLon());
                   break;
@@ -157,7 +156,6 @@ public class PCTReport
                for (WptType wpt : waypoints) {
                   if (wpt.getName().equals(modifiedWaypoint)) {
                      // System.out.println("found matching lat/lon");
-                     // TODO check to see if these are reversed
                      report.setLat(wpt.getLat());
                      report.setLon(wpt.getLon());
                      break;
