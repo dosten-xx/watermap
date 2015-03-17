@@ -6,7 +6,7 @@ window.app = {};
 var app = window.app;
 
 app.generateTrailControl = function(opt_options) {
-	alert("creating new control...");
+	//alert("creating new control...");
 	var options = opt_options || {};
 
 	var select = document.createElement('select');
@@ -49,26 +49,6 @@ app.generateTrailControl = function(opt_options) {
 
 ol.inherits(app.generateTrailControl, ol.control.Control);
 
-app.generateAboutControl = function(opt_options) {
-	alert("creating new about control...");
-	var options = opt_options || {};
-
-	var anchor = document.createElement('a');
-	anchor.id = 'trailSelect';
-	anchor.className = 'trailSelect';
-	anchor.innerHTML = 'About';
-
-	var element = document.createElement('div');
-	element.className = 'export-geojson ol-unselectable';
-	element.appendChild(anchor);
-
-	ol.control.Control.call(this, {
-		element : element,
-		target : options.target
-	});
-};
-
-ol.inherits(app.generateAboutControl, ol.control.Control);
 
 //****************************
 // Vector layer styles
