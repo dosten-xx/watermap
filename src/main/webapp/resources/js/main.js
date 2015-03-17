@@ -5,20 +5,14 @@
 window.app = {};
 var app = window.app;
 
-/**
- * @constructor
- * @extends {ol.control.Control}
- * @param {Object=}
- *           opt_options Control options.
- */
 app.generateTrailControl = function(opt_options) {
-	//alert("creating new control...");
+	alert("creating new control...");
 	var options = opt_options || {};
 
-	var anchor = document.createElement('select');
-	anchor.id = 'trailSelect';
-	anchor.className = 'trailSelect';
-	anchor.innerHTML = '<option>San Gorgonio</option><option>PCT</option>';
+	var select = document.createElement('select');
+	select.id = 'trailSelect';
+	select.className = 'trailSelect';
+	select.innerHTML = '<option>San Gorgonio</option><option>PCT</option>';
 
 	var this_ = this;
 	var getTrail = function(e) {
@@ -34,8 +28,35 @@ app.generateTrailControl = function(opt_options) {
 		//download('export.geojson', JSON.stringify(featuresGeoJSON));
 	};
 
-	anchor.addEventListener('change', getTrail, false);
-	//anchor.addEventListener('touchstart', getGeoJSON, false);
+	select.addEventListener('change', getTrail, false);
+
+	var anchor = document.createElement('a');
+	anchor.id = 'trailSelect';
+	anchor.className = 'trailSelect';
+	anchor.href = 'about.html';
+	anchor.innerHTML = 'About';
+
+	var element = document.createElement('div');
+	element.className = 'export-geojson ol-unselectable';
+	element.appendChild(select);
+	element.appendChild(anchor);
+
+	ol.control.Control.call(this, {
+		element : element,
+		target : options.target
+	});
+};
+
+ol.inherits(app.generateTrailControl, ol.control.Control);
+
+app.generateAboutControl = function(opt_options) {
+	alert("creating new about control...");
+	var options = opt_options || {};
+
+	var anchor = document.createElement('a');
+	anchor.id = 'trailSelect';
+	anchor.className = 'trailSelect';
+	anchor.innerHTML = 'About';
 
 	var element = document.createElement('div');
 	element.className = 'export-geojson ol-unselectable';
@@ -47,8 +68,7 @@ app.generateTrailControl = function(opt_options) {
 	});
 };
 
-ol.inherits(app.generateTrailControl, ol.control.Control);
-
+ol.inherits(app.generateAboutControl, ol.control.Control);
 
 //****************************
 // Vector layer styles
@@ -137,7 +157,8 @@ function wrStyle(feature, resolution) {
 
 var sangSource = new ol.source.GeoJSON({
 	projection: 'EPSG:3857',
-	url : 'http://watermap-ostennet.rhcloud.com/rest/sang'
+	//url : 'http://watermap-ostennet.rhcloud.com/rest/sang'
+	url : 'http://localhost:8080/rest/sang'
 });
 
 var sangLayer = new ol.layer.Vector({
@@ -147,7 +168,8 @@ var sangLayer = new ol.layer.Vector({
 
 var pctSource = new ol.source.GeoJSON({
 	projection: 'EPSG:3857',
-	url : 'http://watermap-ostennet.rhcloud.com/rest/pct'
+	//url : 'http://watermap-ostennet.rhcloud.com/rest/pct'
+	url : 'http://localhost:8080/rest/sang'
 });
 
 var pctLayer = new ol.layer.Vector({
