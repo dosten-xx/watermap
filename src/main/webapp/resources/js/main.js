@@ -158,7 +158,8 @@ function wrStyle(feature, resolution) {
 var sangSource = new ol.source.GeoJSON({
 	projection: 'EPSG:3857',
 	//url : 'http://watermap-ostennet.rhcloud.com/rest/sang'
-	url : 'http://localhost:8080/rest/sang'
+	//url : 'http://localhost:8080/rest/sang'
+	url : 'http://' + hostName + ':' + hostPort + '/rest/sang'
 });
 
 var sangLayer = new ol.layer.Vector({
@@ -169,7 +170,8 @@ var sangLayer = new ol.layer.Vector({
 var pctSource = new ol.source.GeoJSON({
 	projection: 'EPSG:3857',
 	//url : 'http://watermap-ostennet.rhcloud.com/rest/pct'
-	url : 'http://localhost:8080/rest/sang'
+	//url : 'http://localhost:8080/rest/sang'
+	url : 'http://' + hostName + ':' + hostPort + '/rest/pct'
 });
 
 var pctLayer = new ol.layer.Vector({
