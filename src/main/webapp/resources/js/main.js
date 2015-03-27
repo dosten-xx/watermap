@@ -54,78 +54,111 @@ ol.inherits(app.generateTrailControl, ol.control.Control);
 // Vector layer styles
 //****************************
 
-var iconStyleHigh = new ol.style.Style({
-	image : new ol.style.Icon(({
-		anchorXUnits : 'fraction',
-		anchorYUnits : 'pixels',
-		opacity : 0.75,
-		src : '/resources/img/icon-high.png'
-	}))
-});
-
-var iconStyleMed = new ol.style.Style({
-	image : new ol.style.Icon(({
-		anchorXUnits : 'fraction',
-		anchorYUnits : 'pixels',
-		opacity : 0.75,
-		src : '/resources/img/icon-medium.png'
-	}))
-});
-
-var iconStyleLow = new ol.style.Style({
-	image : new ol.style.Icon(({
-		anchorXUnits : 'fraction',
-		anchorYUnits : 'pixels',
-		opacity : 0.75,
-		src : '/resources/img/icon-low.png'
-	}))
-});
-
-var iconStyleDry = new ol.style.Style({
-	image : new ol.style.Icon(({
-		anchorXUnits : 'fraction',
-		anchorYUnits : 'pixels',
-		opacity : 0.75,
-		src : '/resources/img/icon-dry.png'
-	}))
-});
-
-var iconStyleUnknown = new ol.style.Style({
-	image : new ol.style.Icon(({
-		anchorXUnits : 'fraction',
-		anchorYUnits : 'pixels',
-		opacity : 0.75,
-		src : '/resources/img/icon-unknown.png'
-	}))
-});
-
 var styleCache = {};
 
-var wrStyleStroke = new ol.style.Stroke({
-	color : [255, 50, 50, 0.4],
-	width : 1.25
+styleCache['DRY'] = new ol.style.Style({
+	//text: feature.get('name'), // TODO DEO add name to text style
+	image : new ol.style.Circle({
+		radius : 5,
+		stroke : new ol.style.Stroke({
+			color : [64, 64, 64, 0.4],
+			width : 1.25
+		}),
+		fill : new ol.style.Fill({
+			color : [64, 64, 64, 0.4]
+		})
+	}),
+	fill : new ol.style.Fill({
+		color : [64, 64, 64, 0.4]
+	}),
+	stroke : new ol.style.Stroke({
+		color : [64, 64, 64, 0.4],
+		width : 1.25
+	})
 });
 
-var wrStyleFill = new ol.style.Fill({
-	color : [255, 50, 50, 0.4]
+styleCache['LOW'] = new ol.style.Style({
+	image : new ol.style.Circle({
+		radius : 5,
+		stroke : new ol.style.Stroke({
+			color : [255, 50, 50, 0.4],
+			width : 1.25
+		}),
+		fill : new ol.style.Fill({
+			color : [255, 50, 50, 0.4]
+		})
+	}),
+	fill : new ol.style.Fill({
+		color : [255, 50, 50, 0.4]
+	}),
+	stroke : new ol.style.Stroke({
+		color : [255, 50, 50, 0.4],
+		width : 1.25
+	})
+});
+
+styleCache['MEDIUM'] = new ol.style.Style({
+	image : new ol.style.Circle({
+		radius : 5,
+		stroke : new ol.style.Stroke({
+			color : [255, 128, 0, 0.4],
+			width : 1.25
+		}),
+		fill : new ol.style.Fill({
+			color : [255, 128, 0, 0.4]
+		})
+	}),
+	fill : new ol.style.Fill({
+		color : [255, 128, 0, 0.4]
+	}),
+	stroke : new ol.style.Stroke({
+		color : [255, 128, 0, 0.4],
+		width : 1.25
+	})
+});
+
+styleCache['HIGH'] = new ol.style.Style({
+	image : new ol.style.Circle({
+		radius : 5,
+		stroke : new ol.style.Stroke({
+			color : [51, 51, 255, 0.4],
+			width : 1.25
+		}),
+		fill : new ol.style.Fill({
+			color : [51, 51, 255, 0.4]
+		})
+	}),
+	fill : new ol.style.Fill({
+		color : [51, 51, 255, 0.4]
+	}),
+	stroke : new ol.style.Stroke({
+		color : [51, 51, 255, 0.4],
+		width : 1.25
+	})
+});
+
+styleCache['UNKNOWN'] = new ol.style.Style({
+	image : new ol.style.Circle({
+		radius : 5,
+		stroke : new ol.style.Stroke({
+			color : [128, 128, 128, 0.4],
+			width : 1.25
+		}),
+		fill : new ol.style.Fill({
+			color : [128, 128, 128, 0.4]
+		})
+	}),
+	fill : new ol.style.Fill({
+		color : [128, 128, 128, 0.4]
+	}),
+	stroke : new ol.style.Stroke({
+		color : [128, 128, 128, 0.4],
+		width : 1.25
+	})
 });
 
 function wrStyle(feature, resolution) {
 	var state = feature.get('state');
-	// TODO DEO set default - if (!state) { show default }
-	if (!styleCache[state]) {
-		styleCache[state] = new ol.style.Style({
-			//text: feature.get('name'), // TODO DEO add name to text style
-			image : new ol.style.Circle({
-				radius : 5,
-				stroke : wrStyleStroke,
-				fill : wrStyleFill
-			}),
-			fill : wrStyleFill,
-			stroke : wrStyleStroke
-		})
-	}
-	
 	return [styleCache[state]];
 };
 
@@ -149,7 +182,8 @@ var pctSource = new ol.source.GeoJSON({
 });
 
 var pctLayer = new ol.layer.Vector({
-	source: pctSource
+	source: pctSource,
+	style: wrStyle
 });
 
 

@@ -138,7 +138,7 @@ public class PCTReport
             report.setSource(SOURCE_TITLE);
             report.setUrl(SOURCE_URL);
 
-            // TODO set the state based on rpt
+            report.setState(WaterStateParser.parseState(rpt));
 
             // TODO replace with something more elegant
             for (WptType wpt : waypoints) {

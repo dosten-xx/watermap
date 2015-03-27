@@ -25,7 +25,6 @@ import com.google.common.io.Files;
 import com.google.common.io.Resources;
 
 import net.osten.watermap.model.WaterReport;
-import net.osten.watermap.model.WaterState;
 
 /**
  * Parser for San Gorgonio water report.
@@ -108,27 +107,8 @@ public class SanGorgonioReport
                   log.fine("==> cannot find coords for " + wr.getName());
                }
    
-               // parse the condition
-               String lcDesc = wr.getDescription().toLowerCase();
-               if (lcDesc.contains("good")
-                        || lcDesc.contains("excellent")
-                        || lcDesc.contains("plenty")
-                        || lcDesc.contains("nicely")
-                        || lcDesc.contains("well")) {
-                  wr.setState(WaterState.HIGH);
-               }
-               else if (lcDesc.contains("sufficient")
-                        || lcDesc.contains("decent")) {
-                  wr.setState(WaterState.MEDIUM);
-               }
-               else if (lcDesc.contains("barely")) {
-                  wr.setState(WaterState.LOW);
-               }
-               else if (lcDesc.contains("no water")
-                        || lcDesc.contains("dry")) {
-                  wr.setState(WaterState.DRY);
-               }
-   
+               wr.setState(WaterStateParser.parseState(wr.getDescription()));
+
                boolean added = results.add(wr);
                if (!added) {
                   results.remove(wr);
