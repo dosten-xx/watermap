@@ -133,12 +133,8 @@ function wrStyle(feature, resolution) {
 // water report vector layers
 //****************************
 
-// TODO DEO need to configure url's (not hard-coded)
-
 var sangSource = new ol.source.GeoJSON({
 	projection: 'EPSG:3857',
-	//url : 'http://watermap-ostennet.rhcloud.com/rest/sang'
-	//url : 'http://localhost:8080/rest/sang'
 	url : 'http://' + hostName + ':' + hostPort + '/rest/sang'
 });
 
@@ -149,8 +145,6 @@ var sangLayer = new ol.layer.Vector({
 
 var pctSource = new ol.source.GeoJSON({
 	projection: 'EPSG:3857',
-	//url : 'http://watermap-ostennet.rhcloud.com/rest/pct'
-	//url : 'http://localhost:8080/rest/sang'
 	url : 'http://' + hostName + ':' + hostPort + '/rest/pct'
 });
 
@@ -215,7 +209,7 @@ map.on('click', function(evt) {
 			'placement' : 'right',
 			'html' : true,
 			'title' : feature.get('name'),
-			'content' : feature.get('state') + '<br />' + feature.get('location') + '<br />' + feature.get('description') + '<br />' + feature.get('lastReport') + '<br />' + '<a target=\'_new\' href=\'' + feature.get('url') + '\'>' + feature.get('source') + '</a>'
+			'content' : feature.get('state') + '<br />' + feature.get('location') + '<br />' + feature.get('description') + '<br />Last Report:' + formatDate(feature.get('lastReport')) + '<br />Source: ' + '<a target=\'_new\' href=\'' + feature.get('url') + '\'>' + feature.get('source') + '</a>'
 		});
 		$(element).popover('show');
 	} else {
@@ -234,3 +228,12 @@ map.on('pointermove', function(e) {
 	var mapTarget = document.getElementById(map.getTarget());
 	mapTarget.style.cursor = hit ? 'pointer' : '';
 });
+
+function formatDate(date)
+{
+	if (date) {
+		return new Date(date).toLocaleDateString();
+	}
+	
+	return 'n/a';
+}
