@@ -23,27 +23,33 @@ public final class WaterStateParser
    {
       lcDesc = lcDesc.toLowerCase();
       
-      if (lcDesc.contains("good")
+      // DEO goes from pessismistic to optimistic so to be 
+      // the most non-misleading
+      
+      if (lcDesc.contains("no water")
+               || lcDesc.contains("nothing")
+               || lcDesc.contains("dry")) {
+         return WaterState.DRY;
+      }
+      else if (lcDesc.contains("barely")
+               || lcDesc.contains("stagnant")) {
+         return WaterState.LOW;
+      }
+      else if (lcDesc.contains("sufficient")
+               || lcDesc.contains("is flowing")
+               || lcDesc.contains("has water")
+               || lcDesc.contains("decent")) {
+         return WaterState.MEDIUM;
+      }
+      else if (lcDesc.contains("good")
          || lcDesc.contains("excellent")
          || lcDesc.contains("plenty")
          || lcDesc.contains("great")
          || lcDesc.contains("nicely")
+         || lcDesc.contains("full")
          || lcDesc.contains("lot of water")
          || lcDesc.contains("well")) {
          return WaterState.HIGH;
-      }
-      else if (lcDesc.contains("sufficient")
-               || lcDesc.contains("is flowing")
-               || lcDesc.contains("decent")) {
-         return WaterState.MEDIUM;
-      }
-      else if (lcDesc.contains("barely")) {
-         return WaterState.LOW;
-      }
-      else if (lcDesc.contains("no water")
-               || lcDesc.contains("nothing")
-               || lcDesc.contains("dry")) {
-         return WaterState.DRY;
       }
 
       return WaterState.UNKNOWN;
