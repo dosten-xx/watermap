@@ -1,6 +1,22 @@
-/**
- *
- */
+/*
+The MIT License (MIT)
+Copyright (c) 2015 Darren Osten
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+*/
 package net.osten.watermap.convert;
 
 import java.io.File;
@@ -58,7 +74,7 @@ public class PCTReport
 
    /**
     * Parse the PCT water report Google docs files.
-    * 
+    *
     * @return set of water reports
     */
    public synchronized Set<WaterReport> convert() throws IOException
@@ -83,14 +99,32 @@ public class PCTReport
       return results;
    }
 
-   /**
-    * Sets the directory where the data files are.
-    * 
-    * @param dataDir data directory
-    */
-   public void setDataDir(String dataDir)
+   public void initialize()
    {
-      this.dataDir = dataDir;
+      log.info("initializing PCT report...");
+
+      setDataDir(System.getenv("OPENSHIFT_DATA_DIR"));
+
+      // parse waypoints XML files
+      if (dataDir != null) {
+         for (char sectionChar : sectionChars) {
+            try {
+               JAXBContext jc = JAXBContext.newInstance("net.osten.watermap.pct.xml");
+               Unmarshaller u = jc.createUnmarshaller();
+               @SuppressWarnings("unchecked")
+               GpxType waypointList = ((JAXBElement<GpxType>) u.unmarshal(new FileInputStream(dataDir + File.separator + "CA_Sec_" + sectionChar + "_waypoints.gpx"))).getValue();
+               log.fine("found " + waypointList.getWpt().size() + " waypoints for section " + sectionChar);
+               waypoints.addAll(waypointList.getWpt());
+            }
+            catch (JAXBException | IOException e) {
+               log.severe(e.getLocalizedMessage());
+            }
+         }
+      }
+
+      log.info("imported " + waypoints.size() + " waypoints");
+
+      log.info("done initializing PCT report");
    }
 
    private Set<WaterReport> parseDocument(Document reportDoc)
@@ -176,31 +210,13 @@ public class PCTReport
       return results;
    }
 
-   public void initialize()
+   /**
+    * Sets the directory where the data files are.
+    *
+    * @param dataDir data directory
+    */
+   public void setDataDir(String dataDir)
    {
-      log.info("initializing PCT report...");
-
-      setDataDir(System.getenv("OPENSHIFT_DATA_DIR"));
-
-      // parse waypoints XML files
-      if (dataDir != null) {
-         for (char sectionChar : sectionChars) {
-            try {
-               JAXBContext jc = JAXBContext.newInstance("net.osten.watermap.pct.xml");
-               Unmarshaller u = jc.createUnmarshaller();
-               @SuppressWarnings("unchecked")
-               GpxType waypointList = (GpxType) ((JAXBElement<GpxType>) u.unmarshal(new FileInputStream(dataDir + File.separator + "CA_Sec_" + sectionChar + "_waypoints.gpx"))).getValue();
-               log.fine("found " + waypointList.getWpt().size() + " waypoints for section " + sectionChar);
-               waypoints.addAll(waypointList.getWpt());
-            }
-            catch (JAXBException | IOException e) {
-               log.severe(e.getLocalizedMessage());
-            }
-         }
-      }
-
-      log.info("imported " + waypoints.size() + " waypoints");
-
-      log.info("done initializing PCT report");
+      this.dataDir = dataDir;
    }
 }

@@ -7,7 +7,7 @@
 <head>
 <title>SoCal Watermap</title>
 <link rel="stylesheet" href="/resources/ol3/ol.css" type="text/css" />
-<link rel="stylesheet" href="/resources/css/samples.css" type="text/css" />
+<link rel="stylesheet" href="/resources/css/map.css" type="text/css" />
 <link rel="stylesheet" href="/resources/bootstrap/bootstrap.min.css" type="text/css">
 <link rel="stylesheet" href="/resources/bootstrap/bootstrap-responsive.min.css" type="text/css">
 </head>

@@ -1,6 +1,22 @@
-/**
- * 
- */
+/*
+The MIT License (MIT)
+Copyright (c) 2015 Darren Osten
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+*/
 package net.osten.watermap.convert;
 
 import java.io.File;
@@ -18,13 +34,13 @@ import java.util.logging.Logger;
 import javax.ejb.Singleton;
 import javax.ejb.Startup;
 
+import net.osten.watermap.model.WaterReport;
+
 import com.google.common.base.Charsets;
 import com.google.common.base.Splitter;
 import com.google.common.collect.ImmutableList;
 import com.google.common.io.Files;
 import com.google.common.io.Resources;
-
-import net.osten.watermap.model.WaterReport;
 
 /**
  * Parser for San Gorgonio water report.
@@ -40,7 +56,7 @@ public class SanGorgonioReport
    private String filePath = null;
    private URL fileURL = null;
    private boolean ready = false;
-   private Logger log = Logger.getLogger(this.getClass().getName());  
+   private Logger log = Logger.getLogger(this.getClass().getName());
 
    /**
     * Default constructor.
@@ -52,7 +68,7 @@ public class SanGorgonioReport
 
    /**
     * Converts the SanG datafile to water reports.
-    * 
+    *
     * @return set of water reports
     */
    public Set<WaterReport> convert()
@@ -65,22 +81,19 @@ public class SanGorgonioReport
          .trimResults()
          .omitEmptyStrings()
          .split(
-            (filePath != null ? 
+            (filePath != null ?
                Files.asCharSource(new File(filePath), Charsets.UTF_8).read()
                : Resources.asCharSource(fileURL, Charsets.UTF_8).read())));
       System.out.println("found " + liness.size() + " lines");
-      */
-      
+       */
+
       try {
-         ImmutableList<String> lines =
-                  (filePath != null ? 
-                           Files.asCharSource(new File(filePath), Charsets.UTF_8).readLines()
-                           : Resources.asCharSource(fileURL, Charsets.UTF_8).readLines());
+         ImmutableList<String> lines = filePath != null ? Files.asCharSource(new File(filePath), Charsets.UTF_8).readLines() : Resources.asCharSource(fileURL, Charsets.UTF_8).readLines();
          log.fine("found " + lines.size() + " lines");
-   
+
          for (String line : lines) {
             List<String> fields = Splitter.on('\t').trimResults().splitToList(line);
-   
+
             /* Layout of datafile.txt -
              * String postDate = nextLine[0];
              * String location = nextLine[1];
@@ -88,7 +101,7 @@ public class SanGorgonioReport
              * String logDate = nextLine[3];
              * String user = nextLine[4];
              */
-   
+
             WaterReport wr = new WaterReport();
             try {
                wr.setLastReport(dateFormatter.parse(fields.get(3)));
@@ -97,7 +110,7 @@ public class SanGorgonioReport
                wr.setName(fields.get(1));
                wr.setSource(SOURCE_TITLE);
                wr.setUrl(SOURCE_URL);
-   
+
                if (locationCoords.containsKey(wr.getName())) {
                   List<String> coords = Splitter.on(',').splitToList(locationCoords.get(wr.getName()));
                   wr.setLon(new BigDecimal(coords.get(0)));
@@ -106,7 +119,7 @@ public class SanGorgonioReport
                else {
                   log.fine("==> cannot find coords for " + wr.getName());
                }
-   
+
                wr.setState(WaterStateParser.parseState(wr.getDescription()));
 
                boolean added = results.add(wr);
@@ -123,7 +136,7 @@ public class SanGorgonioReport
       catch (IOException e) {
          log.severe(e.getLocalizedMessage());
       }
-      
+
       return results;
    }
 
@@ -135,7 +148,7 @@ public class SanGorgonioReport
       log.info("initializing SanG report...");
 
       setFilePath(System.getenv("OPENSHIFT_DATA_DIR") + File.separator + "datafile.txt");
-      
+
       locationCoords = new HashMap<String, String>();
       // Lodgepole Spring UTM 3775231N 516367E
       // estimated coords are from TH map
@@ -166,7 +179,7 @@ public class SanGorgonioReport
 
    /**
     * Always returns true since initialization is safe.
-    * 
+    *
     * @return ready state
     */
    public boolean isReady()
@@ -175,8 +188,18 @@ public class SanGorgonioReport
    }
 
    /**
+    * Full path to the data file.
+    *
+    * @param filePath file path
+    */
+   public void setFilePath(String filePath)
+   {
+      this.filePath = filePath;
+   }
+
+   /**
     * Sets the URL to load the file from.
-    * 
+    *
     * @param file URL
     * @deprecated use {@link #setFilePath(String)}
     */
@@ -184,15 +207,5 @@ public class SanGorgonioReport
    public void setFileURL(URL fileURL)
    {
       this.fileURL = fileURL;
-   }
-
-   /**
-    * Full path to the data file.
-    * 
-    * @param filePath file path
-    */
-   public void setFilePath(String filePath)
-   {
-      this.filePath = filePath;
    }
 }

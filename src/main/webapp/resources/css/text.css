@@ -1,0 +1,70 @@
+@CHARSET "UTF-8";
+
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro);
+@import url(http://fonts.googleapis.com/css?family=Lora);
+
+html, body {
+	padding: 0;
+	margin-top: 0;
+	width: 100%;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+body {
+	font-family: 'Lora', serif;
+}
+
+a {
+	color: #0d8ba1;
+	-webkit-transition: all 0.25s ease-out;
+	-moz-transition: all 0.25s ease-out;
+	transition: all 0.25s ease-out;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #1a5952;
+}
+
+a:hover, a:focus {
+	color: #0599c2;
+	text-decoration: underline;
+}
+
+h1 {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 400%;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 0px;
+	letter-spacing: 2px;
+	word-spacing: 10px;
+}
+
+h2 {
+	text-align: center;
+}
+
+.content {
+	padding: 10px;
+	margin-left: 15%;
+	margin-right: 15%;
+	width: 70%;
+}
+
+#container {
+	height: 576px;
+	background-image: url("/resources/img/bgimage-orig.jpg");
+	/* background-size: 1024px 576px; */
+	background-size: 100% 100%;
+	background-position: left top;
+	background-repeat: no-repeat;
+}
+
+#container-text {
+	color: white;
+	vertical-align: middle;
+	padding-top: 90px;
+}

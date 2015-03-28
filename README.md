@@ -1,3 +1,3 @@
-The OpenShift `jbossas` cartridge documentation can be found at:
+Watermap - check it out on [OpenShift](http://watermap-ostennet.rhcloud.com/).
 
-https://github.com/openshift/origin-server/tree/master/cartridges/openshift-origin-cartridge-jbossas/README.md
+Usage instructions coming soon.
