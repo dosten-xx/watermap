@@ -1,4 +1,10 @@
 //****************************
+// Global variables
+// ****************************
+var map;
+var mapLayers;
+
+//****************************
 // Custom controls
 // ****************************
 
@@ -12,20 +18,38 @@ app.generateTrailControl = function(opt_options) {
 	var select = document.createElement('select');
 	select.id = 'trailSelect';
 	select.className = 'trailSelect';
-	select.innerHTML = '<option>San Gorgonio</option><option>PCT</option>';
+	select.innerHTML = '<option value="0">All</option><option value="1">San Gorgonio</option><option value="2">PCT</option>';
 
 	var this_ = this;
 	var getTrail = function(e) {
 		// prevent #export-geojson anchor from getting appended to the url
 		e.preventDefault();
-		alert("in getTrail e=" + e);
+		//alert("in getTrail e=" + e);
 		var selectedTrail = document.getElementById('trailSelect');
-		alert("selected trail=" + selectedTrail.value);
-		//var source = options.source;
-		//var format = new ol.format.GeoJSON();
-		//var features = source.getFeatures();
-		//var featuresGeoJSON = format.writeFeatures(features);
-		//download('export.geojson', JSON.stringify(featuresGeoJSON));
+		//alert("selected trail=" + selectedTrail.value);
+		var currentLayerCount = map.getLayers().getLength();
+		alert("map has " + currentLayerCount + " layers");
+		
+		// 0th layer is the map layer
+
+		// clear all trail layers
+		for (var i = 1; i < currentLayerCount; i++) {
+			map.removeLayer(mapLayers[i]);
+		}
+		
+		if (selectedTrail.value == 0) {
+			// show all trails
+			for (var i = 1; i < mapLayers.length; i++) {
+				map.addLayer(mapLayers[i]);
+			}
+		}
+		else {
+			// show just one trail
+			// hide the value'th layer (i.e. 1=SanG, 2=PCT) in the map
+			// zoom to that trail
+			alert("adding layer " + selectedTrail.value);
+			map.addLayer(mapLayers[selectedTrail.value]);
+		}
 	};
 
 	select.addEventListener('change', getTrail, false);
@@ -203,7 +227,9 @@ var view = new ol.View({
 	zoom : 10
 });
 
-var map = new ol.Map({
+mapLayers = [ osmLayer, sangLayer, pctLayer ];
+
+map = new ol.Map({
 	target : 'map',
 	layers : [ osmLayer, sangLayer, pctLayer ],
    controls: ol.control.defaults().extend([

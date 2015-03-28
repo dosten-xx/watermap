@@ -45,6 +45,24 @@ public class WaterReport implements Serializable
    public WaterReport()
    {}
 
+   /**
+    * Construtor with name and source.  Use this for set comparisons.
+    * 
+    * @param name name
+    * @param source source
+    */
+   public WaterReport(String name, String source)
+   {
+      this.name = name;
+      this.source = source;
+   }
+
+   /**
+    * Checks for equality based on name and source.
+    * 
+    * @param obj object to compare to
+    * @return true if obj is a WaterReport with same name and source; false otherwise
+    */
    @Override
    public boolean equals(Object obj)
    {

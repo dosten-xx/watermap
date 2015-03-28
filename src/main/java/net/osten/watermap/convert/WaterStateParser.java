@@ -50,6 +50,7 @@ public final class WaterStateParser
       }
       else if (lcDesc.contains("sufficient") 
                || lcDesc.contains("is flowing") 
+               || lcDesc.contains("flowing water") 
                || lcDesc.contains("has water") 
                || lcDesc.contains("decent")) {
          return WaterState.MEDIUM;
@@ -60,8 +61,10 @@ public final class WaterStateParser
                || lcDesc.contains("great") 
                || lcDesc.contains("nicely") 
                || lcDesc.contains("full")
-         || lcDesc.contains("lot of water") 
-         || lcDesc.contains("well")) {
+               || lcDesc.contains("faucet working")
+               || lcDesc.contains("water on")
+               || lcDesc.contains("lot of water") 
+               || lcDesc.contains("well")) {
          return WaterState.HIGH;
       }
 

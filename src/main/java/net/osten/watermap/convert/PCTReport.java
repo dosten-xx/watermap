@@ -16,7 +16,7 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-*/
+ */
 package net.osten.watermap.convert;
 
 import java.io.File;
@@ -56,7 +56,7 @@ import com.google.common.io.Files;
 @Startup
 public class PCTReport
 {
-   private static final SimpleDateFormat dateFormatter = new SimpleDateFormat("M/d/yy");
+   private static final SimpleDateFormat dateFormatter = new SimpleDateFormat("M/dd/yy");
    private static final String SOURCE_TITLE = "PCT Water Report";
    private static final String SOURCE_URL = "http://pctwater.com/";
    private String dataDir = null;
@@ -127,6 +127,33 @@ public class PCTReport
       log.info("done initializing PCT report");
    }
 
+   /**
+    * Sets the directory where the data files are.
+    *
+    * @param dataDir data directory
+    */
+   public void setDataDir(String dataDir)
+   {
+      this.dataDir = dataDir;
+   }
+
+   /**
+    * There are discrepencies between some of the water report names and the waypoint names.
+    *
+    * @param waterReportName name from the water report
+    * @return mapped name in waypoint file
+    */
+   private String fixNames(String waterReportName)
+   {
+      String result = null;
+
+      if (waterReportName.equalsIgnoreCase("BoulderOaksCG")) {
+         result = "BoulderOakCG";
+      }
+
+      return result;
+   }
+
    private Set<WaterReport> parseDocument(Document reportDoc)
    {
       Set<WaterReport> results = new HashSet<WaterReport>();
@@ -145,7 +172,8 @@ public class PCTReport
          // - date is report date
          // - look up waypoint in XML file to get coordinates
          String waypoint = cells.get(3).text();
-         if (waypoint != null && !waypoint.isEmpty() && waypoint.startsWith("WR")) {
+         if (waypoint != null && !waypoint.isEmpty()) {
+            // && (waypoint.startsWith("WR") || waypoint.startsWith("WACS"))) {
 
             // TODO handle names with commas (e.g. WR127, B)
 
@@ -161,6 +189,7 @@ public class PCTReport
             report.setDescription(rpt);
             report.setLocation(desc);
             report.setName(waypoint);
+            
             if (date != null && !date.isEmpty()) {
                try {
                   report.setLastReport(dateFormatter.parse(date));
@@ -198,25 +227,29 @@ public class PCTReport
             }
 
             if (report.getLat() == null) {
-               log.fine("cannot find coords for " + waypoint);
+               // try with mapped name
+               String modifiedName = fixNames(report.getName());
+               for (WptType wpt : waypoints) {
+                  if (wpt.getName().equals(modifiedName)) {
+                     // System.out.println("found matching lat/lon");
+                     report.setLat(wpt.getLat());
+                     report.setLon(wpt.getLon());
+                     break;
+                  }
+               }
             }
 
-            log.finest(report.toString());
-            results.add(report);
+            if (report.getLat() == null) {
+               log.fine("cannot find coords for " + waypoint);
+            }
+            else {
+               log.finest(report.toString());
+               results.add(report);
+            }
          }
       }
 
       log.fine("returning " + results.size() + " pct reports");
       return results;
-   }
-
-   /**
-    * Sets the directory where the data files are.
-    *
-    * @param dataDir data directory
-    */
-   public void setDataDir(String dataDir)
-   {
-      this.dataDir = dataDir;
    }
 }
