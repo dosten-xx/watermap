@@ -12,8 +12,8 @@
 	<url>http://watermap-ostennet.rhcloud.com</url>
 
 	<scm>
-		<!-- developerConnection>scm:git:[fetch=]git://github.com/dosten-xx/watermap[push=]ssh://dosten-xx@github.com/dosten-xx/watermap</developerConnection -->
-		<developerConnection>scm:git:file:.</developerConnection>
+		<developerConnection>scm:git:[fetch=]git://github.com/dosten-xx/watermap[push=]ssh://dosten-xx@github.com/dosten-xx/watermap</developerConnection>
+		<!-- developerConnection>scm:git:file:.</developerConnection -->
 	</scm>
 	
 	<licenses>
