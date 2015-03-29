@@ -62,6 +62,7 @@ public final class WaterStateParser
                || lcDesc.contains("nicely") 
                || lcDesc.contains("full")
                || lcDesc.contains("faucet working")
+               || lcDesc.contains("faucet on")
                || lcDesc.contains("water on")
                || lcDesc.contains("lot of water") 
                || lcDesc.contains("well")) {
