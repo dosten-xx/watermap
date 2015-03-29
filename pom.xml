@@ -11,11 +11,11 @@
 	<inceptionYear>2015</inceptionYear>
 	<url>http://watermap-ostennet.rhcloud.com</url>
 
-	<organization>
-		<name>osten.net</name>
-		<url>http://osten.net</url>
-	</organization>
-
+	<scm>
+		<!-- developerConnection>scm:git:[fetch=]git://github.com/dosten-xx/watermap[push=]ssh://dosten-xx@github.com/dosten-xx/watermap</developerConnection -->
+		<developerConnection>scm:git:file:.</developerConnection>
+	</scm>
+	
 	<licenses>
 		<license>
 			<name>MIT License</name>
@@ -24,9 +24,14 @@
 		</license>
 	</licenses>
 
+	<organization>
+		<name>osten.net</name>
+		<url>http://osten.net</url>
+	</organization>
+
 	<developers>
 		<developer>
-			<id>ostenda-xx</id>
+			<id>dosten-xx</id>
 			<name>Darren Osten</name>
 			<email>darren@osten.net</email>
 			<url>http://blog.osten.net</url>
