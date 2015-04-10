@@ -19,6 +19,7 @@
 	<script src="/resources/bootstrap/bootstrap.min.js" type="text/javascript"></script>
 	<script src="/resources/ol3/ol-debug.js" type="text/javascript"></script>
 	<script src="/resources/js/properties.jsp" type="text/javascript"></script>
+	<script src="/resources/js/ga.js" type="text/javascript"></script>
 	<script type="text/javascript">
 	</script>
 	<script src="/resources/js/main.js" type="text/javascript"></script>
