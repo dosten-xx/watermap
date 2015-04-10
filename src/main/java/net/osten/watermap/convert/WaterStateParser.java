@@ -45,6 +45,7 @@ public final class WaterStateParser
          return WaterState.DRY;
       }
       else if (lcDesc.contains("barely") 
+               || lcDesc.contains("low flow")
                || lcDesc.contains("stagnant")) {
          return WaterState.LOW;
       }
@@ -52,7 +53,8 @@ public final class WaterStateParser
                || lcDesc.contains("is flowing") 
                || lcDesc.contains("flowing water") 
                || lcDesc.contains("has water") 
-               || lcDesc.contains("decent")) {
+               || lcDesc.contains("decent")
+               || lcDesc.contains("water is available")) {
          return WaterState.MEDIUM;
       }
       else if (lcDesc.contains("good") 
@@ -65,6 +67,7 @@ public final class WaterStateParser
                || lcDesc.contains("faucet on")
                || lcDesc.contains("water on")
                || lcDesc.contains("lot of water") 
+               || lcDesc.contains("water everywhere")
                || lcDesc.contains("well")) {
          return WaterState.HIGH;
       }

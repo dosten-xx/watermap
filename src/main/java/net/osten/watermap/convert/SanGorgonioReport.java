@@ -152,26 +152,25 @@ public class SanGorgonioReport
       locationCoords = new HashMap<String, String>();
       // Lodgepole Spring UTM 3775231N 516367E
       // estimated coords are from TH map
-      locationCoords.put("High Creek Trailcamp", "-116.857248,34.076686,0");
-      locationCoords.put("Halfway Trailcamp", "0,0,0");
+      locationCoords.put("High Creek Trailcamp", "-116.8470,34.0857,0");
+      locationCoords.put("Halfway Trailcamp", "-116.8655,34.0843,0");
       locationCoords.put("Big Tree", "-116.801242,34.101698,0"); // estimated
-      locationCoords.put("Fish Creek", "0,0,0");
+      locationCoords.put("Fish Creek", "-116.7869,34.1234,0");
       locationCoords.put("Fish Creek Saddle", "-116.809153,34.117793,0"); // estimated
       locationCoords.put("Mineshaft Flat (.3 miles down trail)", "-116.823916,34.109732,0");
       locationCoords.put("Johns Meadow", "-116.921426,34.142788,0");
       locationCoords.put("Lodgepole Spring", "-116.822523,34.117793,0");
-      locationCoords.put("South Fork Meadows", "0,0,0");
-      locationCoords.put("Trailfork", "0,0,0");
-      locationCoords.put("Jackstraw", "0,0,0");
-      locationCoords.put("Dobbs Trailcamp", "0,0,0");
-      locationCoords.put("Vivian Trailcamp", "0,0,0");
-      locationCoords.put("Halfway Trailcamp", "0,0,0");
+      locationCoords.put("South Fork Meadows", "-116.8435,34.1307,0");
+      locationCoords.put("Trailfork", "-116.8644,34.1300,0");
+      locationCoords.put("Jackstraw", "-116.9022,34.1411,0");
+      locationCoords.put("Dobbs Trailcamp", "-116.8884,34.0945,0");
+      locationCoords.put("Vivian Trailcamp", "-116.8850,34.0876,0");
       locationCoords.put("Dollar Lake", "-116.853084,34.121955,0");
       locationCoords.put("Limber Pine (.3 mi.west)", "-116.934475,34.127509,0");
-      locationCoords.put("Saxton Trailcamp (.2 mi.west)", "0,0,0");
+      locationCoords.put("Saxton Trailcamp (.2 mi.west)", "-116.8821,34.1115,0");
       locationCoords.put("Columbine", "-116.940868,34.135575,0");
-      locationCoords.put("Alger TrailCamp", "0,0,0");
-      locationCoords.put("High Meadow Springs", "0,0,0");
+      locationCoords.put("Alger TrailCamp", "-116.9028,34.1035,0");
+      locationCoords.put("High Meadow Springs", "-116.8646,34.1263,0");
 
       ready = true;
       log.info("done initializing SanG report");
