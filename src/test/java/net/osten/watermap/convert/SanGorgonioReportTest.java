@@ -6,12 +6,14 @@ import java.util.Set;
 
 import net.osten.watermap.model.WaterReport;
 
+import org.apache.commons.lang3.time.FastDateFormat;
 import org.junit.Before;
 import org.junit.Test;
 
 public class SanGorgonioReportTest
 {
    private SanGorgonioReport converter = null;
+   private static final FastDateFormat dateFormatter = FastDateFormat.getInstance("yyyy-MM-dd");
    
    @Before
    public void setUp() throws Exception
@@ -30,6 +32,11 @@ public class SanGorgonioReportTest
       assertTrue(results.size() == 19);
       for (WaterReport wr : results) {
          System.out.println("wr=" + wr);
+         
+         if (wr.getName().equals("Fish Creek")) {
+            System.out.println("testing fish creek...");
+            assertEquals(dateFormatter.parse("2014-11-29"), wr.getLastReport());
+         }
       }
    }
 }

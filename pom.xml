@@ -58,6 +58,7 @@
 		<version.jaxb2>1.6</version.jaxb2>
 		<version.guava>18.0</version.guava>
 		<version.gson>1.7.1</version.gson>
+		<version.commons-lang>3.4</version.commons-lang>
 
 		<version.wildfly.maven.plugin>1.0.2.Final</version.wildfly.maven.plugin>
 		<version.compiler.plugin>3.1</version.compiler.plugin>
@@ -131,8 +132,6 @@
 			<scope>provided</scope>
 		</dependency>
 
-        <!-- Now we declare any tools needed -->
-
         <!-- Annotation processor that raising compilation errors whenever constraint 
             annotations are incorrectly used. -->
 		<dependency>
@@ -145,6 +144,12 @@
 			<groupId>com.google.code.gson</groupId>
 			<artifactId>gson</artifactId>
 			<version>${version.gson}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-lang3</artifactId>
+			<version>${version.commons-lang}</version>
 		</dependency>
 
 		<dependency>

@@ -23,7 +23,6 @@ import java.io.File;
 import java.io.IOException;
 import java.math.BigDecimal;
 import java.net.URL;
-import java.text.SimpleDateFormat;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
@@ -33,6 +32,8 @@ import java.util.logging.Logger;
 
 import javax.ejb.Singleton;
 import javax.ejb.Startup;
+
+import org.apache.commons.lang3.time.FastDateFormat;
 
 import net.osten.watermap.model.WaterReport;
 
@@ -50,7 +51,7 @@ import com.google.common.io.Resources;
 public class SanGorgonioReport
 {
    private static Map<String, String> locationCoords = null;
-   private static final SimpleDateFormat dateFormatter = new SimpleDateFormat("yyyy-MM-dd");
+   private static final FastDateFormat dateFormatter = FastDateFormat.getInstance("yyyy-MM-dd");
    private static final String SOURCE_TITLE = "San Gorgonio Water Report";
    private static final String SOURCE_URL = "http://www.howlingduck.com/cgi-local/display_water_data.pl";
    private String filePath = null;

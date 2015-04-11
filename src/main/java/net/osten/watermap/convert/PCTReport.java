@@ -24,7 +24,6 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.nio.charset.Charset;
 import java.text.ParseException;
-import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
@@ -42,6 +41,7 @@ import net.osten.watermap.model.WaterReport;
 import net.osten.watermap.pct.xml.GpxType;
 import net.osten.watermap.pct.xml.WptType;
 
+import org.apache.commons.lang3.time.FastDateFormat;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
@@ -56,7 +56,7 @@ import com.google.common.io.Files;
 @Startup
 public class PCTReport
 {
-   private static final SimpleDateFormat dateFormatter = new SimpleDateFormat("M/dd/yy");
+   private static final FastDateFormat dateFormatter = FastDateFormat.getInstance("M/dd/yy");
    private static final String SOURCE_TITLE = "PCT Water Report";
    private static final String SOURCE_URL = "http://pctwater.com/";
    private String dataDir = null;
