@@ -60,7 +60,7 @@ public class PCTReport
    private static final String SOURCE_TITLE = "PCT Water Report";
    private static final String SOURCE_URL = "http://pctwater.com/";
    private String dataDir = null;
-   private char[] sectionChars = new char[] { 'A', 'B', 'C', 'D', 'E', 'F', 'G' };
+   private char[] sectionChars = new char[] { 'A', 'B', 'C', 'D', 'E', 'F', 'G' , 'M', 'N', 'O', 'P', 'Q', 'R'};
    private List<WptType> waypoints = new ArrayList<WptType>();
    private Logger log = Logger.getLogger(this.getClass().getName());
 
@@ -212,9 +212,10 @@ public class PCTReport
                   break;
                }
             }
+            
 
+            // if coords not found, try with leading 0 in waypoint (i.e. WR0213); this happens in Section B waypoint file
             if (report.getLat() == null) {
-               // try with leading 0 in waypoint (i.e. WR0213); this happens in Section B waypoint file
                String modifiedWaypoint = "WR0" + waypoint.substring(2);
                for (WptType wpt : waypoints) {
                   if (wpt.getName().equals(modifiedWaypoint)) {
@@ -226,8 +227,8 @@ public class PCTReport
                }
             }
 
+            // if coords still not found, try with mapped name
             if (report.getLat() == null) {
-               // try with mapped name
                String modifiedName = fixNames(report.getName());
                for (WptType wpt : waypoints) {
                   if (wpt.getName().equals(modifiedName)) {
