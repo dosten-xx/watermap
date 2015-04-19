@@ -53,6 +53,7 @@ public final class WaterStateParser
                || lcDesc.contains("is flowing") 
                || lcDesc.contains("flowing water") 
                || lcDesc.contains("has water") 
+               || lcDesc.contains("water available") 
                || lcDesc.contains("decent")
                || lcDesc.contains("water is available")) {
          return WaterState.MEDIUM;
