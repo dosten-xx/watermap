@@ -30,13 +30,15 @@ public class PCTReportTest
       Set<WaterReport> results = converter.convert();
       assertNotNull(results);
       System.out.println("got " + results.size() + " results");
-      assertTrue(results.size() == 330);
+      assertTrue(results.size() == 484);
       
       assertTrue(results.contains(new WaterReport("WR001", "PCT Water Report")));
       assertTrue(results.contains(new WaterReport("WR004", "PCT Water Report")));
       assertTrue(results.contains(new WaterReport("WACS016", "PCT Water Report")));
       assertTrue(results.contains(new WaterReport("LkMorenaCG", "PCT Water Report")));
       
+      int reportsTested = 0;
+
       for (WaterReport wr : results) {
          System.out.println("wr=" + wr);
          
@@ -46,6 +48,7 @@ public class PCTReportTest
          assertNotNull(wr.getSource());
          
          // test individual reports
+         
 
          GregorianCalendar lr = new GregorianCalendar();
          if (wr.getLastReport() != null) {
@@ -57,12 +60,14 @@ public class PCTReportTest
             assertEquals(3, lr.get(Calendar.MONTH) + 1);
             assertEquals(2015, lr.get(Calendar.YEAR));
             assertEquals(WaterState.HIGH, wr.getState());
+            reportsTested++;
          }
          else if (wr.getName().equals("WR004")) {
             assertEquals(7, lr.get(Calendar.DAY_OF_MONTH));
             assertEquals(3, lr.get(Calendar.MONTH) + 1);
             assertEquals(2015, lr.get(Calendar.YEAR));
             assertEquals(WaterState.DRY, wr.getState());
+            reportsTested++;
          }
          else if (wr.getName().equals("WACS016")) {
             assertEquals(22, lr.get(Calendar.DAY_OF_MONTH));
@@ -71,6 +76,7 @@ public class PCTReportTest
             assertEquals(WaterState.MEDIUM, wr.getState());
             assertEquals(32.6725, wr.getLat().doubleValue(), 0.001);
             assertEquals(-116.5677, wr.getLon().doubleValue(), 0.001);
+            reportsTested++;
          }
          else if (wr.getName().equals("LkMorenaCG")) {
             assertEquals(22, lr.get(Calendar.DAY_OF_MONTH));
@@ -79,6 +85,7 @@ public class PCTReportTest
             assertEquals(WaterState.HIGH, wr.getState());
             assertEquals(32.6843, wr.getLat().doubleValue(), 0.001);
             assertEquals(-116.5179, wr.getLon().doubleValue(), 0.001);
+            reportsTested++;
          }
          else if (wr.getName().equals("WA1425")) {
             assertEquals(18, lr.get(Calendar.DAY_OF_MONTH));
@@ -87,7 +94,19 @@ public class PCTReportTest
             assertEquals(WaterState.HIGH, wr.getState());
             assertEquals(41.030683, wr.getLat().doubleValue(), 0.001);
             assertEquals(-121.751364, wr.getLon().doubleValue(), 0.001);
+            reportsTested++;
+         }
+         else if (wr.getName().equals("WACS2080")) {
+            assertEquals(19, lr.get(Calendar.DAY_OF_MONTH));
+            assertEquals(8, lr.get(Calendar.MONTH) + 1);
+            assertEquals(2014, lr.get(Calendar.YEAR));
+            //assertEquals(WaterState.HIGH, wr.getState());
+            assertEquals(45.19733, wr.getLat().doubleValue(), 0.001);
+            assertEquals(-121.75379, wr.getLon().doubleValue(), 0.001);
+            reportsTested++;
          }
       }
+
+      assertEquals(new Integer(6), new Integer(reportsTested));
    }
 }

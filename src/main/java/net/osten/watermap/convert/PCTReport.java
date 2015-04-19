@@ -60,6 +60,7 @@ public class PCTReport
    private static final String SOURCE_TITLE = "PCT Water Report";
    private static final String SOURCE_URL = "http://pctwater.com/";
    private String dataDir = null;
+   private String[] stateChars = new String[] { "CA", "OR", "WA" };
    private char[] sectionChars = new char[] { 'A', 'B', 'C', 'D', 'E', 'F', 'G' , 'M', 'N', 'O', 'P', 'Q', 'R'};
    private List<WptType> waypoints = new ArrayList<WptType>();
    private Logger log = Logger.getLogger(this.getClass().getName());
@@ -83,19 +84,21 @@ public class PCTReport
 
       // parse report files
       log.fine("dataDir=" + dataDir);
-      // look for multiple report files - usually 3: a, c, e
-      for (char sectionChar : sectionChars) {
-         String fileName = "pct-" + sectionChar + ".htm";
-         log.fine("fileName=" + fileName);
-         File htmlFile = new File(dataDir + File.separator + fileName);
-         if (htmlFile.exists() && htmlFile.canRead()) {
-            log.fine("reading html file " + htmlFile);
-            String htmlSource = Files.toString(htmlFile, Charset.forName("UTF-8"));
-            Document reportDoc = Jsoup.parse(htmlSource);
-            results.addAll(parseDocument(reportDoc));
+      for (String stateChar : stateChars) {
+         // look for multiple report files - usually 3: a, c, e
+         for (char sectionChar : sectionChars) {
+            String fileName = "pct-" +stateChar + "-" + sectionChar + ".htm";
+            log.fine("fileName=" + fileName);
+            File htmlFile = new File(dataDir + File.separator + fileName);
+            if (htmlFile.exists() && htmlFile.canRead()) {
+               log.fine("reading html file " + htmlFile);
+               String htmlSource = Files.toString(htmlFile, Charset.forName("UTF-8"));
+               Document reportDoc = Jsoup.parse(htmlSource);
+               results.addAll(parseDocument(reportDoc));
+            }
          }
       }
-
+      
       return results;
    }
 
@@ -107,17 +110,19 @@ public class PCTReport
 
       // parse waypoints XML files
       if (dataDir != null) {
-         for (char sectionChar : sectionChars) {
-            try {
-               JAXBContext jc = JAXBContext.newInstance("net.osten.watermap.pct.xml");
-               Unmarshaller u = jc.createUnmarshaller();
-               @SuppressWarnings("unchecked")
-               GpxType waypointList = ((JAXBElement<GpxType>) u.unmarshal(new FileInputStream(dataDir + File.separator + "CA_Sec_" + sectionChar + "_waypoints.gpx"))).getValue();
-               log.fine("found " + waypointList.getWpt().size() + " waypoints for section " + sectionChar);
-               waypoints.addAll(waypointList.getWpt());
-            }
-            catch (JAXBException | IOException e) {
-               log.severe(e.getLocalizedMessage());
+         for (String stateChar : stateChars) {
+            for (char sectionChar : sectionChars) {
+               try {
+                  JAXBContext jc = JAXBContext.newInstance("net.osten.watermap.pct.xml");
+                  Unmarshaller u = jc.createUnmarshaller();
+                  @SuppressWarnings("unchecked")
+                  GpxType waypointList = ((JAXBElement<GpxType>) u.unmarshal(new FileInputStream(dataDir + File.separator + stateChar + "_Sec_" + sectionChar + "_waypoints.gpx"))).getValue();
+                  log.fine("found " + waypointList.getWpt().size() + " waypoints for section " + sectionChar);
+                  waypoints.addAll(waypointList.getWpt());
+               }
+               catch (JAXBException | IOException e) {
+                  log.severe(e.getLocalizedMessage());
+               }
             }
          }
       }

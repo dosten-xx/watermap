@@ -68,4 +68,11 @@ unzip -o ca_section_r_gps.zip
 mv ca_section_r_gps/* .
 rm -rf ca_section_r_gps
 
+wget http://www.pctmap.net/pctdownloads/OR_Sec_B_waypoints.gpx
+wget http://www.pctmap.net/pctdownloads/OR_Sec_C_waypoints.gpx
+wget http://www.pctmap.net/pctdownloads/OR_Sec_D_waypoints.gpx
+wget http://www.pctmap.net/pctdownloads/OR_Sec_E_waypoints.gpx
+wget http://www.pctmap.net/pctdownloads/OR_Sec_F_waypoints.gpx
+wget http://www.pctmap.net/pctdownloads/OR_Sec_G_waypoints.gpx
+
 rm ca_section_*_gps.zip.*
