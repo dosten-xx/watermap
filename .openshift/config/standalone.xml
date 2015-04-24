@@ -82,7 +82,7 @@
     <profile>
         <subsystem xmlns="urn:jboss:domain:logging:2.0">
             <console-handler name="CONSOLE">
-                <level name="FINEST"/>
+                <level name="INFO"/>
                 <formatter>
                     <named-formatter name="COLOR-PATTERN"/>
                 </formatter>
@@ -132,10 +132,10 @@
                 <level name="INFO"/>
             </logger>
             <logger category="net.osten.watermap">
-                <level name="FINER"/>
+                <level name="FINE"/>
             </logger>
             <root-logger>
-                <level name="FINEST"/>
+                <level name="INFO"/>
                 <handlers>
                     <handler name="CONSOLE"/>
                     <handler name="FILE"/>
