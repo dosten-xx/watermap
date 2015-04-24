@@ -34,7 +34,7 @@ public final class WaterStateParser
     */
    public static WaterState parseState(String lcDesc)
    {
-      lcDesc = lcDesc.toLowerCase();
+      lcDesc = lcDesc.toLowerCase().trim();
 
       // DEO goes from pessismistic to optimistic so to be
       // the most non-misleading
@@ -46,6 +46,7 @@ public final class WaterStateParser
       }
       else if (lcDesc.contains("barely") 
                || lcDesc.contains("low flow")
+               || lcDesc.contains("small pools")
                || lcDesc.contains("stagnant")) {
          return WaterState.LOW;
       }
@@ -55,7 +56,9 @@ public final class WaterStateParser
                || lcDesc.contains("has water") 
                || lcDesc.contains("water available") 
                || lcDesc.contains("decent")
-               || lcDesc.contains("water is available")) {
+               || lcDesc.contains("water is available")
+               || lcDesc.contains("steady flow")
+               || lcDesc.equals("flowing")) {
          return WaterState.MEDIUM;
       }
       else if (lcDesc.contains("good") 
@@ -66,9 +69,14 @@ public final class WaterStateParser
                || lcDesc.contains("full")
                || lcDesc.contains("faucet working")
                || lcDesc.contains("faucet on")
+               || lcDesc.contains("spigot is on")
+               || lcDesc.contains("faucets on")
                || lcDesc.contains("water on")
                || lcDesc.contains("lot of water") 
+               || lcDesc.contains("lots of water")
                || lcDesc.contains("water everywhere")
+               || lcDesc.contains("strong flow")
+               || lcDesc.contains("water flowing")
                || lcDesc.contains("well")) {
          return WaterState.HIGH;
       }

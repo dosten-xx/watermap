@@ -78,6 +78,13 @@ ol.inherits(app.generateTrailControl, ol.control.Control);
 // Vector layer styles
 //****************************
 
+var alpha = 0.4;
+
+var colorBlue = [0, 0, 255, alpha];
+var colorYellow = [255, 255, 0, alpha];
+var colorRed = [255, 0, 0, alpha];
+var colorWhite = [255, 255, 255, alpha];
+
 var styleCache = {};
 
 styleCache['DRY'] = new ol.style.Style({
@@ -85,18 +92,18 @@ styleCache['DRY'] = new ol.style.Style({
 	image : new ol.style.Circle({
 		radius : 5,
 		stroke : new ol.style.Stroke({
-			color : [64, 64, 64, 0.4],
+			color : colorRed,
 			width : 1.25
 		}),
 		fill : new ol.style.Fill({
-			color : [64, 64, 64, 0.4]
+			color : colorRed
 		})
 	}),
 	fill : new ol.style.Fill({
-		color : [64, 64, 64, 0.4]
+		color : colorRed
 	}),
 	stroke : new ol.style.Stroke({
-		color : [64, 64, 64, 0.4],
+		color : colorRed,
 		width : 1.25
 	})
 });
@@ -105,18 +112,18 @@ styleCache['LOW'] = new ol.style.Style({
 	image : new ol.style.Circle({
 		radius : 5,
 		stroke : new ol.style.Stroke({
-			color : [255, 50, 50, 0.4],
+			color : colorRed,
 			width : 1.25
 		}),
 		fill : new ol.style.Fill({
-			color : [255, 50, 50, 0.4]
+			color : colorRed
 		})
 	}),
 	fill : new ol.style.Fill({
-		color : [255, 50, 50, 0.4]
+		color : colorRed
 	}),
 	stroke : new ol.style.Stroke({
-		color : [255, 50, 50, 0.4],
+		color : colorRed,
 		width : 1.25
 	})
 });
@@ -125,18 +132,18 @@ styleCache['MEDIUM'] = new ol.style.Style({
 	image : new ol.style.Circle({
 		radius : 5,
 		stroke : new ol.style.Stroke({
-			color : [255, 128, 0, 0.4],
+			color : colorYellow,
 			width : 1.25
 		}),
 		fill : new ol.style.Fill({
-			color : [255, 128, 0, 0.4]
+			color : colorYellow
 		})
 	}),
 	fill : new ol.style.Fill({
-		color : [255, 128, 0, 0.4]
+		color : colorYellow
 	}),
 	stroke : new ol.style.Stroke({
-		color : [255, 128, 0, 0.4],
+		color : colorYellow,
 		width : 1.25
 	})
 });
@@ -145,18 +152,18 @@ styleCache['HIGH'] = new ol.style.Style({
 	image : new ol.style.Circle({
 		radius : 5,
 		stroke : new ol.style.Stroke({
-			color : [51, 51, 255, 0.4],
+			color : colorBlue,
 			width : 1.25
 		}),
 		fill : new ol.style.Fill({
-			color : [51, 51, 255, 0.4]
+			color : colorBlue
 		})
 	}),
 	fill : new ol.style.Fill({
-		color : [51, 51, 255, 0.4]
+		color : colorBlue
 	}),
 	stroke : new ol.style.Stroke({
-		color : [51, 51, 255, 0.4],
+		color : colorBlue,
 		width : 1.25
 	})
 });
@@ -165,18 +172,18 @@ styleCache['UNKNOWN'] = new ol.style.Style({
 	image : new ol.style.Circle({
 		radius : 5,
 		stroke : new ol.style.Stroke({
-			color : [128, 128, 128, 0.4],
+			color : colorWhite,
 			width : 1.25
 		}),
 		fill : new ol.style.Fill({
-			color : [128, 128, 128, 0.4]
+			color : colorWhite
 		})
 	}),
 	fill : new ol.style.Fill({
-		color : [128, 128, 128, 0.4]
+		color : colorWhite
 	}),
 	stroke : new ol.style.Stroke({
-		color : [128, 128, 128, 0.4],
+		color : colorWhite,
 		width : 1.25
 	})
 });
