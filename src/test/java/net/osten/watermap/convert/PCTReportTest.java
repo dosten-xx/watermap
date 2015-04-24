@@ -30,7 +30,7 @@ public class PCTReportTest
       Set<WaterReport> results = converter.convert();
       assertNotNull(results);
       System.out.println("got " + results.size() + " results");
-      assertTrue(results.size() == 484);
+      assertTrue(results.size() == 486);
       
       assertTrue(results.contains(new WaterReport("WR001", "PCT Water Report")));
       assertTrue(results.contains(new WaterReport("WR004", "PCT Water Report")));
@@ -87,6 +87,12 @@ public class PCTReportTest
             assertEquals(-116.5179, wr.getLon().doubleValue(), 0.001);
             reportsTested++;
          }
+         else if (wr.getName().equals("WR127")) {
+            reportsTested++;
+         }
+         else if (wr.getName().equals("WR127B")) {
+            reportsTested++;
+         }
          else if (wr.getName().equals("WA1425")) {
             assertEquals(18, lr.get(Calendar.DAY_OF_MONTH));
             assertEquals(7, lr.get(Calendar.MONTH) + 1);
@@ -107,6 +113,6 @@ public class PCTReportTest
          }
       }
 
-      assertEquals(new Integer(6), new Integer(reportsTested));
+      assertEquals(new Integer(8), new Integer(reportsTested));
    }
 }

@@ -178,84 +178,99 @@ public class PCTReport
          // - look up waypoint in XML file to get coordinates
          String waypoint = cells.get(3).text();
          if (waypoint != null && !waypoint.isEmpty()) {
-            // && (waypoint.startsWith("WR") || waypoint.startsWith("WACS"))) {
-
-            // TODO handle names with commas (e.g. WR127, B)
-
-            log.finer("waypoint=" + waypoint);
-
+            
             String desc = cells.get(4).text();
-
             String date = cells.get(6).text();
-
             String rpt = cells.get(5).text();
-
-            WaterReport report = new WaterReport();
-            report.setDescription(rpt);
-            report.setLocation(desc);
-            report.setName(waypoint);
             
-            if (date != null && !date.isEmpty()) {
-               try {
-                  report.setLastReport(dateFormatter.parse(date));
-               }
-               catch (ParseException e) {
-                  log.severe(e.getLocalizedMessage());
-               }
-            }
-            report.setSource(SOURCE_TITLE);
-            report.setUrl(SOURCE_URL);
-
-            report.setState(WaterStateParser.parseState(rpt));
-
-            // TODO replace with something more elegant
-            for (WptType wpt : waypoints) {
-               if (wpt.getName().equals(waypoint)) {
-                  // System.out.println("found matching lat/lon");
-                  report.setLat(wpt.getLat());
-                  report.setLon(wpt.getLon());
-                  break;
-               }
-            }
-            
-
-            // if coords not found, try with leading 0 in waypoint (i.e. WR0213); this happens in Section B waypoint file
-            if (report.getLat() == null) {
-               String modifiedWaypoint = "WR0" + waypoint.substring(2);
-               for (WptType wpt : waypoints) {
-                  if (wpt.getName().equals(modifiedWaypoint)) {
-                     // System.out.println("found matching lat/lon");
-                     report.setLat(wpt.getLat());
-                     report.setLon(wpt.getLon());
-                     break;
+            String[] names = waypoint.split(",");
+            for (String name : names) {
+               name = name.trim();
+               
+               WaterReport report = processWaypoint(name, desc, date, rpt);
+               if (report.getLat() == null) {
+                  // DEO try prefixing the name (this is for split names: "WR127,B")
+                  name = names[0] + name;
+                  report = processWaypoint(name, desc, date, rpt);
+                  if (report.getLat() == null) {
+                     log.fine("cannot find coords for " + name);
+                  }
+                  else {
+                     log.finest(report.toString());
+                     results.add(report);
                   }
                }
-            }
-
-            // if coords still not found, try with mapped name
-            if (report.getLat() == null) {
-               String modifiedName = fixNames(report.getName());
-               for (WptType wpt : waypoints) {
-                  if (wpt.getName().equals(modifiedName)) {
-                     // System.out.println("found matching lat/lon");
-                     report.setLat(wpt.getLat());
-                     report.setLon(wpt.getLon());
-                     break;
-                  }
+               else {
+                  log.finest(report.toString());
+                  results.add(report);
                }
-            }
-
-            if (report.getLat() == null) {
-               log.fine("cannot find coords for " + waypoint);
-            }
-            else {
-               log.finest(report.toString());
-               results.add(report);
             }
          }
       }
 
       log.fine("returning " + results.size() + " pct reports");
       return results;
+   }
+   
+   private WaterReport processWaypoint(String waypoint, String desc, String date, String rpt)
+   {
+      log.finer("waypoint=" + waypoint);
+
+      WaterReport report = new WaterReport();
+      report.setDescription(rpt);
+      report.setLocation(desc);
+      report.setName(waypoint);
+      
+      if (date != null && !date.isEmpty()) {
+         try {
+            report.setLastReport(dateFormatter.parse(date));
+         }
+         catch (ParseException e) {
+            log.severe(e.getLocalizedMessage());
+         }
+      }
+      report.setSource(SOURCE_TITLE);
+      report.setUrl(SOURCE_URL);
+
+      report.setState(WaterStateParser.parseState(rpt));
+
+      // TODO replace with something more elegant
+      for (WptType wpt : waypoints) {
+         if (wpt.getName().equals(waypoint)) {
+            // System.out.println("found matching lat/lon");
+            report.setLat(wpt.getLat());
+            report.setLon(wpt.getLon());
+            break;
+         }
+      }
+      
+
+      // if coords not found, try with leading 0 in waypoint (i.e. WR0213); this happens in Section B waypoint file
+      if (report.getLat() == null && waypoint.length() > 2) {
+         String modifiedWaypoint = "WR0" + waypoint.substring(2);
+         for (WptType wpt : waypoints) {
+            if (wpt.getName().equals(modifiedWaypoint)) {
+               // System.out.println("found matching lat/lon");
+               report.setLat(wpt.getLat());
+               report.setLon(wpt.getLon());
+               break;
+            }
+         }
+      }
+
+      // if coords still not found, try with mapped name
+      if (report.getLat() == null) {
+         String modifiedName = fixNames(report.getName());
+         for (WptType wpt : waypoints) {
+            if (wpt.getName().equals(modifiedName)) {
+               // System.out.println("found matching lat/lon");
+               report.setLat(wpt.getLat());
+               report.setLon(wpt.getLon());
+               break;
+            }
+         }
+      }
+
+      return report;
    }
 }
