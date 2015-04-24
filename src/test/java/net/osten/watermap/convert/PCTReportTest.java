@@ -30,7 +30,7 @@ public class PCTReportTest
       Set<WaterReport> results = converter.convert();
       assertNotNull(results);
       System.out.println("got " + results.size() + " results");
-      assertTrue(results.size() == 486);
+      assertTrue(results.size() == 487);
       
       assertTrue(results.contains(new WaterReport("WR001", "PCT Water Report")));
       assertTrue(results.contains(new WaterReport("WR004", "PCT Water Report")));
@@ -87,6 +87,9 @@ public class PCTReportTest
             assertEquals(-116.5179, wr.getLon().doubleValue(), 0.001);
             reportsTested++;
          }
+         else if (wr.getName().equals("WRCS091")) {
+            reportsTested++;
+         }
          else if (wr.getName().equals("WR127")) {
             reportsTested++;
          }
@@ -113,6 +116,6 @@ public class PCTReportTest
          }
       }
 
-      assertEquals(new Integer(8), new Integer(reportsTested));
+      assertEquals(new Integer(9), new Integer(reportsTested));
    }
 }
