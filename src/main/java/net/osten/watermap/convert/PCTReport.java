@@ -158,6 +158,9 @@ public class PCTReport
       else if (waterReportName.equalsIgnoreCase("WRCS091")) {
          result = "WR091";
       }
+      else if (waterReportName.equalsIgnoreCase("WRCS219")) {
+         result = "WhitewaterTr";
+      }
 
       return result;
    }
