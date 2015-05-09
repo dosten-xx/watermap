@@ -70,13 +70,17 @@ public final class WaterStateParser
                || lcDesc.contains("faucet working")
                || lcDesc.contains("faucet on")
                || lcDesc.contains("spigot is on")
+               || lcDesc.contains("faucet is on")
                || lcDesc.contains("faucets on")
                || lcDesc.contains("water on")
                || lcDesc.contains("lot of water") 
                || lcDesc.contains("lots of water")
                || lcDesc.contains("water everywhere")
                || lcDesc.contains("strong flow")
+               || lcDesc.contains("flowing fine")
+               || lcDesc.contains("flowing at more than")
                || lcDesc.contains("water flowing")
+               || lcDesc.contains("water cache is stocked")
                || lcDesc.contains("well")) {
          return WaterState.HIGH;
       }
