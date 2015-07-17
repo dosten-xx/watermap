@@ -7,3 +7,8 @@ For testing:
 To deploy locally:
 * Run mvn clean install wildfly:deploy
 
+Eclipse JUnit testing:
+* Run configuration:
+ - env var
+ - sys prop
+

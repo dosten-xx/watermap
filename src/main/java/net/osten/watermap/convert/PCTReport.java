@@ -40,6 +40,7 @@ import javax.xml.bind.Unmarshaller;
 import net.osten.watermap.model.WaterReport;
 import net.osten.watermap.pct.xml.GpxType;
 import net.osten.watermap.pct.xml.WptType;
+import net.osten.watermap.util.RegexUtils;
 
 import org.apache.commons.lang3.time.FastDateFormat;
 import org.jsoup.Jsoup;
@@ -82,21 +83,17 @@ public class PCTReport
    {
       Set<WaterReport> results = new HashSet<WaterReport>();
 
-      // parse report files
       log.fine("dataDir=" + dataDir);
-      for (String stateChar : stateChars) {
-         // look for multiple report files - usually 3: a, c, e
-         for (char sectionChar : sectionChars) {
-            String fileName = "pct-" +stateChar + "-" + sectionChar + ".htm";
-            log.fine("fileName=" + fileName);
-            File htmlFile = new File(dataDir + File.separator + fileName);
-            if (htmlFile.exists() && htmlFile.canRead()) {
-               log.fine("reading html file " + htmlFile);
-               String htmlSource = Files.toString(htmlFile, Charset.forName("UTF-8"));
-               Document reportDoc = Jsoup.parse(htmlSource);
-               results.addAll(parseDocument(reportDoc));
-            }
-         }
+      String stateChar = stateChars[0];
+      char sectionChar = sectionChars[0];
+      String fileName = "pct-" +stateChar + "-" + sectionChar + ".htm";
+      log.fine("fileName=" + fileName);
+      File htmlFile = new File(dataDir + File.separator + fileName);
+      if (htmlFile.exists() && htmlFile.canRead()) {
+         log.fine("reading html file " + htmlFile);
+         String htmlSource = Files.toString(htmlFile, Charset.forName("UTF-8"));
+         Document reportDoc = Jsoup.parse(htmlSource);
+         results.addAll(parseDocument(reportDoc));
       }
       
       return results;
@@ -161,6 +158,9 @@ public class PCTReport
       else if (waterReportName.equalsIgnoreCase("WRCS219")) {
          result = "WhitewaterTr";
       }
+      else if (waterReportName.equalsIgnoreCase("WR233")) {
+         result = "WR234";
+      }
 
       return result;
    }
@@ -171,49 +171,58 @@ public class PCTReport
 
       log.finer("reportDoc children=" + reportDoc.children().size());
 
-      Element mainTable = reportDoc.getElementById("tblMain");
-      // System.out.println("mainTable=" + mainTable);
-      Elements rows = mainTable.getElementsByTag("tr");
-      log.finer("found " + rows.size() + " rows");
+      //Element mainTable = reportDoc.getElementById("tblMain");
+      Elements mainTables = reportDoc.getElementsByTag("table");
+      log.finer("found " + mainTables.size() + " tables");
 
-      for (Element row : rows) {
-         Elements cells = row.getElementsByTag("td");
-         // - for each waypoint with an entry (e.g. 'WR001')
-         // - report column is description
-         // - date is report date
-         // - look up waypoint in XML file to get coordinates
-         String waypoint = cells.get(3).text();
-         if (waypoint != null && !waypoint.isEmpty()) {
+      for (Element mainTable : mainTables) {
+         Elements rows = mainTable.getElementsByTag("tr");
+         log.finer("found " + rows.size() + " rows");
+   
+         for (Element row : rows) {
+            Elements cells = row.getElementsByTag("td");
+            if (cells.size() != 7) {
+               continue;
+            }
             
-            String desc = cells.get(4).text();
-            String date = cells.get(6).text();
-            String rpt = cells.get(5).text();
-            
-            String[] names = waypoint.split(",");
-            for (String name : names) {
-               name = name.trim();
+            // - for each waypoint with an entry (e.g. 'WR001')
+            // - report column is description
+            // - date is report date
+            // - look up waypoint in XML file to get coordinates
+            String waypoint = cells.get(2).text();
+            if (waypoint != null && !waypoint.isEmpty() && !waypoint.equalsIgnoreCase("Waypoint")) {
                
-               WaterReport report = processWaypoint(name, desc, date, rpt);
-               if (report.getLat() == null) {
-                  // DEO try prefixing the name (this is for split names: "WR127,B")
-                  name = names[0] + name;
-                  report = processWaypoint(name, desc, date, rpt);
+               String desc = cells.get(3).text();
+               String date = cells.get(5).text();
+               String rpt = cells.get(4).text();
+               
+               String[] names = waypoint.split(",");
+               for (String name : names) {
+                  name = name.trim();
+                  
+                  WaterReport report = processWaypoint(name, desc, date, rpt);
                   if (report.getLat() == null) {
-                     log.fine("cannot find coords for " + name);
+                     // DEO try prefixing the name (this is for split names: "WR127,B")
+                     // TODO support this: WR064A, B, C
+                     name = names[0] + name;
+                     report = processWaypoint(name, desc, date, rpt);
+                     if (report.getLat() == null) {
+                        log.fine("cannot find coords for " + name);
+                     }
+                     else {
+                        log.finest(report.toString());
+                        results.add(report);
+                     }
                   }
                   else {
                      log.finest(report.toString());
                      results.add(report);
                   }
                }
-               else {
-                  log.finest(report.toString());
-                  results.add(report);
-               }
             }
          }
       }
-
+      
       log.fine("returning " + results.size() + " pct reports");
       return results;
    }
@@ -242,7 +251,7 @@ public class PCTReport
 
       // TODO replace with something more elegant
       for (WptType wpt : waypoints) {
-         if (wpt.getName().equals(waypoint)) {
+         if (wpt.getName().equalsIgnoreCase(waypoint)) {
             // System.out.println("found matching lat/lon");
             report.setLat(wpt.getLat());
             report.setLon(wpt.getLon());
@@ -251,11 +260,24 @@ public class PCTReport
       }
       
 
+      // if coords not found, try adding leading 0 (e.g. WRCS292 -> WRCS0292)
+      if (report.getLat() == null) {
+         String modifiedWaypoint = RegexUtils.addLeadingZerosToWaypoint(waypoint);
+         for (WptType wpt : waypoints) {
+            if (wpt.getName().equalsIgnoreCase(modifiedWaypoint)) {
+               // System.out.println("found matching lat/lon");
+               report.setLat(wpt.getLat());
+               report.setLon(wpt.getLon());
+               break;
+            }
+         }
+      }
+      
       // if coords not found, try with leading 0 in waypoint (i.e. WR0213); this happens in Section B waypoint file
       if (report.getLat() == null && waypoint.length() > 2) {
          String modifiedWaypoint = "WR0" + waypoint.substring(2);
          for (WptType wpt : waypoints) {
-            if (wpt.getName().equals(modifiedWaypoint)) {
+            if (wpt.getName().equalsIgnoreCase(modifiedWaypoint)) {
                // System.out.println("found matching lat/lon");
                report.setLat(wpt.getLat());
                report.setLon(wpt.getLon());
@@ -268,7 +290,7 @@ public class PCTReport
       if (report.getLat() == null) {
          String modifiedName = fixNames(report.getName());
          for (WptType wpt : waypoints) {
-            if (wpt.getName().equals(modifiedName)) {
+            if (wpt.getName().equalsIgnoreCase(modifiedName)) {
                // System.out.println("found matching lat/lon");
                report.setLat(wpt.getLat());
                report.setLon(wpt.getLon());
