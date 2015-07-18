@@ -149,17 +149,35 @@ public class PCTReport
    {
       String result = null;
 
-      if (waterReportName.equalsIgnoreCase("BoulderOaksCG")) {
+      if (waterReportName.equalsIgnoreCase("LkMorenaCG")) {
+         result = "LakeMorenaCG";
+      }
+      else if (waterReportName.equalsIgnoreCase("BoulderOaksCG")) {
          result = "BoulderOakCG";
       }
       else if (waterReportName.equalsIgnoreCase("WRCS091")) {
          result = "WR091";
+      }
+      else if (waterReportName.equalsIgnoreCase("WR016B")) {
+         result = "WR106B";
+      }
+      else if (waterReportName.equalsIgnoreCase("CS183B")) {
+         result = "CS0183";
+      }
+      else if (waterReportName.equalsIgnoreCase("Fuller Ridge")) {
+         result = "FullerRidgeTH";
       }
       else if (waterReportName.equalsIgnoreCase("WRCS219")) {
          result = "WhitewaterTr";
       }
       else if (waterReportName.equalsIgnoreCase("WR233")) {
          result = "WR234";
+      }
+      else if (waterReportName.equalsIgnoreCase("WR239")) {
+         result = "WRCS0239";
+      }
+      else if (waterReportName.equalsIgnoreCase("WR256")) {
+         result = "WRCS056";
       }
 
       return result;
@@ -203,16 +221,17 @@ public class PCTReport
                   WaterReport report = processWaypoint(name, desc, date, rpt);
                   if (report.getLat() == null) {
                      // DEO try prefixing the name (this is for split names: "WR127,B")
-                     // TODO support this: WR064A, B, C
                      name = names[0] + name;
                      report = processWaypoint(name, desc, date, rpt);
                      if (report.getLat() == null) {
-                        log.fine("cannot find coords for " + name);
+                        log.fine("cannot find coords for " + waypoint);
                      }
                      else {
                         log.finest(report.toString());
                         results.add(report);
                      }
+                     
+                     // TODO support this: WR064A, B, C
                   }
                   else {
                      log.finest(report.toString());
@@ -249,7 +268,7 @@ public class PCTReport
 
       report.setState(WaterStateParser.parseState(rpt));
 
-      // TODO replace with something more elegant
+      // TODO replace with something more elegant than this brute force search
       for (WptType wpt : waypoints) {
          if (wpt.getName().equalsIgnoreCase(waypoint)) {
             // System.out.println("found matching lat/lon");
@@ -258,7 +277,6 @@ public class PCTReport
             break;
          }
       }
-      
 
       // if coords not found, try adding leading 0 (e.g. WRCS292 -> WRCS0292)
       if (report.getLat() == null) {

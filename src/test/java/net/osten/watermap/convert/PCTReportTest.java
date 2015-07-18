@@ -31,7 +31,6 @@ public class PCTReportTest
       assertNotNull(results);
       System.out.println("got " + results.size() + " results");
       //assertTrue(results.size() == 488);
-      assertTrue(results.size() == 327);
       
       assertTrue(results.contains(new WaterReport("WR001", "PCT Water Report")));
       assertTrue(results.contains(new WaterReport("WR004", "PCT Water Report")));
@@ -58,21 +57,21 @@ public class PCTReportTest
          
          if (wr.getName().equals("WR001")) {
             assertEquals(1, lr.get(Calendar.DAY_OF_MONTH));
-            assertEquals(3, lr.get(Calendar.MONTH) + 1);
+            assertEquals(3 - 1, lr.get(Calendar.MONTH));
             assertEquals(2015, lr.get(Calendar.YEAR));
             assertEquals(WaterState.HIGH, wr.getState());
             reportsTested++;
          }
          else if (wr.getName().equals("WR004")) {
             assertEquals(25, lr.get(Calendar.DAY_OF_MONTH));
-            assertEquals(5, lr.get(Calendar.MONTH) + 1);
+            assertEquals(5 - 1, lr.get(Calendar.MONTH));
             assertEquals(2015, lr.get(Calendar.YEAR));
             assertEquals(WaterState.DRY, wr.getState());
             reportsTested++;
          }
          else if (wr.getName().equals("WACS016")) {
             //assertEquals(22, lr.get(Calendar.DAY_OF_MONTH));
-            //assertEquals(3, lr.get(Calendar.MONTH) + 1);
+            //assertEquals(3, lr.get(Calendar.MONTH));
             assertEquals(2015, lr.get(Calendar.YEAR));
             assertEquals(WaterState.MEDIUM, wr.getState());
             assertEquals(32.6725, wr.getLat().doubleValue(), 0.001);
@@ -81,10 +80,10 @@ public class PCTReportTest
          }
          else if (wr.getName().equals("LkMorenaCG")) {
             //assertEquals(22, lr.get(Calendar.DAY_OF_MONTH));
-            //assertEquals(3, lr.get(Calendar.MONTH) + 1);
+            //assertEquals(3, lr.get(Calendar.MONTH));
             assertEquals(2015, lr.get(Calendar.YEAR));
             assertEquals(WaterState.HIGH, wr.getState());
-            assertEquals(32.6843, wr.getLat().doubleValue(), 0.001);
+            assertEquals(32.6825, wr.getLat().doubleValue(), 0.001);
             assertEquals(-116.5179, wr.getLon().doubleValue(), 0.001);
             reportsTested++;
          }
@@ -97,18 +96,18 @@ public class PCTReportTest
          else if (wr.getName().equals("WR127B")) {
             reportsTested++;
          }
-         else if (wr.getName().equals("WA1425")) {
-            assertEquals(18, lr.get(Calendar.DAY_OF_MONTH));
-            assertEquals(7, lr.get(Calendar.MONTH) + 1);
-            assertEquals(2014, lr.get(Calendar.YEAR));
+         else if (wr.getName().equals("WA1749B")) {
+            assertEquals(16, lr.get(Calendar.DAY_OF_MONTH));
+            assertEquals(6 - 1, lr.get(Calendar.MONTH));
+            assertEquals(2015, lr.get(Calendar.YEAR));
             assertEquals(WaterState.HIGH, wr.getState());
-            assertEquals(41.030683, wr.getLat().doubleValue(), 0.001);
-            assertEquals(-121.751364, wr.getLon().doubleValue(), 0.001);
+            assertEquals(42.2172, wr.getLat().doubleValue(), 0.001);
+            assertEquals(-122.3668, wr.getLon().doubleValue(), 0.001);
             reportsTested++;
          }
          else if (wr.getName().equals("WACS2080")) {
             assertEquals(19, lr.get(Calendar.DAY_OF_MONTH));
-            assertEquals(8, lr.get(Calendar.MONTH) + 1);
+            assertEquals(8 - 1, lr.get(Calendar.MONTH));
             assertEquals(2014, lr.get(Calendar.YEAR));
             //assertEquals(WaterState.HIGH, wr.getState());
             assertEquals(45.19733, wr.getLat().doubleValue(), 0.001);
@@ -117,7 +116,6 @@ public class PCTReportTest
          }
       }
 
-      // TODO DEO on report is not tested?!?!
-      assertEquals(new Integer(8), new Integer(reportsTested));
+      assertEquals(new Integer(9), new Integer(reportsTested));
    }
 }
