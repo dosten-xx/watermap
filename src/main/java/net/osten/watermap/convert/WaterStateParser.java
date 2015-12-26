@@ -29,11 +29,15 @@ public final class WaterStateParser
    /**
     * Returns a state for a given text.
     *
-    * @param lcDesc text to parse
+    * @param lcDesc text to parse; can be null
     * @return water state
     */
    public static WaterState parseState(String lcDesc)
    {
+      if (lcDesc == null) {
+         return WaterState.UNKNOWN;
+      }
+      
       lcDesc = lcDesc.toLowerCase().trim();
 
       // DEO goes from pessismistic to optimistic so to be

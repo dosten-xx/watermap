@@ -40,13 +40,13 @@ public class WaterReport implements Serializable
    private String url = null;
 
    /**
-    * Default construtor.
+    * Default constructor.
     */
    public WaterReport()
    {}
 
    /**
-    * Construtor with name and source.  Use this for set comparisons.
+    * Constructor with name and source.  Use this for set comparisons.
     * 
     * @param name name
     * @param source source
