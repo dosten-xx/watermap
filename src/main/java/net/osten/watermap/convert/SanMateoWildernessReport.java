@@ -149,6 +149,16 @@ public class SanMateoWildernessReport
    }
 
    /**
+    * Set the file path.
+    */
+   public void initialize()
+   {
+      log.info("initializing SanMateoWilderness report...");
+
+      setFilePath(System.getenv("OPENSHIFT_DATA_DIR") + File.separator + "sanmateowilderness.txt");
+   }
+   
+   /**
     * Full path to the data file.
     *
     * @param filePath file path
