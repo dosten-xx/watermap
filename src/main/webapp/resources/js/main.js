@@ -18,7 +18,7 @@ app.generateTrailControl = function(opt_options) {
 	var select = document.createElement('select');
 	select.id = 'trailSelect';
 	select.className = 'trailSelect';
-	select.innerHTML = '<option value="0">All</option><option value="1">San Gorgonio</option><option value="2">PCT</option>';
+	select.innerHTML = '<option value="0">All</option><option value="1">San Gorgonio</option><option value="2">PCT</option><option value="3">San Mateo Canyon</option>';
 
 	var this_ = this;
 	var getTrail = function(e) {
@@ -217,6 +217,16 @@ var pctLayer = new ol.layer.Vector({
 	style: wrStyle
 });
 
+var sanmateoSource = new ol.source.GeoJSON({
+	projection: 'EPSG:3857',
+	url : 'http://' + hostName + ':' + hostPort + '/rest/sanmateowild'
+});
+
+var sanmateoLayer = new ol.layer.Vector({
+	source: sanmateoSource,
+	style: wrStyle
+});
+
 
 //****************************
 // OSM layer
@@ -234,11 +244,11 @@ var view = new ol.View({
 	zoom : 10
 });
 
-mapLayers = [ osmLayer, sangLayer, pctLayer ];
+mapLayers = [ osmLayer, sangLayer, pctLayer, sanmateoLayer ];
 
 map = new ol.Map({
 	target : 'map',
-	layers : [ osmLayer, sangLayer, pctLayer ],
+	layers : [ osmLayer, sangLayer, pctLayer, sanmateoLayer ],
    controls: ol.control.defaults().extend([
        new app.generateTrailControl({source: null})
      ]),

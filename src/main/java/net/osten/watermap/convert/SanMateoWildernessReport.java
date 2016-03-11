@@ -28,6 +28,9 @@ import java.util.HashSet;
 import java.util.Set;
 import java.util.logging.Logger;
 
+import javax.ejb.Singleton;
+import javax.ejb.Startup;
+
 import org.apache.commons.lang3.time.FastDateFormat;
 
 import com.google.common.base.Charsets;
@@ -41,6 +44,8 @@ import net.osten.watermap.model.WaterState;
 /**
  * San Mateo Wilderness report.
  */
+@Startup
+@Singleton
 public class SanMateoWildernessReport
 {
    // private static Map<String, String> locationCoords = null;

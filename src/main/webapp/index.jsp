@@ -5,7 +5,7 @@
 <!doctype html>
 <html>
 <head>
-<title>SoCal Watermap</title>
+<title>Backcountry Watermap</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="/resources/ol3/ol.css" type="text/css" />
 <link rel="stylesheet" href="/resources/css/map.css" type="text/css" />
