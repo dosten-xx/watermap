@@ -122,6 +122,7 @@ public class SanMateoWildernessReport
          String[] fields = line.split(",");
          result.setName(fields[0]);
          result.setDescription(fields[1]);
+         result.setLocation(result.getName());
          result.setState(mapWaterState(fields[2]));
          result.setLastReport(dateFormatter.parse(fields[3].trim()));
          result.setSource(fields[4]);
