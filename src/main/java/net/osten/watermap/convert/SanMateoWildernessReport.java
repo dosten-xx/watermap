@@ -60,7 +60,9 @@ public class SanMateoWildernessReport
     * Default constructor.
     */
    public SanMateoWildernessReport()
-   {}
+   {
+      initialize();
+   }
 
    /**
     * Returns water reports from text file.
@@ -75,6 +77,7 @@ public class SanMateoWildernessReport
       int lineNumber = 1;
 
       try {
+         log.info("opening filePath=" + filePath);
          ImmutableList<String> lines = filePath != null ? Files.asCharSource(new File(filePath), Charsets.UTF_8).readLines() : Resources.asCharSource(fileURL, Charsets.UTF_8).readLines();
          log.fine("found " + lines.size() + " lines");
 
