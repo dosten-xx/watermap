@@ -1,2 +1,2 @@
-Pigeon Spring,trough had nasty water,LOW,2/20/16, darren@osten.net,1,2
-Serrano Spring,completely dry,DRY,2/20/16, darren@osten.net,1,2
+Pigeon Spring,trough had nasty water,LOW,2/20/16, darren@osten.net,33.5895,-117.4255
+Serrano Spring,completely dry,DRY,2/20/16, darren@osten.net,33.5592,-117.4497

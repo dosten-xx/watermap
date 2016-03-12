@@ -3,6 +3,7 @@
 // ****************************
 var map;
 var mapLayers;
+var mapCenters;
 
 //****************************
 // Custom controls
@@ -28,15 +29,18 @@ app.generateTrailControl = function(opt_options) {
 		var selectedTrail = document.getElementById('trailSelect');
 		//alert("selected trail=" + selectedTrail.value);
 		var currentLayerCount = map.getLayers().getLength();
-		alert("map has " + currentLayerCount + " layers");
+		//alert("map has " + currentLayerCount + " layers");
 		
 		// 0th layer is the map layer
 
 		// clear all trail layers
-		for (var i = 1; i < currentLayerCount; i++) {
+		for (var i = 1; i < mapLayers.length; i++) {
 			map.removeLayer(mapLayers[i]);
+			//alert("removing layer " + i);
 		}
 		
+		//alert("map has " + map.getLayers().getLength() + " layers");
+
 		if (selectedTrail.value == 0) {
 			// show all trails
 			for (var i = 1; i < mapLayers.length; i++) {
@@ -47,9 +51,15 @@ app.generateTrailControl = function(opt_options) {
 			// show just one trail
 			// hide the value'th layer (i.e. 1=SanG, 2=PCT) in the map
 			// zoom to that trail
-			alert("adding layer " + selectedTrail.value);
+			//alert("adding layer " + selectedTrail.value);
 			map.addLayer(mapLayers[selectedTrail.value]);
 		}
+
+		//alert("map has " + map.getLayers().getLength() + " layers on exit");
+		
+		view.setCenter(mapCenters[selectedTrail.value]);
+		
+		map.render();
 	};
 
 	select.addEventListener('change', getTrail, false);
@@ -237,20 +247,29 @@ var osmLayer = new ol.layer.Tile({
 });
 
 // EPSG:4326 == WGS 84
-var initCenter = ol.proj.transform([ -116.853084, 34.121955 ], 'EPSG:4326', 'EPSG:3857');
+var sangCenter = ol.proj.transform([ -116.853084, 34.121955 ], 'EPSG:4326', 'EPSG:3857');
+var pctCenter = ol.proj.transform([ -116.853084, 34.121955 ], 'EPSG:4326', 'EPSG:3857');
+var sanmateoCenter = ol.proj.transform([ -117.4279, 33.5681 ], 'EPSG:4326', 'EPSG:3857');
 
 var view = new ol.View({
-	center : initCenter,
+	center : sangCenter,
 	zoom : 10
 });
 
 mapLayers = [ osmLayer, sangLayer, pctLayer, sanmateoLayer ];
+mapCenters = [ null, sangCenter, pctCenter, sanmateoCenter ];
 
 map = new ol.Map({
 	target : 'map',
 	layers : [ osmLayer, sangLayer, pctLayer, sanmateoLayer ],
-   controls: ol.control.defaults().extend([
-       new app.generateTrailControl({source: null})
+	controls: ol.control.defaults().extend([
+       new app.generateTrailControl({
+    	   source: null
+       }),
+       new ol.control.MousePosition({
+    	   coordinateFormat: ol.coordinate.createStringXY(3),
+    	   projection: 'EPSG:4326'
+       })
      ]),
 	view : view
 });
@@ -279,8 +298,7 @@ map.on('click', function(evt) {
 		var coord = geometry.getCoordinates();
 		popup.setPosition(coord);
 		// DEO need to destroy here to ensure the content is refreshed when
-		// clicked directly
-		// from one feature to another
+		// clicked directly from one feature to another
 		$(element).popover('destroy');
 		$(element).popover({
 			'placement' : 'right',
