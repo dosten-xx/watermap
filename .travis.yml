@@ -1,4 +1,4 @@
 language: java
 
 env:
-	- OPENSHIFT_DATA_DIR="./src/test/resources"
+- OPENSHIFT_DATA_DIR="./src/test/resources"
