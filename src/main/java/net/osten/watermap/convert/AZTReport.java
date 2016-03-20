@@ -53,8 +53,9 @@ public class AZTReport
    private URL fileURL = null;
    private Logger log = Logger.getLogger(this.getClass().getName());
    private Pattern datePattern = Pattern.compile("\\d{1,2}/\\d{1,2}/\\d{1,4}");
+   private Pattern dataLinePattern = Pattern.compile("^\\d{1,3}\\.\\d{1,2} \\d{1,3}\\.\\d{1,2} ");
    private Pattern decimalPattern = Pattern.compile("(\\d{1,3}\\.\\d{1,2} ){2}");
-   private Pattern typesPattern = Pattern.compile("spring|creek|windmill|store|(spring fed)|dirt tank|intermittent pools|pipe|well|Town|water trailer|Reavis Creek");
+   private Pattern typesPattern = Pattern.compile("spring|creek|windmill|store|(spring fed)|dirt tank|intermittent pools|pipe|well|Town|water trailer|Reavis Creek|cement dam|spigot|cement tank|faucet in corral|tank|large cow pond|faucet|Chimenea Ck|tank|large stock pond|big storage pond|reservoir|big pools|town|faucet/troughs|resupply box|large tank|dirt stock tank|stock trough|tank with float|river|Gila River|seep-stock pond|windmills/ponds|stock pond|two metal tanks|ForSer Info Cntr|small flows/pools|seep/pools|trough|lake|Flagstaff|pool|restaurant|water when staffed|Bright Angel Crk|water fountain|two blue 5 gallon|concrete drinker|lodge|2 dirt tanks|campers/day|pond");
    private Pattern histRelPattern1 = Pattern.compile("\\d");
    private Pattern histRelPattern2 = Pattern.compile("\\d\\s*to\\s*\\d");
    private Pattern histRelPattern3 = Pattern.compile("\\d\\s*\\-\\s*\\d");
@@ -86,17 +87,11 @@ public class AZTReport
          for (String line : lines) {
 
             // find start of data line section
-            if (!inData) {
-               if (RegexUtils.matchFirstOccurance(line, headerEndPattern) != null) {
-                  inData = true;
-                  log.fine("found data section header at line " + lineNumber);
-               }
-            }
-            else {
+            if (RegexUtils.matchFirstOccurance(line, dataLinePattern) != null) {
                WaterReport wr = null;
                log.fine("parsing line[" + lineNumber + "]=" + line);
                wr = parseDataLine(line);
-               log.fine("wr=" + wr);
+               //log.fine("wr=" + wr);
 
                /*
                 * if (locationCoords.containsKey(wr.getName())) { List<String> coords =
@@ -114,7 +109,8 @@ public class AZTReport
                   }
                }
                else {
-                  if (RegexUtils.matchFirstOccurance(line, passsageLinePattern) != null) {
+                  log.finer("did not add wr for line " + lineNumber);
+/*                  if (RegexUtils.matchFirstOccurance(line, passsageLinePattern) != null) {
                      // some data sections have a passage section header
                      log.fine("found passage section header at line " + lineNumber);
                   }
@@ -123,8 +119,11 @@ public class AZTReport
                      // TODO how to detect the end of a section?
                      //inData = false;
                      log.fine("end of data at line " + lineNumber);
-                  }
+                  }*/
                }
+            }
+            else {
+               log.finest("skipping line " + lineNumber);
             }
             
             lineNumber++;

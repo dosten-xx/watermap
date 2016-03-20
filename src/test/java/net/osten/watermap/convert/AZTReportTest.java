@@ -53,8 +53,8 @@ public class AZTReportTest
       Set<WaterReport> results = converter.convert();
       assertNotNull(results);
       System.out.println("got " + results.size() + " results");
-      // total in file is 260
-      assertThat(results.size(), is(129));
+      // total in report is 260
+      assertThat(results.size(), is(218));
       for (WaterReport wr : results) {
          System.out.println("wr=" + wr);
          

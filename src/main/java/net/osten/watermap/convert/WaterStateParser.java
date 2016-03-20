@@ -40,11 +40,12 @@ public final class WaterStateParser
       
       lcDesc = lcDesc.toLowerCase().trim();
 
-      // DEO goes from pessismistic to optimistic so to be
+      // DEO goes from pessimistic to optimistic so to be
       // the most non-misleading
 
       if (lcDesc.contains("no water")
                || lcDesc.contains("nothing")
+               || lcDesc.contains("is off")
                || lcDesc.contains("dry")) {
          return WaterState.DRY;
       }
