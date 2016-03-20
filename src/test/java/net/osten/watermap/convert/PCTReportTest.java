@@ -26,7 +26,7 @@ public class PCTReportTest
    @Test
    public void testConvertDir() throws Exception
    {
-      converter.setDataDir(System.getProperty("user.dir") + File.separator + "src/test/resources");
+      //converter.setDataDir(System.getProperty("OPENSHIFT_DATA_DIR"));
       Set<WaterReport> results = converter.convert();
       assertNotNull(results);
       System.out.println("got " + results.size() + " results");

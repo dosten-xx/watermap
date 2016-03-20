@@ -1,4 +1,4 @@
 language: java
-
+script: mvn -Djava.util.logging.config.file=./src/test/resources/logging.properties clean install
 env:
-- OPENSHIFT_DATA_DIR="./src/test/resources"
+- OPENSHIFT_DATA_DIR=./src/test/resources

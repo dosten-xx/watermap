@@ -24,7 +24,6 @@ public class SanGorgonioReportTest
    @Test
    public void testConvert() throws Exception
    {
-      //converter.setFilePath("F:\\Unencrypted Folder\\dev\\GraybackWaterMap\\temp\\datafile.txt");
       converter.setFileURL(this.getClass().getClassLoader().getResource("datafile.txt"));
       Set<WaterReport> results = converter.convert();
       assertNotNull(results);
