@@ -80,7 +80,7 @@ public class PCTReportTest
          }
          
          if (wr.getName().equals("WR001")) {
-            assertEquals(WaterState.UNKNOWN, wr.getState());
+            assertEquals(WaterState.HIGH, wr.getState());
             reportsTested++;
          }
          else if (wr.getName().equals("WR004")) {
@@ -96,7 +96,7 @@ public class PCTReportTest
             reportsTested++;
          }
          else if (wr.getName().equals("LkMorenaCG")) {
-            assertEquals(WaterState.UNKNOWN, wr.getState());
+            assertEquals(WaterState.HIGH, wr.getState());
             assertEquals(32.6825, wr.getLat().doubleValue(), 0.001);
             assertEquals(-116.5179, wr.getLon().doubleValue(), 0.001);
             reportsTested++;

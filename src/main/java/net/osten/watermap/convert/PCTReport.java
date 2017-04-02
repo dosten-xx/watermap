@@ -91,14 +91,13 @@ public class PCTReport
             for (char sectionChar : sectionChars) {
                try {
                   String fileName = "pct-" +stateChar + "-" + sectionChar + ".json";
-                  log.fine("fileName=" + fileName);
-                  File htmlFile = new File(dataDir + File.separator + fileName);
-                  if (htmlFile.exists() && htmlFile.canRead()) {
-                     log.fine("reading html file " + htmlFile);
-                     String htmlSource = Files.toString(htmlFile, Charset.forName("UTF-8"));
+                  File jsonFile = new File(dataDir + File.separator + fileName);
+                  if (jsonFile.exists() && jsonFile.canRead()) {
+                     log.fine("reading json file " + jsonFile);
+                     String htmlSource = Files.toString(jsonFile, Charset.forName("UTF-8"));
                      JsonParser parser = new JsonParser();
                      JsonElement root = parser.parse(htmlSource);
-                     log.fine("json root is obj=" + root.isJsonObject());
+                     log.finest("json root is obj=" + root.isJsonObject());
                      results.addAll(parseDocument(root.getAsJsonObject()));
                   }
                }
