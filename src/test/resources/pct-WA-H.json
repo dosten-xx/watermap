@@ -1,0 +1,2515 @@
+{
+
+    "range": "Washington!A9:G293",
+    "majorDimension": "ROWS",
+    "values": [
+        [
+            "H1",
+            "2144.2",
+            "Cascade Locks",
+            "Small Town"
+        ],
+        [
+            "H1",
+            "2145.6",
+            "WA2146",
+            "Spring near a small building.",
+            "flowing, easy to collect ",
+            "8/22/16",
+            "Oolong"
+        ],
+        [
+            "H1",
+            "2148.3",
+            "WACS2148",
+            "Gillette Lake",
+            "looks a bit murky and green from a distance. I didn't go down to the water. ",
+            "8/22/16",
+            "Oolong"
+        ],
+        [
+            "H1",
+            "2148.4",
+            "WACS2148B",
+            "Large stream on a log footbridge",
+            "good flow, plenty of water ",
+            "8/22/16",
+            "Oolong"
+        ],
+        [
+            "H1",
+            "2149.2",
+            "WA2149",
+            "Large creek, wooden footbridge.",
+            "Great flow, many liters per minute",
+            "7/13/16",
+            "The Optimist"
+        ],
+        [
+            "H1",
+            "2150.5",
+            "WACS2150",
+            "Small seasonal creek",
+            "slow flow, plenty of water, easy to collect ",
+            "8/22/16",
+            "Oolong"
+        ],
+        [
+            "H1",
+            "2152.2",
+            "WA2152",
+            "Seasonal stream.",
+            "small flow with a good-sized pool",
+            "8/22/16",
+            "Oolong"
+        ],
+        [
+            "H2",
+            "2159.6",
+            "WA2160",
+            "Water trough",
+            "Not flowing and muddy",
+            "8/8/16",
+            "Sweet Cheeks & Green Bean"
+        ],
+        [
+            "H3",
+            "2163.7",
+            "WACS2164",
+            "Rock Creek, wooden bridge.",
+            "flowing, lots of water ",
+            "8/22/16",
+            "Oolong"
+        ],
+        [
+            "H3",
+            "2164.1",
+            "WA2164",
+            "Snag Creek",
+            "flowing fast, lots of water ",
+            "8/23/16",
+            "Oolong"
+        ],
+        [
+            "H3",
+            "2164.8",
+            "WA2165",
+            "Small stream",
+            "stream at trail is flowing. Also, large stream with lots of water behind the campsite. ",
+            "8/23/16",
+            "Oolong"
+        ],
+        [
+            "",
+            "2165.3",
+            "",
+            "Seasonal stream",
+            "flowing, shallow ",
+            "8/23/16",
+            "Oolong"
+        ],
+        [
+            "H3",
+            "2166.3",
+            "WA2166",
+            "Seasonal stream",
+            "flowing. Big pool just below trail  ",
+            "8/23/16",
+            "Oolong"
+        ],
+        [
+            "",
+            "2168.2",
+            "",
+            "Seasonal stream",
+            "I didn't notice a stream or even something that looked like a streambed. Dry? Or nonexistent?",
+            "8/23/16",
+            "Oolong"
+        ],
+        [
+            "H4",
+            "2173.1",
+            "WA2173",
+            "Small seasonal stream",
+            "flowing",
+            "8/23/16",
+            "Oolong"
+        ],
+        [
+            "H4",
+            "2173.9",
+            "WA2174",
+            "Large creek with a wooden bridge",
+            "flowing well. No bridge here, but a stone path has been laid across the water. ",
+            "8/23/16",
+            "Oolong"
+        ],
+        [
+            "H4",
+            "2174.1",
+            "WACS2174",
+            "*Trout Creek, near paved road.",
+            "flowing well, lots of water ",
+            "8/23/16",
+            "Oolong"
+        ],
+        [
+            "H4",
+            "2177.2",
+            "WA2177",
+            "**Wind River, wooden bridge.",
+            "big river, lots of water",
+            "8/23/16",
+            "Oolong"
+        ],
+        [
+            "H4",
+            "2178.8",
+            "WA2179",
+            "Small seasonal stream",
+            "flowing ",
+            "8/23/16",
+            "Oolong"
+        ],
+        [
+            "H4",
+            "2179.1",
+            "WA2179B",
+            "Creek",
+            "flowing well",
+            "8/23/16",
+            "Oolong"
+        ],
+        [
+            "H5",
+            "2179.7",
+            "WA2180",
+            "**Panther Creek, steel bridge.",
+            "big creek, lots of water",
+            "8/23/16",
+            "Oolong"
+        ],
+        [
+            "H6",
+            "2190.6",
+            "WACS2191",
+            "Trail junction to a spring",
+            "from the campsite, spring is down a side trail to the left. Small flow, several pools",
+            "8/23/16",
+            "Oolong"
+        ],
+        [
+            "H6",
+            "2190.6",
+            "WA2191",
+            "Reliable spring",
+            "Looked stagnant with small collection pool. Better water at WACS2191.",
+            "8/23/16",
+            "Oolong"
+        ],
+        [
+            "H6",
+            "2192.8",
+            "WA2193",
+            "Piped spring next to the PCT",
+            "moderate flow from PVC pipe next to trail",
+            "8/24/16",
+            "Oolong"
+        ],
+        [
+            "H7",
+            "2197.1",
+            "WA2197",
+            "Sheep Lake, a small pond.",
+            "a shallow pond. Water looks fairly clear, but hard to access without getting wet",
+            "8/24/16",
+            "Oolong"
+        ],
+        [
+            "H7",
+            "2198.2",
+            "WA2198",
+            "Pond",
+            "pool between trail and pond has fairly clear water. Pond itself looks pretty scummy.",
+            "8/24/16",
+            "Oolong"
+        ],
+        [
+            "H8",
+            "2202.7",
+            "WACS2203",
+            "Sign for designated campsite near Blue Lake."
+        ],
+        [
+            "H8",
+            "2202.7",
+            "WA2203",
+            "**Blue Lake",
+            "full of clean-looking water",
+            "8/24/16",
+            "Oolong"
+        ],
+        [
+            "H8",
+            "2205.8",
+            "WA2206",
+            "**Bear Lake",
+            "clear water, easy to collect\r\n",
+            "8/24/16",
+            "Oolong"
+        ],
+        [
+            "H10",
+            "2216.1",
+            "WA2216",
+            "Large creek with a footbridge",
+            "flowing, plenty of water. ",
+            "8/24/16",
+            "Oolong"
+        ],
+        [
+            "H10",
+            "2217.1",
+            "WA2217",
+            "Creek",
+            "very good flow",
+            "8/25/16",
+            "Oolong"
+        ],
+        [
+            "H10",
+            "2218.8",
+            "WA2219",
+            "Creek below Steamboat Lake",
+            "flowing well",
+            "8/25/16",
+            "Oolong"
+        ],
+        [
+            "H11",
+            "2221.3",
+            "WACS2221",
+            "Trout Lake Creek, wooden bridge",
+            "very good flow",
+            "8/25/16",
+            "Oolong"
+        ],
+        [
+            "",
+            "2226.4",
+            "Trout Lake",
+            "Small town 13.8 miles S of the PCT on paved Forest Road 23"
+        ],
+        [
+            "H11",
+            "2226.4",
+            "WA2226",
+            "Large creek with a wooden bridge.",
+            "flowing",
+            "8/29/16",
+            "Data"
+        ],
+        [
+            "H11",
+            "2227.4",
+            "WACS2227",
+            "Small creek, wooden bridge",
+            "flowing",
+            "8/29/16",
+            "Data"
+        ],
+        [
+            "H12",
+            "2230.0",
+            "WA2230",
+            "Small spring below the trail.",
+            "flowing",
+            "8/29/16",
+            "Data"
+        ],
+        [
+            "H12",
+            "2236.5",
+            "WACS2236",
+            "Small pond.",
+            "lots of water",
+            "8/29/16",
+            "Data"
+        ],
+        [
+            "H12",
+            "2236.6",
+            "WA2237",
+            "Riley Creek",
+            "flowing",
+            "8/29/16",
+            "Data"
+        ],
+        [
+            "H12",
+            "2236.9",
+            "WA2237B",
+            "Small seasonal creek",
+            "flowing",
+            "8/29/16",
+            "Data"
+        ],
+        [
+            "H13",
+            "2237.9",
+            "WA2238",
+            "Trail side stream",
+            "flowing well but very cloudy with glacial silt",
+            "8/26/16",
+            "Oolong"
+        ],
+        [
+            "H13",
+            "2239.0",
+            "WA2239",
+            "Stream",
+            "very good flow, clear water",
+            "8/26/16",
+            "Oolong"
+        ],
+        [
+            "H13",
+            "2239.2",
+            "WA2239B",
+            "Lewis River",
+            "flowing fast, lots of water ",
+            "8/26/16",
+            "Oolong"
+        ],
+        [
+            "H13",
+            "2240.7",
+            "WA2241",
+            "Small pond",
+            "drying up but remaining water looks clear",
+            "8/26/16",
+            "Oolong"
+        ],
+        [
+            "H13",
+            "2241.8",
+            "WA2242",
+            "Killen Creek, wooden bridge.",
+            "very good flow",
+            "8/26/16",
+            "Oolong"
+        ],
+        [
+            "H13",
+            "2242.4",
+            "WA2242B",
+            "Small lake",
+            "full, looks clean from trail but didn't go down to the water ",
+            "8/26/16",
+            "Oolong"
+        ],
+        [
+            "H14",
+            "2246.0",
+            "WA2246",
+            "Small creek",
+            "flowing",
+            "8/26/16",
+            "Oolong"
+        ],
+        [
+            "H14",
+            "2246.1",
+            "WA2246B",
+            "Muddy Fork, large creek with wooden bridge.",
+            "flowing",
+            "8/30/16",
+            "Data"
+        ],
+        [
+            "H14",
+            "2246.6",
+            "WACS2247",
+            "Large steam with a wooden bridge",
+            "good flow, clouded water",
+            "8/30/16",
+            "Data"
+        ],
+        [
+            "H14",
+            "2247.0",
+            "WACS2247B",
+            "*Excellent Lava Spring",
+            "great flow, icy water",
+            "8/30/16",
+            "Data"
+        ],
+        [
+            "H15",
+            "2250.8",
+            "WA2251",
+            "Small stream",
+            "flowing well",
+            "8/30/16",
+            "Data"
+        ],
+        [
+            "H15",
+            "2251.2",
+            "WA2251B",
+            "Seasonal Midway Creek",
+            "flowing well",
+            "8/30/16",
+            "Data"
+        ],
+        [
+            "H15",
+            "2252.0",
+            "WA2252",
+            "Seasonal stream",
+            "flowing well",
+            "8/30/16",
+            "Data"
+        ],
+        [
+            "H15",
+            "2253.2",
+            "WACS2253",
+            "Pond, campsite nearby.",
+            "lots of water, they all looked a bit green and filmy",
+            "8/30/16",
+            "Data"
+        ],
+        [
+            "H15",
+            "2253.6",
+            "WA2254",
+            "Lake",
+            "saw water from afar",
+            "8/30/16",
+            "Data"
+        ],
+        [
+            "H15",
+            "2254.2",
+            "WA2254B",
+            "Small Lake",
+            "green water",
+            "8/30/16",
+            "Data"
+        ],
+        [
+            "H16",
+            "2258.2",
+            "WACS2258",
+            "Small stream",
+            "flowing",
+            "8/30/16",
+            "Data"
+        ],
+        [
+            "H16",
+            "2263.3",
+            "WA2263",
+            "Small seasonal stream",
+            "flowing, go uphill",
+            "8/30/16",
+            "Data"
+        ],
+        [
+            "H17",
+            "2266.2",
+            "WACS2266",
+            "Seasonal Walupt Creek",
+            "very small flow and a couple shallow pools",
+            "8/27/16",
+            "Oolong"
+        ],
+        [
+            "H17",
+            "2266.8",
+            "WA2267",
+            "Sheep Lake",
+            "Plenty of good water, .2 mi off trail",
+            "7/22/16",
+            "The Optimist"
+        ],
+        [
+            "H17",
+            "2269.9",
+            "WA2270",
+            "Reliable Cispus River",
+            "flowing well",
+            "8/27/16",
+            "Oolong"
+        ],
+        [
+            "H17",
+            "2270.4",
+            "WA2270B",
+            "Tributary of the Cispus River",
+            "fast flow, lots of water, beautiful waterfall\n-----\n8/5/15 (Notsofast) : you can actually find extremely cold and good water flowing by Halfmile waypoint CS2272, even though it's not listed. Go past the campsites on the side trail until you find it, the PCT traverses just uphill of it.",
+            "8/27/16",
+            "Oolong"
+        ],
+        [
+            "H18",
+            "2277.0",
+            "WA2277",
+            "Seasonal stream",
+            "flowing well",
+            "8/27/16",
+            "Oolong"
+        ],
+        [
+            "H18",
+            "2277.3",
+            "WA2277B",
+            "Seasonal stream",
+            "flowing well",
+            "8/27/16",
+            "Oolong"
+        ],
+        [
+            "H18",
+            "2277.5",
+            "WA2278",
+            "Stream",
+            "flowing well",
+            "8/27/16",
+            "Oolong"
+        ],
+        [
+            "H18",
+            "2279.8",
+            "WACS2280",
+            "Lutz Lake",
+            "a little greener than I prefer, but filtered clear and tasted fine",
+            "8/28/16",
+            "Oolong"
+        ],
+        [
+            "H18",
+            "2280.8",
+            "WACS2281",
+            "Small seasonal spring 1/10 mile E on side trail and 200 feet W down hill, both may be dry late in hiking season.",
+            "very small shallow flow",
+            "8/28/16",
+            "Oolong"
+        ],
+        [
+            "H18",
+            "2280.9",
+            "WA2281",
+            "Small stream 120 yards E of PCT"
+        ],
+        [
+            "H18",
+            "2281.0",
+            "WA2281B",
+            "Small seasonal stream",
+            "Flowing 2L / min",
+            "7/22/16",
+            "The Optimist"
+        ],
+        [
+            "H19",
+            "2284.2",
+            "WA2284",
+            "Hidden Spring, 3/10 mile E of PCT.",
+            "Good water. Several liters/min flow.",
+            "8/6/15",
+            "Notsofast"
+        ],
+        [
+            "Spring really is kind of hidden, head left at the fork in the side trail instead of right. "
+        ],
+        [
+            "H20",
+            "2290.3",
+            "WACS2290",
+            "Ginnette Lake",
+            "full",
+            "8/28/16",
+            "Oolong"
+        ],
+        [
+            "H20",
+            "2291.2",
+            "WA2291",
+            "Stream at the end of a switchback.",
+            "very good flow",
+            "8/28/16",
+            "Oolong"
+        ],
+        [
+            "H20",
+            "2292.3",
+            "WA2292",
+            "Large stream with a wooden bridge.",
+            "very good flow, lots of water ",
+            "8/28/16",
+            "Oolong"
+        ],
+        [
+            "I20",
+            "2292.4",
+            "Hwy12",
+            "Highway 12 near White Pass",
+            "Kracker Barrel Store, 1/2 mile SW of PCT. Small store, deli, laundry, lodging nearby."
+        ],
+        [
+            "I1",
+            "2294.0",
+            "WA2294",
+            "Seasonal stream",
+            "barely any flow, hard to collect from shallow pool at trail",
+            "8/28/16",
+            "Oolong"
+        ],
+        [
+            "I1",
+            "2295.2",
+            "WACS2295",
+            "*Sand Lake",
+            "full of water",
+            "8/28/16",
+            "Oolong"
+        ],
+        [
+            "I1",
+            "2295.6",
+            "WA2296",
+            "Small pond",
+            "muddy shore, green but clear water ",
+            "8/28/16",
+            "Oolong"
+        ],
+        [
+            "I1",
+            "2297.2",
+            "WA2297",
+            "Small shallow pond",
+            "looks gross and cloudy",
+            "8/28/16",
+            "Oolong"
+        ],
+        [
+            "I1",
+            "2298.4",
+            "WACS2298",
+            "*Buesch Lake",
+            "Full. Water looks OK",
+            "8/29/16",
+            "Oolong"
+        ],
+        [
+            "I1",
+            "2298.9",
+            "WA2299",
+            "Small lake",
+            "full, looks murky",
+            "8/29/16",
+            "Oolong"
+        ],
+        [
+            "I2",
+            "2299.5",
+            "WA2299B",
+            "Pipe Lake",
+            "full. Looks a bit green but clear ",
+            "8/29/16",
+            "Oolong"
+        ],
+        [
+            "I2",
+            "2302.3",
+            "WA2302",
+            "Snow Lake",
+            "pretty clear. Some areas of shoreline are scummy",
+            "8/29/16",
+            "Oolong"
+        ],
+        [
+            "I2",
+            "2304.8",
+            "WACS2305",
+            "Large creek, wooden bridge",
+            "very good flow, plenty of water ",
+            "8/29/16",
+            "Oolong"
+        ],
+        [
+            "I3",
+            "2306.1",
+            "WA2306",
+            "Bumping River ford",
+            "big River, lots of water ",
+            "8/29/16",
+            "Oolong"
+        ],
+        [
+            "I3",
+            "2308.4",
+            "WACS2308",
+            "Creek",
+            "good flow, easy to collect ",
+            "8/29/16",
+            "Oolong"
+        ],
+        [
+            "I3",
+            "2308.8",
+            "WA2309",
+            "Small seasonal stream",
+            "good flow, easy to collect ",
+            "8/29/16",
+            "Oolong"
+        ],
+        [
+            "I3",
+            "2312.1",
+            "WACS2312",
+            "Two Lakes"
+        ],
+        [
+            "I4",
+            "2316.0",
+            "WA2316",
+            "Anderson Lake",
+            "lake full, good water",
+            "8/29/16",
+            "Oolong"
+        ],
+        [
+            "I4",
+            "2316.7",
+            "WA2317",
+            "Small seasonal stream",
+            "small flow, hard to collect ",
+            "8/29/16",
+            "Oolong"
+        ],
+        [
+            "I4",
+            "2317.3",
+            "WA2317B",
+            "Small stream",
+            "good flow",
+            "8/29/16",
+            "Oolong"
+        ],
+        [
+            "I4",
+            "2317.4",
+            "WA2317C",
+            "Small stream, wooden bridge.",
+            "Good flow 3L / min",
+            "7/25/16",
+            "The Optimist"
+        ],
+        [
+            "I4",
+            "2317.9",
+            "WACS2318",
+            "**Dewey Lake",
+            "big lake. Water looks great ",
+            "8/29/16",
+            "Oolong"
+        ],
+        [
+            "I4",
+            "2318.3",
+            "WACS2318B",
+            "**Dewey Lake Outlet",
+            "slow flow, good volume of water ",
+            "8/29/16",
+            "Oolong"
+        ],
+        [
+            "",
+            "2320.16",
+            "",
+            "Pond",
+            "Full and clear. Several nice streams flowing just north of pond",
+            "7/25/16",
+            "The Optimist"
+        ],
+        [
+            "",
+            "2320.6",
+            "",
+            "Trailside Stream",
+            "Flowing well",
+            "7/25/16",
+            "The Optimist"
+        ],
+        [
+            "I5",
+            "2323.2",
+            "WACS2323",
+            "*Sheep Lake",
+            "full. Fairly clear. ",
+            "8/30/16",
+            "Oolong"
+        ],
+        [
+            "I6",
+            "2331.6",
+            "WA2332",
+            "Piped spring next to trail.",
+            "no pipe. Moderate flow, good water. ",
+            "8/30/16",
+            "Oolong"
+        ],
+        [
+            "I6",
+            "2334.5",
+            "CS2334",
+            "Several small campsites.",
+            "No water here",
+            "7/28/16",
+            "The Optimist"
+        ],
+        [
+            "I7",
+            "2339.1",
+            "WA2339",
+            "Arch Rock Spring 100 yards N of PCT, crude sign marks the trail.",
+            "very slow flow. Shallow. Bring a scoop. \n-----\n7/28/16 (The Optimist) : 100ft down the side trail you see a shallow, trickling stream cross the trail - hard to collect here. Just below this stream on the right is a black hose but water is only dripping from the hose. If you keep going down to the campsite, walk to the right just below the campsite for the best spot to collect, but even here it's pretty shallow and you may need a scoop",
+            "8/30/16",
+            "Oolong"
+        ],
+        [
+            "I7",
+            "2339.3",
+            "WACS2339",
+            "Small creek",
+            "Just north of the bridge you will find cold water flowing 2L / min with two deep pools and places to fill a bottle. Much better option than 2339.1",
+            "7/28/16",
+            "The Optimist"
+        ],
+        [
+            "I8",
+            "2344.5",
+            "WA2344",
+            "Creek, small wooden bridge.",
+            "very good flow",
+            "8/30/16",
+            "Oolong"
+        ],
+        [
+            "I8",
+            "2344.5",
+            "UrichCabin",
+            "Urich Cabin",
+            "Shelter, outhouse, water from nearby creek.",
+            "9/6/14",
+            "DoubleTap"
+        ],
+        [
+            "I9",
+            "2349.2",
+            "WACS2349",
+            "Small spring next to the trail, small campsite.",
+            "flowing, good water ",
+            "8/31/16",
+            "Oolong"
+        ],
+        [
+            "I10",
+            "2361.0",
+            "WA2361",
+            "Creek, 500 feet SW of the PCT.",
+            "very good flow, easy to collect ",
+            "8/31/16",
+            "Oolong"
+        ],
+        [
+            "I11",
+            "2363.3",
+            "WACS2363",
+            "Small seasonal creek",
+            "tiny flow, very shallow ",
+            "8/31/16",
+            "Oolong"
+        ],
+        [
+            "I11",
+            "2368.2",
+            "WA2368",
+            "Spring next to the PCT",
+            "flowing, shallow, good water ",
+            "8/31/16",
+            "Oolong"
+        ],
+        [
+            "I11",
+            "2370.1",
+            "WA2370",
+            "Small seasonal spring, 50 feet from PCT on a use trail.",
+            "Very small trickle 1L every 5 minutes shallow murky pools.",
+            "9/27/15",
+            "Giggles"
+        ],
+        [
+            "I12",
+            "2374.4",
+            "WA2374",
+            "Small seasonal spring",
+            "flowing, shallow ",
+            "8/31/16",
+            "Oolong"
+        ],
+        [
+            "I12",
+            "2376.5",
+            "WA2377",
+            "Stream",
+            "very good flow, easy to collect",
+            "9/5/16",
+            "Tindy"
+        ],
+        [
+            "I12",
+            "2377.3",
+            "WA2377B",
+            "Stirrup Creek",
+            "Good flow, <10s a litre.",
+            "9/5/16",
+            "Tindy"
+        ],
+        [
+            "I13",
+            "2379.5",
+            "WA2379",
+            "Seasonal headwaters of Meadows Creek",
+            "Shallow and not much more than a trickle, but there are deeper pools 10ft upstream.\r",
+            "9/5/16",
+            "Tindy"
+        ],
+        [
+            "I13",
+            "2380.9",
+            "YakimaPass",
+            "Yakima Pass, Twilight Lake nearby.",
+            "Lake has water, there is also a stagnant pool at the footbridge",
+            "7/29/16",
+            "The Optimist"
+        ],
+        [
+            "I13",
+            "2381.4",
+            "WA2381",
+            "Large stream below Mirror Lake.",
+            "Good flow with pools deep enough to collect from.",
+            "9/5/16",
+            "Tindy"
+        ],
+        [
+            "I13",
+            "2381.6",
+            "WA2382",
+            "Another large stream.",
+            "<10s a litre with pools to collect from.",
+            "9/5/16",
+            "Tindy"
+        ],
+        [
+            "I13",
+            "2381.8",
+            "WACS2382",
+            "**Mirror Lake",
+            "full, good water",
+            "9/1/16",
+            "Oolong"
+        ],
+        [
+            "I13",
+            "2382.1",
+            "WACS2382B",
+            "",
+            "Lake is full",
+            "9/15/15",
+            "Siren"
+        ],
+        [
+            "I13",
+            "2382.8",
+            "WA2383",
+            "Small stream",
+            "Can hear water under rocks but no obvious way to get to it.",
+            "9/15/15",
+            "Siren"
+        ],
+        [
+            "I13",
+            "2383.1",
+            "WA2383B",
+            "Reliable Cold Creek",
+            "Great flow at > 1 gal / min",
+            "7/29/16",
+            "The Optimist"
+        ],
+        [
+            "I14",
+            "2385.2",
+            "WACS2385",
+            "Stream, campsite.",
+            "Very little flow and small, shallow pool. There is a stream under a Footbridge .3 miles north with a strong flow.",
+            "9/5/16",
+            "Tindy"
+        ],
+        [
+            "I14",
+            "2385.8",
+            "WA2386",
+            "Reliable Olallie Creek",
+            "No change, still flowing moderately.  Deep enough to refill a bottle.",
+            "9/5/16",
+            "Tindy"
+        ],
+        [
+            "I14",
+            "2387.0",
+            "WA2387",
+            "Rockdale Creek",
+            "Flowing at 20s a litre with several pools.",
+            "9/5/16",
+            "Tindy"
+        ],
+        [
+            "I14",
+            "2388.7",
+            "WA2389",
+            "Creek",
+            "Good flow at 20s a litre.",
+            "9/5/16",
+            "Tindy"
+        ],
+        [
+            "I14",
+            "2390.6",
+            "SnoqualmiePass",
+            "Summit Inn, Pancake House restaurant, 3/10 mile SE of PCT."
+        ],
+        [
+            "",
+            "2390.7",
+            "BurnbootCk",
+            "Burnbook Creek"
+        ],
+        [
+            "",
+            "2390.7",
+            "SnoqualmieRiver",
+            "Middle Fork Snoqualmie River, bridge."
+        ],
+        [
+            "",
+            "2390.7",
+            "ThunderCk",
+            "Thunder Creek"
+        ],
+        [
+            "J14",
+            "2391.2",
+            "WA2391",
+            "Stream"
+        ],
+        [
+            "J1",
+            "2393.0",
+            "WA2393",
+            "Stream",
+            "Good flow, 1 gal / min",
+            "7/31/16",
+            "The Optimist"
+        ],
+        [
+            "J1",
+            "2394.0",
+            "WA2394",
+            "Stream",
+            "good flow, easy to collect ",
+            "9/1/16",
+            "Oolong"
+        ],
+        [
+            "J1",
+            "2397.8",
+            "WACS2398",
+            "*Ridge Lake, campsites nearby.",
+            "Lake full of clear water",
+            "7/31/16",
+            "The Optimist"
+        ],
+        [
+            "J2",
+            "2401.3",
+            "WA2401",
+            "Three small ponds",
+            "Saw 2 ponds with water. Both looked OK but both are stagnant and somewhat shallow.",
+            "7/31/16",
+            "The Optimist"
+        ],
+        [
+            "J2",
+            "2405.4",
+            "WA2405",
+            "Small spring fed pools",
+            "the pools are OK, and a nice pond is just beyond them",
+            "9/1/16",
+            "Oolong"
+        ],
+        [
+            "J2",
+            "2408.7",
+            "WACS2409",
+            "*Delate Creek, wooden bridge, campsite nearby.",
+            "big creek, lots of water",
+            "9/1/16",
+            "Oolong"
+        ],
+        [
+            "J2",
+            "2409.6",
+            "WA2410",
+            "Stream",
+            "good flow",
+            "9/1/16",
+            "Oolong"
+        ],
+        [
+            "J2",
+            "2411.3",
+            "WACS2411",
+            "*Lemah Creek, bridge washed out in 2014, campsite nearby.",
+            "very good flow, plenty of water ",
+            "9/3/16",
+            "Oolong"
+        ],
+        [
+            "J2",
+            "2411.8",
+            "WA2412",
+            "Large creek, wooden bridge.",
+            "good flow, lots of water",
+            "9/3/16",
+            "Oolong"
+        ],
+        [
+            "J2",
+            "2412.4",
+            "WA2412B",
+            "Stream",
+            "good flow",
+            "9/4/16",
+            "Oolong"
+        ],
+        [
+            "J2",
+            "2413.1",
+            "WA2413",
+            "Stream",
+            "good flow",
+            "9/4/16",
+            "Oolong"
+        ],
+        [
+            "J3",
+            "2418.3",
+            "WA2418",
+            "Small lake",
+            "full of good water",
+            "9/4/16",
+            "Oolong"
+        ],
+        [
+            "J3",
+            "2418.7",
+            "WA2419",
+            "Small lake",
+            "Lake is full. There is also a little stream that the trail crosses with a small flow flowing into the lake.",
+            "8/23/16",
+            "On Point"
+        ],
+        [
+            "J3",
+            "2423.8",
+            "WA2424",
+            "Small seasonal stream",
+            "Moderate flow of 2L / min",
+            "8/2/16",
+            "The Optimist"
+        ],
+        [
+            "J3",
+            "2424.8",
+            "WA2425",
+            "Small stream",
+            "dry",
+            "8/23/16",
+            "On Point"
+        ],
+        [
+            "J3",
+            "2425.3",
+            "WACS2425",
+            "**Waptus River, wooden bridge",
+            "big River, lots of water",
+            "9/4/16",
+            "Oolong"
+        ],
+        [
+            "J3",
+            "2426.0",
+            "WA2426",
+            "Stream",
+            "Flowing 5L/min just above the trail. Cold, clear, and easy to collect.",
+            "8/23/16",
+            "On Point"
+        ],
+        [
+            "J3",
+            "2426.1",
+            "WA2426B",
+            "Spade Creek, wooden bridge.",
+            "big creek, lots of water ",
+            "9/4/16",
+            "Oolong"
+        ],
+        [
+            "J3",
+            "2426.9",
+            "WA2427",
+            "Creek",
+            "Flowing 4L/min. Cold and clear.",
+            "8/23/16",
+            "On Point"
+        ],
+        [
+            "J3",
+            "2427.5",
+            "WACS2428",
+            "Creek, campsites",
+            "good flow",
+            "9/4/16",
+            "Oolong"
+        ],
+        [
+            "J4",
+            "2432.0",
+            "WA2432",
+            "Trailside water from Spinola Creek.",
+            "good flow",
+            "9/4/16",
+            "Oolong"
+        ],
+        [
+            "J4",
+            "2432.2",
+            "WA2432B",
+            "Ford a large creek.",
+            "good flow",
+            "9/4/16",
+            "Oolong"
+        ],
+        [
+            "J4",
+            "2432.3",
+            "WACS2432",
+            "*Deep Lake outlet",
+            "good flow",
+            "9/4/16",
+            "Oolong"
+        ],
+        [
+            "J5",
+            "2438.7",
+            "WA2439",
+            "Large creek with a potentially difficult ford.",
+            "huge flow. Crossing not bad, and it had been raining on and off. ",
+            "9/5/16",
+            "Oolong"
+        ],
+        [
+            "J5",
+            "2439.0",
+            "WA2439B",
+            "Creek",
+            "Great flow",
+            "8/23/16",
+            "On Point"
+        ],
+        [
+            "J5",
+            "2439.7",
+            "WA2440",
+            "Stream",
+            "very good flow",
+            "9/5/16",
+            "Oolong"
+        ],
+        [
+            "J5",
+            "2441.1",
+            "WA2441",
+            "Small seasonal stream",
+            "Flowing under the rocks at the trail crossing but trickling above and below the trail at 2L/min ",
+            "8/23/16",
+            "On Point"
+        ],
+        [
+            "J6",
+            "2441.8",
+            "WA2442",
+            "Deception Creek",
+            "good flow, plenty of water. ",
+            "9/5/16",
+            "Oolong"
+        ],
+        [
+            "J6",
+            "2442.2",
+            "WA2442B",
+            "Large creek",
+            "good flow",
+            "9/5/16",
+            "Oolong"
+        ],
+        [
+            "J6",
+            "2442.7",
+            "WA2443",
+            "Small seasonal stream",
+            "good flow",
+            "9/5/16",
+            "Oolong"
+        ],
+        [
+            "J6",
+            "2443.7",
+            "WA2444",
+            "Deception Lake outlet, wood bridge.",
+            "good flow, plenty of water ",
+            "9/5/16",
+            "Oolong"
+        ],
+        [
+            "J6",
+            "2443.9",
+            "WACS2444",
+            "**Deception Lake",
+            "full. Water a bit green but clear. ",
+            "9/5/16",
+            "Oolong"
+        ],
+        [
+            "J6",
+            "2447.3",
+            "WACS2447",
+            "Seasonal stream",
+            "flowing",
+            "9/5/16",
+            "Oolong"
+        ],
+        [
+            "J6",
+            "2447.5",
+            "WA2447",
+            "Creek",
+            "good flow",
+            "9/5/16",
+            "Oolong"
+        ],
+        [
+            "J6",
+            "2448.2",
+            "WA2448",
+            "Seasonal stream",
+            "Flowing 6L/min",
+            "8/24/16",
+            "On Point"
+        ],
+        [
+            "J7",
+            "2450.8",
+            "WACS2451",
+            "Seasonal stream",
+            "Flowing slow and shallow. There are some deeper pools to collect from.",
+            "8/24/16",
+            "On Point"
+        ],
+        [
+            "J7",
+            "2451.5",
+            "WA2451",
+            "Seasonal stream",
+            "Flowing 1L/45sec. Best place to collect is 15' upstream.",
+            "8/24/16",
+            "On Point"
+        ],
+        [
+            "J7",
+            "2453.4",
+            "WA2453",
+            "Hope Lake",
+            "Lake is full",
+            "8/24/16",
+            "On Point"
+        ],
+        [
+            "J7",
+            "2454.2",
+            "WACS2454",
+            "**Mig Lake, large campsite, toilet.",
+            "Lake full of clear water",
+            "8/3/16",
+            "The Optimist"
+        ],
+        [
+            "J8",
+            "2457.3",
+            "WACS2457",
+            "Lake Susan Jane, several campsites, toilet.",
+            "Lake full of clear water",
+            "8/3/16",
+            "The Optimist"
+        ],
+        [
+            "J8",
+            "2458.0",
+            "WA2458",
+            "Small seasonal creek",
+            "Two streams here. First one (for NOBOs) is only trickling. Second stream is flowing well at 3L / min",
+            "8/3/16",
+            "The Optimist"
+        ],
+        [
+            "J8",
+            "2461.6",
+            "Hwy2J",
+            "Highway 2",
+            "Stevens Pass ski area, dining, large trailhead parking, overhead pedestrian bridge, access to the Dinsmores and Skykomish."
+        ],
+        [
+            "K1",
+            "2462.6",
+            "WA2463",
+            "Creek",
+            "Lots of water, <10s a litre.",
+            "9/9/16",
+            "Tindy"
+        ],
+        [
+            "K1",
+            "2464.1",
+            "WA2464",
+            "Creek",
+            "A little shallow but a decent flow at first crossing. Better collection point 20 feet down the trail, <10s a litre.",
+            "9/9/16",
+            "Tindy"
+        ],
+        [
+            "K1",
+            "2465.2",
+            "WA2465",
+            "Nason Creek",
+            "Flowing OK, lots of places to fill a bottle.",
+            "9/9/16",
+            "Tindy"
+        ],
+        [
+            "K1",
+            "2467.3",
+            "WACS2467",
+            "Small creek",
+            "Flowing pretty slowly but very scoopable.",
+            "9/9/16",
+            "Tindy"
+        ],
+        [
+            "K2",
+            "2469.6",
+            "WA2470",
+            "Small seasonal stream",
+            "A few slowly flowing streams around here but much better water at 2471.0",
+            "8/6/16",
+            "The Optimist"
+        ],
+        [
+            "K2",
+            "2471.0",
+            "WA2471",
+            "Large creek",
+            "Lots of water. Excellent flow.",
+            "9/9/16",
+            "Tindy"
+        ],
+        [
+            "K2",
+            "2471.4",
+            "WACS2471",
+            "**Lake Janus, campsite, toilet nearby.",
+            "Big lake full of clear water.",
+            "9/9/16",
+            "Tindy"
+        ],
+        [
+            "K3",
+            "2480.2",
+            "WA2480",
+            "**Pear Lake",
+            "Full of clear water.",
+            "9/10/16",
+            "Tindy"
+        ],
+        [
+            "K3",
+            "2484.2",
+            "WACS2484",
+            "Seasonal creek, large campsite.",
+            "Several flowing streams, one has pipe where it's easy to fill a bottle from",
+            "9/29/15",
+            "SeaBass & Dandelion"
+        ],
+        [
+            "K4",
+            "2486.7",
+            "WACS2487",
+            "Pass Creek, campsites, toilet, trail junction nearby",
+            "Big creek with a great flow. <10s a litre.",
+            "9/10/16",
+            "Tindy"
+        ],
+        [
+            "K4",
+            "2490.4",
+            "WA2490",
+            "Small seasonal creek",
+            "Only a trickle here but a clear pool of water deep enough for a bottle.",
+            "9/10/16",
+            "Tindy"
+        ],
+        [
+            "K4",
+            "2490.8",
+            "",
+            "Dreamy Hemlock Spring",
+            "Beautiful flow of clean delicious water protected by a small hemlock Grove just beneath the trail. Scramble down a dry streambed 15ft and follow your ears to one of the best five water sources on the PCT. Flowing brilliantly (>5L/min) ",
+            "9/8/16",
+            "Short Shorts"
+        ],
+        [
+            "K4",
+            "2491.0",
+            "WACS2491",
+            "**Lake Sally Ann, campsites, toilet.",
+            "Scenic lake full of clear water",
+            "9/10/16",
+            "Tindy"
+        ],
+        [
+            "K5",
+            "2494.8",
+            "WA2495",
+            "Small seasonal stream",
+            "No flow. Almost dry but for a few puddles. Two streams a tenth of a mile prior to this (nobo) had water.",
+            "9/10/16",
+            "Tindy"
+        ],
+        [
+            "K5",
+            "2496.5",
+            "WA2496",
+            "Seasonal creek",
+            "Great flow, easy to collect water. 15s a litre.",
+            "9/10/16",
+            "Tindy"
+        ],
+        [
+            "K5",
+            "2497.7",
+            "WA2498",
+            "Reflection Pond",
+            "Small pond with unappetising water.",
+            "9/10/16",
+            "Tindy"
+        ],
+        [
+            "K5",
+            "2499.9",
+            "WA2500",
+            "Small seasonal creek",
+            "Shallow flow but plenty of collection spots.",
+            "9/10/16",
+            "Tindy"
+        ],
+        [
+            "K6",
+            "2503.0",
+            "WACS2503",
+            "Trailside creek",
+            "Excellent flow and easy to collect.",
+            "9/10/16",
+            "Tindy"
+        ],
+        [
+            "K6",
+            "2504.0",
+            "WACS2504",
+            "Trailside creek",
+            "Excellent flow and easy to collect.",
+            "9/10/16",
+            "Tindy"
+        ],
+        [
+            "K6",
+            "2504.3",
+            "WACS2504B",
+            "Large creek, wooden bridge",
+            "Lots of water.",
+            "9/10/16",
+            "Tindy"
+        ],
+        [
+            "K6",
+            "2504.9",
+            "WA2505",
+            "Ford a large stream",
+            "Strong flow but straightforward crossing.",
+            "9/10/16",
+            "Tindy"
+        ],
+        [
+            "K6",
+            "2505.2",
+            "WA2505B",
+            "White Chuck River, bridge, water is sometimes silty.",
+            "Huge amount of water. Kanye ain't got nothing on this flow. Gallons a minute. A little silty.",
+            "9/10/16",
+            "Tindy"
+        ],
+        [
+            "K6",
+            "2506.2",
+            "WA2506",
+            "Baekos Creek, wooden bridge.",
+            "Gallons a minute.",
+            "9/10/16",
+            "Tindy"
+        ],
+        [
+            "K6",
+            "2507.1",
+            "WA2507",
+            "Small stream",
+            "Decent flow of clear water.",
+            "9/11/16",
+            "Tindy"
+        ],
+        [
+            "K7",
+            "2507.5",
+            "WA2508",
+            "Stream, small wooden bridge.",
+            "I second the Optimist's account on the strange smell and brownish colour. Water under bridge looks fine but awkward to access.",
+            "9/11/16",
+            "Tindy"
+        ],
+        [
+            "K7",
+            "2508.1",
+            "WA2508B",
+            "Large stream, pair of wooden bridges.",
+            "Lots of water flowing strong. Light greyish hue.",
+            "9/11/16",
+            "Tindy"
+        ],
+        [
+            "K7",
+            "2508.9",
+            "WA2509",
+            "Ford a large stream.",
+            "Lots of clear water flowing strong.",
+            "9/11/16",
+            "Tindy"
+        ],
+        [
+            "K7",
+            "2509.4",
+            "WA2509B",
+            "Stream",
+            "Flowing strong and clear <10s a litre. Excellent source. Lots of deadfall in this area.",
+            "9/11/16",
+            "Tindy"
+        ],
+        [
+            "K7",
+            "2509.8",
+            "WA2510",
+            "*Kennedy Creek, broken log bridge, silty water.",
+            "Huge flow but very silty",
+            "9/11/16",
+            "Tindy"
+        ],
+        [
+            "K7",
+            "2512.0",
+            "WA2512",
+            "Glacier Creek",
+            "Good flow with clear water. Awkward crossing with water all over the trail.",
+            "9/11/16",
+            "Tindy"
+        ],
+        [
+            "K7",
+            "2513.2",
+            "WA2513",
+            "Pumice Creek",
+            "Gallons and gallons of clear water.",
+            "9/11/16",
+            "Tindy"
+        ],
+        [
+            "K7",
+            "2513.7",
+            "WA2514",
+            "Small seasonal stream",
+            "flowing",
+            "9/11/16",
+            "Tindy"
+        ],
+        [
+            "K7",
+            "2515.3",
+            "WA2515",
+            "Fire Creek",
+            "Flowing well and clear",
+            "9/11/16",
+            "Tindy"
+        ],
+        [
+            "K8",
+            "2518.3",
+            "WACS2518",
+            "**Mica Lake",
+            "Stunning lake full of water.",
+            "9/11/16",
+            "Tindy"
+        ],
+        [
+            "K8",
+            "2518.8",
+            "WACS2519",
+            "Large stream",
+            "Decent flow and lots of spots to collect from.",
+            "9/11/16",
+            "Tindy"
+        ],
+        [
+            "K8",
+            "2520.3",
+            "WA2520",
+            "Large creek",
+            "excellent flow",
+            "9/11/16",
+            "Tindy"
+        ],
+        [
+            "K8",
+            "2522.1",
+            "WA2522",
+            "Milk Creek, wooden bridge.",
+            "Huge flow. Milky as advertised.",
+            "9/11/16",
+            "Tindy"
+        ],
+        [
+            "K8",
+            "2527.5",
+            "WA2528",
+            "Creek",
+            "good flow",
+            "9/9/16",
+            "Oolong"
+        ],
+        [
+            "K8",
+            "2527.7",
+            "WA2528B",
+            "Creek",
+            "Shallow flow but places to collect. ",
+            "9/11/16",
+            "Tindy"
+        ],
+        [
+            "K8",
+            "2527.8",
+            "WA2528C",
+            "East Fork Milk Creek",
+            "Lots of water.",
+            "9/11/16",
+            "Tindy"
+        ],
+        [
+            "K8",
+            "2531.8",
+            "WA2532",
+            "Small seasonal creek",
+            "Strong flow and easy collection.",
+            "9/11/16",
+            "Tindy"
+        ],
+        [
+            "K9",
+            "2532.7",
+            "WACS2533",
+            "Vista Creek",
+            "Huge silty creek but a clear stream flows across the trail just north of the tentsite here",
+            "9/11/16",
+            "Tindy"
+        ],
+        [
+            "K9",
+            "2536.7",
+            "WA2537",
+            "Small stream, wooden bridge.",
+            "Flowing nicely. Clear water.",
+            "9/12/16",
+            "Tindy"
+        ],
+        [
+            "K9",
+            "2537.5",
+            "WA2538",
+            "Ford a large creek.",
+            "Huge flow. Lots of clear water.",
+            "9/12/16",
+            "Tindy"
+        ],
+        [
+            "K9",
+            "2538.1",
+            "WA2538B",
+            "**Suiattle River, large bridge.",
+            "Huge river full of cloudy water.",
+            "9/12/16",
+            "Tindy"
+        ],
+        [
+            "K9",
+            "2539.8",
+            "WA2540",
+            "Clear stream",
+            "Excellent source. Clear, cold and flowing well.",
+            "9/12/16",
+            "Tindy"
+        ],
+        [
+            "K9",
+            "2540.4",
+            "WA2540B",
+            "Small stream",
+            "Slow flow but scoopable pool of clear water.",
+            "9/12/16",
+            "Tindy"
+        ],
+        [
+            "K9",
+            "2541.2",
+            "WA2541",
+            "Clear stream",
+            "Slow flow of clear water. Looks awkward to collect.",
+            "9/12/16",
+            "Tindy"
+        ],
+        [
+            "K9",
+            "2541.5",
+            "WA2541B",
+            "Small stream",
+            "Shallow, moderate flow of clear water.",
+            "9/12/16",
+            "Tindy"
+        ],
+        [
+            "K9",
+            "2541.9",
+            "WA2542",
+            "Miners Creek, log bridge with handrail.",
+            "Gallons of clear water.",
+            "9/12/16",
+            "Tindy"
+        ],
+        [
+            "K10",
+            "2545.3",
+            "WA2545",
+            "Stream",
+            "Great source. Cold, clear water flowing well.",
+            "9/12/16",
+            "Tindy"
+        ],
+        [
+            "K10",
+            "2546.4",
+            "WA2546",
+            "Creek",
+            "Strong flow of clear water. Easy collection.",
+            "9/12/16",
+            "Tindy"
+        ],
+        [
+            "K10",
+            "2546.7",
+            "WA2547",
+            "Miners Creek, small wooden bridge.",
+            "Gallons and gallons of clear water.",
+            "9/12/16",
+            "Tindy"
+        ],
+        [
+            "K10",
+            "2547.6",
+            "WA2548",
+            "Large creek",
+            "Strong flow. Plenty of clear water.",
+            "9/12/16",
+            "Tindy"
+        ],
+        [
+            "K10",
+            "2549.9",
+            "WACS2550",
+            "Small stream in a meadow",
+            "Water is stagnant but clear and cold.\n-----\n9/10/16 (Oolong) :  flowing better at trail just trail-south of meadow than in the meadow itself",
+            "9/12/16",
+            "Tindy"
+        ],
+        [
+            "K10",
+            "2550.9",
+            "WA2551",
+            "Small seasonal stream",
+            "Flowing slowly but collectable.",
+            "9/12/16",
+            "Tindy"
+        ],
+        [
+            "K11",
+            "2553.0",
+            "WACS2553",
+            "Small seasonal stream",
+            "Trickling and looks awkward to collect.",
+            "9/12/16",
+            "Tindy"
+        ],
+        [
+            "K11",
+            "2553.3",
+            "WA2553",
+            "A pair of streams",
+            "Shallow but flowing well.",
+            "9/12/16",
+            "Tindy"
+        ],
+        [
+            "K11",
+            "2553.9",
+            "WA2554",
+            "Stream",
+            "Strong flow of clear water; easy to collect.",
+            "9/12/16",
+            "Tindy"
+        ],
+        [
+            "K11",
+            "2555.0",
+            "WA2555",
+            "Seasonal stream",
+            "Strong flow and easy to collect.",
+            "9/12/16",
+            "Tindy"
+        ],
+        [
+            "K11",
+            "2556.9",
+            "WA2557",
+            "*Ford the South Fork Agnes Creek.",
+            "Lots of water.",
+            "9/12/16",
+            "Tindy"
+        ],
+        [
+            "K11",
+            "2557.0",
+            "WACS2557",
+            "*Hemlock Camp, South Fork Agnes Creek nearby",
+            "Great flow. In 2014 signs warned camping was unsafe due to falling tree hazard.",
+            "9/19/14",
+            "DoubleTap"
+        ],
+        [
+            "K12",
+            "2559.8",
+            "WACS2560",
+            "*Cedar Camp, along Agnes Creek.",
+            "Great water, signs that warn against camping here due to falling trees hazard are still up.",
+            "9/12/16",
+            "Tindy"
+        ],
+        [
+            "K12",
+            "2561.3",
+            "WACS2561",
+            "*Swamp Creek, log crossing with hand rail",
+            "Huge flow. Lots of water.",
+            "9/12/16",
+            "Tindy"
+        ],
+        [
+            "K12",
+            "2564.3",
+            "WACS2564",
+            "Large creek, log crossing.",
+            "flowing",
+            "9/12/16",
+            "Tindy"
+        ],
+        [
+            "K13",
+            "2565.9",
+            "WA2566",
+            "Small seasonal stream",
+            "flowing",
+            "9/12/16",
+            "Tindy"
+        ],
+        [
+            "K13",
+            "2566.5",
+            "WA2567",
+            "Small seasonal stream",
+            "flowing",
+            "9/12/16",
+            "Tindy"
+        ],
+        [
+            "K13",
+            "2569.1",
+            "WA2569",
+            "Large river, wood and steel bridge.",
+            "Water inaccesible from this bridge, it's too high up.",
+            "9/20/14",
+            "DoubleTap"
+        ],
+        [
+            "K13",
+            "2569.4",
+            "WA2569B",
+            "Unpaved road continues on bridge over the Stehekin River."
+        ],
+        [
+            "",
+            "2569.4",
+            "Stehekin"
+        ],
+        [
+            "K13",
+            "2570.6",
+            "WA2571",
+            "Coon Lake",
+            "Plenty of water but not totally clear",
+            "8/13/16",
+            "The Optimist"
+        ],
+        [
+            "K13",
+            "2572.0",
+            "WA2572",
+            "McGregor Creek",
+            "Nice, clear flow",
+            "8/13/16",
+            "The Optimist"
+        ],
+        [
+            "K14",
+            "2572.4",
+            "WA2572B",
+            "Buzzard Creek",
+            "Good flow",
+            "8/13/16",
+            "The Optimist"
+        ],
+        [
+            "K14",
+            "2573.9",
+            "WA2574",
+            "Stream, small wooden bridge.",
+            "very good flow, easy to collect ",
+            "9/12/16",
+            "Oolong"
+        ],
+        [
+            "K14",
+            "2574.3",
+            "WACS2574",
+            "Bridge Creek Camp, picnic tables, bear lockers, fire grates, creek nearby.",
+            "Good flow",
+            "8/13/16",
+            "The Optimist"
+        ],
+        [
+            "K14",
+            "2576.2",
+            "WA2576",
+            "Berry Creek",
+            "Good flow",
+            "8/13/16",
+            "The Optimist"
+        ],
+        [
+            "K14",
+            "2577.2",
+            "WA2577",
+            "Bridge Creek, large wooden bridge.",
+            "Huge flow. Better access @ campsite just N of bridge",
+            "8/13/16",
+            "The Optimist"
+        ],
+        [
+            "K14",
+            "2577.2",
+            "WACS2577",
+            "North Fork Camp, creek nearby, toilet."
+        ],
+        [
+            "K15",
+            "2579.1",
+            "WA2579",
+            "Maple Creek, footbridge.",
+            "big creek, lots of water",
+            "9/12/16",
+            "Oolong"
+        ],
+        [
+            "K15",
+            "2580.6",
+            "WACS2581",
+            "Spur trail to Six Mile Camp",
+            "good flow",
+            "8/13/16",
+            "The Optimist"
+        ],
+        [
+            "K16",
+            "2582.8",
+            "WACS2583",
+            "Spur trail to Hide-A-Way trail camp",
+            "great flow",
+            "8/13/16",
+            "The Optimist"
+        ],
+        [
+            "K16",
+            "2585.4",
+            "WA2585",
+            "Creek",
+            "Good flow",
+            "8/14/16",
+            "The Optimist"
+        ],
+        [
+            "K16",
+            "2586.2",
+            "WA2586",
+            "Bridge Creek",
+            "Good flow",
+            "8/14/16",
+            "The Optimist"
+        ],
+        [
+            "K16",
+            "2587.1",
+            "WA2587",
+            "Stream",
+            "Good flow",
+            "8/14/16",
+            "The Optimist"
+        ],
+        [
+            "K16",
+            "2587.8",
+            "WA2588",
+            "Rainy Lake Outlet",
+            "Good flow",
+            "8/14/16",
+            "The Optimist"
+        ],
+        [
+            "L1",
+            "2589.6",
+            "WA2590",
+            "Creek",
+            "Good flow",
+            "9/13/16",
+            "Oolong"
+        ],
+        [
+            "L1",
+            "2590.7",
+            "WA2591",
+            "Porcupine Creek",
+            "Running well",
+            "9/1/16",
+            "GoalTech"
+        ],
+        [
+            "L1",
+            "2591.5",
+            "WA2591B",
+            "Seasonal stream",
+            "Running well",
+            "9/1/16",
+            "GoalTech"
+        ],
+        [
+            "L2",
+            "2597.7",
+            "WA2598",
+            "Small seasonal stream",
+            "flowing",
+            "9/13/16",
+            "Oolong"
+        ],
+        [
+            "L2",
+            "2598.4",
+            "WACS2598",
+            "Small spring",
+            "Moderate flow 2L / min",
+            "8/14/16",
+            "The Optimist"
+        ],
+        [
+            "L2",
+            "2600.4",
+            "WA2600",
+            "Small seasonal stream",
+            "flowing",
+            "9/13/16",
+            "Oolong"
+        ],
+        [
+            "L2",
+            "2600.9",
+            "WA2601",
+            "Small seasonal stream",
+            "Running well",
+            "9/1/16",
+            "GoalTech"
+        ],
+        [
+            "L2",
+            "2603.4",
+            "WA2603",
+            "Golden Creek",
+            "good flow, easy to collect",
+            "9/13/16",
+            "Oolong"
+        ],
+        [
+            "L2",
+            "2604.1",
+            "WACS2604",
+            "Methow River, wooden bridge, established campsite nearby.",
+            "very good flow, lots of water",
+            "9/13/16",
+            "Oolong"
+        ],
+        [
+            "L2",
+            "2604.5",
+            "WA2605",
+            "Stream",
+            "Running well",
+            "9/1/16",
+            "GoalTech"
+        ],
+        [
+            "L3",
+            "2607.0",
+            "WA2607",
+            "Brush Creek, wooden bridge.",
+            "big creek, lots of water",
+            "9/13/16",
+            "Oolong"
+        ],
+        [
+            "L3",
+            "2613.8",
+            "",
+            "",
+            "water is flowing several hundred feet downhill past the campsite. The farther downhill you go, the bigger the pools get and the easier it gets to collect water. ",
+            "9/13/16",
+            "Oolong"
+        ],
+        [
+            "L4",
+            "2619.9",
+            "WA2620",
+            "Seasonal Stream",
+            "Running well",
+            "9/1/16",
+            "GoalTech"
+        ],
+        [
+            "L5",
+            "2625.3",
+            "WACS2625",
+            "Seasonal stream at the foot of Tamarack Peak, large campsite nearby.",
+            "flowing. Good spot to collect water a few feet below trail. ",
+            "9/14/16",
+            "Oolong"
+        ],
+        [
+            "L5",
+            "2629.7",
+            "WA2630",
+            "Seasonal Shaw Creek",
+            "flowing. Good spot to collect water is above trail. ",
+            "9/14/16",
+            "Oolong"
+        ],
+        [
+            "L6",
+            "2634.3",
+            "WA2634",
+            "Seasonal Creek",
+            "Running well",
+            "9/1/16",
+            "GoalTech"
+        ],
+        [
+            "L7",
+            "2643.7",
+            "TR2644",
+            "**Unmarked spur trail to Hopkins Lake. Lake is 1/10 mile S of PCT with camping, water.",
+            "Plenty of water",
+            "8/17/16",
+            "The Optimist"
+        ],
+        [
+            "L8",
+            "2645.1",
+            "WA2645",
+            "A pair of small seasonal streams.",
+            "flowing, easy to collect water",
+            "9/14/16",
+            "Oolong"
+        ],
+        [
+            "L8",
+            "2645.3",
+            "WA2645B",
+            "Small seasonal stream",
+            "flowing, easy to collect water ",
+            "9/14/16",
+            "Oolong"
+        ],
+        [
+            "L8",
+            "2647.8",
+            "WA2648",
+            "Seasonal stream (larger than most in the area).",
+            "Running well",
+            "9/1/16",
+            "GoalTech"
+        ],
+        [
+            "L8",
+            "2649.2",
+            "WA2649",
+            "Seasonal creek",
+            "Running well",
+            "9/1/16",
+            "GoalTech"
+        ],
+        [
+            "L8",
+            "2649.7",
+            "WA2650",
+            "Seasonal creek",
+            "Running well",
+            "9/1/16",
+            "GoalTech"
+        ],
+        [
+            "L9",
+            "2650.4",
+            "WACS2650",
+            "*Castle Creek, wooden bridge, trail camp nearby with outhouse, fire grates, bear locker, corral.",
+            "Running well",
+            "9/1/16",
+            "GoalTech"
+        ],
+        [
+            "L9",
+            "2651.1",
+            "WA2651",
+            "Small seasonal stream",
+            "Running well",
+            "9/1/16",
+            "GoalTech"
+        ],
+        [
+            "L9",
+            "2653.3",
+            "WA2653",
+            "Small seasonal stream",
+            "Running well",
+            "9/1/16",
+            "GoalTech"
+        ],
+        [
+            "L9",
+            "2655.5",
+            "WA2655",
+            "Small stream",
+            "Running well",
+            "9/1/16",
+            "GoalTech"
+        ],
+        [
+            "L9",
+            "2657.0",
+            "WA2657",
+            "Stream with wooden bridge.",
+            "Running well",
+            "9/1/16",
+            "GoalTech"
+        ],
+        [
+            "L9",
+            "2657.6",
+            "WA2658",
+            "Small stream, wooden bridge.",
+            "Running well",
+            "9/1/16",
+            "GoalTech"
+        ],
+        [
+            "L9",
+            "2658.9",
+            "Hwy3B",
+            "Highway 3",
+            "Near the Manning Park Lodge. The lodge offers lodging, restaurant, and a small store."
+        ],
+        [
+            "These reports are provided as a free service to PCT hikers. I believe the information is accurate but the reports may contain errors. The reports are distributed in the hope that they will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE."
+        ]
+    ]
+
+}

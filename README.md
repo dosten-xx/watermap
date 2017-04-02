@@ -1,4 +1,4 @@
-Watermap - check it out on [OpenShift](http://watermap-ostennet.rhcloud.com/).
+Watermap - check it out on [OpenShift](http://backcountrywater.info/).
 
 For testing:
 * Set environment variable OPENSHIFT_DATA_DIR=./src/test/resources

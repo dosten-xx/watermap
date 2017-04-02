@@ -43,15 +43,15 @@ import net.osten.watermap.pct.xml.WptType;
 import net.osten.watermap.util.RegexUtils;
 
 import org.apache.commons.lang3.time.FastDateFormat;
-import org.jsoup.Jsoup;
-import org.jsoup.nodes.Document;
-import org.jsoup.nodes.Element;
-import org.jsoup.select.Elements;
 
 import com.google.common.io.Files;
+import com.google.gson.JsonArray;
+import com.google.gson.JsonElement;
+import com.google.gson.JsonObject;
+import com.google.gson.JsonParser;
 
 /**
- * Parser for PCT water report.
+ * Parser for PCT water report based on the PCT Google Sheets downloaded using the API.
  */
 @Singleton
 @Startup
@@ -84,16 +84,29 @@ public class PCTReport
       Set<WaterReport> results = new HashSet<WaterReport>();
 
       log.fine("dataDir=" + dataDir);
-      String stateChar = stateChars[0];
-      char sectionChar = sectionChars[0];
-      String fileName = "pct-" +stateChar + "-" + sectionChar + ".htm";
-      log.fine("fileName=" + fileName);
-      File htmlFile = new File(dataDir + File.separator + fileName);
-      if (htmlFile.exists() && htmlFile.canRead()) {
-         log.fine("reading html file " + htmlFile);
-         String htmlSource = Files.toString(htmlFile, Charset.forName("UTF-8"));
-         Document reportDoc = Jsoup.parse(htmlSource);
-         results.addAll(parseDocument(reportDoc));
+      
+      // parse json files
+      if (dataDir != null) {
+         for (String stateChar : stateChars) {
+            for (char sectionChar : sectionChars) {
+               try {
+                  String fileName = "pct-" +stateChar + "-" + sectionChar + ".json";
+                  log.fine("fileName=" + fileName);
+                  File htmlFile = new File(dataDir + File.separator + fileName);
+                  if (htmlFile.exists() && htmlFile.canRead()) {
+                     log.fine("reading html file " + htmlFile);
+                     String htmlSource = Files.toString(htmlFile, Charset.forName("UTF-8"));
+                     JsonParser parser = new JsonParser();
+                     JsonElement root = parser.parse(htmlSource);
+                     log.fine("json root is obj=" + root.isJsonObject());
+                     results.addAll(parseDocument(root.getAsJsonObject()));
+                  }
+               }
+               catch (IOException e) {
+                  log.severe(e.getLocalizedMessage());
+               }
+            }
+         }
       }
       
       return results;
@@ -183,37 +196,23 @@ public class PCTReport
       return result;
    }
 
-   private Set<WaterReport> parseDocument(Document reportDoc)
+   private Set<WaterReport> parseDocument(JsonObject reportJson)
    {
       Set<WaterReport> results = new HashSet<WaterReport>();
 
-      log.finer("reportDoc children=" + reportDoc.children().size());
+      log.finer("json children=" + reportJson.getAsJsonArray("values").size());
 
-      //Element mainTable = reportDoc.getElementById("tblMain");
-      Elements mainTables = reportDoc.getElementsByTag("table");
-      log.finer("found " + mainTables.size() + " tables");
+      JsonArray currentRow = null;
+      
+      for (JsonElement row : reportJson.getAsJsonArray("values")) {
+         if (row.isJsonArray()) {
+            currentRow = row.getAsJsonArray();
+            if (currentRow.size() >= 6) {
+               String waypoint = currentRow.get(2).getAsJsonPrimitive().getAsString();
+               String desc = currentRow.get(3).getAsJsonPrimitive().getAsString();
+               String rpt = currentRow.get(4).getAsJsonPrimitive().getAsString();
+               String date = currentRow.get(5).getAsJsonPrimitive().getAsString();
 
-      for (Element mainTable : mainTables) {
-         Elements rows = mainTable.getElementsByTag("tr");
-         log.finer("found " + rows.size() + " rows");
-   
-         for (Element row : rows) {
-            Elements cells = row.getElementsByTag("td");
-            if (cells.size() != 7) {
-               continue;
-            }
-            
-            // - for each waypoint with an entry (e.g. 'WR001')
-            // - report column is description
-            // - date is report date
-            // - look up waypoint in XML file to get coordinates
-            String waypoint = cells.get(2).text();
-            if (waypoint != null && !waypoint.isEmpty() && !waypoint.equalsIgnoreCase("Waypoint")) {
-               
-               String desc = cells.get(3).text();
-               String date = cells.get(5).text();
-               String rpt = cells.get(4).text();
-               
                String[] names = waypoint.split(",");
                for (String name : names) {
                   name = name.trim();
@@ -230,8 +229,6 @@ public class PCTReport
                         log.finest(report.toString());
                         results.add(report);
                      }
-                     
-                     // TODO support this: WR064A, B, C
                   }
                   else {
                      log.finest(report.toString());
@@ -239,9 +236,15 @@ public class PCTReport
                   }
                }
             }
+            else {
+               log.finer("skipping row " + row.toString());
+            }
+         }
+         else {
+            log.warning("row is not json array but " + row.getClass().getName());
          }
       }
-      
+
       log.fine("returning " + results.size() + " pct reports");
       return results;
    }

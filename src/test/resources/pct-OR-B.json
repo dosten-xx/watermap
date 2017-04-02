@@ -1,0 +1,1548 @@
+{
+
+    "range": "Oregon!A9:G190",
+    "majorDimension": "ROWS",
+    "values": [
+        [
+            "",
+            "1716.2",
+            "Ashland"
+        ],
+        [
+            "B2",
+            "1725.6",
+            "WA1726",
+            "Piped spring",
+            "flowing at 1.75 liters per minute",
+            "8/2/16",
+            "Oolong"
+        ],
+        [
+            "B2",
+            "1727.6",
+            "WA1728",
+            "Piped spring near a small pond, 100 yards NW of PCT.",
+            "water gushing from pipe at many liters per minute. ",
+            "8/2/16",
+            "Oolong"
+        ],
+        [
+            "B3",
+            "1734.6",
+            "WA1735",
+            "Small pond",
+            "small stagnant pond, didn't look appealing",
+            "8/1/16",
+            "Young Blood"
+        ],
+        [
+            "B3",
+            "1738.7",
+            "WA1739",
+            "Hyatt Lake outlet, bridge, large creek.",
+            "lots of water",
+            "8/1/16",
+            "Young Blood"
+        ],
+        [
+            "B4",
+            "1740.3",
+            "WA1740",
+            "Water fountain and spigot.",
+            "Faucet on",
+            "8/2/16",
+            "Young Blood"
+        ],
+        [
+            "6/3/16 (Catherine) : There is also water and camping 3/10 mile off the trail at the Hyatt Lake PCT Backpacker's Campground mile 1740, $2/night for camping.                                    "
+        ],
+        [
+            "B4",
+            "1740.4",
+            "",
+            "Spigot",
+            "new spigot right on trail. Potable water ",
+            "8/1/16",
+            "Early Bird & Worm"
+        ],
+        [
+            "",
+            "1742.5",
+            "",
+            "Wildcat Campground",
+            "Wildcat Campground next to Horse Camp at Hyatt Lake has a handpump/well with sweet tasting potable water. The footvalve is broken. You need full, strong strokes to operate it and a second person to capture the water. ",
+            "6/8/16",
+            "Tyler"
+        ],
+        [
+            "6/3/16 (Catherine) : Wildcat CG is a developed BLM campground, just northeast of the Hyatt Lake horse camp, 1/4 mile off trail. Take the marked side trail to Horse Camp at Mile 1742 (no water at Horse Camp itself)."
+        ],
+        [
+            "B5",
+            "1747.9",
+            "WA1748",
+            "Klum Landing Park Campground, 3/10 mi W of PCT.",
+            "Klum Landing Campgrpund is open and water is on.",
+            "6/10/16",
+            "Catherine"
+        ],
+        [
+            "B5",
+            "1748.6",
+            "WA1749",
+            "Canal and bridge, unpaved road nearby.",
+            "both the creek and canal have lots of water but the best source is the stream in between the two. 1L/30 sec",
+            "8/2/16",
+            "Young Blood"
+        ],
+        [
+            "B5",
+            "1748.7",
+            "WA1749B",
+            "Grizzly Creek with wooden bridge.",
+            "Good flow. Easy access to collect the water",
+            "7/26/16",
+            "Sweet Cheeks"
+        ],
+        [
+            "B6",
+            "1752.7",
+            "WA1753",
+            "Piped spring",
+            "cold clear water flowing from pipe at 1L/30 sec",
+            "8/2/16",
+            "Young Blood"
+        ],
+        [
+            "There are 2 junctions, sign to the spring at 2nd junction. If you accidentally take the 1st junction then turn left at the jeep road, walk ~0.15 miles to the trail on right"
+        ],
+        [
+            "B7",
+            "1760.8",
+            "WA1761",
+            "*South Brown Mountain Shelter, cabin, picnic table, water pump.",
+            "water is coming from the pump",
+            "8/2/16",
+            "Young Blood"
+        ],
+        [
+            "B7",
+            "1763.1",
+            "WA1763",
+            "Dry creek with a wooden bridge",
+            "Bone dry",
+            "7/20/16",
+            "SoHikes"
+        ],
+        [
+            "",
+            "1770.9",
+            "Fish Lake Resort"
+        ],
+        [
+            "C8",
+            "1771.0",
+            "WA1771",
+            "Large creek, wooden bridge.",
+            "bone dry",
+            "9/20/16",
+            "Legion"
+        ],
+        [
+            "C8",
+            "1771.3",
+            "TR1771B",
+            "Summit trail #3732 junction, stream nearby.",
+            "bone dry",
+            "9/20/16",
+            "Legion"
+        ],
+        [
+            "C2",
+            "1782.4",
+            "WA1782",
+            "*Christi's Spring.",
+            "slow but steady cold water is flowing here. Mosquito war zone. 1L/min",
+            "8/3/16",
+            "Young Blood"
+        ],
+        [
+            "C4",
+            "1793.5",
+            "TR1793",
+            "Ponds to the northwest of PCT near TR1793",
+            "Two ponds that are very close together. Both have substantial water. About 100' diameter. 2nd pond appears to be slightly better, more clear. ",
+            "8/1/15",
+            "GoalTech"
+        ],
+        [
+            "C5",
+            "1796.8",
+            "WACS1797",
+            "Seasonal Creek",
+            "flowing well at1L/30 sec. Mosquitos!",
+            "8/3/16",
+            "Young Blood"
+        ],
+        [
+            "C5",
+            "1797.2",
+            "WA1797",
+            "Small creek",
+            "flowing well at1L/30 sec. Mosquitos!",
+            "8/3/16",
+            "Young Blood"
+        ],
+        [
+            "C5",
+            "1798.2",
+            "WA1798",
+            "Small creek",
+            "flowing well at1L/30 sec. Mosquitos!",
+            "8/3/16",
+            "Young Blood"
+        ],
+        [
+            "C5",
+            "1798.5",
+            "WA1798B",
+            "Creek.",
+            "flowing well at1L/30 sec. Mosquitos!",
+            "8/3/16",
+            "Young Blood"
+        ],
+        [
+            "C5",
+            "1799.6",
+            "WA1800",
+            "Honeymoon Creek, often muddy, water is often better at mile 1798.2",
+            "Stagnant water ",
+            "7/28/16",
+            "Sweet Cheeks"
+        ],
+        [
+            "C5",
+            "1801.8",
+            "TR1802B",
+            "Trail to Ranger Spring (0.8 miles west of PCT)",
+            "Ranger Spring is a raging torrent, coming from the ground ex nihilo; there's also water running across the trail to the spring about half a mile from its junction with the pct. May as well also mention sevenmile creek, if only in the negative; it appears from the map it could be a more convenient water source than ranger spring, but most of its length, including its uppermost crossing of the sevenmile trail (TR1802) is dry. There are some pools of water a few tenths of a mile down the dry creekbed from that uppermost crossing.",
+            "7/7/16",
+            "Scott"
+        ],
+        [
+            "C8",
+            "1806.4",
+            "WA1806",
+            "Seasonal Jack Spring, 7/10 mile W of PCT, may be dry, difficult to find.",
+            "Deep hole full of clear water under a log at Jack Spring (WA1806); no flow from what appears to be the source uphill. The trail has disappeared along much of its length; not as hard to follow as it might seem, as there are bootprints and arrows in the dust to follow between stretches of faint trail trace, and the halfmile app still remembers where the trail should be, and it is laid out where one would naturally walk; but hikers uncomfortable with bushwhacking will not be happy.\nOTOH there's plenty of water in the pond 200' trail-west of the trail, 0.1 miles north of the Jack Spring trail (three ponds are shown on halfmile, but I only visited the closest). Just before reaching a carved \"i\" blaze on a tree (for nobos), look northwest to a gap between two rock outcroppings and march straight up between them. Much easier to reach than Jack Spring, and probably holds water longer.",
+            "7/15/16",
+            "Scott"
+        ],
+        [
+            "7/15/16 (Scott) : Stuart Falls is one of the best features in the trail corridor between Fish Lake and Crater Lake. Too far to be a convenient out-and-back from the trail, but one could do a 7.5 mile alternate, bypassing 5.5 miles of trail, going down from TR1808 and back up to TR1814 (for nobos, reverse for sobos). This incidentally solves the potential water gap between Honeymoon Creek (WA1800) and Mazama Village (twenty miles further on); there's water 2.5 miles down TR1808 (so eleven miles from Honeymoon Creek) and water 3.8 miles down TR1814 (so eleven miles from Mazama Village)."
+        ],
+        [
+            "C8",
+            "1819.2",
+            "Mazama",
+            "Mazama Store, restaurant, 1 mile SE of PCT",
+            "Water & showers at store.",
+            "7/6/16",
+            "Scott"
+        ],
+        [
+            "BYBEE CREEK FIRE UPDATE \nhttp://inciweb.nwcg.gov/incident/4899/ & \nhttp://www.pcta.org/discover-the-trail/trail-condition/trail-closure-crater-lake-np-due-wildfire/\n9/10/16 : PCT is open."
+        ],
+        [
+            "EAST RIM ROAD DETOUR WATER UPDATES\n8/4/16 (Scott) : Figured I'd post some water source data for the crater lake east rim road detour. I measured 26.3 miles on my odometer from the Annie Spring trailhead on Munson Valley Road to North Junction (where the trail currently reopens) and my mileages are based on that. Note: it's another 20 miles from North Junction to Thielsen Creek. The TLDR is that there's plenty of water for the first 6.4 miles, to Vidae Falls, and from there the only water sources are Plaikni Falls (11.6, 2 miles off-trail) and Cleetwood Cove (21.9, closed after 8/15, go 1 mile down to lake surface). 40 mile gap from Vidae Falls to Thielsen Creek, barring those two sources.\n0.0 Annie Spring Trailhead, water\n0.9 Goodbye Picnic Area, water, privy\n1.3 Godfrey Glen trailhead, stream visible a few tenths in on upper side of trail loop\n3.5 east rim road junction/park headquarters, developed water/restrooms\n3.8 Castle Crest trailhead, water\n6.4 Vidae Falls water, privy 0.3 miles down Grayback Road\n11.6 water 2 miles off-road on Plaikni Falls trail, a couple of tenths before the falls\n21.9 Cleetwood Cove privy, water 1 mile off-road and down at lake surface until 8/15\n26.3 North Junction, end of detour\nIf you hike Grayback Road to Lost Creek Campground, adding 6 miles to the detour, it has developed water and restrooms (see a park map)."
+        ],
+        [
+            "C9",
+            "1820.2",
+            "WA1820",
+            "Small seasonal creek",
+            "good flow",
+            "7/22/16",
+            "Coyote, Wylie, Tubbs"
+        ],
+        [
+            "C9",
+            "1820.5",
+            "WA1820B",
+            "Creek",
+            "good flow",
+            "7/22/16",
+            "Coyote, Wylie, Tubbs"
+        ],
+        [
+            "C9",
+            "",
+            "CLWA01",
+            "Small creek - Rim Alternate mile .1",
+            "1 gallon/min.",
+            "8/3/15",
+            "Cloud Rider"
+        ],
+        [
+            "C9",
+            "",
+            "CLWA01B",
+            "Small creek - Rim Alternate mile .7",
+            "1 liter / 2 min trickle. Some small pools.",
+            "8/3/15",
+            "Cloud Rider"
+        ],
+        [
+            "C9",
+            "",
+            "CLWA01C",
+            "Small creek - Rim Alternate mile 1.3",
+            "Dry",
+            "8/3/15",
+            "Cloud Rider"
+        ],
+        [
+            "C9",
+            "",
+            "CLWA02B",
+            "Visitor center with outdoor water fountain - Rim Alternate mile 2.3 ",
+            "Fountain is on.",
+            "8/3/15",
+            "Cloud Rider"
+        ],
+        [
+            "C9",
+            "",
+            "RimVillage",
+            "Paved sidewalk to visitor center, small store, restrooms, and water - Rim Alternate mile 2.4"
+        ],
+        [
+            "C9A",
+            "",
+            "",
+            "Lightening Spring, 3/4 mile W of Rim Trail - Rim Alternate mile ~5",
+            "Tons of water at Lightning Springs between the crater lake rim trail and equestrian pct, easily 8s/liter, limited only by the size of the opening on your bottle.",
+            "7/6/16",
+            "Scott"
+        ],
+        [
+            "C9",
+            "1820.6",
+            "WA1821",
+            "Small creek",
+            "Good flow",
+            "7/22/16",
+            "Coyote, Wylie, Tubbs"
+        ],
+        [
+            "C9",
+            "1821.0",
+            "WA1821B",
+            "Small creek",
+            "Good flow",
+            "7/22/16",
+            "Coyote, Wylie, Tubbs"
+        ],
+        [
+            "C9",
+            "1821.7",
+            "WA1822",
+            "Small creek",
+            "Good flow",
+            "7/22/16",
+            "Coyote, Wylie, Tubbs"
+        ],
+        [
+            "C9",
+            "1823.9",
+            "WA1824",
+            "Stream",
+            "Good flow",
+            "7/22/16",
+            "Coyote, Wylie, Tubbs"
+        ],
+        [
+            "C9",
+            "1824.2",
+            "WA1824B",
+            "Stream",
+            "Good flow",
+            "7/22/16",
+            "Coyote, Wylie, Tubbs"
+        ],
+        [
+            "C10",
+            "1824.9",
+            "WA1825",
+            "Stream",
+            "Good flow",
+            "7/22/16",
+            "Coyote, Wylie, Tubbs"
+        ],
+        [
+            "C10",
+            "1827.0",
+            "WA1827",
+            "Small creek, pool below culvert",
+            "Good flow",
+            "7/22/16",
+            "Coyote, Wylie, Tubbs"
+        ],
+        [
+            "C11",
+            "1832.8",
+            "WACS1833",
+            "Red Cone trail camp, spring nearby.",
+            "flowing good",
+            "7/22/16",
+            "Coyote, Wylie, Tubbs"
+        ],
+        [
+            "See Bybee Creek Fire Update note above mile 1820.6"
+        ],
+        [
+            "D2",
+            "1853.6",
+            "WA1854",
+            "*Usually reliable Thielsen Creek",
+            "strong flow",
+            "8/5/16",
+            "Young Blood"
+        ],
+        [
+            "D5",
+            "1869.6",
+            "WA1870",
+            "Six Horse Spring, 4/10 mile E of PCT.",
+            "Follow the trail until it dead ends and you'll find a beautiful ice cold spring flowing at 1L per minute\r\n-----\nPer DoubleTap : Water is a good ways down, leave your pack at the junction so you don't have to carry it back up.",
+            "8/6/16",
+            "Young Blood"
+        ],
+        [
+            "OST1",
+            "4.4",
+            "WindyLakeTR",
+            "Windy Lake Trail Junction",
+            "Oldenburg Lake is full",
+            "8/9/16",
+            "Oolong"
+        ],
+        [
+            "OST1",
+            "5.2",
+            "OSPond",
+            "Pond along OST",
+            "Pond is full",
+            "8/9/16",
+            "Oolong"
+        ],
+        [
+            "OST2",
+            "9.2",
+            "CrescentLkCG",
+            "**Crescent Lake Campground",
+            "has working faucets, but is hard to find, and a fee campground",
+            "7/25/16",
+            "Coyote"
+        ],
+        [
+            "OST2",
+            "10.2",
+            "",
+            "Whitefish Creek",
+            "creek is flowing at several liters/minute",
+            "8/27/16",
+            "Rover"
+        ],
+        [
+            "OST3",
+            "15.3",
+            "CSDiamondView",
+            "*Campsite at Diamond View Lake.",
+            "lake is full",
+            "8/9/16",
+            "Oolong"
+        ],
+        [
+            "D6",
+            "1878.1",
+            "WA1878",
+            "Small pond just off trail, through the trees.",
+            "dry",
+            "9/7/16",
+            "Six2"
+        ],
+        [
+            "D7",
+            "1886.8",
+            "WACS1887",
+            "Summit Lake.",
+            "Plenty of water, mosquitos gone",
+            "9/7/16",
+            "Six2"
+        ],
+        [
+            "D8",
+            "1888.9",
+            "WA1889",
+            "Large pond",
+            "Full but stagnant",
+            "7/23/15",
+            "Kinetic"
+        ],
+        [
+            "D8",
+            "1890.0",
+            "WACS1890",
+            "Large pond",
+            "Full but stagnant",
+            "7/23/15",
+            "Kinetic"
+        ],
+        [
+            "D9",
+            "1894.1",
+            "WA1894",
+            "Creek",
+            "flowing",
+            "9/7/16",
+            "Six2"
+        ],
+        [
+            "D9",
+            "1896.8",
+            "WA1897",
+            "Small seasonal creek",
+            "crystal clear cold water is flowing at 1L per second",
+            "8/7/16",
+            "Young Blood"
+        ],
+        [
+            "D9",
+            "1896.9",
+            "WA1897B",
+            "Small pond",
+            "Clear and cold, ~100 x 175ft, 3ft deep",
+            "7/23/15",
+            "Kinetic"
+        ],
+        [
+            "D9",
+            "1899.3",
+            "WA1899",
+            "Pass above a large pond."
+        ],
+        [
+            "D9",
+            "1899.9",
+            "WA1900",
+            "Hidden Lake",
+            "full of water",
+            "8/7/16",
+            "Young Blood"
+        ],
+        [
+            "D10",
+            "1900.1",
+            "WA1900B",
+            "Large pond"
+        ],
+        [
+            "D10",
+            "1900.9",
+            "WA1901",
+            "Arrowhead Lake",
+            "lake is full of warm water",
+            "8/7/16",
+            "Young Blood"
+        ],
+        [
+            "D10",
+            "1904.1",
+            "ShelterCove",
+            "Shelter Cove Resort",
+            "Odell Lake has big blue-green algae outbreak. Do not swim or bathe in it.",
+            "7/29/16",
+            "Julie"
+        ],
+        [
+            "E1",
+            "1908.4",
+            "WACS1908",
+            "**Lower Rosary Lake",
+            "Lake is full",
+            "7/31/16",
+            "Sweet Cheeks"
+        ],
+        [
+            "E1",
+            "1908.5",
+            "WACS1909",
+            "**Lower Rosary Lake",
+            "Lake is full",
+            "8/10/16",
+            "Oolong"
+        ],
+        [
+            "E1",
+            "1909.0",
+            "WACS1909B",
+            "**Middle and Upper Rosary Lake.",
+            "Lake is full",
+            "8/10/16",
+            "Oolong"
+        ],
+        [
+            "E2",
+            "1915.1",
+            "WACS1915",
+            "**Bobby Lake",
+            "Lake is full",
+            "8/10/16",
+            "Oolong"
+        ],
+        [
+            "E3",
+            "1922.6",
+            "WACS1923",
+            "**Charlton Lake",
+            "Lake is full",
+            "8/10/16",
+            "Oolong"
+        ],
+        [
+            "E3",
+            "1922.8",
+            "WACS1923B",
+            "**Charlton Lake",
+            "Lake is full",
+            "8/10/16",
+            "Oolong"
+        ],
+        [
+            "E4",
+            "1927.8",
+            "WACS1928",
+            "Taylor Lake",
+            "Lake is full",
+            "8/10/16",
+            "Oolong"
+        ],
+        [
+            "E4",
+            "1928.6",
+            "WA1929",
+            "**Irish Lake",
+            "Lake is full",
+            "8/10/16",
+            "Oolong"
+        ],
+        [
+            "E5",
+            "1930.8",
+            "WACS1931",
+            "**Brahma Lake",
+            "Lake is full",
+            "8/10/16",
+            "Oolong"
+        ],
+        [
+            "E5",
+            "1931.8",
+            "WACS1932",
+            "Small lake.",
+            "Lake not only shallow but looks completely brown. Get water at one of the other gorgeous lakes around here!",
+            "9/15/16",
+            "Skittles"
+        ],
+        [
+            "E5",
+            "1932.8",
+            "WACS1933",
+            "*Stormy Lake",
+            "Lake is full",
+            "8/10/16",
+            "Oolong"
+        ],
+        [
+            "E5",
+            "1935.8",
+            "WA1936",
+            "Small Lake",
+            "Lake is full and a little  colder than other lakes. ",
+            "8/10/16",
+            "Oolong"
+        ],
+        [
+            "E6",
+            "1938.9",
+            "WA1939",
+            "Small lake",
+            "Lake is full",
+            "8/10/16",
+            "Oolong"
+        ],
+        [
+            "E6",
+            "1939.1",
+            "WACS1939",
+            "**Desane Lake",
+            "Lake is full",
+            "8/10/16",
+            "Oolong"
+        ],
+        [
+            "E6",
+            "1939.5",
+            "WACS1939B",
+            "S Lake",
+            "Lake is full",
+            "8/10/16",
+            "Oolong"
+        ],
+        [
+            "E6",
+            "1939.8",
+            "WACS1940",
+            "**Mac Lake",
+            "Lake is full",
+            "8/10/16",
+            "Oolong"
+        ],
+        [
+            "E6",
+            "1940.7",
+            "WACS1941",
+            "**Horseshoe Lake",
+            "Lake is full",
+            "8/10/16",
+            "Oolong"
+        ],
+        [
+            "E6",
+            "1940.9",
+            "WACS1941B",
+            "**Horseshoe Lake",
+            "Lake is full",
+            "8/10/16",
+            "Oolong"
+        ],
+        [
+            "E6",
+            "1941.7",
+            "",
+            "Cliff Lake, 2/10 mile E ot PCT",
+            "Great spot for water, nice easily accessible beach and good water",
+            "8/15/15",
+            "Michele"
+        ],
+        [
+            "E6",
+            "1944.0",
+            "WA1944",
+            "**Island Lake",
+            "Lake is full",
+            "8/1/16",
+            "Sweet Cheeks"
+        ],
+        [
+            "E7",
+            "1944.7",
+            "WACS1945",
+            "**Dumbbell Lake",
+            "lake is full. Some animals of undetermined species stole my pants in the middle of the night, along with other hikers' garbage bags, and - no kidding - one hiker's passport. Don't leave things lying around outside your tend/pack at this campsite!",
+            "8/11/16",
+            "Oolong"
+        ],
+        [
+            "E7",
+            "1947.7",
+            "WACS1948",
+            "Creek",
+            "reek flowing at multiple liters/minute with cool clear water ",
+            "8/29/16",
+            "Rover"
+        ],
+        [
+            "",
+            "1950.1",
+            "Elk Lake Resort"
+        ],
+        [
+            "E8",
+            "1956.3",
+            "WACS1956",
+            "**Sisters Mirror Lake",
+            "Plenty of water in the lake.",
+            "8/11/16",
+            "Oolong"
+        ],
+        [
+            "E9",
+            "1959.6",
+            "WACS1960",
+            "North Fork Mesa Creek",
+            "now dry. No water. Nil. But there is a trickle of  water at 1959.76",
+            "8/30/16",
+            "Rover"
+        ],
+        [
+            "",
+            "1960.11",
+            "",
+            "Creek",
+            "Flowing well at multiple liters/min ",
+            "8/30/16",
+            "Rover"
+        ],
+        [
+            "E9",
+            "1960.5",
+            "WA1960",
+            "Stream",
+            "good flow, lots of water ",
+            "8/11/16",
+            "Oolong"
+        ],
+        [
+            "E9",
+            "1960.7",
+            "WA1961",
+            "Stream",
+            "flowing well, clear water ",
+            "8/11/16",
+            "Oolong"
+        ],
+        [
+            "E9",
+            "1963.2",
+            "WA1963",
+            "Hinton Creek",
+            "good flow, cold, and easy to collect, but visibly blue-gray from glacial silt",
+            "8/11/16",
+            "Oolong"
+        ],
+        [
+            "E10",
+            "1969.5",
+            "WA1970",
+            "Obsidian Creek",
+            "good flow, plenty of water",
+            "8/11/16",
+            "Oolong"
+        ],
+        [
+            "E10",
+            "1969.6",
+            "WA1970B",
+            "Sister spring, water flowing from the base of a mountain.",
+            "Flowing at several gallons/min with superbly clear, cold, and great tasting water.",
+            "8/25/15",
+            "Notsofast"
+        ],
+        [
+            "E10",
+            "1970.5",
+            "WA1971",
+            "Glacier Creek",
+            "great flow, lots of water",
+            "8/11/16",
+            "Oolong"
+        ],
+        [
+            "E11",
+            "1973.7",
+            "WA1974",
+            "Spring",
+            "good cold water. Just upstream from trail, where the spring comes out of the rocks, there's a good-sized pool for collecting water. ",
+            "8/12/16",
+            "Oolong"
+        ],
+        [
+            "E12",
+            "1977.2",
+            "WA1977",
+            "South Matthieu Lake",
+            "full, water looks clean",
+            "8/12/16",
+            "Oolong"
+        ],
+        [
+            "E12",
+            "1979.3",
+            "WA1979",
+            "Large pond",
+            "Lake is mostly full of somewhat muddy water. ",
+            "8/13/15",
+            "Captain"
+        ],
+        [
+            "E12",
+            "1980.1",
+            "LavaCampLk",
+            "Lava Camp Lake, campground, outhouse, 1/2 mile northeast of PCT mile 1988.3.",
+            "Lake is mostly full.\n-----\nDoubleTap : I recommend hiking to Hwy 242 via the Lava Lake Camp Trail and hitching from there as there is a big spot for cars to pull over at unlike right at McKenzie Pass. Plus, a lot of day hikers park their cars at Lava Camp Lake and they can be potential rides to Sisters or Bend.",
+            "8/10/15",
+            "Cloud Rider"
+        ],
+        [
+            "",
+            "1981.3",
+            "Sisters"
+        ],
+        [
+            "",
+            "1981.3",
+            "Bend"
+        ],
+        [
+            "F1",
+            "1983.7",
+            "",
+            "Spring"
+        ],
+        [
+            "F2",
+            "1989.0",
+            "",
+            "Washington Ponds",
+            "I don't think I could disagree with the facts about these ponds but they are stagnant, unpleasant and infected with mosquitos. the hill to get up there is steep and treacherous. Avoid at the end of a long day. ",
+            "8/12/16",
+            "Red Riding Hood & Shaggy"
+        ],
+        [
+            "F2",
+            "1992.6",
+            "YouthCampHQ",
+            "Big Lake Youth Camp, 8/10 mile N of PCT.",
+            "Potable water can be collected from the faucet outside the PCT hiker building. Also note that the office hours of BLYC will be significantly curtailed after their camp season ends on September 7th. Be aware of this if you need to pick up a box that you sent there.\n-----\nBill (PCT Steward) : Take the trail on the left off the PCT at the T Junction, however once on that trail do not take the next trail coming in from the left, but remain going straight and that will take you to the camp.",
+            "8/27/15",
+            "Notsofast"
+        ],
+        [
+            "F3",
+            "1996.5",
+            "WA1996",
+            "*Large Pond.",
+            "full. Looks clear. Didn't sample water. Swarming with mosquitos.",
+            "8/13/16",
+            "Oolong"
+        ],
+        [
+            "F5",
+            "2008.1",
+            "WA2008",
+            "Pond near Koko Lake.",
+            "full of water. Looks clear but I didn't sample the water. ",
+            "8/13/16",
+            "Oolong"
+        ],
+        [
+            "F6",
+            "2012.3",
+            "WACS2012",
+            "**Rockpile Lake",
+            "full of good clean water. No longer swimming with bugs as indicated in the last update for this location. ",
+            "8/13/16",
+            "Oolong"
+        ],
+        [
+            "F7",
+            "2020.2",
+            "WA2020",
+            "**Shale Lake",
+            "clear water, shallow",
+            "8/14/16",
+            "Oolong"
+        ],
+        [
+            "F7",
+            "2023.2",
+            "WA2023",
+            "Stream at the end of a switch back.",
+            "dirt is moist/wet but I didn't see any way to extract water\r",
+            "9/1/16",
+            "Rover"
+        ],
+        [
+            "F7",
+            "2025.1",
+            "WA2025",
+            "*Milk Creek",
+            "excellent flow, lots of water. Not as silty as I expected. Water was pretty clear. ",
+            "8/14/16",
+            "Oolong"
+        ],
+        [
+            "F8",
+            "2027.1",
+            "WACS2027",
+            "Small pond.",
+            "stagnant, a bit green",
+            "8/14/16",
+            "Oolong"
+        ],
+        [
+            "F8",
+            "2027.8",
+            "WACS2028",
+            "Seasonal Jeff Creek",
+            "Good flow",
+            "8/14/16",
+            "Oolong"
+        ],
+        [
+            "F8",
+            "2029.4",
+            "WA2029",
+            "*Russell Creek, can be a dangerous crossing.",
+            "raging but not as deep as it looks. Very silty. Just after crossing (NoBo) there is a very small trickle of clear water coming down out of the bushes.  ",
+            "8/14/16",
+            "Oolong"
+        ],
+        [
+            "F8",
+            "2029.7",
+            "WACS2030",
+            "Creek",
+            "good flow, easy to collect ",
+            "8/14/16",
+            "Oolong"
+        ],
+        [
+            "F8",
+            "2029.9",
+            "WA2030",
+            "Creek",
+            "good flow",
+            "8/14/16",
+            "Oolong"
+        ],
+        [
+            "F8",
+            "2030.4",
+            "WA2030B",
+            "Large creek with a wooden bridge.",
+            "good flow",
+            "8/14/16",
+            "Oolong"
+        ],
+        [
+            "F8",
+            "2031.7",
+            "WA2032",
+            "Creek",
+            "flowing, shallow",
+            "8/14/16",
+            "Oolong"
+        ],
+        [
+            "",
+            "2031.8",
+            "",
+            "Seasonal Creek",
+            "flowing, shallow",
+            "8/14/16",
+            "Oolong"
+        ],
+        [
+            "F8",
+            "2032.2",
+            "WA2032B",
+            "Creek",
+            "flowing, shallow",
+            "8/14/16",
+            "Oolong"
+        ],
+        [
+            "F9",
+            "2036.8",
+            "WA2037",
+            "Creek flowing under an unpaved road.",
+            "some big stagnant pools",
+            "8/14/16",
+            "Oolong"
+        ],
+        [
+            "F9",
+            "2036.9",
+            "BreitenbushCG",
+            "Breitenbush Lake Camp Ground, 3/10 mile NE of PCT, shelters .",
+            "The water looks stagnant but if you keep going into the campground, past a site, by the second bridge is a DREAMY piped Spring! It is max a one minute walk. ",
+            "8/17/16",
+            "Red Riding Hood & Shaggy"
+        ],
+        [
+            "F9",
+            "2037.5",
+            "WA2037B",
+            "Large pond",
+            "pond is full",
+            "8/15/16",
+            "Oolong"
+        ],
+        [
+            "F9",
+            "2037.7",
+            "WA2038",
+            "Large pond",
+            "pond is full",
+            "8/15/16",
+            "Oolong"
+        ],
+        [
+            "F10",
+            "2040.7",
+            "WACS2041",
+            "Upper Lake",
+            "lake is full",
+            "8/15/16",
+            "Oolong"
+        ],
+        [
+            "F10",
+            "2041.1",
+            "WACS2041B",
+            "Cigar Lake",
+            "lake is full",
+            "8/15/16",
+            "Oolong"
+        ],
+        [
+            "F10",
+            "2042.5",
+            "WA2042",
+            "Small lake",
+            "lake is full",
+            "8/15/16",
+            "Oolong"
+        ],
+        [
+            "F10",
+            "2043.1",
+            "OlallieStore",
+            "Olallie Lake Store, small store 1/10 mile E of PCT. www.olallielakeresort.com",
+            "faucet behind store is on \n-----\n8/12/16 (Bandita) : they keep this store well-stocked with hiker food, fuel, cold drinks and other supplies -- full resupply possible and staff super friendly ",
+            "8/15/16",
+            "Oolong"
+        ],
+        [
+            "F10",
+            "2043.1",
+            "WACS2043",
+            "Head Lake",
+            "full and clear",
+            "8/22/16",
+            "Data"
+        ],
+        [
+            "F11",
+            "2046.8",
+            "WACS2047",
+            "Jude Lake",
+            "lots of water, but stagnant",
+            "8/22/16",
+            "Data"
+        ],
+        [
+            "F11",
+            "2047.5",
+            "WA2047",
+            "Seasonal stream",
+            "flower at several liters/min with clear water ",
+            "9/2/16",
+            "Rover"
+        ],
+        [
+            "F11",
+            "2052.1",
+            "WACS2052",
+            "Lemiti Creek, established campsite nearby.",
+            "some water left, but pretty stale",
+            "8/22/16",
+            "Data"
+        ],
+        [
+            "F11",
+            "2052.5",
+            "WA2052",
+            "*Trooper Spring",
+            "Spring is 220 feet off trail (look for plank  \"boardwalk\") - clear pool with lots of water ",
+            "9/2/16",
+            "Rover"
+        ],
+        [
+            "F13",
+            "2060.0",
+            "WACS2060",
+            "Small spring, 250 feet W of PCT",
+            "no visible flow. Stagnant pool is fairly clear. Easy to collect ",
+            "8/15/16",
+            "Oolong"
+        ],
+        [
+            "F13",
+            "2062.1",
+            "WACS2062",
+            "Warm Springs River",
+            "river still flowing Strong",
+            "8/22/16",
+            "Data"
+        ],
+        [
+            "F13",
+            "2062.4",
+            "WA2062",
+            "Small spring, 300 feet E or PCT.",
+            "Nearly stagnant and did not look very appealing.",
+            "8/21/15",
+            "The Optimist"
+        ],
+        [
+            "F15",
+            "2071.6",
+            "WA2072",
+            "Trailside water from Oak Grove Fork Clackamas River.",
+            "good flow, lots of water",
+            "8/16/16",
+            "Oolong"
+        ],
+        [
+            "F15",
+            "2071.9",
+            "WA2072B",
+            "Trailside spring",
+            "flowing well",
+            "8/16/16",
+            "Oolong"
+        ],
+        [
+            "F15",
+            "~2073.5",
+            "",
+            "Timothy Lake",
+            "lake full. Numerous paths lead down to the lake between here and 2075.3",
+            "8/16/16",
+            "Oolong"
+        ],
+        [
+            "F15",
+            "2075.3",
+            "WACS2075",
+            "Timothy Lake",
+            "lake full. Numerous paths lead down to the lake between here and 2073.5",
+            "8/16/16",
+            "Oolong"
+        ],
+        [
+            "F15",
+            "2075.5",
+            "WA2076",
+            "Trailside spring",
+            "flowing. Easy to miss if you aren't paying attention. ",
+            "8/16/16",
+            "Oolong"
+        ],
+        [
+            "F15",
+            "2075.7",
+            "WA2076B",
+            "Trailside spring",
+            "flowing",
+            "8/16/16",
+            "Oolong"
+        ],
+        [
+            "F15",
+            "2076.0",
+            "WA2076C",
+            "Large creek and a wooden bridge.",
+            "lots of water",
+            "8/16/16",
+            "Oolong"
+        ],
+        [
+            "F15",
+            "2076.3",
+            "TR2076C",
+            "Little Crater Lake and campground trail junction. Little Crater Lake is 1/4 mile E of PCT.",
+            "Super easy, short side trail to the pond. Water is crystal clear, ice cold, delicious and beautiful! Definitely worth seeing.",
+            "8/22/15",
+            "The Optimist"
+        ],
+        [
+            "F15",
+            "2076.3",
+            "LCraterLk",
+            "Little Crater Lake, water, 1/4 mile E of PCT",
+            "Falsely advertised as Little Crater Lake. Does not appear to be any of the above. More appropriate would be 'Tiny Blue Hole'. Otherwise, water is clear and cold, if you're into that kind of thing. \n-----\n8/16/16 (Oolong) : plenty of water. Most of the tourists put their feet in and a couple people swam - you might want to filter/treat this despite how clean it looks. ",
+            "8/17/16",
+            "Red Riding Hood & Shaggy"
+        ],
+        [
+            "F16",
+            "2080.2",
+            "WACS2080",
+            "Small spring",
+            "clear, flowing well at several liters per minute ",
+            "9/3/16",
+            "Rover"
+        ],
+        [
+            "",
+            "2084.1",
+            "FrogLkCG",
+            "Frog Lake Campground, well water, 6/10 mile SE of PCT.",
+            "Frog Lake well pump handle removed. No water available but the lake from what I saw.",
+            "9/15/15",
+            "Warner Springs Monty"
+        ],
+        [
+            "G1",
+            "2092.0",
+            "WACS2092",
+            "Stream",
+            "Good flow",
+            "8/17/16",
+            "No Skip, Oolong"
+        ],
+        [
+            "G1",
+            "2094.2",
+            "WA2094",
+            "Large creek",
+            "good flow, easy to collect ",
+            "8/17/16",
+            "Oolong"
+        ],
+        [
+            "G1",
+            "2094.5",
+            "TimberlineLdg",
+            "Timberline Lodge, 2/10 mile S of PCT.",
+            "Awesome buffet"
+        ],
+        [
+            "G1",
+            "2095.5",
+            "WA2096",
+            "Creek",
+            "good flow",
+            "8/25/16",
+            "Data"
+        ],
+        [
+            "G2",
+            "2097.3",
+            "WA2097",
+            "Spring flowing across the trail.",
+            "good flow",
+            "8/25/16",
+            "Data"
+        ],
+        [
+            "G2",
+            "2097.8",
+            "WA2098",
+            "*Zigzag River",
+            "good flow",
+            "8/25/16",
+            "Data"
+        ],
+        [
+            "G2",
+            "2099.5",
+            "WA2100",
+            "*Lost Creek",
+            "good flow",
+            "8/25/16",
+            "Data"
+        ],
+        [
+            "G2",
+            "2100.1",
+            "WA2100B",
+            "Headwaters of Rushing Water Creek. May be underground near the PCT.",
+            "good flow",
+            "8/25/16",
+            "Data"
+        ],
+        [
+            "G2",
+            "2100.5",
+            "WA2100C",
+            "Small stream",
+            "good flow",
+            "8/25/16",
+            "Data"
+        ],
+        [
+            "G2",
+            "2103.8",
+            "WACS2104",
+            "Creek",
+            "good flow",
+            "8/25/16",
+            "Data"
+        ],
+        [
+            "G2",
+            "2103.9",
+            "WA2104",
+            "**Sandy River, often silty, can be a dangerous crossing.",
+            "good flow",
+            "8/25/16",
+            "Data"
+        ],
+        [
+            "G2",
+            "2104.2",
+            "WACS2104B",
+            "Trailside stream",
+            "good flow",
+            "8/25/16",
+            "Data"
+        ],
+        [
+            "G2",
+            "2104.3",
+            "RamonaFalls",
+            "Ramona Falls",
+            "gorgeous flow",
+            "8/25/16",
+            "Data"
+        ],
+        [
+            "G3",
+            "2106.0",
+            "WA2106",
+            "Large creek with a log footbridge.",
+            "log bridge still there and good flow",
+            "8/25/16",
+            "Data"
+        ],
+        [
+            "G3",
+            "2106.4",
+            "WACS2106",
+            "*Muddy Fork, hiker bridge washed out in 2014 but fallen logs allowed crossing, in 2015 Double log crossing with rope in place to cross",
+            "very silty water flowing fast. Just trail north of crossing, a small shallow stream of good clean water crosses the trail and flows into the river. ",
+            "8/18/16",
+            "Oolong"
+        ],
+        [
+            "G3",
+            "2107.5",
+            "WA2108",
+            "Seasonal stream",
+            "flowing",
+            "8/25/16",
+            "Data"
+        ],
+        [
+            "G3",
+            "2112.1",
+            "WACS2112",
+            "Stream",
+            "good flow",
+            "8/18/16",
+            "Oolong"
+        ],
+        [
+            "G4",
+            "2116.1",
+            "WACS2116",
+            "Salvation Spring",
+            "small flow, clear water, several good pools ",
+            "8/18/16",
+            "Oolong"
+        ],
+        [
+            "G5",
+            "2119.6",
+            "WA2120",
+            "Small seasonal spring next to PCT.",
+            "shallow, small flow, hard to collect",
+            "8/18/16",
+            "Oolong"
+        ],
+        [
+            "G5",
+            "2125.1",
+            "WA2125",
+            "*Indian Spring, piped spring",
+            "slow flow from pipe, good pool for collecting water",
+            "8/18/16",
+            "Oolong"
+        ],
+        [
+            "Spring is down the hill 50 ft on the Indian Springs Trail."
+        ],
+        [
+            "7/9/16 (The Optimist) : There have been some rumors that part of the Eagle Creek trail is closed due to a damaged bridge just north of Punch Bowl falls. This is incorrect; the trail is open. The bridge is out and there is a very easy creek crossing (step across, no ford) a few steps to the east of the damaged bridge."
+        ],
+        [
+            "",
+            "2125.1",
+            "ECRest",
+            "Bathroom, water fountain, near parking area.",
+            "Fountain is on at the bathroom but is disgusting. Wait for the bathroom further down the road (NOBO). \n",
+            "8/16/15",
+            "Cloud Rider"
+        ],
+        [
+            "G5",
+            "2125.1",
+            "WACS2125",
+            "Indian Springs Campground, abandoned, spring nearby.",
+            "Good reliable water source.",
+            "9/9/15",
+            "Warner Springs Monty"
+        ],
+        [
+            "G6",
+            "2128.1",
+            "WACS2128",
+            "Wahtum Lake",
+            "Large lake is full of clear water.",
+            "7/9/16",
+            "The Optimist"
+        ],
+        [
+            "G7",
+            "2136.5",
+            "WA2137",
+            "Teakettle Spring, next to PCT.",
+            "Hard to fully fill a bottle from the first pool, which is the only good source. Lot's of floatys as well. ",
+            "8/28/16",
+            "Chipotle"
+        ],
+        [
+            "G8",
+            "2140.4",
+            "WA2140",
+            "Small stream",
+            "Flowing well, many liters per minute.",
+            "7/8/16",
+            "The Optimist"
+        ],
+        [
+            "G7",
+            "2142.3",
+            "WA2142",
+            "Creek, wooden bridge.",
+            "Flowing well, many liters per minute.",
+            "7/8/16",
+            "The Optimist"
+        ],
+        [
+            "",
+            "2144.2",
+            "Cascade Locks"
+        ],
+        [
+            "These reports are provided as a free service to PCT hikers. I believe the information is accurate but the reports may contain errors. The reports are distributed in the hope that they will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE."
+        ]
+    ]
+
+}
