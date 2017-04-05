@@ -94,6 +94,7 @@ var colorBlue = [0, 0, 255, alpha];
 var colorYellow = [255, 255, 0, alpha];
 var colorRed = [255, 0, 0, alpha];
 var colorWhite = [255, 255, 255, alpha];
+var colorGray = [165, 165, 165, alpha];
 
 var styleCache = {};
 
@@ -182,18 +183,18 @@ styleCache['UNKNOWN'] = new ol.style.Style({
 	image : new ol.style.Circle({
 		radius : 5,
 		stroke : new ol.style.Stroke({
-			color : colorWhite,
+			color : colorGray,
 			width : 1.25
 		}),
 		fill : new ol.style.Fill({
-			color : colorWhite
+			color : colorGray
 		})
 	}),
 	fill : new ol.style.Fill({
-		color : colorWhite
+		color : colorGray
 	}),
 	stroke : new ol.style.Stroke({
-		color : colorWhite,
+		color : colorGray,
 		width : 1.25
 	})
 });
