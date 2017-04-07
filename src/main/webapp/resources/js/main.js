@@ -94,7 +94,7 @@ var colorBlue = [0, 0, 255, alpha];
 var colorYellow = [255, 255, 0, alpha];
 var colorRed = [255, 0, 0, alpha];
 var colorWhite = [255, 255, 255, alpha];
-var colorGray = [165, 165, 165, alpha];
+var colorGray = [60, 60, 60, alpha];
 
 var styleCache = {};
 
