@@ -262,8 +262,7 @@ mapCenters = [ null, sangCenter, pctCenter, sanmateoCenter ];
 
 map = new ol.Map({
 	target : 'map',
-	//layers : [ osmLayer, sangLayer, pctLayer, sanmateoLayer ],
-	layers : [ osmLayer ],
+	layers : [ osmLayer, sangLayer, pctLayer, sanmateoLayer ],
 	controls: ol.control.defaults().extend([
        new app.generateTrailControl({
     	   source: null

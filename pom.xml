@@ -53,7 +53,7 @@
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.executable>${env.OPENSHIFT_WILDFLY_DIR}usr/lib/jvm/jdk1.8.0_05/bin/javac</maven.compiler.executable>
 
-		<version.jboss.bom>8.2.1.Final</version.jboss.bom>
+		<version.jboss.bom>10.1.1.Final</version.jboss.bom>
 		<version.jsoup>1.8.1</version.jsoup>
 		<version.jaxb2>1.6</version.jaxb2>
 		<version.guava>18.0</version.guava>
@@ -68,28 +68,29 @@
 
 	<dependencyManagement>
 		<dependencies>
-            <!-- JBoss distributes a complete set of Java EE 7 APIs including a Bill
+            <!-- JBoss distributes a complete set of Java EE APIs including a Bill
                 of Materials (BOM). A BOM specifies the versions of a "stack" (or a collection) 
                 of artifacts. We use this here so that we always get the correct versions 
-                of artifacts. Here we use the jboss-javaee-7.0-with-tools stack (you can
+                of artifacts.
+                Here we use the jboss-javaee-7.0-with-tools stack (you can
                 read this as the JBoss stack of the Java EE 7 APIs, with some extras tools
                 for your project, such as Arquillian for testing) and the jboss-javaee-7.0-with-hibernate
                 stack you can read this as the JBoss stack of the Java EE 7 APIs, with extras
                 from the Hibernate family of projects) -->
 			<dependency>
 				<groupId>org.wildfly.bom</groupId>
-				<artifactId>jboss-javaee-7.0-with-tools</artifactId>
+				<artifactId>wildfly-javaee7-with-tools</artifactId>
 				<version>${version.jboss.bom}</version>
 				<type>pom</type>
 				<scope>import</scope>
 			</dependency>
-			<dependency>
+<!-- 			<dependency>
 				<groupId>org.wildfly.bom</groupId>
 				<artifactId>jboss-javaee-7.0-with-hibernate</artifactId>
 				<version>${version.jboss.bom}</version>
 				<type>pom</type>
 				<scope>import</scope>
-			</dependency>
+			</dependency> -->
 		</dependencies>
 	</dependencyManagement>
 
@@ -112,7 +113,7 @@
 		</dependency>
 		<dependency>
 			<groupId>org.jboss.resteasy</groupId>
-			<artifactId>jaxrs-api</artifactId>
+			<artifactId>resteasy-jaxrs</artifactId>
 			<scope>provided</scope>
 		</dependency>
 		<dependency>
