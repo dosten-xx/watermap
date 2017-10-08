@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<job id="FetchSanG" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/jobXML_1_0.xsd" version="1.0">
+    <properties>
+    	<property name="SanG" value="http://www.howlingduck.com/triterra/gorgonio/datafile.txt" />
+    </properties>
+    <step id="fetchSanGfiles" >
+	    <batchlet ref="FetchSanGJob" />
+    </step>
+</job>

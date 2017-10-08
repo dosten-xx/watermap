@@ -64,7 +64,7 @@ public class PCTReport
    private String[] stateChars = new String[] { "CA", "OR", "WA" };
    private char[] sectionChars = new char[] { 'A', 'B', 'C', 'D', 'E', 'F', 'G' , 'M', 'N', 'O', 'P', 'Q', 'R'};
    private List<WptType> waypoints = new ArrayList<WptType>();
-   private Logger log = Logger.getLogger(this.getClass().getName());
+   private static Logger log = Logger.getLogger(PCTReport.class.getName());
 
    /**
     * Default constructor.

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<job id="FetchPCT" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/jobXML_1_0.xsd" version="1.0">
+    <properties>
+    	<property name="pct-CA-A" value="https://sheets.googleapis.com/v4/spreadsheets/1gEyz3bw__aPvNXpqqHcs7KRwmwYrTH2L0DEMW3RbHes/values/Campo%20-%20Idyllwild!A11:G1000" />
+    	<property name="pct-CA-C" value="https://sheets.googleapis.com/v4/spreadsheets/1gEyz3bw__aPvNXpqqHcs7KRwmwYrTH2L0DEMW3RbHes/values/Idyllwild%20-%20Agua%20Dulce!A11:G1000" />
+    	<property name="pct-CA-E" value="https://sheets.googleapis.com/v4/spreadsheets/1gEyz3bw__aPvNXpqqHcs7KRwmwYrTH2L0DEMW3RbHes/values/Agua%20Dulce%20-%20Cottonwood%20Pass!A11:G100" />
+    	<property name="pct-CA-M" value="https://sheets.googleapis.com/v4/spreadsheets/1gEyz3bw__aPvNXpqqHcs7KRwmwYrTH2L0DEMW3RbHes/values/Northern%20CA!A9:G1000" />
+    	<property name="pct-OR-B" value="https://sheets.googleapis.com/v4/spreadsheets/1gEyz3bw__aPvNXpqqHcs7KRwmwYrTH2L0DEMW3RbHes/values/Oregon!A9:G1000" />
+    	<property name="pct-WA-H" value="https://sheets.googleapis.com/v4/spreadsheets/1gEyz3bw__aPvNXpqqHcs7KRwmwYrTH2L0DEMW3RbHes/values/Washington!A9:G1000" />
+    </properties>
+    <step id="fetchPCTfiles" >
+	    <batchlet ref="FetchPCTJob" />
+    </step>
+</job>
