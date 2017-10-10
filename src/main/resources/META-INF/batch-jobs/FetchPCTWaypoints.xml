@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<job id="FetchPCTWaypoints" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/jobXML_1_0.xsd" version="1.0">
+    <properties>
+    	<property name="CA" value="https://www.pctmap.net/wp-content/uploads/pct/ca_state_gps.zip" />
+    	<property name="OR" value="https://www.pctmap.net/wp-content/uploads/pct/or_state_gps.zip" />
+    	<property name="WA" value="https://www.pctmap.net/wp-content/uploads/pct/wa_state_gps.zip" />
+    </properties>
+    <step id="fetchPCTWaypointfiles" >
+	    <batchlet ref="FetchPCTWaypointsJob" />
+    </step>
+</job>

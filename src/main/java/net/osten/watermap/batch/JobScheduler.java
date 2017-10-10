@@ -42,25 +42,11 @@ public class JobScheduler
       BatchRuntime.getJobOperator().start("FetchPCT", new Properties());
    }
 
-   @Schedule(month = "*", dayOfMonth = "1", hour = "5", minute = "0", second = "0", persistent = false)
+   @Schedule(month = "*", dayOfMonth = "*", hour = "*", minute = "*/10", second = "0", persistent = false)
    public void fetchPCTWaypoints()
    {
       log.info("Starting PCT Waypoint fetch...");
-      // BatchRuntime.getJobOperator().start("FetchPCTWaypoints", new Properties());
-
-      /*
-       * wget http://www.pctmap.net/pctdownloads/ca_section_a_gps.zip
-       * unzip -o ca_section_a_gps.zip
-       * mv ca_section_a_gps .
-       * rm -rf ca_section_a_gps
-       * 
-       * wget http://www.pctmap.net/pctdownloads/OR_Sec_B_waypoints.gpx
-       * wget http://www.pctmap.net/pctdownloads/OR_Sec_C_waypoints.gpx
-       * wget http://www.pctmap.net/pctdownloads/OR_Sec_D_waypoints.gpx
-       * wget http://www.pctmap.net/pctdownloads/OR_Sec_E_waypoints.gpx
-       * wget http://www.pctmap.net/pctdownloads/OR_Sec_F_waypoints.gpx
-       * wget http://www.pctmap.net/pctdownloads/OR_Sec_G_waypoints.gpx
-       */
+      BatchRuntime.getJobOperator().start("FetchPCTWaypoints", new Properties());
    }
 
    @Schedule(dayOfWeek = "*", hour = "4", minute = "0", second = "0", persistent = false)
@@ -70,14 +56,15 @@ public class JobScheduler
       BatchRuntime.getJobOperator().start("FetchSanG", new Properties());
    }
 
-   @Schedule(dayOfWeek = "*", hour = "*", minute = "*/5", second = "0", persistent = false)
+   @Schedule(hour="*", minute = "*/5", second = "0", persistent = false)
    public void scheduleDump()
    {
+      log.log(Level.INFO, "Current jobs:");
       JobOperator scheduler = BatchRuntime.getJobOperator();
       for (String name : scheduler.getJobNames()) {
          for (JobInstance instance : scheduler.getJobInstances(name, 0, 1)) {
             for (JobExecution execution : scheduler.getJobExecutions(instance)) {
-               log.log(Level.INFO, "Job {0} [{1}] started {2} with status {3}", new Object[] { name, execution.getExecutionId(), execution.getStartTime(), execution.getBatchStatus() });
+               log.log(Level.INFO, "\tJob {0} [{1}] started {2} with status {3}", new Object[] { name, execution.getExecutionId(), execution.getStartTime(), execution.getBatchStatus() });
             }
          }
       }
