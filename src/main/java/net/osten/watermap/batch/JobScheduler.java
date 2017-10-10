@@ -42,7 +42,7 @@ public class JobScheduler
       BatchRuntime.getJobOperator().start("FetchPCT", new Properties());
    }
 
-   @Schedule(month = "*", dayOfMonth = "*", hour = "*", minute = "*/10", second = "0", persistent = false)
+   @Schedule(dayOfWeek = "1", hour = "2", minute = "0", second = "0", persistent = false)
    public void fetchPCTWaypoints()
    {
       log.info("Starting PCT Waypoint fetch...");
