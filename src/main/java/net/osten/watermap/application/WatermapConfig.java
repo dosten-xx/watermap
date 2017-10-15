@@ -44,6 +44,8 @@ public class WatermapConfig
 {
    private static Logger log = Logger.getLogger(WatermapConfig.class.getName());
    private CompositeConfiguration config = null;
+   
+   public static final String OUTPUT_DIR = "output_dir";
 
    /**
     * Default constructor.

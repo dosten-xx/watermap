@@ -61,7 +61,9 @@ public class FetchSanGJob implements Batchlet
    @Override
    public String process() throws Exception
    {
-      outputDir = new File(config.getString("output_dir"));
+      System.out.println("config=" + config);
+      System.out.println("context=" + context);
+      outputDir = new File(config.getString(WatermapConfig.OUTPUT_DIR));
 
       // curl -o $od/datafile.txt http://www.howlingduck.com/triterra/gorgonio/datafile.txt
       if (!outputDir.isDirectory()) {
