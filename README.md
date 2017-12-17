@@ -18,3 +18,6 @@
  - ```OPENSHIFT_DATA_DIR``` : location of data files (e.g. /data) : no default
  - ```APP_URL``` : hostname and context of application (e.g. backcountrywater.info) : default is localhost
  - ```OPENSHIFT_APP_PORT``` : application port (e.g. 80) : default is 80
+
+## Troubleshooting
+ - If the maps don't show up, disable HTTPSEverywhere plugin (at least for openstreetmap.org)
