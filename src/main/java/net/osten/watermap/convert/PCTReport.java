@@ -83,7 +83,7 @@ public class PCTReport
    {
       Set<WaterReport> results = new HashSet<WaterReport>();
 
-      log.fine("dataDir=" + dataDir);
+      log.info("dataDir=" + dataDir);
       
       // parse json files
       if (dataDir != null) {
