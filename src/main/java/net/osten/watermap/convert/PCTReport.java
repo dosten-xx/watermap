@@ -258,7 +258,7 @@ public class PCTReport
    
    private WaterReport processWaypoint(String waypoint, String desc, String date, String rpt)
    {
-      log.finer("waypoint=" + waypoint);
+      log.info("processing waypoint=" + waypoint);
 
       WaterReport report = new WaterReport();
       report.setDescription(rpt);
@@ -278,10 +278,11 @@ public class PCTReport
 
       report.setState(WaterStateParser.parseState(rpt));
 
+      log.info("there are " + waypoints.size() + " waypoints");
       // TODO replace with something more elegant than this brute force search
       for (WptType wpt : waypoints) {
          if (wpt.getName().equalsIgnoreCase(waypoint)) {
-            // System.out.println("found matching lat/lon");
+            log.info("found matching lat/lon");
             report.setLat(wpt.getLat());
             report.setLon(wpt.getLon());
             break;
@@ -293,7 +294,7 @@ public class PCTReport
          String modifiedWaypoint = RegexUtils.addLeadingZerosToWaypoint(waypoint);
          for (WptType wpt : waypoints) {
             if (wpt.getName().equalsIgnoreCase(modifiedWaypoint)) {
-               // System.out.println("found matching lat/lon");
+               log.info("found matching lat/lon");
                report.setLat(wpt.getLat());
                report.setLon(wpt.getLon());
                break;
@@ -306,7 +307,7 @@ public class PCTReport
          String modifiedWaypoint = "WR0" + waypoint.substring(2);
          for (WptType wpt : waypoints) {
             if (wpt.getName().equalsIgnoreCase(modifiedWaypoint)) {
-               // System.out.println("found matching lat/lon");
+               log.info("found matching lat/lon");
                report.setLat(wpt.getLat());
                report.setLon(wpt.getLon());
                break;
@@ -319,7 +320,7 @@ public class PCTReport
          String modifiedName = fixNames(report.getName());
          for (WptType wpt : waypoints) {
             if (wpt.getName().equalsIgnoreCase(modifiedName)) {
-               // System.out.println("found matching lat/lon");
+               log.info("found matching lat/lon");
                report.setLat(wpt.getLat());
                report.setLon(wpt.getLon());
                break;
