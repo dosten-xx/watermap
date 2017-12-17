@@ -225,12 +225,12 @@ public class PCTReport
                         log.fine("cannot find coords for " + waypoint);
                      }
                      else {
-                        log.info(report.toString());
+                        log.info("Adding " + report.toString());
                         results.add(report);
                      }
                   }
                   else {
-                     log.info(report.toString());
+                     log.info("Adding " + report.toString());
                      results.add(report);
                   }
                }
