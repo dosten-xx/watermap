@@ -207,32 +207,37 @@ public class PCTReport
          if (row.isJsonArray()) {
             currentRow = row.getAsJsonArray();
             if (currentRow.size() >= 6) {
-               String waypoint = currentRow.get(2).getAsJsonPrimitive().getAsString();
-               String desc = currentRow.get(3).getAsJsonPrimitive().getAsString();
-               String rpt = currentRow.get(4).getAsJsonPrimitive().getAsString();
-               String date = currentRow.get(5).getAsJsonPrimitive().getAsString();
-
-               String[] names = waypoint.split(",");
-               for (String name : names) {
-                  name = name.trim();
-                  
-                  WaterReport report = processWaypoint(name, desc, date, rpt);
-                  if (report.getLat() == null) {
-                     // DEO try prefixing the name (this is for split names: "WR127,B")
-                     name = names[0] + name;
-                     report = processWaypoint(name, desc, date, rpt);
+               try {
+                  String waypoint = currentRow.get(2).getAsJsonPrimitive().getAsString();
+                  String desc = currentRow.get(3).getAsJsonPrimitive().getAsString();
+                  String rpt = currentRow.get(4).getAsJsonPrimitive().getAsString();
+                  String date = currentRow.get(5).getAsJsonPrimitive().getAsString();
+   
+                  String[] names = waypoint.split(",");
+                  for (String name : names) {
+                     name = name.trim();
+                     
+                     WaterReport report = processWaypoint(name, desc, date, rpt);
                      if (report.getLat() == null) {
-                        log.fine("cannot find coords for " + waypoint);
+                        // DEO try prefixing the name (this is for split names: "WR127,B")
+                        name = names[0] + name;
+                        report = processWaypoint(name, desc, date, rpt);
+                        if (report.getLat() == null) {
+                           log.fine("cannot find coords for " + waypoint);
+                        }
+                        else {
+                           log.info("Adding " + report.toString());
+                           results.add(report);
+                        }
                      }
                      else {
                         log.info("Adding " + report.toString());
                         results.add(report);
                      }
                   }
-                  else {
-                     log.info("Adding " + report.toString());
-                     results.add(report);
-                  }
+               }
+               catch (Exception e) {
+                  e.printStackTrace();
                }
             }
             else {
