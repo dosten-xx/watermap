@@ -126,7 +126,7 @@ public class PCTReport
                   Unmarshaller u = jc.createUnmarshaller();
                   @SuppressWarnings("unchecked")
                   GpxType waypointList = ((JAXBElement<GpxType>) u.unmarshal(new FileInputStream(dataDir + File.separator + stateChar + "_Sec_" + sectionChar + "_waypoints.gpx"))).getValue();
-                  log.fine("found " + waypointList.getWpt().size() + " waypoints for section " + sectionChar);
+                  log.info("found " + waypointList.getWpt().size() + " waypoints for section " + sectionChar);
                   waypoints.addAll(waypointList.getWpt());
                }
                catch (JAXBException | IOException e) {
@@ -244,7 +244,7 @@ public class PCTReport
          }
       }
 
-      log.fine("returning " + results.size() + " pct reports");
+      log.info("returning " + results.size() + " pct reports");
       return results;
    }
    
