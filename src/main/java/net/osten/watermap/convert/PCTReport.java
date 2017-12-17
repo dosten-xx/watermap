@@ -82,8 +82,13 @@ public class PCTReport
    public synchronized Set<WaterReport> convert() throws IOException
    {
       Set<WaterReport> results = new HashSet<WaterReport>();
-
+      
       log.info("dataDir=" + dataDir);
+      
+      if (waypoints.size() == 0) {
+         log.warning("Waypoints empty, re-initializing...");
+         initialize();
+      }
       
       // parse json files
       if (dataDir != null) {
