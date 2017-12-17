@@ -93,11 +93,11 @@ public class PCTReport
                   String fileName = "pct-" +stateChar + "-" + sectionChar + ".json";
                   File jsonFile = new File(dataDir + File.separator + fileName);
                   if (jsonFile.exists() && jsonFile.canRead()) {
-                     log.fine("reading json file " + jsonFile);
+                     log.info("reading json file " + jsonFile);
                      String htmlSource = Files.toString(jsonFile, Charset.forName("UTF-8"));
                      JsonParser parser = new JsonParser();
                      JsonElement root = parser.parse(htmlSource);
-                     log.finest("json root is obj=" + root.isJsonObject());
+                     log.info("json root is obj=" + root.isJsonObject());
                      results.addAll(parseDocument(root.getAsJsonObject()));
                   }
                }
@@ -199,7 +199,7 @@ public class PCTReport
    {
       Set<WaterReport> results = new HashSet<WaterReport>();
 
-      log.finer("json children=" + reportJson.getAsJsonArray("values").size());
+      log.info("json children=" + reportJson.getAsJsonArray("values").size());
 
       JsonArray currentRow = null;
       
@@ -225,18 +225,18 @@ public class PCTReport
                         log.fine("cannot find coords for " + waypoint);
                      }
                      else {
-                        log.finest(report.toString());
+                        log.info(report.toString());
                         results.add(report);
                      }
                   }
                   else {
-                     log.finest(report.toString());
+                     log.info(report.toString());
                      results.add(report);
                   }
                }
             }
             else {
-               log.finer("skipping row " + row.toString());
+               log.info("skipping row " + row.toString());
             }
          }
          else {
