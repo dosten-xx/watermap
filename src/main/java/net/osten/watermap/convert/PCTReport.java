@@ -206,12 +206,15 @@ public class PCTReport
       for (JsonElement row : reportJson.getAsJsonArray("values")) {
          if (row.isJsonArray()) {
             currentRow = row.getAsJsonArray();
+            log.info("row has " + currentRow.size() + "elements");
             if (currentRow.size() >= 6) {
                try {
                   String waypoint = currentRow.get(2).getAsJsonPrimitive().getAsString();
                   String desc = currentRow.get(3).getAsJsonPrimitive().getAsString();
                   String rpt = currentRow.get(4).getAsJsonPrimitive().getAsString();
                   String date = currentRow.get(5).getAsJsonPrimitive().getAsString();
+                  
+                  log.info("waypoint=" + waypoint);
    
                   String[] names = waypoint.split(",");
                   for (String name : names) {
@@ -223,7 +226,7 @@ public class PCTReport
                         name = names[0] + name;
                         report = processWaypoint(name, desc, date, rpt);
                         if (report.getLat() == null) {
-                           log.fine("cannot find coords for " + waypoint);
+                           log.info("cannot find coords for " + waypoint);
                         }
                         else {
                            log.info("Adding " + report.toString());
