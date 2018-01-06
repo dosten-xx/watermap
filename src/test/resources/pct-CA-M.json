@@ -1,2246 +1,2379 @@
 {
-
-    "range": "'Northern CA'!A9:G276",
-    "majorDimension": "ROWS",
-    "values": [
-        [
-            "M5",
-            "1195.4",
-            "Church1195",
-            "Church, 1.4 miles southwest of PCT in Sierra City, water, hikers allowed to camp on lawn, public restroom nearby."
-        ],
-        [
-            "",
-            "1195.4",
-            "Sierra City"
-        ],
-        [
-            "M1",
-            "1197.2",
-            "WA1197",
-            "Switchback spring",
-            "good flow, easy collection",
-            "8/11/16",
-            "Pebble"
-        ],
-        [
-            "M5",
-            "1200.7",
-            "WA1201",
-            "Seasonal spring",
-            "A few tiny puddles. Would be almost impossible to collect",
-            "8/11/16",
-            "Pebble"
-        ],
-        [
-            "M1",
-            "1202.6",
-            "WA1203",
-            "Sierra Buttes Spring",
-            "Decent slow flow, delicious and cold",
-            "8/11/16",
-            "Pebble"
-        ],
-        [
-            "M2",
-            "1209.2",
-            "RD1209",
-            "Unpaved road to Summit Lake, water at Summit Lake.",
-            "Plenty of water, good spot for a break. (2nd hand info).",
-            "7/15/16",
-            "Garfield"
-        ],
-        [
-            "M3",
-            "1211.9",
-            "WA1212",
-            "Pauley Seep, 100 yards off trail.",
-            "Flowing well, deep pools, scoop suggested for collection.\n-----\n7/14/16 (Data) : look for white square tags on trees while going down. The path goes slightly southward. Pools of deep water in the grass field with good replenishing flow. \r\n-----\nNote that the sign is facing southbound traffic so watch for a faint use trail to avoid missing it.",
-            "7/15/16",
-            "Garfield"
-        ],
-        [
-            "M3",
-            "1213.5",
-            "WA1214B",
-            "Trail junction to Little Jamison Creek, 200 feet off-trail.",
-            "low flow, not the easiest collection. Lots of cow pies around here.",
-            "8/11/16",
-            "Pebble"
-        ],
-        [
-            "M3",
-            "1213.5",
-            "WA1214",
-            "Piped spring 1/10 mile E of PCT",
-            "low flow. Lots of cow pies around here.\n-----\n9/15/15 (Notsofast) : Flowing at 1L/min but not out of pipe, so bring a scoop to collect out of small pool. Right after the Little Jamison Creek \"low spot\" in the trail, the side trail forks and there is another sign that pointed uphill and to the right that said \"spring\" in 600ft. I took this trail uphill (and to the north/left side of the drainage). It eventually curved back around to the bottom of the drainage and at that spot there was a sign on a tree that said \"Little Jamison Spring\" and there was a spring flowing with a small pool. That is what I'm reporting as the spring in my water report. The water from that seemed to go underground soon afterward sometime downhill, because when you looked downhill a ways there was no obvious water flowing. Also, there was no flow at the official creek crossing on the side trail even farther downhill either, so that water must be getting reabsorbed in the ground I guess.",
-            "8/11/16",
-            "Pebble"
-        ],
-        [
-            "M3",
-            "1213.6",
-            "WACS1214",
-            "Small pond",
-            "Pond has unappetizing, murky water",
-            "8/11/16",
-            "Pebble"
-        ],
-        [
-            "M3",
-            "1217.2",
-            "WA1217",
-            "*A Tree spring",
-            "2.5L/min from pipe, clear & cold",
-            "9/12/16",
-            "Huckleberry & Macro"
-        ],
-        [
-            "M4",
-            "1221.3",
-            "WA1221",
-            "Small creek",
-            "good flow, easy collection at trail",
-            "9/12/16",
-            "Huckleberry & Macro"
-        ],
-        [
-            "M4",
-            "1221.5",
-            "WACS1221",
-            "Seasonal W Branch Nelson Creek",
-            "dry",
-            "9/2/16",
-            "Long Game"
-        ],
-        [
-            "M4",
-            "1223.8",
-            "WA1224",
-            "East Branch of Bear Trap Creek",
-            "very good flow",
-            "9/12/16",
-            "Huckleberry & Macro"
-        ],
-        [
-            "M4",
-            "1224.1",
-            "WA1224B",
-            "West Branch of Bear Trap Creek. East Branch 3/10 mile south may be better water.",
-            "flowing",
-            "9/12/16",
-            "Huckleberry & Macro"
-        ],
-        [
-            "M4",
-            "1226",
-            "WACS1226",
-            "Seasonal East Hopkins Seep",
-            "totally dry",
-            "7/29/16",
-            "Bengarland"
-        ],
-        [
-            "M5",
-            "1229.1",
-            "WA1229",
-            "Small Lake, west of the trail.",
-            "it's down there, but it looks like a pain to climb back up",
-            "7/8/16",
-            "Oolong"
-        ],
-        [
-            "M5",
-            "1232.3",
-            "WA1232",
-            "*Creek 3/10 mile S of PCT on paved Quincy-LaPorte Road.",
-            "Good flow, multiple liters per minute.",
-            "7/4/16",
-            "Skinny Thor & Sweet Cheeks"
-        ],
-        [
-            "M5",
-            "1234.4",
-            "WA1234",
-            "*Alder Spring (800 feet off trail) trail junction.",
-            "flowing at about 3L / min ",
-            "8/9/16",
-            "Pebble"
-        ],
-        [
-            "M6",
-            "1238.9",
-            "WA1239",
-            "Black Rock Spring, 3/10 mile S of Fowler Peak Trailhead along trail",
-            "when you hit the dry streambed, follow it for about 100 feet to find some stagnant pools. Probably not worth the effort. ",
-            "7/9/16",
-            "Oolong"
-        ],
-        [
-            "M6",
-            "1242",
-            "WA1242",
-            "Small N Fowler Creek, 1/10 mile S of PCT down short trail,",
-            "moderate flow",
-            "8/9/16",
-            "Pebble"
-        ],
-        [
-            "Sign for the creek is mounted parallel to the trail so be careful not to miss it. The use trail is visible, and takes you down across a road to a shady watering hole. As a south-bounder coming up from the Middle Fork on a hot day, this oasis was a welcome relief."
-        ],
-        [
-            "M7",
-            "1246.82",
-            "",
-            "Pipe Spring",
-            "flowing well, multiple liters per minute",
-            "8/21/16",
-            "Sparkles"
-        ],
-        [
-            "M7",
-            "1247.2",
-            "WACS1247",
-            "**Middle Fork Feather River, steel bridge",
-            "excellent flow. Fantastic swimming opportunity ",
-            "8/9/16",
-            "Pebble"
-        ],
-        [
-            "On west side of bridge there are cool little currents you can ride with."
-        ],
-        [
-            "M7",
-            "1249.6",
-            "WA1250",
-            "Stream",
-            "great flow, easy collection ",
-            "9/11/16",
-            "Huckleberry & Macro"
-        ],
-        [
-            "M7",
-            "1250.5",
-            "CS1251",
-            "*Bear Creek",
-            "Lots of flow. Camping close just upstream of bridge,  suggest collecting above that point.",
-            "7/16/16",
-            "Garfield"
-        ],
-        [
-            "M7",
-            "1251.2",
-            "WA1251",
-            "Small creek",
-            "high volume, excellent flow, easy collection ",
-            "9/11/16",
-            "Huckleberry & Macro"
-        ],
-        [
-            "M7",
-            "1255.3",
-            "WA1255",
-            "Seasonal spring",
-            "low flow, shallow",
-            "9/11/16",
-            "Huckleberry & Macro"
-        ],
-        [
-            "M7",
-            "1257.2",
-            "WA1257",
-            "Lookout Spring",
-            "lookout spg- steady flow from pipe",
-            "9/11/16",
-            "Huckleberry & Macro"
-        ],
-        [
-            "",
-            "1261",
-            "HaskensStore",
-            "Haskens Store, small store next to bed and breakfast - alt. mi 2.7"
-        ],
-        [
-            "",
-            "1261",
-            "LkshoreResort",
-            "Lake Shore Resort, restaurant, bar, small store, www.buckslakeshoreresort.com. - alt mi. 3.8"
-        ],
-        [
-            "M8",
-            "1262.1",
-            "WA1262",
-            "Small spring",
-            "flowing clear water, low volume and narrow channel would hinder collection",
-            "9/11/16",
-            "Huckleberry & Macro"
-        ],
-        [
-            "M8",
-            "1262.5",
-            "WA1262B",
-            "Seasonal spring",
-            "muddy seep, flowing but would be difficult to collect ",
-            "9/11/16",
-            "Huckleberry & Macro"
-        ],
-        [
-            "M8",
-            "1263.1",
-            "WA1263",
-            "A small stream called Big Creek.",
-            "clear, sandy bottom. Flowing ~2l/min",
-            "9/11/16",
-            "Huckleberry & Macro"
-        ],
-        [
-            "",
-            "1265.4",
-            "Quincy"
-        ],
-        [
-            "M9",
-            "1266.6",
-            "WA1267",
-            "Bucks Creek",
-            "clear, easy to collect just below trail, 4-5L/min",
-            "9/11/16",
-            "Huckleberry & Macro"
-        ],
-        [
-            "M9",
-            "1267",
-            "WA1267B",
-            "Bucks Creek",
-            "clear, easy to collect just above trail, 4-5L/min",
-            "9/11/16",
-            "Huckleberry & Macro"
-        ],
-        [
-            "M10",
-            "1273.7",
-            "WA1274",
-            "Clear Creek Springs",
-            "flowing well 6L / min",
-            "8/1/16",
-            "Bengarland"
-        ],
-        [
-            "M10",
-            "1274.2",
-            "WA1274B",
-            "Small seasonal creek",
-            "Small, muddy, flowing",
-            "9/11/16",
-            "Huckleberry & Macro"
-        ],
-        [
-            "M10",
-            "1275.2",
-            "WACS1275",
-            "Clear Creek",
-            "Shallow sandy creek where crosses trail, small pools aid in collection. Much better collection ~0.25mi S from deep rocky pools where trail parallels creek, flow est 8-10L/min ",
-            "9/11/16",
-            "Huckleberry & Macro"
-        ],
-        [
-            "M10",
-            "1275.5",
-            "WA1276",
-            "Shallow lily pond",
-            "Looked full and clear.",
-            "7/17/16",
-            "Garfield"
-        ],
-        [
-            "M11",
-            "1277.1",
-            "WA1277",
-            "Grouse Spring trail junction (spring is 1/10 mile off trail).",
-            "I didn't visit however at Grouse spring junction (according to halfmile app) there was a newish looking sign to \"Bracken Fern Spring\" 500 ft off trail. ",
-            "7/17/16",
-            "Garfield"
-        ],
-        [
-            "M11",
-            "1279",
-            "WA1279",
-            "Seasonal spring. Watch for POISON OAK as you descend to Belden.",
-            "very slow drip from pipe",
-            "9/10/16",
-            "Huckleberry & Macro"
-        ],
-        [
-            "M11",
-            "1279.2",
-            "WA1279B",
-            "Canyon View Spring",
-            "6-8L/min from piped spring",
-            "9/10/16",
-            "Huckleberry & Macro"
-        ],
-        [
-            "M11",
-            "1284.3",
-            "Belden",
-            "Belden Town Resort"
-        ],
-        [
-            "N11",
-            "1285.4",
-            "WA1285",
-            "Indian Creek, large wooden footbridge.",
-            "high volume, excellent flow ",
-            "9/10/16",
-            "Huckleberry & Macro"
-        ],
-        [
-            "N11",
-            "1286.5",
-            "WA1286",
-            "Small creek",
-            "decent flow, good water and easy to collect from diverted pipe ",
-            "9/10/16",
-            "Huckleberry & Macro"
-        ],
-        [
-            "N1",
-            "1288",
-            "WA1288",
-            "Small seasonal creek.",
-            "minimal water, barely trickling",
-            "9/10/16",
-            "Huckleberry & Macro"
-        ],
-        [
-            "N1",
-            "1289.3",
-            "WA1289",
-            "Seasonal Rattlesnake Spring",
-            "small but flowing, would need a cup or scoop to collect",
-            "9/10/16",
-            "Huckleberry & Macro"
-        ],
-        [
-            "N1",
-            "1289.6",
-            "WA1290",
-            "Creek",
-            "great flow, easy to collect ",
-            "9/10/16",
-            "Huckleberry & Macro"
-        ],
-        [
-            "N1",
-            "1289.9",
-            "WA1290B",
-            "Creek",
-            "very good flow",
-            "9/10/16",
-            "Huckleberry & Macro"
-        ],
-        [
-            "N1",
-            "1290.2",
-            "WACS1290",
-            "William's Cabin site, small creek nearby.",
-            "small but good flow",
-            "9/10/16",
-            "Huckleberry & Macro"
-        ],
-        [
-            "N1",
-            "1290.6",
-            "WA1291",
-            "Large stream",
-            "high volume, excellent flow",
-            "9/10/16",
-            "Huckleberry & Macro"
-        ],
-        [
-            "N1",
-            "1291.1",
-            "WACS1291",
-            "Myrtle Flat, small stream nearby.",
-            "shallow but good flow",
-            "9/10/16",
-            "Huckleberry & Macro"
-        ],
-        [
-            "N2",
-            "1292.5",
-            "WA1293",
-            "Large creek",
-            "high volume, excellent flow, easy to collect and clear",
-            "9/10/16",
-            "Huckleberry & Macro"
-        ],
-        [
-            "N2",
-            "1292.9",
-            "WA1293B",
-            "Small creek",
-            "shallow, good flow",
-            "9/10/16",
-            "Huckleberry & Macro"
-        ],
-        [
-            "N2",
-            "1293.1",
-            "WA1293C",
-            "*Chips Creek ford, large creek.",
-            "excellent flow, though still plenty of algae. Easy to collect clear water from deeper areas",
-            "9/10/16",
-            "Huckleberry & Macro"
-        ],
-        [
-            "N2",
-            "1293.5",
-            "WA1293D",
-            "Chips Creek, 2nd crossing, large creek.",
-            "low water level & lots of algae but flowing & could collect clear water from pools",
-            "9/10/16",
-            "Huckleberry & Macro"
-        ],
-        [
-            "N2",
-            "1293.7",
-            "WA1294",
-            "Small creek",
-            "flowing but shallow with muddy bottom",
-            "9/10/16",
-            "Huckleberry & Macro"
-        ],
-        [
-            "N2",
-            "1294.3",
-            "WA1294B",
-            "Small creek",
-            "great flow, small",
-            "9/10/16",
-            "Huckleberry & Macro"
-        ],
-        [
-            "N2",
-            "1294.7",
-            "WA1295",
-            "Creek",
-            "excellent flow, easy to collect",
-            "9/10/16",
-            "Huckleberry & Macro"
-        ],
-        [
-            "N2",
-            "1294.8",
-            "WA1295B",
-            "Creek",
-            "high volume, excellent flow, easy to collect",
-            "9/10/16",
-            "Huckleberry & Macro"
-        ],
-        [
-            "N2",
-            "1297.1",
-            "WA1297",
-            "Andesite Spring",
-            "good flow at > 2 liter/min",
-            "8/2/16",
-            "Rover"
-        ],
-        [
-            "N2",
-            "1298.5",
-            "WA1299",
-            "Frog Spring",
-            "Low flow",
-            "8/7/16",
-            "Pebble"
-        ],
-        [
-            "N3",
-            "1302.9",
-            "WACS1303",
-            "*Cold Springs",
-            "water gushing from pipe, clear and cold",
-            "9/8/16",
-            "Huckleberry & Macro"
-        ],
-        [
-            "N4",
-            "1310.7",
-            "WA1311",
-            "Trail junction to a Robbers Spring, 1/3 mile off-trail.",
-            "flowing at ~2 liters/minute.",
-            "8/21/16",
-            "Sparkles"
-        ],
-        [
-            "N4",
-            "1313.3",
-            "WA1313",
-            "Little Cub Spring, near sign on tree, 3/10 mile west of the PCT.",
-            "Spring is 0.36 trail miles (sign says 0.3 miles) and 141 feet down off trail. Not much to look at but still flowing OK.\n-----\nFollow trail to the left for ~0.3 miles down to an ice cold springs. It's a bit of a climb back up (~300 ft) but worth it and I would fill up here as the next water source at mile 1315.5 (Carter Creek) gave a lot of other hikers problems in 2014 in terms of finding it which meant no water between Little Cub Springs and Soldier Creek 12.2 miles ahead.",
-            "8/3/16",
-            "Rover"
-        ],
-        [
-            "N5",
-            "1315.5",
-            "WACS1316",
-            "Seasonal Carter Creek, ~0.7 mile N of PCT",
-            "flowing well 6L / min. Must go all the way down until you see the wooden \"Water\" sign nailed to a tree, about a 12+ min walk\n-----\n7/21/16 (Fat Sectioner) : Still flowing at shown location on Guthook. I expect soon one will have to go much further down the trail, up to a mile, to get flowing water.\n-----\n7/12/16 (Oolong) : Good flow, clean water. The sign at the beginning of the side trail says it's 0.7 miles to water. Without a reliable way to measure, I'd say the 0.7 feels right; It's a long slog up and down the side trail. The side trail follows a dry creek bed much of the way down, and you can find some stagnant pools in places before you reach the running stream, but they don't look very good.\n-----\nMany hikers in 2014 could not find any water which is 0.5 mile off the PCT. A few hikers did find water however.",
-            "8/3/16",
-            "Bengarland"
-        ],
-        [
-            "6/1/16 (Fat Sectioner) : Currently, the WACS1316 is at the point where the trail crosses Carter creek, 350 feet or so past the campsites.  If one follows the path past that, it crosses another (unnamed) creek that will later join Carter creek and have a much more substantial combined flow. To put that in a mileage log format: \n     * 0.0 miles: Leave PCT\n     * 0.4 miles: Campsite\n     * 0.45 miles: Carter Creek Crossing\n     * 0.5 miles: Unnamed Creek Crossing\n     * 0.6 miles: Confluence of two creeks 100 feet to the west of the trail\n     * 0.7 miles: Permanent (aka more than seasonal) creek about 50 feet to the west of the trail\n     *** To that end, at the Carter Meadows trail intersection on the PCT there's a sign that says \"permanent water 0.7 mi\".  And based on what I've seen, that makes a lot of sense.\n     However, the campsites are similar enough distance, one could easily assume that was the  0.7 miles (particularly with how off mileage can be on trail markers) and not \n     explore further down-stream. So what I'd recommend is adding waypoint WA1316 at location 40.2027,-121.4178 (that's the 0.6 mile item on the mileage log) with the\n     description: \"Permanent water on Carter Creek, further downstream of campsite.\"  If you'd prefer something even more substantial, you could use location\n     40.2042,-121,4166 that is 0.7miles downstream.  At that point the flow is so strong the creek can be seen from Google Earth imagery and the USGS topo maps show\n     another creek having joined in (although I didn't see it)."
-        ],
-        [
-            "N6",
-            "1325.5",
-            "WACS1326",
-            "*Soldier Creek",
-            "small stream but good flow",
-            "9/8/16",
-            "Huckleberry & Macro"
-        ],
-        [
-            "N6",
-            "1327.6",
-            "WA1328",
-            "Wooden footbridge over seasonal part of Soldier Creek, often dry.",
-            "Dry",
-            "8/5/16",
-            "Pebble"
-        ],
-        [
-            "IMPORTANT CHANGE FOR 2017 : Bear Canisters are now required by law when camping in Lassen National Park probably due to a aggressive bear near Lower Twin Lake (mile 1355.1) in 2016 that harrassed multiple hikers for their food. See https://www.nps.gov/lavo/learn/news/bear-canisters-required.htm for more info."
-        ],
-        [
-            "",
-            "1328.8",
-            "Chester",
-            "Town, 7.5 miles E on Hwy 36"
-        ],
-        [
-            "N7",
-            "1332.3",
-            "WACS1332",
-            "*Stover Spring",
-            "great flow from trough across pool from trail",
-            "9/7/16",
-            "Huckleberry & Macro"
-        ],
-        [
-            "N8",
-            "1338.2",
-            "WACS1338",
-            "**North Fork Feather River, footbridge.",
-            "excellent flow",
-            "8/5/16",
-            "Pebble, Bengarland"
-        ],
-        [
-            "N8",
-            "1338.9",
-            "WA1339",
-            "Domingo Spring trail junction, spring is 3/10 mile off-trail.",
-            "very fast flow from spigot, good cold water",
-            "7/14/16",
-            "Oolong"
-        ],
-        [
-            "N9",
-            "1343.6",
-            "",
-            "Small creek across trail",
-            "dry",
-            "9/7/16",
-            "Huckleberry & Macro"
-        ],
-        [
-            "N9",
-            "1343.8",
-            "WA1344",
-            "Boundary Spring, 400 feet off-trail.",
-            "good flow 6L / min",
-            "8/5/16",
-            "Bengarland"
-        ],
-        [
-            "N9",
-            "1344",
-            "",
-            "Little Willow Lake",
-            "grassy meadow with no visible surface water",
-            "9/7/16",
-            "Huckleberry & Macro"
-        ],
-        [
-            "N9",
-            "1347.4",
-            "WA1347",
-            "Large creek, wooden bridge.",
-            "great flow",
-            "9/7/16",
-            "Huckleberry & Macro"
-        ],
-        [
-            "N9",
-            "1347.6",
-            "WarnerValleyTH",
-            "Warner Valley trailhead parking, water spigot, outhouse, picnic tables, trash cans. Drakesbad Resort is 4/10 mile west via the road.",
-            "Warner Valley Camp faucets on.\n-----\n6/18/16 (Herb) : Campground open and spigots on. Camping $16 per night, convenient to Drakesbad Resort. ",
-            "9/7/16",
-            "Huckleberry & Macro"
-        ],
-        [
-            "N9",
-            "1347.6",
-            "Drakesbad",
-            "Drakesbad Resort",
-            "Open and water on. (Need reservations to eat in restaurant, well worth it)",
-            "6/18/16",
-            "Herb"
-        ],
-        [
-            "N10",
-            "1350.4",
-            "WACS1350",
-            "Summit Lake trail junction, trail side creek",
-            "great flow, clear & cold",
-            "9/6/16",
-            "Huckleberry & Macro"
-        ],
-        [
-            "N10",
-            "1351.2",
-            "",
-            "Grassy Swale Creek",
-            "ood flow, deep pools",
-            "9/6/16",
-            "Huckleberry & Macro"
-        ],
-        [
-            "N10",
-            "1351.8",
-            "WA1352",
-            "Small creek",
-            "great flow",
-            "9/6/16",
-            "Huckleberry & Macro"
-        ],
-        [
-            "N10",
-            "1354.5",
-            "WACS1355",
-            "Swan Lake.",
-            "plenty of water in both lakes",
-            "9/6/16",
-            "Huckleberry & Macro"
-        ],
-        [
-            "N11",
-            "1355.1",
-            "WACS1355B",
-            "**Lower Twin Lake",
-            "plenty of water in both lakes\n-----\n7/27/16 : Reports of an aggressive bear in this area, please use caution. Another hiker found the SPOT so for the hiker who lost it, please send in a comment to the water report so I can connect you with the other hiker.",
-            "9/6/16",
-            "Huckleberry & Macro"
-        ],
-        [
-            "N11",
-            "1360.9",
-            "TR1631",
-            "Cluster Lake Trail Junction",
-            "some areas of green grass but no visible surface water near trail jct",
-            "9/6/16",
-            "Huckleberry & Macro"
-        ],
-        [
-            "",
-            "1361",
-            "",
-            "Badger Flat Spring",
-            "spring is 0.08 miles and 0 feet vertical from trail. Flowing at > 1 liter/min",
-            "8/4/16",
-            "Rover"
-        ],
-        [
-            "N12",
-            "1363",
-            "LassenNP2",
-            "Lassen National Park Boundary, trail register, horse corral with water 3/10 mile off-trail.",
-            "water near corral .3 off trail: trail a bit hard to follow, but it's a large creek at the end",
-            "5/23/15",
-            "Joe"
-        ],
-        [
-            "N12",
-            "1366.1",
-            "WA1366",
-            "Unpaved road, water 1/10 mile west of the trail.",
-            "huge flow, cold ",
-            "8/6/16",
-            "Bengarland"
-        ],
-        [
-            "N13",
-            "1367.2",
-            "WACS1367",
-            "*Hat Creek",
-            "tons of water, great flow",
-            "9/6/16",
-            "Huckleberry & Macro"
-        ],
-        [
-            "N13",
-            "1371",
-            "Old Station",
-            "Old Station Post Office.",
-            "spigots on at RV park on 7/5/16, store open 8am-6pm Sun-Thurs and 8am-8pm Fri & Sat",
-            "7/5/16",
-            "Shutterbug"
-        ],
-        [
-            "N14",
-            "1374.9",
-            "",
-            "Old Station Visitor Center",
-            "Exit the trail at Highway 44 turn left toward highway 89 as though heading toward JJ’s. Just before 89 turn left on a paved forest service road that cuts over to 89. Visitor Center on the right has water fountains and outhouses. If going to JJ’s anyway, easier to water here than off-trail at Subway. ",
-            "6/17/16",
-            "Herb"
-        ],
-        [
-            "IMPORTANT CHANGE FOR 2017 : Bear Canisters are now required by law when camping in Lassen National Park probably due to a aggressive bear near Lower Twin Lake (mile 1355.1) in 2016 that harrassed multiple hikers for their food. See https://www.nps.gov/lavo/learn/news/bear-canisters-required.htm for more info."
-        ],
-        [
-            "N14",
-            "1375",
-            "WA1375",
-            "Subway Cave, water fountain, outhouse, paved parking area nearby. ",
-            "spigots on. Sign says available may-October ",
-            "9/5/16",
-            "Huckleberry & Macro"
-        ],
-        [
-            "N14",
-            "1379.5",
-            "",
-            "Creek",
-            "Dry. Even when the stream at 1379.5 is dry (as it is now) there's plenty of water in Plum Valley Reservoir, 0.2 miles upstream (trail-east) from the trail (marked on your maps). Just follow the dry streambed, duck under the fence and cross the road. Bear in mind this is a very popular spot for the bovine set.",
-            "7/26/16",
-            "Scott"
-        ],
-        [
-            "N15",
-            "1383",
-            "TR1383",
-            "Trail to Lost Creek Spring\n-----\nWe are especially interested in water reports about this location. Please send info",
-            "creek is flowing great at many liters/min\n-----\n7/6/16 (Shutterbug) : Flowing strong and cold. The trail down is steep but manageable. I emptied my backpack at the trail head and used the empty bag to carry the water back up. Took me 15 minutes each way.",
-            "8/5/16",
-            "Rover"
-        ],
-        [
-            "Per Pounder on 6/11/15 : The creek below the spring is the water supply for a municipal district. It is a steep trail to travel to the spring, and horses are ill-advised. Even if you could safely get a horse to the bottom, they can't access the water without a bucket."
-        ],
-        [
-            "N15",
-            "1385.0",
-            "RD1385",
-            "Pond on Unpaved Jeep Road",
-            "not dry yet, but fit only for stock and desperate hikers.\n-----\nScott (7/5/16) : There is water 0.1 mi east of RD1385. Take RD1385, a jeep track, 300' east to where it deadends into a gravel road, and follow that road south ~800', looking out to your east for a shallow depression. The pond is visible as a small dot on both maps. At time of writing RD1385 is marked by a pink ribbon.Not a vital source for hikers, as lost creek (2 miles south) has much tastier water, but I see some discussion of stock use on the water report - you wouldn't want to try using lost creek for stock, but this source would be perfect.",
-            "8/10/16",
-            "Scott"
-        ],
-        [
-            "N17",
-            "1391.1",
-            "RD1391",
-            "Forest Road 22"
-        ],
-        [
-            "In the past, a water cache has sometimes been maintained here."
-        ],
-        [
-            "N17",
-            "1393",
-            "",
-            "Cow Pond",
-            "pond adjacent to trail is a small & shallow green cesspool of cow manure and algae. Ponds visible in distance are much larger and have blue surface but are surrounded by cows",
-            "9/5/16",
-            "Huckleberry & Macro"
-        ],
-        [
-            "N19",
-            "1404.4",
-            "WA1404",
-            "Small creek.",
-            "wide and flowing but flat & relatively shallow",
-            "9/5/16",
-            "Huckleberry & Macro"
-        ],
-        [
-            "N19",
-            "1404.6",
-            "WA1405",
-            "Hiker bridge over a river",
-            "tons of water, deep with fast flow. easy access by stairs on south side of bridge",
-            "9/5/16",
-            "Huckleberry & Macro"
-        ],
-        [
-            "N19",
-            "1404.8",
-            "WA1405B",
-            "Crystal Lake Fish Hatchery, 300 feet E of trail, water.",
-            "Informed by Fish & Wildlife employee at Hatchery that water there is non-potable.  All residents are on bottled water.  Use filter & it’s okay.  Walk past fish rearing areas down to Administrative Office.  On rear is hose bib with plenty of flow; bathrooms by fish pens are nearly unusable.\n-----\n5/9/16 (Paige & Barbara) : Still has a broken handle in men's bathroom, woman's is good. Hard to recognize where bathroom is from road, walk through gate/cattle guard and it is first building on rt.\n-----\n6/22/15 (Plan B & Whatever) : No water in Men's room. Handle broken. Used Womens restroom.",
-            "5/29/16",
-            "Rick"
-        ],
-        [
-            "N19",
-            "1405.2",
-            "WA1405C",
-            "Pass near a lake.",
-            "Lake full",
-            "7/10/16",
-            "Skinny Thor & Sweet Cheeks"
-        ],
-        [
-            "",
-            "1408.8",
-            "Burney"
-        ],
-        [
-            "N20",
-            "1413.4",
-            "WA1413",
-            "Rim of the Lake Spring trail junction (1/4 mile off-trail). ",
-            " flowing well. Trail appears disused and not maintained. Some blowdowns, one is a pain to get over. ",
-            "7/18/16",
-            "Oolong"
-        ],
-        [
-            "N20",
-            "1415.7",
-            "WA1416",
-            "Hiker bridge over Burney Creek (usually dry).",
-            "Dry",
-            "6/17/16",
-            "Shybear"
-        ],
-        [
-            "N20",
-            "1415.9",
-            "WACS1416",
-            "Burney Falls State Park PCT trail camp, outhouse, picnic tables, outhouse, trash cans.",
-            "Faucets on",
-            "5/27/16",
-            "Really Sorry & Happy Snatch"
-        ],
-        [
-            "O20",
-            "1416.5",
-            "BurneyFallsSP",
-            "Burney Falls State Park, store, campground, water, showers, laundry.",
-            "Camping, water, showers available. Also, Visitor Center has installed a covered charging station on a patio with plenty of plugs and places to sit. There is free Wi-Fi 9-5 daily.\n-----\n5/27/16 (Really Sorry & Happy Snatch) : Faucets on. General Store open until 8am-8pm. Visitor center open.",
-            "6/12/16",
-            "Herb"
-        ],
-        [
-            "O1",
-            "1418.4",
-            "BrittonDam",
-            "PCT crosses Lake Britton Dam on a paved road.",
-            "Huge flow. Best access on S side downstream via stairs.",
-            "10/10/15",
-            "The Duke"
-        ],
-        [
-            "O1",
-            "1422",
-            "WACS1422",
-            "*Cross Rock Creek on a wood bridge.",
-            "flowing well, multiple gallons per minute.",
-            "8/30/16",
-            "Sparkles"
-        ],
-        [
-            "O2",
-            "1425.3",
-            "WA1425",
-            "Upper Jake Spring",
-            "Spring is 0.17 miles off trail and 111 feet down. Flowing at ~0.5 liter/min from small pipe \n-----\nAt trail to left down to spring.",
-            "8/7/16",
-            "Rover"
-        ],
-        [
-            "O2",
-            "1426.1",
-            "WA1426",
-            "Screwdriver Creek, 1/10 mile off trail.",
-            "i didn't stop but other hikers said flow was good",
-            "8/7/16",
-            "Rover"
-        ],
-        [
-            "O2",
-            "1430.2",
-            "WA1430",
-            "Seasonal Peavine Creek",
-            "flowing 1-2 liters per minute\n-----\n7/9/16 (Shutterbug) : Lots of clear cold water in the pool. There is a well worn path leading to it - easy to spot from the trail on the right (if hiking north).  You can see the water from the trail. There is another path around to the right of the pool that sounded like it led to the steam but it looked difficult to navigate.  ",
-            "8/30/16",
-            "Sparkles"
-        ],
-        [
-            "O3",
-            "1434.4",
-            "WA1434",
-            "Clark Spring, 1/10 mile off trail.",
-            "flowing at 5L / minute",
-            "7/29/16",
-            "Goldie"
-        ],
-        [
-            "Go down road watch for small trail on left."
-        ],
-        [
-            "O3",
-            "1436.3",
-            "WA1436",
-            "Deadman Creek",
-            "slowly refilling, pool is deep and clear",
-            "7/24/16",
-            "Data"
-        ],
-        [
-            "O3",
-            "1438",
-            "WACS1438",
-            "Kosk Spring, 2/10 mile off-trail",
-            "continues to flow multiple liters per minute",
-            "8/31/16",
-            "Sparkles"
-        ],
-        [
-            "O4",
-            "1444.8",
-            "WACS1445",
-            "Moosehead Creek",
-            "flowing well",
-            "8/31/16",
-            "Sparkles"
-        ],
-        [
-            "O4",
-            "1445.2",
-            "WA1445",
-            "Headwaters of Moosehead Creek, better water 4/10 mile back.",
-            "dry",
-            "9/3/16",
-            "Huckleberry & Macro"
-        ],
-        [
-            "O5",
-            "1452.6",
-            "WA1453",
-            "Alder Creek ~1/2 mile N of PCT",
-            "flowing with cold water. Had to bushwhack through some brush to get to a place that was easy to collect water, but it wasn't too bad. Ground is soggy but you can keep your feet dry if you pay attention. Bear activity in area - scat, and something very big crashing through the woods as I approached.  ",
-            "7/19/16",
-            "Oolong"
-        ],
-        [
-            "O6",
-            "1455.6",
-            "WA1456",
-            "Gold Creek trail junction, creek is 2/10 mile off trail.",
-            "good flow",
-            "7/29/16",
-            "Goldie"
-        ],
-        [
-            "To access, go up the Gold Creek trail from the PCT, cross a forest road, follow another road about .15 miles to just before where it dips and turns to the right after and old \"ramp\" on the right side covered in bushes. Exit the road to the left toward the stand of conifers and go down the embankment to the creek."
-        ],
-        [
-            "O6",
-            "1457.1",
-            "",
-            "Seasonal stream",
-            "just a trickle but flowing & could collect in a pinch",
-            "9/3/16",
-            "Huckleberry & Macro"
-        ],
-        [
-            "O6",
-            "1459.1",
-            "WACS1459",
-            "Deer Creek Spring",
-            "I didn't stop, but could hear vigorous flow from trail",
-            "9/1/16",
-            "Sparkles"
-        ],
-        [
-            "O6",
-            "1460.1",
-            "WA1460",
-            "Deer Creek",
-            "good flow",
-            "9/3/16",
-            "Huckleberry & Macro"
-        ],
-        [
-            "O6",
-            "1461.2",
-            "WA1461",
-            "Another branch of Deer Creek.",
-            "excellent flow",
-            "9/3/16",
-            "Huckleberry & Macro"
-        ],
-        [
-            "O6",
-            "1461.5",
-            "",
-            "Stream",
-            "small stream flowing 1-2l/min",
-            "9/3/16",
-            "Huckleberry & Macro"
-        ],
-        [
-            "O6",
-            "1464.2",
-            "WA1464",
-            "Small creek",
-            "good flow with some nice pools ",
-            "9/3/16",
-            "Huckleberry & Macro"
-        ],
-        [
-            "7/14/16 (Skinny Thor & Sweet Cheeks) : A lot of poison oak on the trail from WA1465 - WA1479B."
-        ],
-        [
-            "O6",
-            "1464.6",
-            "WA1465",
-            "Butcherknife Creek",
-            "large creek, excellent flow",
-            "9/3/16",
-            "Huckleberry & Macro"
-        ],
-        [
-            "O6",
-            "1464.8",
-            "WA1465B",
-            "Small spring",
-            "tiny & would be hard to collect but flowing",
-            "9/3/16",
-            "Huckleberry & Macro"
-        ],
-        [
-            "O6",
-            "1464.9",
-            "WA1465C",
-            "Small creek",
-            "great flow",
-            "9/3/16",
-            "Huckleberry & Macro"
-        ],
-        [
-            "O6",
-            "1465.3",
-            "WA1465D",
-            "Creek",
-            "great flow",
-            "9/3/16",
-            "Huckleberry & Macro"
-        ],
-        [
-            "O7",
-            "1468.4",
-            "WACS1468",
-            "Ash Camp Campground, outhouse, water from nearby creek, unpaved road.",
-            "plenty of water. Campground accessible by car and apparently popular",
-            "9/2/16",
-            "Huckleberry & Macro"
-        ],
-        [
-            "O7",
-            "1468.5",
-            "WA1469",
-            "**McCloud River, large wooden bridge. Watch for Poison Oak near the McCloud River.",
-            "big river, lots of water ",
-            "9/2/16",
-            "Huckleberry & Macro"
-        ],
-        [
-            "O7",
-            "1470.2",
-            "WA1470",
-            "Small spring",
-            "small, good flow and easy to collect",
-            "9/2/16",
-            "Huckleberry & Macro"
-        ],
-        [
-            "O7",
-            "1470.6",
-            "WACS1471",
-            "Fitzhugh Gulch Creek",
-            "good flow but shallow",
-            "9/2/16",
-            "Huckleberry & Macro"
-        ],
-        [
-            "O8",
-            "1478.9",
-            "WA1479",
-            "Trough Creek",
-            "excellent flow\n-----\nLOTS of poison oak around here.",
-            "9/2/16",
-            "Huckleberry & Macro"
-        ],
-        [
-            "O8",
-            "1479.4",
-            "WA1479B",
-            "West Trough Creek",
-            "excellent flow",
-            "9/2/16",
-            "Huckleberry & Macro"
-        ],
-        [
-            "7/14/16 (Skinny Thor & Sweet Cheeks) : A lot of poison oak on the trail from WA1465 - WA1479B."
-        ],
-        [
-            "O8",
-            "1482.2",
-            "WA1482",
-            "*Squaw Valley Creek, Squaw Valley trailhead trail junction nearby.",
-            "big river, good flow",
-            "9/2/16",
-            "Huckleberry & Macro"
-        ],
-        [
-            "O9",
-            "1491.5",
-            "WA1492",
-            "Spring",
-            "Spring, flowing well, about 2 liters per minute.",
-            "9/4/16",
-            "Sparkles"
-        ],
-        [
-            "O9",
-            "1492.4",
-            "WA1492B",
-            "North Fork of Fall Creek",
-            "flowing well, about 3-4 liters per minute ",
-            "9/4/16",
-            "Sparkles"
-        ],
-        [
-            "O9",
-            "1497.8",
-            "WA1498",
-            "Small spring",
-            "flowing about 1L/ 1-2min, shallow but could collect where dripping from rocks above trail",
-            "9/2/16",
-            "Huckleberry & Macro"
-        ],
-        [
-            "O9",
-            "1498.3",
-            "WA1498B",
-            "Cross a bridge over a river.",
-            "A lot of water",
-            "7/14/16",
-            "Skinny Thor & Sweet Cheeks"
-        ],
-        [
-            "O9",
-            "1498.4",
-            "WA1498C",
-            "Cross another bridge over a river.",
-            "A lot of water",
-            "7/14/16",
-            "Skinny Thor & Sweet Cheeks"
-        ],
-        [
-            "",
-            "1498.7",
-            "Castella",
-            "",
-            "Castle Crags Campground - faucets on, free hot showers",
-            "6/3/16",
-            "Really Sorry"
-        ],
-        [
-            "",
-            "1498.7",
-            "Dunsmuir"
-        ],
-        [
-            "P1",
-            "1500.3",
-            "WA1500",
-            "Fern Springs",
-            "flowing",
-            "7/14/16",
-            "Skinny Thor & Sweet Cheeks"
-        ],
-        [
-            "P1",
-            "1502",
-            "WACS1502",
-            "Creek",
-            "good flow",
-            "9/1/16",
-            "Huckleberry & Macro"
-        ],
-        [
-            "P1",
-            "1502.2",
-            "WA1502",
-            "Winton Canyon Creek, wooden bridge.",
-            "great flow",
-            "9/1/16",
-            "Huckleberry & Macro"
-        ],
-        [
-            "P1",
-            "1502.4",
-            "WA1502B",
-            "Indian Creek",
-            "great flow",
-            "9/1/16",
-            "Huckleberry & Macro"
-        ],
-        [
-            "P1",
-            "1504.7",
-            "WA1505",
-            "East Fork of Sulphur Creek",
-            "excellent flow, clear water",
-            "9/1/16",
-            "Huckleberry & Macro"
-        ],
-        [
-            "P1",
-            "1505.1",
-            "WA1505B",
-            "West Fork of Sulphur Creek. The east fork is often better.",
-            "lowing, water discolored ",
-            "9/1/16",
-            "Huckleberry & Macro"
-        ],
-        [
-            "P1",
-            "1506.7",
-            "",
-            "Popcorn Spring",
-            "Have to listen close to find where flowing; 1L/90s",
-            "8/7/16",
-            "Zuul"
-        ],
-        [
-            "P1",
-            "1507.6",
-            "WA1508",
-            "Seasonal Burstarse Creek",
-            "flow barely a trickle but decent sized pools of clear water lined by moss-covered granite\n-----\nPer DoubleTap : In addition to being one of the funniest named creeks on the trail there is also a sign here for permanent water 0.2 miles away but I didn't check it out. ",
-            "9/1/16",
-            "Huckleberry & Macro"
-        ],
-        [
-            "P2",
-            "1508.8",
-            "WA1509",
-            "Small spring",
-            "good flow at several liters/min\n-----\nFollow the side trail for .1 mi and then walk over some rocks to get to the water.",
-            "8/10/16",
-            "Rover"
-        ],
-        [
-            "P2",
-            "1512.8",
-            "WA1513",
-            "North Fork Spring",
-            "dry. There's a sign for permanent water 0.2 miles down the overgrown creek bed, but I did not check",
-            "8/1/16",
-            "Ohm"
-        ],
-        [
-            "P2",
-            "1513.7",
-            "WA1514",
-            "Gully Spring",
-            "a little muddy (I slipped on the muddy grass) but close to trail with good flow. ",
-            "8/11/16",
-            "Rover"
-        ],
-        [
-            "P3",
-            "1519.4",
-            "WA1519",
-            "Bradens Spring 1/3 mile off-trail",
-            "Good flow. Spring surfaces as small creek 1' wide by 1' deep",
-            "9/17/16",
-            "Topo & Chia"
-        ],
-        [
-            "P3",
-            "1524.1",
-            "WA1524",
-            "Picayune Spring trail junction. Spring is 800 feet off-trail.",
-            "Small spring. 1L per 15 sec.",
-            "7/15/16",
-            "Skinny Thor & Sweet Cheeks"
-        ],
-        [
-            "P4",
-            "1526.5",
-            "WA1527",
-            "White Ridge Spring",
-            "piped spring just below trail with excellent flow, 2 L / ~20 sec",
-            "8/31/16",
-            "Huckleberry & Macro"
-        ],
-        [
-            "P4",
-            "1528.8",
-            "WACS1529",
-            "Porcupine Lake trail junction. Lake is 2/10 mile W of PCT.",
-            "full of water",
-            "7/24/16",
-            "Stargirl & Pika"
-        ],
-        [
-            "P4",
-            "1529.1",
-            "TR1529",
-            "Toad Lake Junction",
-            "could hear gushing water from trail near sign on tree, didn't investigate",
-            "8/31/16",
-            "Huckleberry & Macro"
-        ],
-        [
-            "P5",
-            "1531.2",
-            "",
-            "",
-            "source not named in water report- small trickle across trail. Would be hard to collect water. ",
-            "7/23/16",
-            "Oolong"
-        ],
-        [
-            "P5",
-            "1532.6",
-            "WA1533",
-            "Red Rock Spring",
-            "flowing well just above trail",
-            "7/23/16",
-            "Oolong"
-        ],
-        [
-            "P5",
-            "1534.2",
-            "WACS1534",
-            "**Deadfall Lake",
-            "shallow but clear and great flow with some small pools.",
-            "8/31/16",
-            "Huckleberry & Macro"
-        ],
-        [
-            "Great camping and water but avoid Deadfall Lake if it's a weekend as this is a popular spot for locals to camp at and it can get quite crowded."
-        ],
-        [
-            "P5",
-            "1534.9",
-            "WA1535",
-            "Seasonal Spring",
-            "both channels flowing well, 1st (SOBO) has better flow and beautiful tall drop at trail making collection a breeze",
-            "8/31/16",
-            "Huckleberry & Macro"
-        ],
-        [
-            "P5",
-            "1535.7",
-            "",
-            "",
-            "small creek let but very good flow",
-            "8/31/16",
-            "Huckleberry & Macro"
-        ],
-        [
-            "P6",
-            "1539.44",
-            "",
-            "Seasonal Creek",
-            "Dry",
-            "7/1/16",
-            "Blue Jay"
-        ],
-        [
-            "P6",
-            "1539.76",
-            "",
-            "Seasonal Creek",
-            "Dry",
-            "7/1/16",
-            "Blue Jay"
-        ],
-        [
-            "P6",
-            "1539.99",
-            "",
-            "Seasonal Creek",
-            "Dry",
-            "7/1/16",
-            "Blue Jay"
-        ],
-        [
-            "P6",
-            "1540.05",
-            "",
-            "Seasonal Creek",
-            "Dry",
-            "7/1/16",
-            "Blue Jay"
-        ],
-        [
-            "P6",
-            "1540.56",
-            "",
-            "Middle Fork High Camp Creek",
-            "slow, but decently sized & flowing, some algae at trail with deeper and more clear pools just upstream",
-            "8/31/16",
-            "Huckleberry & Macro"
-        ],
-        [
-            "P6",
-            "1543.4",
-            "WACS1543",
-            "Chilcoot Creek - Seasonal creek",
-            "no discernible flow at the trail, though there are several small pools between rocks. Did not investigate up- or downstream",
-            "8/31/16",
-            "Huckleberry & Macro"
-        ],
-        [
-            "P6",
-            "1547.2",
-            "WA1547",
-            "Seasonal spring",
-            "still tricking at 1 liter/min",
-            "8/31/16",
-            "Huckleberry & Macro"
-        ],
-        [
-            "P7",
-            "1551.6",
-            "WA1552",
-            "Seasonal spring",
-            "very cold, flowing at 2L /min",
-            "8/30/16",
-            "Rover"
-        ],
-        [
-            "P7",
-            "1553.4",
-            "WACS1553",
-            "Small seasonal spring",
-            "no obvious water, didn't make an exhaustive search",
-            "8/30/16",
-            "Rover"
-        ],
-        [
-            "P7",
-            "1555.2",
-            "WA1555",
-            "Small seasonal spring",
-            "a little hard to collect and just enough flow at ~ 1 liter/2 min. Note there are several streams within 30 feet. One may be better than another ",
-            "8/30/16",
-            "Rover"
-        ],
-        [
-            "P8",
-            "1562.2",
-            "WA1562",
-            "Spring just below the PCT",
-            "could see & hear water flowing at spring from the trail but didn't go down to investigate\n-----\nNo sign. Watch for short trail back to your left next to rock cairn (for NOBO).",
-            "8/30/16",
-            "Huckleberry & Macro"
-        ],
-        [
-            "P9",
-            "1562.5",
-            "WA1563",
-            "Spring",
-            "flowing",
-            "8/30/16",
-            "Huckleberry & Macro"
-        ],
-        [
-            "P9",
-            "1563.4",
-            "WA1563B",
-            "Small creek",
-            "very small creek but flowing",
-            "8/30/16",
-            "Huckleberry & Macro"
-        ],
-        [
-            "P9",
-            "1563.6",
-            "WA1564",
-            "Creek below Mosquito Lake.",
-            "high volume, clear water, excellent flow",
-            "8/30/16",
-            "Huckleberry & Macro"
-        ],
-        [
-            "P9",
-            "1568.7",
-            "WA1569",
-            "Small seasonal creek",
-            "two small streams of similar size, about 100' apart. Both have good flow.",
-            "8/30/16",
-            "Huckleberry & Macro"
-        ],
-        [
-            "P9",
-            "1568.8",
-            "WA1569B",
-            "Piped spring",
-            "excellent flow",
-            "8/30/16",
-            "Huckleberry & Macro"
-        ],
-        [
-            "P10",
-            "1570.6",
-            "WA1571",
-            "Small seasonal creek.",
-            "flowing but in tall grass with only shallow pools and water looks a bit sudsy. Might be hard to collect and other sources are better quality",
-            "8/30/16",
-            "Huckleberry & Macro"
-        ],
-        [
-            "P10",
-            "1573",
-            "WA1573",
-            "Small Creek",
-            "two channels cross trail, both have great flow but 1st (SOBO) easier to collect ",
-            "8/30/16",
-            "Huckleberry & Macro"
-        ],
-        [
-            "P10",
-            "1575.6",
-            "WA1576",
-            "Small stream",
-            "small stream but flowing very well",
-            "8/30/16",
-            "Huckleberry & Macro"
-        ],
-        [
-            "P10",
-            "1576.6",
-            "WA1577",
-            "**Scott River",
-            "great flow",
-            "8/29/16",
-            "Huckleberry & Macro"
-        ],
-        [
-            "",
-            "1577.1",
-            "",
-            "Creek",
-            "Good flow",
-            "8/29/16",
-            "Huckleberry & Macro"
-        ],
-        [
-            "P11",
-            "1582.8",
-            "WA1583",
-            "Spring, 100 yards E of the PCT on a jeep road.",
-            "flowing at ~2 liter/min. Easy to collect thanks to pvc spout someone made",
-            "8/13/16",
-            "Rover"
-        ],
-        [
-            "",
-            "1584.54",
-            "",
-            "Seasonal Creek",
-            "can hear water flowing under a pile of rocks. Didn't see a way to access but only spent a minute looking. ",
-            "7/24/16",
-            "Oolong"
-        ],
-        [
-            "",
-            "1585.06",
-            "",
-            "Seasonal Creek",
-            "small flow across trail, very shallow, hard to collect ",
-            "8/29/16",
-            "Huckleberry & Macro"
-        ],
-        [
-            "P12",
-            "1585.3",
-            "WA1585",
-            "Spring",
-            "Shallow, but flowing ",
-            "9/7/16",
-            "I-Beam"
-        ],
-        [
-            "P12",
-            "1586.4",
-            "WA1586",
-            "Small stream",
-            "flowing well",
-            "9/7/16",
-            "I-Beam"
-        ],
-        [
-            "P12",
-            "1586.8",
-            "WA1587",
-            "Small creek",
-            "shallow, but flowing ",
-            "9/7/16",
-            "I-Beam"
-        ],
-        [
-            "P12",
-            "1588.3",
-            "WACS1588",
-            "Seasonal creek below Statue Lake",
-            "dry",
-            "9/7/16",
-            "I-Beam"
-        ],
-        [
-            "P13",
-            "1591.5",
-            "WACS1591",
-            "**Paynes Lake, 100 yards W of PCT.",
-            "outlet flowing, lake full",
-            "8/29/16",
-            "Huckleberry & Macro"
-        ],
-        [
-            "P13",
-            "1592.2",
-            "WA1592",
-            "Creek",
-            "both the “creek” and the “stream” are flowing well ",
-            "9/7/16",
-            "I-Beam"
-        ],
-        [
-            "P13",
-            "1592.2",
-            "WA1592B",
-            "Stream",
-            "flowing well",
-            "8/29/16",
-            "Huckleberry & Macro"
-        ],
-        [
-            "",
-            "1597.3",
-            "Etna"
-        ],
-        [
-            "Q1",
-            "1604.7",
-            "WA1605",
-            "Cub Bear Spring, small spring 2/10 mile E of PCT.",
-            "a little muddy, a little hard to collect, and I didn't think the water smelled that great but it suffices. Flow at ~1 liter/min  ",
-            "8/14/16",
-            "Rover"
-        ],
-        [
-            "Q2",
-            "1607.8",
-            "WA1608",
-            "Shelly Lake Outlet",
-            "shallow but flowing ",
-            "9/7/16",
-            "I-Beam"
-        ],
-        [
-            "Q2",
-            "1611",
-            "WA1611",
-            "Small creek",
-            "flowing, small pool",
-            "9/7/16",
-            "I-Beam"
-        ],
-        [
-            "Q2",
-            "1611.3",
-            "WACS1611",
-            "Small lake",
-            "Full of water. A bit green and cloudy. ",
-            "7/26/16",
-            "Oolong"
-        ],
-        [
-            "Q2",
-            "1611.5",
-            "WA1612",
-            "Marten Lake",
-            "Full of water. A bit green and cloudy. ",
-            "7/26/16",
-            "Oolong"
-        ],
-        [
-            "Q3",
-            "1612.7",
-            "WA1613",
-            "Seasonal stream",
-            "flowing well",
-            "9/8/16",
-            "I-Beam"
-        ],
-        [
-            "Q3",
-            "1617.9",
-            "WA1618",
-            "Cold Spring, 3/10 mile S of PCT, 270 ft elevation drop.",
-            "small flow, shallow pools. Clear, cold spring water. Bring a cup. ",
-            "7/26/16",
-            "Oolong"
-        ],
-        [
-            "Q4",
-            "1621.2",
-            "WACS1621",
-            "Creek near Marble Valley Cabin [locked]",
-            "minimal flow, but clean and cold ",
-            "9/8/16",
-            "I-Beam"
-        ],
-        [
-            "Q4",
-            "1622.5",
-            "WA1622",
-            "Creek",
-            "northern branch of this creek flowing, southern branch dry",
-            "9/8/16",
-            "I-Beam"
-        ],
-        [
-            "Q5",
-            "1626.5",
-            "WACS1626",
-            "**Paradise Lake",
-            "outlet has good flow, but the water is colder at 1627.0 ",
-            "9/8/16",
-            "I-Beam"
-        ],
-        [
-            "Q5",
-            "1627",
-            "WA1627",
-            "Seasonal stream",
-            "good flow, clean and cold  ",
-            "9/8/16",
-            "I-Beam"
-        ],
-        [
-            "Q6",
-            "1632",
-            "WACS1632",
-            "Buckhorn Spring, small signed spring 150 feet W of the PCT in a meadow NW of the large three-forked tree",
-            "flowing well at 2l/min from black pvc pipe\n-----\n7/21/16 (Scott) : flowing well, 2L/min; somebody just had to adjust the hose. Go beyond the standing water to find it. There's a very habituated deer hanging around the campsites in the vicinity of Buckhorn Spring; it repeatedly approaches to within five feet of humans. If for some reason Buckhorn Spring is dry, there's a disgusting, scummy pond 0.3 miles north of it, 200' west of the trail, visible on maps. Where you cross a funny hollow-log culvert and see a dry drainage area abutting the trail on the east, turn the other way and go straight down the hill, or for an easier route, go to where the trail descends to the elevation of the pond and follow the contour line back to it. The map shows two ponds, but I could find no trace of the lower pond.",
-            "8/27/16",
-            "Huckleberry & Macro"
-        ],
-        [
-            "Q6",
-            "1638.2",
-            "WA1638",
-            "Seasonal creek",
-            "strong flow",
-            "9/9/16",
-            "I-Beam"
-        ],
-        [
-            "Q6",
-            "1639",
-            "WA1639",
-            "Cold Spring Creek, a large creek.",
-            "strong flow, thriving poison oak",
-            "7/28/16",
-            "Young Blood"
-        ],
-        [
-            "Q6",
-            "1639.1",
-            "WACS1639",
-            "Creek",
-            "trickle",
-            "9/9/16",
-            "I-Beam"
-        ],
-        [
-            "9/14/16 : On the morning of September 15th, 2016 there will be temporary closures at Grider Creek (around mile 1640) as a new bridge is helicoptered in. Hikers and riders may be held from advancing for a few hours at a time. A second bridge will be flown in later this month and similar holds will occur. The date is being figured out now."
-        ],
-        [
-            "Q7",
-            "1640",
-            "WA1640",
-            "**Grider Creek, 1st crossing, wooden footbridge (bridge was completely burnt in Nov 2014).",
-            "I was here on 9/9, a bridge construction crew had just arrived for their first day of work on a two month project to replace the two missing bridges over Grider Creek.\n-----\n7/27/16 (Oolong) : a big creek with lots of water. \n-----\n6/7/16 (Shybear) : Flowing well. The first NoBo crossing had a reroute crossing further south on Grider creek. It looks well established. Coming southbound it's a little less clear as the old trail down to the bridge foundations hasn't been marked as closed - the distinct lack of bridge is a good tip off though.",
-            "9/9/16",
-            "I-Beam"
-        ],
-        [
-            "Q7",
-            "1,641.2",
-            "WA1641",
-            "**Grider Creek, 2nd crossing, wooden footbridge (bridge was burnt & broken in half but passable on foot, Nov. 2014).",
-            "a big creek with lots of water\r\n-----\nFlowing well. The second nobo crossing bridge is washed out but no visible alternate. It's only about knee deep there and not too fast.",
-            "7/27/16",
-            "Oolong"
-        ],
-        [
-            "Per BeeKeeper on 6/2/15 : There are 3 places that are very badly eroded in steep slide areas and not horse safe : mile points 1642.68, 1643.39 and 1643.76."
-        ],
-        [
-            "Q7",
-            "1642.9",
-            "WA1643",
-            "**Grider Creek, 3rd crossing, wooden footbridge.",
-            "a big creek with lots of water",
-            "7/27/16",
-            "Oolong"
-        ],
-        [
-            "Q7",
-            "1643.3",
-            "WA1643B",
-            "Bark Shanty Creek",
-            "big flow",
-            "9/9/16",
-            "I-Beam"
-        ],
-        [
-            "Q8",
-            "1645.3",
-            "WA1645",
-            "Creek",
-            "good flow",
-            "9/9/16",
-            "I-Beam"
-        ],
-        [
-            "Q8",
-            "1646.9",
-            "WACS1647",
-            "**Grider Creek, 4th crossing near campground, steel footbridge, good swimming just N of bridge. Walk through the campground to start of 6.4 mile roadwalk to Seiad Valley.",
-            "a large creek with lots of water \n-----\nThere is a toilet in the campground.",
-            "7/27/16",
-            "Oolong"
-        ],
-        [
-            "9/15/16 : About a mile south of Seiad Valley, there will be 20 minute holds on the PCT as helicopters fly salvaged logs across the PCT. This activity is part of salvage logging in the Happy Camp Complex burn area. It is being done to help reduce future fire danger. These holds will start on 9/15/16 and will continue for the next 45 days."
-        ],
-        [
-            "Q8",
-            "1652.5",
-            "WA1653",
-            "Highway crosses the Klamath River on a large highway bridge.",
-            "big river with lots of water. ",
-            "7/27/16",
-            "Oolong"
-        ],
-        [
-            "R8",
-            "1653.4",
-            "SeiadValley",
-            "Very small community of Seiad Valley, small store, Post Office, cafe, RV park.",
-            "many water sources... RV camping in Saied valley is 10$ per day and 15$ per night.",
-            "6/14/16",
-            "Yemima & Shai"
-        ],
-        [
-            "GAP FIRE UPDATE\nhttp://inciweb.nwcg.gov/incident/4997/ & \nhttp://www.pcta.org/discover-the-trail/trail-condition/gap-fire-burning-near-seiad-valley-calif/ \n9/14/16 : PCT is open again."
-        ],
-        [
-            "R1",
-            "1655.1",
-            "WA1655",
-            "Fern Spring",
-            "Slow drip out of pipe into a concrete box, which has plenty of clear water to collect from. ",
-            "9/26/16",
-            "Topo & Chia"
-        ],
-        [
-            "R1",
-            "1659.4",
-            "WA1659",
-            "*Lookout Spring, flowing from iron pipe.",
-            "Flowing at 6min/liter ",
-            "9/26/16",
-            "Topo & Chia"
-        ],
-        [
-            "R2",
-            "1663.5",
-            "WA1664",
-            "Kangaroo Spring",
-            "stagnant pool. Water fairly clear but a lot of dead bugs floating on top. ",
-            "7/29/16",
-            "Oolong"
-        ],
-        [
-            "R2",
-            "1665.2",
-            "WA1665",
-            "Seasonal creek",
-            "flowing between 1-2 l/min as a clear trickle from a culvert below the trail. No discernible flow elsewhere",
-            "8/26/16",
-            "Huckleberry & Macro"
-        ],
-        [
-            "R2",
-            "1668.2",
-            "WA1668",
-            "*Piped Cook and Green Pass spring",
-            "flowing at 1min / liter \n-----\nFor NOBO, as you enter the clearing at the road, wrap around to the left to find the trail to the spring.",
-            "9/26/16",
-            "Topo & Chia"
-        ],
-        [
-            "R3",
-            "1673.7",
-            "WA1674",
-            "Bear Dog Spring",
-            "Minimal flow. Small clear pools to collect from. ",
-            "9/26/16",
-            "Topo & Chia"
-        ],
-        [
-            "R4",
-            "1675.4",
-            "WA1675",
-            "Spring, 1/10  mile  SW of PCT",
-            "Really small pond with small stream  (look like stagnant). With green. Go to this water only if you are desperate",
-            "7/22/16",
-            "Skinny Thor & Sweet Cheeks"
-        ],
-        [
-            "R4",
-            "1677.7",
-            "WA1678",
-            "Reeves Ranch Springs, 9/10 mile S of PCT."
-        ],
-        [
-            "R5",
-            "1680.7",
-            "WA1681",
-            "*Alex Hole Spring nearby.",
-            "small flow, cold clear water, very shallow pools.\n-----\n7/15/16 (SoHikes) : A short steep climb down. Water flowing at 20s a liter. Ice cold.",
-            "7/30/16",
-            "Oolong"
-        ],
-        [
-            "Look for trail to the left of the PCT right after you pass the unpaved road on the right. About 0.1 mile and 100 ft down (after a sharp turn to the left) you will run into multiple small streams from the spring which is ice cold."
-        ],
-        [
-            "R5",
-            "1682.8",
-            "WA1683",
-            "Mud Springs, 2/10  mile north of PCT mile 1692.4."
-        ],
-        [
-            "R5",
-            "1684.7",
-            "WA1685",
-            "Spring (look for short trail on right)",
-            "flowing well. High cow activity from here to the Oregon border. ",
-            "9/26/16",
-            "Topo & Chia"
-        ],
-        [
-            "R5",
-            "1685.1",
-            "WA1685B",
-            "Small spring",
-            "flowing well. High cow activity from here to the Oregon border. ",
-            "9/26/16",
-            "Topo & Chia"
-        ],
-        [
-            "R5",
-            "1685.2",
-            "WA1685C",
-            "Another small spring",
-            "flowing well. High cow activity from here to the Oregon border. ",
-            "9/26/16",
-            "Topo & Chia"
-        ],
-        [
-            "GAP FIRE UPDATE - See note below Seaid Valley (Mile 1653.4). PCT is open."
-        ],
-        [
-            "R6",
-            "1688",
-            "WA1688",
-            "Donomore Creek, small wooden bridge.",
-            "Water is clear immediately next to bridge. Just downstream it becomes very silty. \n-----\nWatch for poison oak",
-            "7/30/16",
-            "Oolong"
-        ],
-        [
-            "",
-            "1688.7",
-            "",
-            "Creek",
-            "good flow",
-            "7/15/16",
-            "Pebble"
-        ],
-        [
-            "",
-            "1690.46",
-            "",
-            "Creek",
-            "shallow flow across the trail. ",
-            "7/30/16",
-            "Oolong"
-        ],
-        [
-            "R6",
-            "1690.6",
-            "WA1691",
-            "Small spring",
-            "Small shallow and steady stream with small pool.",
-            "7/22/16",
-            "Skinny Thor & Sweet Cheeks"
-        ],
-        [
-            "R6",
-            "1693.6",
-            "WACS1694",
-            "*Sheep Camp Spring",
-            "Incredible flow 5 seconds/liter  ",
-            "9/26/16",
-            "Topo & Chia"
-        ],
-        [
-            "R7",
-            "1694.7",
-            "WA1695",
-            "Small stream",
-            "flowing well, pretty shallow",
-            "7/30/16",
-            "Oolong"
-        ],
-        [
-            "R7",
-            "1701.4",
-            "WA1701",
-            "Small seasonal stream",
-            "Good flow",
-            "9/26/16",
-            "Topo & Chia"
-        ],
-        [
-            "",
-            "1705.23",
-            "",
-            "Seasonal creek",
-            "Dry",
-            "7/31/16",
-            "Oolong"
-        ],
-        [
-            "R8",
-            "1706.2",
-            "WA1706",
-            "Small seasonal creek",
-            "good flow of cold water across the trail. Shallow. Lots of fresh cow pies in area and cow tracks visible on the trail. Cow bells audible from trail. Filter/treat this water.",
-            "7/31/16",
-            "Oolong"
-        ],
-        [
-            "R8",
-            "1706.5",
-            "WA1707",
-            "Seasonal creek",
-            "Good flow. Able to collect just above trail at 30s/liter ",
-            "9/26/16",
-            "Topo & Chia"
-        ],
-        [
-            "R8",
-            "1706.60",
-            "",
-            "Small seasonal creek",
-            "small flow just next to trail. Lots of fresh cow pies in area and cow tracks visible on the trail. Cow bells audible from trail. Filter/treat this water.",
-            "7/31/16",
-            "Oolong"
-        ],
-        [
-            "R8",
-            "1707.89",
-            "",
-            "Shallow seasonal creek",
-            "flowing",
-            "7/31/16",
-            "Oolong"
-        ],
-        [
-            "R8",
-            "1708.39",
-            "",
-            "Seasonal creek",
-            "flowing, shallow. Best spot to collect water is just below the trail. ",
-            "7/31/16",
-            "Oolong"
-        ],
-        [
-            "",
-            "1710.8",
-            "",
-            "Picnic Table w/ faucet",
-            "faucet is on",
-            "7/31/16",
-            "Oolong"
-        ],
-        [
-            "The picnic table and faucet are on private land, camping not allowed in this area."
-        ],
-        [
-            "R9",
-            "~1714.52",
-            "",
-            "Three small seasonal creeks",
-            "all flowing well. The first (for NoBo) is easiest to collect from. ",
-            "7/31/16",
-            "Oolong"
-        ],
-        [
-            "",
-            "1716.2",
-            "Ashland"
-        ],
-        [
-            "*Old mileage is from 2014 Halfmile Maps. This mileage will be similar to the Wilderness Press Data Book or Guthook mileage."
-        ],
-        [
-            "These reports are provided as a free service to PCT hikers. I believe the information is accurate but the reports may contain errors. The reports are distributed in the hope that they will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE."
-        ]
+  "range": "'Northern CA'!A9:G293",
+  "majorDimension": "ROWS",
+  "values": [
+    [
+      "Map",
+      "Mile",
+      "Waypoint",
+      "Location",
+      "Report",
+      "Date",
+      "Reported By"
+    ],
+    [
+      "M5",
+      "1195.4",
+      "Church1195",
+      "Church, 1.4 miles southwest of PCT in Sierra City, water, hikers allowed to camp on lawn, public restroom nearby."
+    ],
+    [
+      "",
+      "1195.4",
+      "Sierra City"
+    ],
+    [
+      "6/1/17 (Pineapple) : Lots of snow above 6000ft on the East and North slopes."
+    ],
+    [
+      "M1",
+      "1197.2",
+      "WA1197",
+      "Switchback spring",
+      "great flow",
+      "7/8/17",
+      "Rocky & Peaks"
+    ],
+    [
+      "M5",
+      "1200.7",
+      "WA1201",
+      "Seasonal spring",
+      "great flow",
+      "7/26/17",
+      "Hunter"
+    ],
+    [
+      "M1",
+      "1202.6",
+      "WA1203",
+      "Sierra Buttes Spring",
+      "Good flow",
+      "7/9/17",
+      "Rocky & Peaks"
+    ],
+    [
+      "M2",
+      "1209.2",
+      "RD1209",
+      "Unpaved road to Summit Lake, water at Summit Lake.",
+      "Good flow",
+      "6/21/17",
+      "Give A Hoot"
+    ],
+    [
+      "M3",
+      "1211.9",
+      "WA1212",
+      "Pauley Seep, 100 yards off trail.",
+      "Good flow\n-----\n7/14/16 (Data) : look for white square tags on trees while going down. The path goes slightly southward. Pools of deep water in the grass field with good replenishing flow. \n-----\nNote that the sign is facing southbound traffic so watch for a faint use trail to avoid missing it.",
+      "6/21/17",
+      "Give A Hoot"
+    ],
+    [
+      "M3",
+      "1213.5",
+      "WA1214B",
+      "Trail junction to Little Jamison Creek, 200 feet off-trail.",
+      "Good flow",
+      "7/9/17",
+      "Rocky & Peaks"
+    ],
+    [
+      "M3",
+      "1213.5",
+      "WA1214",
+      "Piped spring 1/10 mile E of PCT",
+      "great flow",
+      "7/27/17",
+      "Hunter"
+    ],
+    [
+      "M3",
+      "1213.6",
+      "WACS1214",
+      "Small pond",
+      "Pond has unappetizing, murky water",
+      "8/11/16",
+      "Pebble"
+    ],
+    [
+      "M3",
+      "1217.2",
+      "WA1217",
+      "*A Tree spring",
+      "Fast flow, 6L/min",
+      "7/27/17",
+      "Hunter"
+    ],
+    [
+      "M4",
+      "1221.3",
+      "WA1221",
+      "Small creek",
+      "Good flow",
+      "7/9/17",
+      "Rocky & Peaks"
+    ],
+    [
+      "M4",
+      "1221.5",
+      "WACS1221",
+      "Seasonal W Branch Nelson Creek",
+      "Good flow",
+      "7/27/17",
+      "Hunter"
+    ],
+    [
+      "M4",
+      "1223.8",
+      "WA1224",
+      "East Branch of Bear Trap Creek",
+      "Good flow",
+      "7/27/17",
+      "Hunter"
+    ],
+    [
+      "7/17/17 (Scott) : There's a 50 ton tree hanging precariously across the trail at 1244.25, so until trail crews can finish removing the rest of what's propping it up a detour is in place from 1243.35 to 1244.6 (middle fork feather river trailhead) on the dirt road paralleling the trail for 1.3 miles."
+    ],
+    [
+      "M4",
+      "1224.1",
+      "WA1224B",
+      "West Branch of Bear Trap Creek. East Branch 3/10 mile south may be better water.",
+      "Good flow",
+      "7/27/17",
+      "Hunter"
+    ],
+    [
+      "M4",
+      "1226",
+      "WACS1226",
+      "Seasonal East Hopkins Seep",
+      "Good flow",
+      "6/21/17",
+      "Give A Hoot"
+    ],
+    [
+      "M5",
+      "1229.1",
+      "WA1229",
+      "Small Lake, west of the trail.",
+      "TR1229 to Whisky Spring 0.3 mi off PCT - good flow, clean and cool.",
+      "7/28/17",
+      "Hunter"
+    ],
+    [
+      "M5",
+      "1232.3",
+      "WA1232",
+      "*Creek 3/10 mile S of PCT on paved Quincy-LaPorte Road.",
+      "Good flow, multiple liters per minute.",
+      "7/4/16",
+      "Skinny Thor & Sweet Cheeks"
+    ],
+    [
+      "M5",
+      "1234.4",
+      "WA1234",
+      "*Alder Spring (800 feet off trail) trail junction.",
+      "good flow, 4L/min",
+      "7/28/17",
+      "Hunter"
+    ],
+    [
+      "M6",
+      "1238.9",
+      "WA1239",
+      "Black Rock Spring, 3/10 mile S of Fowler Peak Trailhead along trail",
+      "when you hit the dry streambed, follow it for about 100 feet to find some stagnant pools. Probably not worth the effort. ",
+      "7/9/16",
+      "Oolong"
+    ],
+    [
+      "M6",
+      "1242",
+      "WA1242",
+      "Small N Fowler Creek, 1/10 mile S of PCT down short trail,",
+      "great flow",
+      "7/28/17",
+      "Hunter"
+    ],
+    [
+      "Sign for the creek is mounted parallel to the trail so be careful not to miss it. The use trail is visible, and takes you down across a road to a shady watering hole. As a south-bounder coming up from the Middle Fork on a hot day, this oasis was a welcome relief."
+    ],
+    [
+      "M7",
+      "1246.82",
+      "",
+      "Pipe Spring",
+      "Good flow",
+      "7/11/17",
+      "Rocky & Peaks"
+    ],
+    [
+      "M7",
+      "1247.2",
+      "WACS1247",
+      "**Middle Fork Feather River, steel bridge",
+      "Enjoy this paradise canyon! Take a dip and drink deep.",
+      "7/29/17",
+      "Hunter"
+    ],
+    [
+      "On west side of bridge there are cool little currents you can ride with."
+    ],
+    [
+      "M7",
+      "1249.6",
+      "WA1250",
+      "Stream",
+      "Good flow",
+      "7/11/17",
+      "Rocky & Peaks"
+    ],
+    [
+      "M7",
+      "1250.5",
+      "CS1251",
+      "*Bear Creek",
+      "great flow",
+      "7/29/17",
+      "Hunter"
+    ],
+    [
+      "M7",
+      "1251.2",
+      "WA1251",
+      "Small creek",
+      "good flow",
+      "7/29/17",
+      "Hunter"
+    ],
+    [
+      "M7",
+      "1255.3",
+      "WA1255",
+      "Seasonal spring",
+      "good flow",
+      "7/29/17",
+      "Hunter"
+    ],
+    [
+      "M7",
+      "1257.2",
+      "WA1257",
+      "Lookout Spring",
+      "good fast flow",
+      "7/29/17",
+      "Hunter"
+    ],
+    [
+      "",
+      "1261",
+      "HaskensStore",
+      "Haskens Store, small store next to bed and breakfast - alt. mi 2.7"
+    ],
+    [
+      "",
+      "1261",
+      "LkshoreResort",
+      "Lake Shore Resort, restaurant, bar, small store, www.buckslakeshoreresort.com. - alt mi. 3.8"
+    ],
+    [
+      "M8",
+      "1262.1",
+      "WA1262",
+      "Small spring",
+      "flowing ok",
+      "7/30/17",
+      "Hunter"
+    ],
+    [
+      "M8",
+      "1262.5",
+      "WA1262B",
+      "Seasonal spring",
+      "flowing well",
+      "6/29/17",
+      "Give A Hoot"
+    ],
+    [
+      "M8",
+      "1263.1",
+      "WA1263",
+      "A small stream called Big Creek.",
+      "flowing well",
+      "6/29/17",
+      "Give A Hoot"
+    ],
+    [
+      "",
+      "1265.4",
+      "Quincy"
+    ],
+    [
+      "M9",
+      "1266.6",
+      "WA1267",
+      "Bucks Creek",
+      "good flow",
+      "7/30/17",
+      "Hunter"
+    ],
+    [
+      "M9",
+      "1267",
+      "WA1267B",
+      "Bucks Creek",
+      "good flow",
+      "7/30/17",
+      "Hunter"
+    ],
+    [
+      "M10",
+      "1273.7",
+      "WA1274",
+      "Clear Creek Springs",
+      "Not worth the visit.  Marshy, muddy, no good spot to fill from. Much better flow on trail just 0.08mi north.",
+      "7/12/17",
+      "Rocky & Peaks"
+    ],
+    [
+      "M10",
+      "1274.2",
+      "WA1274B",
+      "Small seasonal creek",
+      "good flow, need scoop",
+      "7/10/17",
+      "Optimistic Turtle"
+    ],
+    [
+      "M10",
+      "1275.2",
+      "WACS1275",
+      "Clear Creek",
+      "great flow",
+      "7/30/17",
+      "Hunter"
+    ],
+    [
+      "M10",
+      "1275.5",
+      "WA1276",
+      "Shallow lily pond",
+      "Looked full and clear.",
+      "7/17/16",
+      "Garfield"
+    ],
+    [
+      "M11",
+      "1277.1",
+      "WA1277",
+      "Grouse Spring trail junction (spring is 1/10 mile off trail).",
+      "Follow trail until you hear the spring, then descend into the hollow. Good flow.",
+      "7/30/17",
+      "Hunter"
+    ],
+    [
+      "M11",
+      "1279",
+      "WA1279",
+      "Seasonal spring. Watch for POISON OAK as you descend to Belden.",
+      "good flow",
+      "7/30/17",
+      "Hunter"
+    ],
+    [
+      "M11",
+      "1279.2",
+      "WA1279B",
+      "Canyon View Spring",
+      "good flow, nice shaded spot but I like mi 1279 better, more space to sit with 4G",
+      "7/10/17",
+      "Optimistic Turtle"
+    ],
+    [
+      "M11",
+      "1284.3",
+      "Belden",
+      "Belden Town Resort"
+    ],
+    [
+      "N11",
+      "1285.4",
+      "WA1285",
+      "Indian Creek, large wooden footbridge.",
+      "strong flow",
+      "7/31/17",
+      "Hunter"
+    ],
+    [
+      "N11",
+      "1286.5",
+      "WA1286",
+      "Small creek",
+      "good flow",
+      "6/30/17",
+      "Give A Hoot"
+    ],
+    [
+      "N1",
+      "1288",
+      "WA1288",
+      "Small seasonal creek.",
+      "Good flow form a pool.",
+      "7/11/17",
+      "Optimistic Turtle"
+    ],
+    [
+      "N1",
+      "1289.3",
+      "WA1289",
+      "Seasonal Rattlesnake Spring",
+      "good flow",
+      "7/11/17",
+      "Optimistic Turtle"
+    ],
+    [
+      "N1",
+      "1289.6",
+      "WA1290",
+      "Creek",
+      "excellent flow",
+      "7/11/17",
+      "Optimistic Turtle"
+    ],
+    [
+      "N1",
+      "1289.9",
+      "WA1290B",
+      "Creek",
+      "excellent flow",
+      "7/11/17",
+      "Optimistic Turtle"
+    ],
+    [
+      "N1",
+      "1290.2",
+      "WACS1290",
+      "William's Cabin site, small creek nearby.",
+      "good flow",
+      "7/31/17",
+      "Hunter"
+    ],
+    [
+      "N1",
+      "1290.6",
+      "WA1291",
+      "Large stream",
+      "Excellent flow. Crossed with logs.",
+      "7/11/17",
+      "Optimistic Turtle"
+    ],
+    [
+      "N1",
+      "1291.1",
+      "WACS1291",
+      "Myrtle Flat, small stream nearby.",
+      "excellent flow",
+      "7/11/17",
+      "Optimistic Turtle"
+    ],
+    [
+      "N2",
+      "1292.5",
+      "WA1293",
+      "Large creek",
+      "great flow",
+      "7/31/17",
+      "Hunter"
+    ],
+    [
+      "N2",
+      "1292.9",
+      "WA1293B",
+      "Small creek",
+      "good flow",
+      "6/30/17",
+      "Give A Hoot"
+    ],
+    [
+      "N2",
+      "1293.1",
+      "WA1293C",
+      "*Chips Creek ford, large creek.",
+      "At trail crossing, possible to use log and rocks, but may get feet wet. Rocks are slick. ",
+      "7/31/17",
+      "Hunter"
+    ],
+    [
+      "N2",
+      "1293.5",
+      "WA1293D",
+      "Chips Creek, 2nd crossing, large creek.",
+      "use huge log to cross",
+      "7/31/17",
+      "Hunter"
+    ],
+    [
+      "N2",
+      "1293.7",
+      "WA1294",
+      "Small creek",
+      "good flow",
+      "6/30/17",
+      "Give A Hoot"
+    ],
+    [
+      "N2",
+      "1294.3",
+      "WA1294B",
+      "Small creek",
+      "good flow",
+      "6/30/17",
+      "Give A Hoot"
+    ],
+    [
+      "N2",
+      "1294.7",
+      "WA1295",
+      "Creek",
+      "good flow",
+      "6/30/17",
+      "Give A Hoot"
+    ],
+    [
+      "N2",
+      "1294.8",
+      "WA1295B",
+      "Creek",
+      "good flow",
+      "6/30/17",
+      "Give A Hoot"
+    ],
+    [
+      "N2",
+      "1297.1",
+      "WA1297",
+      "Andesite Spring",
+      "good flow",
+      "7/31/17",
+      "Hunter"
+    ],
+    [
+      "N2",
+      "1298.5",
+      "WA1299",
+      "Frog Spring",
+      "good flow",
+      "7/11/17",
+      "Optimistic Turtle"
+    ],
+    [
+      "N3",
+      "1302.9",
+      "WACS1303",
+      "*Cold Springs",
+      "still flowing strong",
+      "8/1/17",
+      "Hunter"
+    ],
+    [
+      "",
+      "1305",
+      "",
+      "",
+      "Very fresh bear tracks crossed PCT twice near 1304",
+      "6/13/17",
+      "Comma"
+    ],
+    [
+      "",
+      "1310.3",
+      "",
+      "Seasonal Stream",
+      "Dry",
+      "7/12/17",
+      "Rocky & Peaks"
+    ],
+    [
+      "N4",
+      "1310.7",
+      "WA1311",
+      "Trail junction to a Robbers Spring, 1/3 mile off-trail.",
+      "good flow",
+      "8/1/17",
+      "Hunter"
+    ],
+    [
+      "N4",
+      "1313.3",
+      "WA1313",
+      "Little Cub Spring, near sign on tree, 3/10 mile west of the PCT.",
+      "good flow, easy access, sitting logs\n-----\nFollow trail to the left for ~0.3 miles down to an ice cold springs. It's a bit of a climb back up (~300 ft) but worth it and I would fill up here as the next water source at mile 1315.5 (Carter Creek) gave a lot of other hikers problems in 2014 in terms of finding it which meant no water between Little Cub Springs and Soldier Creek 12.2 miles ahead.",
+      "7/12/17",
+      "Optimistic Turtle"
+    ],
+    [
+      "N5",
+      "1315.5",
+      "WACS1316",
+      "Seasonal Carter Creek, ~0.7 mile N of PCT",
+      "8/1/17 (Hunter) ; Flowing well at mile 0.7 of Carter Creek trail. Follow trail to \"WATER\" sign on tree to your left. You will cross two dry creekbeds. \n7/18/17 (Snackmaster & Do-Over) : Carter Creek has clear pools 2 feet deep approx 0.3 miles from junction near second campsite on side trail. \n-----\nMany hikers in 2014 could not find any water which is 0.5 mile off the PCT. A few hikers did find water however.",
+      "8/1/17",
+      "Hunter"
+    ],
+    [
+      "",
+      "1316",
+      "",
+      "Stream 50 yards N of PCT\n[stream crosses the trail a minute or two later]. ",
+      "Dry",
+      "7/18/17",
+      "Snackmaster & Do-Over"
+    ],
+    [
+      "6/1/16 (Fat Sectioner) : Currently, the WACS1316 is at the point where the trail crosses Carter creek, 350 feet or so past the campsites.  If one follows the path past that, it crosses another (unnamed) creek that will later join Carter creek and have a much more substantial combined flow. To put that in a mileage log format: \n     * 0.0 miles: Leave PCT\n     * 0.4 miles: Campsite\n     * 0.45 miles: Carter Creek Crossing\n     * 0.5 miles: Unnamed Creek Crossing\n     * 0.6 miles: Confluence of two creeks 100 feet to the west of the trail\n     * 0.7 miles: Permanent (aka more than seasonal) creek about 50 feet to the west of the trail\n     *** To that end, at the Carter Meadows trail intersection on the PCT there's a sign that says \"permanent water 0.7 mi\".  And based on what I've seen, that makes a lot of sense.\n     However, the campsites are similar enough distance, one could easily assume that was the  0.7 miles (particularly with how off mileage can be on trail markers) and not \n     explore further down-stream. So what I'd recommend is adding waypoint WA1316 at location 40.2027,-121.4178 (that's the 0.6 mile item on the mileage log) with the\n     description: \"Permanent water on Carter Creek, further downstream of campsite.\"  If you'd prefer something even more substantial, you could use location\n     40.2042,-121,4166 that is 0.7miles downstream.  At that point the flow is so strong the creek can be seen from Google Earth imagery and the USGS topo maps show\n     another creek having joined in (although I didn't see it)."
+    ],
+    [
+      "N6",
+      "1325.5",
+      "WACS1326",
+      "*Soldier Creek",
+      "Great flow, and cold!",
+      "8/2/17",
+      "Hunter"
+    ],
+    [
+      "N6",
+      "1327.6",
+      "WA1328",
+      "Wooden footbridge over seasonal part of Soldier Creek, often dry.",
+      "Good flow ",
+      "6/20/17",
+      "Numbers"
+    ],
+    [
+      "IMPORTANT CHANGE FOR 2017 : Bear Canisters are now required by law when camping in Lassen National Park probably due to a aggressive bear near Lower Twin Lake (mile 1355.1) in 2016 that harrassed multiple hikers for their food. See https://www.nps.gov/lavo/learn/news/bear-canisters-required.htm for more info.\n8/27/17 (Rocky & Peaks) : Warner Valley Campground at Mile 1347.8 has bear boxes for your food. "
+    ],
+    [
+      "",
+      "1328.8",
+      "Chester",
+      "Town, 7.5 miles E on Hwy 36"
+    ],
+    [
+      "5/26/17 (Pockets) : Snow Report: I started NOBO at Chester so I can speak for the trail conditions north of that.  Starting at around 1344- Boundary Spring the snow coverage became continuous and deep- 3-6 feet.  It clears up at Drakesbad but resumes within a mile north of the resort and is continuous until about mile 1356"
+    ],
+    [
+      "N7",
+      "1332.3",
+      "WACS1332",
+      "*Stover Spring",
+      "Outlet stream flowing cold right across trail at several gallons per minute.",
+      "8/11/17",
+      "Electro"
+    ],
+    [
+      "N8",
+      "1338.2",
+      "WACS1338",
+      "**North Fork Feather River, footbridge.",
+      "Rushing river with plenty of cold water and several easy collection points.",
+      "8/12/17",
+      "Electro"
+    ],
+    [
+      "N8",
+      "1338.9",
+      "WA1339",
+      "Domingo Spring trail junction, spring is 3/10 mile off-trail.",
+      "very fast flow from spigot, good cold water",
+      "7/14/16",
+      "Oolong"
+    ],
+    [
+      "N9",
+      "1343.6",
+      "",
+      "Small creek across trail",
+      "Trickling across trail about a liter per minute.",
+      "8/12/17",
+      "Electro"
+    ],
+    [
+      "N9",
+      "1343.8",
+      "WA1344",
+      "Boundary Spring, 400 feet off-trail.",
+      "flowing across trail,  gallons per minute",
+      "6/23/17",
+      "Numbers"
+    ],
+    [
+      "N9",
+      "1344",
+      "",
+      "Little Willow Lake",
+      "dry",
+      "8/12/17",
+      "Electro"
+    ],
+    [
+      "N9",
+      "1347.4",
+      "WA1347",
+      "Large creek, wooden bridge.",
+      "river is full and fast",
+      "6/7/17",
+      "Fracture & Tapeworm"
+    ],
+    [
+      "N9",
+      "1347.6",
+      "WarnerValleyTH",
+      "Warner Valley trailhead parking, water spigot, outhouse, picnic tables, trash cans. Drakesbad Resort is 4/10 mile west via the road.",
+      "faucets are on",
+      "8/4/17",
+      "Hunter"
+    ],
+    [
+      "N9",
+      "1347.6",
+      "Drakesbad",
+      "Drakesbad Resort",
+      "Open and water on. (Need reservations to eat in restaurant, well worth it)",
+      "6/18/16",
+      "Herb"
+    ],
+    [
+      "N10",
+      "1350.4",
+      "WACS1350",
+      "Summit Lake trail junction, trail side creek",
+      "Rushing river with plenty of cold water",
+      "8/12/17",
+      "Electro"
+    ],
+    [
+      "N10",
+      "1351.2",
+      "",
+      "Grassy Swale Creek",
+      "Rushing river with plenty of cold water",
+      "8/12/17",
+      "Electro"
+    ],
+    [
+      "N10",
+      "1351.8",
+      "WA1352",
+      "Small creek",
+      "Flowing at more than a gallon per minute but a bit tough to collect.",
+      "8/12/17",
+      "Electro"
+    ],
+    [
+      "N10",
+      "1354.5",
+      "WACS1355",
+      "Swan Lake.",
+      "plenty of water",
+      "8/12/17",
+      "Electro"
+    ],
+    [
+      "N11",
+      "1355.1",
+      "WACS1355B",
+      "**Lower Twin Lake",
+      "plenty of water\n-----\n7/27/16 : Reports of an aggressive bear in this area, please use caution. Another hiker found the SPOT so for the hiker who lost it, please send in a comment to the water report so I can connect you with the other hiker.",
+      "8/12/17",
+      "Electro"
+    ],
+    [
+      "",
+      "1359",
+      "",
+      "Soap Lake",
+      "plenty of water",
+      "8/12/17",
+      "Electro"
+    ],
+    [
+      "N11",
+      "1360.9",
+      "TR1631",
+      "Cluster Lake Trail Junction",
+      "Clear, cold water flowing at several gallons per minute right under trail.",
+      "8/12/17",
+      "Electro"
+    ],
+    [
+      "",
+      "1361",
+      "",
+      "Badger Flat Spring",
+      "plenty of water",
+      "8/12/17",
+      "Electro"
+    ],
+    [
+      "",
+      "1361.75",
+      "",
+      "Swamp Lake, next to trail",
+      "plenty of water",
+      "8/12/17",
+      "Electro"
+    ],
+    [
+      "N12",
+      "1363",
+      "LassenNP2",
+      "Lassen National Park Boundary, trail register, horse corral with water 3/10 mile off-trail.",
+      "water near corral .3 off trail: trail a bit hard to follow, but it's a large creek at the end",
+      "5/23/15",
+      "Joe"
+    ],
+    [
+      "N12",
+      "1366.1",
+      "WA1366",
+      "Unpaved road, water 1/10 mile west of the trail.",
+      "huge flow, cold ",
+      "8/6/16",
+      "Bengarland"
+    ],
+    [
+      "N13",
+      "1367.2",
+      "WACS1367",
+      "*Hat Creek",
+      "Rushing river with plenty of cold water.",
+      "8/13/17",
+      "Electro"
+    ],
+    [
+      "N13",
+      "1371",
+      "Old Station",
+      "Old Station Post Office.",
+      "spigots on at RV park on 7/5/16, store open 8am-6pm Sun-Thurs and 8am-8pm Fri & Sat",
+      "7/5/16",
+      "Shutterbug"
+    ],
+    [
+      "N14",
+      "1374.9",
+      "",
+      "Old Station Visitor Center",
+      "Exit the trail at Highway 44 turn left toward highway 89 as though heading toward JJ’s. Just before 89 turn left on a paved forest service road that cuts over to 89. Visitor Center on the right has water fountains and outhouses. If going to JJ’s anyway, easier to water here than off-trail at Subway. ",
+      "6/17/16",
+      "Herb"
+    ],
+    [
+      "IMPORTANT CHANGE FOR 2017 : Bear Canisters are now required by law when camping in Lassen National Park probably due to a aggressive bear near Lower Twin Lake (mile 1355.1) in 2016 that harrassed multiple hikers for their food. See https://www.nps.gov/lavo/learn/news/bear-canisters-required.htm for more info."
+    ],
+    [
+      "N14",
+      "1375",
+      "WA1375",
+      "Subway Cave, water fountain, outhouse, paved parking area nearby. ",
+      "The local Forest Service ranger is having trouble with hikers camping at Subway Cave. Please add a note on your map - absolutely no camping at Subway Cave.",
+      "11/21/17",
+      "Jim"
+    ],
+    [
+      "N14",
+      "1379.5",
+      "",
+      "Creek",
+      "Dry",
+      "7/8/17",
+      "Give A Hoot"
+    ],
+    [
+      "N15",
+      "1383",
+      "TR1383",
+      "Trail to Lost Creek Spring\n-----\nWe are especially interested in water reports about this location. Please send info",
+      "8/6/17 (Hunter) : great water!\n7/22/17 (Do-Over & Snackmaster) : Trail is very steep but lots of cold, flowing water in the creek. Even deep enough for a swim!\n6/28/17 (Double) : Great flow of cold clear water, steep trail down but shade at top. Swimming hole is full of frigid water!\n6/24/17 (Mr. Rogers) : Great flow cool clear water.\n6/4/17 (Bye, Epic, Birgit) :  Great, cold water! The water is flowing really well and steady!\nThe trail down there is pretty steep, you need 10mins down and 10 min up.\n5/27/17 (Pockets) : Beautiful water source- tons of water.  The trail down is eroded in one spot which can make the descent a bit tricky but it's worth it.\n8/5/16 (Rover) : creek is flowing great at many liters/min\n-----\n7/6/16 (Shutterbug) : Flowing strong and cold. The trail down is steep but manageable. I emptied my backpack at the trail head and used the empty bag to carry the water back up. Took me 15 minutes each way.",
+      "8/6/17",
+      "Hunter"
+    ],
+    [
+      "Per Pounder on 6/11/15 : The creek below the spring is the water supply for a municipal district. It is a steep trail to travel to the spring, and horses are ill-advised. Even if you could safely get a horse to the bottom, they can't access the water without a bucket."
+    ],
+    [
+      "N15",
+      "1385.0",
+      "RD1385",
+      "Pond on Unpaved Jeep Road",
+      "not dry yet, but fit only for stock and desperate hikers.\n-----\nScott (7/5/16) : There is water 0.1 mi east of RD1385. Take RD1385, a jeep track, 300' east to where it deadends into a gravel road, and follow that road south ~800', looking out to your east for a shallow depression. The pond is visible as a small dot on both maps. At time of writing RD1385 is marked by a pink ribbon.Not a vital source for hikers, as lost creek (2 miles south) has much tastier water, but I see some discussion of stock use on the water report - you wouldn't want to try using lost creek for stock, but this source would be perfect.",
+      "8/10/16",
+      "Scott"
+    ],
+    [
+      "N17",
+      "1391.1",
+      "RD1391",
+      "Cache 22",
+      "The 550 gallon water tank at FR 22 has been winterized by draining, valve removed and a pipe plug added. The water tank will be refilled sometime in March when accessible.",
+      "11/21/17",
+      "Jim"
+    ],
+    [
+      "N17",
+      "1393",
+      "",
+      "Cow Pond",
+      "8/3/17 (Airplane Mode) : Can get water in cow pond at 1393 but the water is warm and dirty.\n6/25/17 (Mr. Rogers) : plenty of water but definitely filter as there are plenty of cow pies.\n6/10/17 (Nutterbutter & Hambone) : plenty of water but definitely filter as there are plenty of cow pies.\n5/27/17 (Pockets) : cow pond full and relatively clear- no scum or floating cow paddies and no evidence of recent heavy cattle traffic.\n9/5/16 (Huckleberry & Macro) : pond adjacent to trail is a small & shallow green cesspool of cow manure and algae. Ponds visible in distance are much larger and have blue surface but are surrounded by cows",
+      "8/3/17",
+      "Airplane Mode"
+    ],
+    [
+      "N19",
+      "1404.4",
+      "WA1404",
+      "Small creek.",
+      "flowing good",
+      "8/6/17",
+      "Hunter"
+    ],
+    [
+      "N19",
+      "1404.6",
+      "WA1405",
+      "Hiker bridge over a river",
+      "plenty of water",
+      "8/6/17",
+      "Hunter"
+    ],
+    [
+      "N19",
+      "1404.8",
+      "WA1405B",
+      "Crystal Lake Fish Hatchery, 300 feet E of trail, water.",
+      "Informed by Fish & Wildlife employee at Hatchery that water there is non-potable.  All residents are on bottled water.  Use filter & it’s okay.  Walk past fish rearing areas down to Administrative Office.  On rear is hose bib with plenty of flow; bathrooms by fish pens are nearly unusable.\n-----\n5/9/16 (Paige & Barbara) : Still has a broken handle in men's bathroom, woman's is good. Hard to recognize where bathroom is from road, walk through gate/cattle guard and it is first building on rt.\n-----\n6/22/15 (Plan B & Whatever) : No water in Men's room. Handle broken. Used Womens restroom.",
+      "5/29/16",
+      "Rick"
+    ],
+    [
+      "N19",
+      "1405.2",
+      "WA1405C",
+      "Pass near a lake.",
+      "reasonable access to lake from here to CS1406",
+      "8/7/17",
+      "Hunter"
+    ],
+    [
+      "",
+      "1408.8",
+      "Burney"
+    ],
+    [
+      "N20",
+      "1413.4",
+      "WA1413",
+      "Rim of the Lake Spring trail junction (1/4 mile off-trail). ",
+      " flowing well. Trail appears disused and not maintained. Some blowdowns, one is a pain to get over. ",
+      "7/18/16",
+      "Oolong"
+    ],
+    [
+      "N20",
+      "1415.7",
+      "WA1416",
+      "Hiker bridge over Burney Creek (usually dry).",
+      "Good flow but better to grab water at burney falls state park PCT trail camp at 1415.9. (Faucets on).",
+      "6/26/17",
+      "Mr. Rogers"
+    ],
+    [
+      "N20",
+      "1415.9",
+      "WACS1416",
+      "Burney Falls State Park PCT trail camp, outhouse, picnic tables, outhouse, trash cans.",
+      "Faucets on",
+      "8/8/17",
+      "Hunter"
+    ],
+    [
+      "O20",
+      "1416.5",
+      "BurneyFallsSP",
+      "Burney Falls State Park, store, campground, water, showers, laundry.",
+      "7/22/17 (Rocky & Peaks) : the staff at the Burney Falls store (mile 1416.5) is telling people they close at 7:30pm, not 8pm.  Still opened at 8am though.\n6/27/17 (B2) : The store at Burney Falls is open 8a-8p, however, the first building that hikers will meet is the visitors center open mon-fri 11-3 and weekends 10-4. Some hikers seem to have overlooked the store, which is hidden from view by trees and a picnic area. They have hiked on and told other hikers about these opening hours without realizing that the visitor's center and the store are two different buildings. Continue down the road from the visitors center around 0.1 miles and it's on the right with restrooms and charging. (Free WiFi only available at visitor center during opening hours, no cell service here with any provider). They turn WiFi off for some reason when they go home.",
+      "7/22/17",
+      "Rocky & Peaks"
+    ],
+    [
+      "O1",
+      "1418.4",
+      "BrittonDam",
+      "PCT crosses Lake Britton Dam on a paved road.",
+      "Enough water to float the titanic. \n-----\nBest access on S side downstream via stairs.",
+      "6/27/17",
+      "Mr. Rogers"
+    ],
+    [
+      "BERRY FIRE (near Burney Falls State Park)\nhttps://www.pcta.org/discover-the-trail/trail-condition/berry-fire-near-burney-falls-state-park-california/\nhttp://www.fire.ca.gov/current_incidents (Scroll to Berry Fire)\nhttps://twitter.com/CALFIRESHU\n9/13/17 (PCTA) : The Berry Fire is burning south of the PCT (around miles 1420-1430) on Shasta-Trinity National Forest near Burney Falls State Park. It’s about ~4-5 miles from the PCT. The trail is not closed at this point, but this fire should be monitored closely if you’re in the area.It is managed by CAL FIRE and is not on Inciweb."
+    ],
+    [
+      "O1",
+      "1422",
+      "WACS1422",
+      "*Cross Rock Creek on a wood bridge.",
+      "good water, access on East bank.",
+      "8/8/17",
+      "Hunter"
+    ],
+    [
+      "O2",
+      "1425.3",
+      "WA1425",
+      "Upper Jake Spring\nAt trail to left down to spring, 0.17 miles off trail and 111 feet down.",
+      "Flowing less than a liter per minute out of the pipe. There is much more flow than that, but it's spread out between other trickles. Collection is probably easier with a scoop.",
+      "7/28/17",
+      "Pano"
+    ],
+    [
+      "O2",
+      "1426.1",
+      "WA1426",
+      "Screwdriver Creek, 1/10 mile off trail.",
+      "Strong flow. Side trail is somewhat steep, better to get water on trail at 1427.5 while it's flowing.",
+      "6/20/17",
+      "Flow & BamBam"
+    ],
+    [
+      "",
+      "1427.5",
+      "",
+      "Seasonal Stream",
+      "dry",
+      "8/9/17",
+      "Fireball"
+    ],
+    [
+      "O2",
+      "1430.2",
+      "WA1430",
+      "Seasonal Peavine Creek",
+      "Good flow. Access on West side through brush next to road.",
+      "8/8/17",
+      "Hunter"
+    ],
+    [
+      "",
+      "1433.7",
+      "",
+      "Seasonal Stream",
+      "dry",
+      "7/21/17",
+      "Peaks"
+    ],
+    [
+      "O3",
+      "1434.4",
+      "WA1434",
+      "Clark Spring, 1/10 mile off trail.",
+      "flowing 3+L/min ",
+      "8/8/17",
+      "Hunter"
+    ],
+    [
+      "Go down road watch for small trail on left."
+    ],
+    [
+      "O3",
+      "1436.3",
+      "WA1436",
+      "Deadman Creek",
+      "Moderate flow through deep and clear pool. Easy collection with scoop.",
+      "7/3/17",
+      "Double"
+    ],
+    [
+      "O3",
+      "1438",
+      "WACS1438",
+      "Kosk Spring, 2/10 mile off-trail",
+      "good flow 4L/min ",
+      "8/9/17",
+      "Hunter"
+    ],
+    [
+      "O4",
+      "1444.8",
+      "WACS1445",
+      "Moosehead Creek",
+      "good flow, great pools",
+      "8/9/17",
+      "Hunter"
+    ],
+    [
+      "O4",
+      "1445.2",
+      "WA1445",
+      "Headwaters of Moosehead Creek, better water 4/10 mile back.",
+      "good flow",
+      "8/9/17",
+      "Hunter"
+    ],
+    [
+      "O5",
+      "1452.6",
+      "WA1453",
+      "Alder Creek ~1/2 mile N of PCT",
+      "flowing with cold water. Had to bushwhack through some brush to get to a place that was easy to collect water, but it wasn't too bad. Ground is soggy but you can keep your feet dry if you pay attention. Bear activity in area - scat, and something very big crashing through the woods as I approached.  ",
+      "7/19/16",
+      "Oolong"
+    ],
+    [
+      "O6",
+      "1455.6",
+      "WA1456",
+      "Gold Creek trail junction, creek is 2/10 mile off trail.",
+      "good flow, deep pools, scoop to collect",
+      "8/9/17",
+      "Hunter"
+    ],
+    [
+      "To access, go up the Gold Creek trail from the PCT, cross a forest road, follow another road about .15 miles to just before where it dips and turns to the right after and old \"ramp\" on the right side covered in bushes. Exit the road to the left toward the stand of conifers and go down the embankment to the creek."
+    ],
+    [
+      "O6",
+      "1457.1",
+      "",
+      "Seasonal stream",
+      "Trickling. Wouldn't expect it to last much longer. Scoop recommended.",
+      "8/10/17",
+      "Fireball"
+    ],
+    [
+      "O6",
+      "1459.1",
+      "WACS1459",
+      "Deer Creek Spring",
+      "Good flow, scoop may be helpful. Many Mosquitos.",
+      "7/20/17",
+      "Optimistic Turtle"
+    ],
+    [
+      "O6",
+      "1460.1",
+      "WA1460",
+      "Deer Creek",
+      "fantastic flow",
+      "8/9/17",
+      "Hunter"
+    ],
+    [
+      "O6",
+      "1461.2",
+      "WA1461",
+      "Another branch of Deer Creek.",
+      "fantastic flow",
+      "8/9/17",
+      "Hunter"
+    ],
+    [
+      "O6",
+      "1461.5",
+      "",
+      "Stream",
+      "excellent flow",
+      "7/11/17",
+      "Give A Hoot"
+    ],
+    [
+      "O6",
+      "1464.2",
+      "WA1464",
+      "Small creek",
+      "excellent flow",
+      "7/11/17",
+      "Give A Hoot"
+    ],
+    [
+      "6/20/17 (Flow & BamBam): Significant poison oak on trail from 1465 to 1480, scattered thereafter. All easily avoidable if paying attention. "
+    ],
+    [
+      "O6",
+      "1464.6",
+      "WA1465",
+      "Butcherknife Creek",
+      "great flow",
+      "8/10/17",
+      "Hunter"
+    ],
+    [
+      "O6",
+      "1464.8",
+      "WA1465B",
+      "Small spring",
+      "excellent flow",
+      "7/11/17",
+      "Give A Hoot"
+    ],
+    [
+      "O6",
+      "1464.9",
+      "WA1465C",
+      "Small creek",
+      "excellent flow",
+      "7/11/17",
+      "Give A Hoot"
+    ],
+    [
+      "O6",
+      "1465.3",
+      "WA1465D",
+      "Creek",
+      "excellent flow",
+      "7/11/17",
+      "Give A Hoot"
+    ],
+    [
+      "O7",
+      "1468.4",
+      "WACS1468",
+      "Ash Camp Campground, outhouse, water from nearby creek, unpaved road.",
+      "Abundance of water. From river. ",
+      "6/30/17",
+      "Mr. Rogers"
+    ],
+    [
+      "O7",
+      "1468.5",
+      "WA1469",
+      "**McCloud River, large wooden bridge. Watch for Poison Oak near the McCloud River.",
+      "plenty of water, access on both sides",
+      "8/10/17",
+      "Hunter"
+    ],
+    [
+      "O7",
+      "1470.2",
+      "WA1470",
+      "Small spring",
+      "good flow",
+      "6/30/17",
+      "Mr. Rogers"
+    ],
+    [
+      "O7",
+      "1470.6",
+      "WACS1471",
+      "Fitzhugh Gulch Creek",
+      "Good flow. Tank up before climb.",
+      "8/10/17",
+      "Hunter"
+    ],
+    [
+      "C7",
+      "1471.1",
+      "RD1471",
+      "",
+      "There are water faucets, trash cans and outhouses at Campground Ah-Di-Na (on RD1471 ca. 0.5 M southwest)",
+      "6/23/17",
+      "Salamander"
+    ],
+    [
+      "O8",
+      "1478.9",
+      "WA1479",
+      "Trough Creek",
+      "good flow",
+      "8/10/17",
+      "Hunter"
+    ],
+    [
+      "O8",
+      "1479.4",
+      "WA1479B",
+      "West Trough Creek",
+      "good flow",
+      "7/30/17",
+      "Pano"
+    ],
+    [
+      "7/14/16 (Skinny Thor & Sweet Cheeks) : A lot of poison oak on the trail from WA1465 - WA1479B."
+    ],
+    [
+      "O8",
+      "1482.2",
+      "WA1482",
+      "*Squaw Valley Creek, Squaw Valley trailhead trail junction nearby.",
+      "great flow, west bank access",
+      "8/10/17",
+      "Hunter"
+    ],
+    [
+      "O9",
+      "1491.5",
+      "WA1492",
+      "Spring",
+      "good flow",
+      "8/11/17",
+      "Hunter"
+    ],
+    [
+      "O9",
+      "1492.4",
+      "WA1492B",
+      "North Fork of Fall Creek",
+      "great flow",
+      "8/11/17",
+      "Hunter"
+    ],
+    [
+      "O9",
+      "1497.8",
+      "WA1498",
+      "Small spring",
+      "good flow",
+      "8/11/17",
+      "Hunter"
+    ],
+    [
+      "O9",
+      "1498.3",
+      "WA1498B",
+      "Cross a bridge over a river.",
+      "Flowing about 2 ft deep, great flow",
+      "6/23/17",
+      "Salamander"
+    ],
+    [
+      "O9",
+      "1498.4",
+      "WA1498C",
+      "Cross bridge over Sacramento River",
+      "great flow",
+      "8/11/17",
+      "Hunter"
+    ],
+    [
+      "",
+      "1498.7",
+      "Castella",
+      "",
+      "Castle Crags Campground - faucets on, free hot showers",
+      "6/23/17",
+      "Salamander"
+    ],
+    [
+      "",
+      "1498.7",
+      "Dunsmuir"
+    ],
+    [
+      "P1",
+      "1500.3",
+      "WA1500",
+      "Fern Springs",
+      "running strong",
+      "8/2/17",
+      "SnakBlok&Jukebox"
+    ],
+    [
+      "P1",
+      "1502",
+      "WACS1502",
+      "Creek",
+      "great flow",
+      "8/2/17",
+      "SnakBlok&Jukebox"
+    ],
+    [
+      "P1",
+      "1502.2",
+      "WA1502",
+      "Winton Canyon Creek, wooden bridge.",
+      "several gallons per minute, harder to collect from than 1502.0",
+      "7/17/17",
+      "Chris Q"
+    ],
+    [
+      "P1",
+      "1502.4",
+      "WA1502B",
+      "Indian Creek",
+      "good flow",
+      "8/2/17",
+      "SnakBlok&Jukebox"
+    ],
+    [
+      "P1",
+      "1504.7",
+      "WA1505",
+      "East Fork of Sulphur Creek",
+      "strong flow",
+      "8/2/17",
+      "SnakBlok&Jukebox"
+    ],
+    [
+      "P1",
+      "1505.1",
+      "WA1505B",
+      "West Fork of Sulphur Creek. The east fork is often better.",
+      "good flow",
+      "8/2/17",
+      "SnakBlok&Jukebox"
+    ],
+    [
+      "P1",
+      "1506.7",
+      "",
+      "Popcorn Spring",
+      "good flow",
+      "8/2/17",
+      "SnakBlok&Jukebox"
+    ],
+    [
+      "P1",
+      "1507.6",
+      "WA1508",
+      "Seasonal Burstarse Creek",
+      "Decent flow, but algal growth and weird smell. Better to get water from Popcorn Spring.\n-----\nPer DoubleTap : In addition to being one of the funniest named creeks on the trail there is also a sign here for permanent water 0.2 miles away but I didn't check it out. ",
+      "8/2/17",
+      "Pano"
+    ],
+    [
+      "P2",
+      "1508.8",
+      "WA1509",
+      "Small spring",
+      "pool with decent flow\n-----\nFollow the side trail for .1 mi and then walk over some rocks to get to the water.",
+      "8/2/17",
+      "Pano"
+    ],
+    [
+      "P2",
+      "1512.8",
+      "WA1513",
+      "North Fork Spring",
+      "1-2 gallons per minute",
+      "7/17/17",
+      "Chris Q"
+    ],
+    [
+      "P2",
+      "1513.7",
+      "WA1514",
+      "Gully Spring",
+      "decent flow but go 50ft upstream to collect",
+      "8/2/17",
+      "SnakBlok&Jukebox"
+    ],
+    [
+      "P3",
+      "1519.4",
+      "WA1519",
+      "Bradens Spring 1/3 mile off-trail",
+      "seems to be under snow, or at least is steep and sketchy to get down. Wouldn't recommend",
+      "7/2/17",
+      "Buddha"
+    ],
+    [
+      "P3",
+      "1524.1",
+      "WA1524",
+      "Picayune Spring trail junction. Spring is 800 feet off-trail.",
+      "good flow, 800ft away and roughly 200ft decent",
+      "8/3/17",
+      "SnakBlok&Jukebox"
+    ],
+    [
+      "P4",
+      "1526.5",
+      "WA1527",
+      "White Ridge Spring",
+      "icy cold water at 2+ gallons per minute from a popped spring",
+      "7/18/17",
+      "Chris Q"
+    ],
+    [
+      "P4",
+      "1528.8",
+      "WACS1529",
+      "Porcupine Lake trail junction. Lake is 2/10 mile W of PCT.",
+      "plus side its a warm lake perfect for swimming, down side, after filtering your drinking luke warm water,",
+      "8/3/17",
+      "SnakBlok&Jukebox"
+    ],
+    [
+      "P4",
+      "1529.1",
+      "TR1529",
+      "Toad Lake Junction",
+      "could hear gushing water from trail near sign on tree, didn't investigate",
+      "8/31/16",
+      "Huckleberry & Macro"
+    ],
+    [
+      "P4",
+      "1529.2",
+      "TR1529B",
+      "Toad Spring trail junction",
+      "strong flow",
+      "8/3/17",
+      "SnakBlok&Jukebox"
+    ],
+    [
+      "P5",
+      "1531.2",
+      "",
+      "",
+      "3-4 liters per minute and easy to collect",
+      "7/18/17",
+      "Chris Q"
+    ],
+    [
+      "P5",
+      "1532.6",
+      "WA1533",
+      "Red Rock Spring",
+      "multiple gallons per minute right across trail",
+      "7/18/17",
+      "Chris Q"
+    ],
+    [
+      "P5",
+      "1534.2",
+      "WACS1534",
+      "**Deadfall Lake",
+      "Spring between both lakes flowing strong. Both lakes look good for swimming, only swam in upper lake.",
+      "8/3/17",
+      "SnakBlok&Jukebox"
+    ],
+    [
+      "Great camping and water but avoid Deadfall Lake if it's a weekend as this is a popular spot for locals to camp at and it can get quite crowded."
+    ],
+    [
+      "P5",
+      "1534.9",
+      "WA1535",
+      "Seasonal Spring",
+      "strong flow",
+      "8/3/17",
+      "SnakBlok&Jukebox"
+    ],
+    [
+      "P5",
+      "1535.7",
+      "",
+      "",
+      "strong flow",
+      "8/3/17",
+      "SnakBlok&Jukebox"
+    ],
+    [
+      "P6",
+      "1539.44",
+      "",
+      "Seasonal Creek",
+      "Dry",
+      "7/18/17",
+      "Chris Q"
+    ],
+    [
+      "P6",
+      "1539.76",
+      "",
+      "Seasonal Creek",
+      "Dry",
+      "7/18/17",
+      "Chris Q"
+    ],
+    [
+      "P6",
+      "1539.99",
+      "",
+      "Seasonal Creek",
+      "Dry",
+      "7/18/17",
+      "Chris Q"
+    ],
+    [
+      "P6",
+      "1540.05",
+      "",
+      "Seasonal Creek",
+      "Dry",
+      "7/18/17",
+      "Chris Q"
+    ],
+    [
+      "P6",
+      "1540.56",
+      "",
+      "Middle Fork High Camp Creek",
+      "good flow",
+      "8/3/17",
+      "SnakBlok&Jukebox"
+    ],
+    [
+      "P6",
+      "1543.4",
+      "WACS1543",
+      "Chilcoot Creek - Seasonal creek",
+      "1-2 gallons per minute",
+      "7/18/17",
+      "Chris Q"
+    ],
+    [
+      "P6",
+      "1547.2",
+      "WA1547",
+      "Seasonal spring",
+      "good flow but scoop required",
+      "8/4/17",
+      "SnakBlok&Jukebox"
+    ],
+    [
+      "P7",
+      "1551.6",
+      "WA1552",
+      "Seasonal spring",
+      "2+ gallons per minute",
+      "7/19/17",
+      "Chris Q"
+    ],
+    [
+      "P7",
+      "1553.4",
+      "WACS1553",
+      "Small seasonal spring",
+      "1+ gallons per minute but a bit hard to collect",
+      "7/19/17",
+      "Chris Q"
+    ],
+    [
+      "P7",
+      "1555.2",
+      "WA1555",
+      "Small seasonal spring",
+      "good flow but scoop required",
+      "8/4/17",
+      "SnakBlok&Jukebox"
+    ],
+    [
+      "FAY FIRE UPDATE (7/14/17) - 100% contained.\nhttp://www.fire.ca.gov/current_incidents/incidentdetails/Index/1623\n7/7/17 (Slingblade) :  I just arrived in Yreka and spoke to two Cal Fire firefighters who had been on site all night and they told me that the fire was not going to grow any larger. They had been working the edges of the fire and today the crews would go into main burn area and mop up. They said the PCT was not going to be affected. "
+    ],
+    [
+      "P8",
+      "1562.2",
+      "WA1562",
+      "Spring just below the PCT",
+      "strong flow at 2+ gallons per minute\n-----\nNo sign. Watch for short trail back to your left next to rock cairn (for NOBO).",
+      "7/19/17",
+      "Chris Q"
+    ],
+    [
+      "P9",
+      "1562.5",
+      "WA1563",
+      "Spring",
+      "good flow ",
+      "8/4/17",
+      "Pano"
+    ],
+    [
+      "P9",
+      "1563.4",
+      "WA1563B",
+      "Small creek",
+      "good flow ",
+      "8/4/17",
+      "Pano"
+    ],
+    [
+      "P9",
+      "1563.6",
+      "WA1564",
+      "Creek below Mosquito Lake.",
+      "extremely strong flow with good pools of water for taking a cool down bath",
+      "8/4/17",
+      "SnakBlok&Jukebox"
+    ],
+    [
+      "P9",
+      "1568.7",
+      "WA1569",
+      "Small seasonal creek",
+      "several gallons per minute at two spots about 0.02 miles apart",
+      "7/19/17",
+      "Chris Q"
+    ],
+    [
+      "P9",
+      "1568.8",
+      "WA1569B",
+      "Piped spring",
+      "2+ gallons per minute just below trail",
+      "7/19/17",
+      "Chris Q"
+    ],
+    [
+      "P10",
+      "1570.6",
+      "WA1571",
+      "Small seasonal creek.",
+      "3+ gallons per minute",
+      "7/19/17",
+      "Chris Q"
+    ],
+    [
+      "P10",
+      "1573",
+      "WA1573",
+      "Small Creek",
+      "five flows all with 2+ gallons per minute",
+      "7/19/17",
+      "Chris Q"
+    ],
+    [
+      "P10",
+      "1575.6",
+      "WA1576",
+      "Small stream",
+      "gallons per minute",
+      "8/5/17",
+      "SnakBlok&Jukebox"
+    ],
+    [
+      "P10",
+      "1576.6",
+      "WA1577",
+      "**Scott River",
+      "raging like a river",
+      "7/19/17",
+      "Chris Q"
+    ],
+    [
+      "",
+      "1577.1",
+      "",
+      "Creek",
+      "1-2 gallons per minute",
+      "8/5/17",
+      "SnakBlok&Jukebox"
+    ],
+    [
+      "P11",
+      "1582.8",
+      "WA1583",
+      "Spring, 100 yards E of the PCT on a jeep road.",
+      "Good flow, 5L+ per minute",
+      "7/3/17",
+      "Optimistic Turtle "
+    ],
+    [
+      "",
+      "1584.54",
+      "",
+      "Seasonal Creek",
+      "can hear water through rocks but had to go downstream 50ft and found a pool of water,",
+      "8/5/17",
+      "SnakBlok&Jukebox"
+    ],
+    [
+      "",
+      "1585.06",
+      "",
+      "Seasonal Creek",
+      "Decent flow, but collection is kinda slow.",
+      "8/5/17",
+      "Pano"
+    ],
+    [
+      "P12",
+      "1585.3",
+      "WA1585",
+      "Spring",
+      "good flow",
+      "8/5/17",
+      "Pano"
+    ],
+    [
+      "P12",
+      "1586.4",
+      "WA1586",
+      "Small stream",
+      "good flow",
+      "8/5/17",
+      "Pano"
+    ],
+    [
+      "P12",
+      "1586.8",
+      "WA1587",
+      "Small creek",
+      "good flow",
+      "8/5/17",
+      "Pano"
+    ],
+    [
+      "P12",
+      "1588.3",
+      "WACS1588",
+      "Seasonal creek below Statue Lake",
+      "good flow ",
+      "8/5/17",
+      "Pano"
+    ],
+    [
+      "P13",
+      "1591.5",
+      "WACS1591",
+      "**Paynes Lake, 100 yards W of PCT.",
+      "gallons per minute ",
+      "8/5/17",
+      "Pano"
+    ],
+    [
+      "P13",
+      "1592.2",
+      "WA1592",
+      "Creek",
+      "gallons per minute ",
+      "8/5/17",
+      "Pano"
+    ],
+    [
+      "P13",
+      "1592.2",
+      "WA1592B",
+      "Stream",
+      "gallons per minute ",
+      "8/5/17",
+      "Pano"
+    ],
+    [
+      "",
+      "1597.2",
+      "Etna"
+    ],
+    [
+      "SALMON AUGUST COMPLEX (Wallow, Garden, Grizzly, Mary, Pointers, and Island Fires)\nhttps://www.pcta.org/discover-the-trail/trail-condition/wallow-fire-near-etna-calif/\nhttps://inciweb.nwcg.gov/incident/5501/\nhttps://www.fs.usda.gov/alerts/klamath/alerts-notices\n9/20/17 (PCTA) : The Pacific Crest Trail is open again! The trail was previously closed from Sawyers Bar Road/Etna Summit (mile 1597) north to the intersection with the Shackleford Trail #5542 (mile ~1616). This is on Klamath National Forest in Marble Mountain Wilderness. You are urged to be extra careful because of fire weakened trees as well as loosened debris on steep slopes. Intermittent closures may be required along the Pacific Crest and Mule Bridge Trails as hazard reduction treatment is completed."
+    ],
+    [
+      "Q1",
+      "1604.7",
+      "WA1605",
+      "Cub Bear Spring, small spring 2/10 mile E of PCT.",
+      "Good flow. Trail junction is easily overlooked because of a fallen tree. ",
+      "7/5/17",
+      "Mashed Potatoes & Iron Man"
+    ],
+    [
+      "Q2",
+      "1607.8",
+      "WA1608",
+      "Shelly Lake Outlet",
+      "Nobo should get water here before tentsite ahead. The water at tentsite is slightly green and needs a scoop.",
+      "7/29/17",
+      "Optmistic Turtle"
+    ],
+    [
+      "Q2",
+      "1611",
+      "WA1611",
+      "Small creek",
+      "many gallons per minute",
+      "7/22/17",
+      "Electro"
+    ],
+    [
+      "Q2",
+      "1611.3",
+      "WACS1611",
+      "Small lake",
+      "many gallons per minute",
+      "7/22/17",
+      "Electro"
+    ],
+    [
+      "Q2",
+      "1611.5",
+      "WA1612",
+      "Marten Lake",
+      "Lake water a little murky.",
+      "7/29/17",
+      "Optmistic Turtle"
+    ],
+    [
+      "Q3",
+      "1612.7",
+      "WA1613",
+      "Seasonal stream",
+      "good flow, cold and icy",
+      "7/29/17",
+      "Optmistic Turtle"
+    ],
+    [
+      "SALMON AUGUST COMPLEX (Wallow, Garden, Grizzly, Mary, Pointers, and Island Fires)\nSee note above."
+    ],
+    [
+      "Q3",
+      "1617.9",
+      "WA1618",
+      "Cold Spring, 3/10 mile S of PCT, 270 ft elevation drop.",
+      "small flow, shallow pools. Clear, cold spring water. Bring a cup. ",
+      "7/26/16",
+      "Oolong"
+    ],
+    [
+      "Q4",
+      "1618.8",
+      "",
+      "Soft Water Spring",
+      "about a gallon per minute",
+      "7/23/17",
+      "Electro"
+    ],
+    [
+      "Q4",
+      "1621.2",
+      "WACS1621",
+      "Creek near Marble Valley Cabin [locked]",
+      "good flow, need a scoop",
+      "7/28/17",
+      "Optmistic Turtle"
+    ],
+    [
+      "Q4",
+      "1622.5",
+      "WA1622",
+      "Creek",
+      "many gallons per minute",
+      "7/23/17",
+      "Electro"
+    ],
+    [
+      "Q5",
+      "1626.5",
+      "WACS1626",
+      "**Paradise Lake",
+      "good flow",
+      "7/28/17",
+      "Optmistic Turtle"
+    ],
+    [
+      "Q5",
+      "1627",
+      "WA1627",
+      "Seasonal stream",
+      "good flow",
+      "7/28/17",
+      "Optmistic Turtle"
+    ],
+    [
+      "Q6",
+      "1632",
+      "WACS1632",
+      "Buckhorn Spring, small signed spring 150 feet W of the PCT in a meadow NW of the large three-forked tree",
+      "piped spring run slow, I collected water from the pool",
+      "7/28/17",
+      "Optmistic Turtle"
+    ],
+    [
+      "Q6",
+      "1638.2",
+      "WA1638",
+      "Seasonal creek",
+      "many gallons per minute",
+      "7/23/17",
+      "Electro"
+    ],
+    [
+      "Q6",
+      "1639",
+      "WA1639",
+      "Cold Spring Creek, a large creek.",
+      "many gallons per minute",
+      "7/23/17",
+      "Electro"
+    ],
+    [
+      "Q6",
+      "1639.1",
+      "WACS1639",
+      "Creek",
+      "many gallons per minute",
+      "7/23/17",
+      "Electro"
+    ],
+    [
+      "Q7",
+      "1640",
+      "WA1640",
+      "**Grider Creek, 1st crossing, wooden footbridge (bridge was completely burnt in Nov 2014).",
+      "many gallons per minute",
+      "7/23/17",
+      "Electro"
+    ],
+    [
+      "Q7",
+      "1,641.2",
+      "WA1641",
+      "**Grider Creek, 2nd crossing, wooden footbridge (bridge was burnt & broken in half but passable on foot, Nov. 2014).",
+      "many gallons per minute\n-----\nFlowing well. The second nobo crossing bridge is washed out but no visible alternate. It's only about knee deep there and not too fast.",
+      "7/23/17",
+      "Electro"
+    ],
+    [
+      "Per BeeKeeper on 6/2/15 : There are 3 places that are very badly eroded in steep slide areas and not horse safe : mile points 1642.68, 1643.39 and 1643.76."
+    ],
+    [
+      "Q7",
+      "1642.9",
+      "WA1643",
+      "**Grider Creek, 3rd crossing, wooden footbridge.",
+      "many gallons per minute",
+      "7/23/17",
+      "Electro"
+    ],
+    [
+      "Q7",
+      "1643.3",
+      "WA1643B",
+      "Bark Shanty Creek",
+      "many gallons per minute",
+      "7/23/17",
+      "Electro"
+    ],
+    [
+      "Q8",
+      "1645.3",
+      "WA1645",
+      "Creek",
+      "good flow",
+      "7/27/17",
+      "Optimistic Turtle"
+    ],
+    [
+      "Q8",
+      "1646.9",
+      "WACS1647",
+      "**Grider Creek, 4th crossing near campground, steel footbridge, good swimming just N of bridge. Walk through the campground to start of 6.4 mile roadwalk to Seiad Valley.",
+      "many gallons per minute\n-----\nThere is a toilet in the campground.",
+      "7/24/17",
+      "Electro"
+    ],
+    [
+      "Q8",
+      "1652.5",
+      "WA1653",
+      "Highway crosses the Klamath River on a large highway bridge.",
+      "big river with lots of water. ",
+      "7/24/17",
+      "Electro"
+    ],
+    [
+      "R8",
+      "1653.4",
+      "SeiadValley",
+      "Very small community of Seiad Valley, small store, Post Office, cafe, RV park.",
+      "many water sources... RV camping in Saied valley is 10$ per day and 15$ per night.",
+      "6/14/16",
+      "Yemima & Shai"
+    ],
+    [
+      "MILLER COMPLEX (Cook & Abney Fire)\nhttps://inciweb.nwcg.gov/incident/5514/ (MILLER COMPLEX)\nhttps://www.fs.usda.gov/detail/rogue-siskiyou/home/?cid=fseprd555085\nhttps://inciweb.nwcg.gov/incident/5482/ (CEDAR FIRE)\nhttps://www.fs.usda.gov/alerts/klamath/alerts-notices\nhttps://www.pcta.org/wp-content/uploads/2017/08/00001.jpg?x99107 (Closure Map)\nhttps://www.pcta.org/wp-content/uploads/2017/08/2017_08_21-16.13.03.985-CDT.jpg?x99107 (Fire Maps)\n9/3/17 (PCTA) : The Pacific Crest Trail is closed from Seiad Valley (mile 1654.5) to Wards Fork Gap (Mile 1686.6). Alternate information - Because of the many fires in this region, we assume that most hikers will end up skipping a large portion of trail. Perhaps from Castle Crags to Ashland. The Red Buttes Wilderness, boundary trail, and access trails (Ft. Goff, Portuguese Creek) remain closed.\n-----------------------------------------------------------------------------------------------------------------------------------------------------------------\nNorthern California firefighters are working on numerous new lightning fires. The public is urged to be especially careful with fire. Remember ‘One less spark, one less wildfire.’ For more information see http://www.readyforwildfire.org/One-Less-Spark-Campaign/ .\nAdditional information about the Cedar Fire is available on the U.S. Forest Service – Klamath National Forest Facebook page, on Inciweb, and on bulletin boards in Happy Camp. Information can also be obtained from the Happy Camp Ranger District at (530) 493-2243."
+    ],
+    [
+      "R1",
+      "1655.1",
+      "WA1655",
+      "Fern Spring",
+      "decent flow 1/2  L/min",
+      "7/29/17",
+      "Left & Right"
+    ],
+    [
+      "R1",
+      "1659.4",
+      "WA1659",
+      "*Lookout Spring, flowing from iron pipe.",
+      "8/2/17 (Rocky & Peaks) : Massive wasp infestation.  Dozens of large wasps swarming near pipe.  Water barely trickling out of pipe at estimated 1/8 liter per min.\n7/29/17 (Left & Right) : 30ft off trail, decent flow 1/3 L/min, many wasps",
+      "8/2/17",
+      "Rocky & Peaks"
+    ],
+    [
+      "R2",
+      "1663.5",
+      "WA1664",
+      "Kangaroo Spring",
+      "did not find spring, only small stagnant pond",
+      "7/30/17",
+      "Left & Right"
+    ],
+    [
+      "R2",
+      "1665.2",
+      "WA1665",
+      "Seasonal creek",
+      "barely a trickle and a couple small puddles ",
+      "7/30/17",
+      "Left & Right"
+    ],
+    [
+      "R2",
+      "1668.2",
+      "WA1668",
+      "*Piped Cook and Green Pass spring",
+      "good flow\n-----\nFor NOBO, as you enter the clearing at the road, wrap around to the left to find the trail to the spring.",
+      "7/27/17",
+      "Give A Hoot"
+    ],
+    [
+      "R3",
+      "1673.7",
+      "WA1674",
+      "Bear Dog Spring",
+      "8/3/17 (Peaks) : Flowing reasonably well: timed it at 1 L/min.  The strategically placed leaf makes filling a smartwater bottle or sawyer squeeze pouch easy.  No scoop needed (yet).\n7/27/17 (Give A Hoot) : flowing 2 liters per minute, scoop helpful ",
+      "8/3/17",
+      "Peaks"
+    ],
+    [
+      "R4",
+      "1675.4",
+      "WA1675",
+      "Spring, 1/10  mile  SW of PCT",
+      " I found flow of about1.5 liters per minute just below the group trees as you enter the meadow.  It's marshy so collecting the water requires some ingenuity.",
+      "7/27/17",
+      "Give A Hoot"
+    ],
+    [
+      "R4",
+      "1677.7",
+      "WA1678",
+      "Reeves Ranch Springs, 9/10 mile S of PCT."
+    ],
+    [
+      "R5",
+      "1680.7",
+      "WA1681",
+      "*Alex Hole Spring nearby.",
+      "good flow 1.5 L/min",
+      "7/30/17",
+      "Left & Right"
+    ],
+    [
+      "Look for trail to the left of the PCT right after you pass the unpaved road on the right. About 0.1 mile and 100 ft down (after a sharp turn to the left) you will run into multiple small streams from the spring which is ice cold."
+    ],
+    [
+      "R5",
+      "1682.8",
+      "WA1683",
+      "Mud Springs, 2/10  mile north of PCT mile 1692.4.",
+      "not much flow with sediment in water",
+      "7/30/17",
+      "Left & Right"
+    ],
+    [
+      "R5",
+      "1684.7",
+      "WA1685",
+      "Spring (look for short trail on right)",
+      "gushing at 4+ liters per minute",
+      "7/27/17",
+      "Give A Hoot"
+    ],
+    [
+      "R5",
+      "1685.1",
+      "WA1685B",
+      "Small spring",
+      "Bearground Springs 2nd crossing has pipe, 2 L/min",
+      "7/31/17",
+      "Left & Right"
+    ],
+    [
+      "R5",
+      "1685.2",
+      "WA1685C",
+      "Another small spring",
+      "good flow",
+      "7/27/17",
+      "Give A Hoot"
+    ],
+    [
+      "MILLER COMPLEX (Cook & Abney Fire) - See notes above."
+    ],
+    [
+      "R6",
+      "1688",
+      "WA1688",
+      "Donomore Creek, small wooden bridge.",
+      "very good flow",
+      "7/31/17",
+      "Left & Right"
+    ],
+    [
+      "",
+      "1688.7",
+      "",
+      "Creek",
+      "low flow",
+      "7/31/17",
+      "Left & Right"
+    ],
+    [
+      "",
+      "1690.46",
+      "",
+      "Creek",
+      "good flow 1 L/min",
+      "7/31/17",
+      "Left & Right"
+    ],
+    [
+      "R6",
+      "1690.6",
+      "WA1691",
+      "Small spring",
+      "decent flow with small pool \u003c1L/min",
+      "7/31/17",
+      "Left & Right"
+    ],
+    [
+      "R6",
+      "1693.6",
+      "WACS1694",
+      "*Sheep Camp Spring",
+      "gushing from pipe, extremely good flow 4 gallons/min",
+      "7/31/17",
+      "Left & Right"
+    ],
+    [
+      "R7",
+      "1694.7",
+      "WA1695",
+      "Small stream",
+      "flowing very well ",
+      "7/31/17",
+      "Left & Right"
+    ],
+    [
+      "R7",
+      "1701.4",
+      "WA1701",
+      "Small seasonal stream",
+      "excellent flow, 3+ liters per minute.",
+      "7/27/17",
+      "Give A Hoot"
+    ],
+    [
+      "",
+      "1705.23",
+      "",
+      "Seasonal creek",
+      "small flow, need a scoop",
+      "7/31/17",
+      "Left & Right"
+    ],
+    [
+      "R8",
+      "1706.2",
+      "WA1706",
+      "Small seasonal creek",
+      "low flow, need a scoop",
+      "7/31/17",
+      "Left & Right"
+    ],
+    [
+      "R8",
+      "1706.5",
+      "WA1707",
+      "Seasonal creek",
+      "good flow \u003e3 L/min",
+      "7/31/17",
+      "Left & Right"
+    ],
+    [
+      "R8",
+      "1706.60",
+      "",
+      "Small seasonal creek",
+      "about a gallon per minute",
+      "7/25/17",
+      "Electro"
+    ],
+    [
+      "",
+      "1707.21-45",
+      "",
+      "",
+      "five streams across trail, dry or barely trickling ",
+      "7/31/17",
+      "Left & Right"
+    ],
+    [
+      "R8",
+      "1707.89",
+      "",
+      "Shallow seasonal creek",
+      "decent flow ~1 L/min",
+      "8/1/17",
+      "Left & Right"
+    ],
+    [
+      "R8",
+      "1708.39",
+      "",
+      "Seasonal creek",
+      "decent flow \u003c1 L/min",
+      "8/1/17",
+      "Left & Right"
+    ],
+    [
+      "",
+      "1708.56",
+      "",
+      "",
+      "all barely flowing ",
+      "8/1/17",
+      "Left & Right"
+    ],
+    [
+      "",
+      "1710.8",
+      "",
+      "Picnic Table w/ faucet",
+      "faucet is still on",
+      "8/1/17",
+      "Left & Right"
+    ],
+    [
+      "The picnic table and faucet are on private land, camping not allowed in this area."
+    ],
+    [
+      "R9",
+      "~1714.52",
+      "",
+      "Seasonal stream",
+      "flowing very well",
+      "8/1/17",
+      "Left & Right"
+    ],
+    [
+      "",
+      "1716.2",
+      "Ashland"
+    ],
+    [
+      "*Old mileage is from 2014 Halfmile Maps. This mileage will be similar to the Wilderness Press Data Book or Guthook mileage."
+    ],
+    [
+      "These reports are provided as a free service to PCT hikers. I believe the information is accurate but the reports may contain errors. The reports are distributed in the hope that they will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE."
     ]
-
+  ]
 }

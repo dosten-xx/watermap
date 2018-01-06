@@ -1,814 +1,836 @@
 {
-	"range": "'Campo - Idyllwild'!A11:G133",
-	"majorDimension": "ROWS",
-	"values": [
-		[
-			"A1",
-			"1.2",
-			"WR001",
-			"**Juvenile Ranch Facility [faucet behind Juvenile Ranch sign]",
-			"Water is on",
-			"3/2/17",
-			"Mr. Clean"
-		],
-		[
-			"A1",
-			"1.4",
-			"",
-			"Campo",
-			"Town - Faucet & Store"
-		],
-		[
-			"A1",
-			"~2.5",
-			"",
-			"Seasonal Campo Crk [usually dry]",
-			"lots of water under bridge",
-			"3/31/17",
-			"Alex & Taylor"
-		],
-		[
-			"A1",
-			"4.4",
-			"WR004",
-			"Creeklet [early spring only]",
-			"Excellent flow",
-			"3/31/17",
-			"Alex & Taylor"
-		],
-		[
-			"A2",
-			"~12.7",
-			"",
-			"Seasonal creek [usually dry]",
-			"great flow, may be difficult to access",
-			"3/16/17",
-			"Cruise Control"
-		],
-		[
-			"Mile 15.36 : 3/10/17 (Rebo) : There is a water cistern 1.6 miles down Hauser Creek Road off trail starting at Mile 15.36. Go left (for Nobo's) on Hauser Creek dirt road and walk down past white tube gate. In ~1.4 miles the dirt road ends at two large boulders. Go past the two boulders and walk ~50 feet. Go to your right and then go up the ravine (listen for water). "
-		],
-		[
-			"A2",
-			"15.4",
-			"WRCS015",
-			"Hauser Creek [early spring only]",
-			"Stream running",
-			"3/17/17",
-			"Hammer"
-		],
-		[
-			"If dry at creek crossing, try taking a right on the road E & walk up stream 200-300 yards. Periodically walk up to creek and check for pools. These last just a little longer than at trail. [Beware; it often has water in April, only to go dry just before ADZPCTKO]. WATCH OUT FOR POISON OAK in this area."
-		],
-		[
-			"A2",
-			"15.4",
-			"WACS016",
-			"Cottonwood Creek below Lake Morena [1.6 miles W of PCT on dirt road]",
-			"completely dry",
-			"10/4/16",
-			"Rover"
-		],
-		[
-			"A2",
-			"20",
-			"LkMorenaCG",
-			"**Lake Morena Campground",
-			"Faucets are on",
-			"3/1/17",
-			"Karl"
-		],
-		[
-			"Signs will lead hikers to the PCT camping area next to site 85 and still $5 per hiker.  Showers are $0.50 for 4 min."
-		],
-		[
-			"A3",
-			"24.1",
-			"WR024",
-			"Cottonwood Creek Bridge",
-			"flowing very well",
-			"3/16/17",
-			"Anthony"
-		],
-		[
-			"A3",
-			"25.5",
-			"WR026",
-			"Cottonwood Creekbed",
-			"good flow",
-			"2/28/17",
-			"Dalem"
-		],
-		[
-			"A3",
-			"26",
-			"BoulderOaksCG",
-			"**Boulder Oaks Campground",
-			"Spigots on",
-			"3/1/17",
-			"Karl"
-		],
-		[
-			"SOBO:First spigot is hard to see - it's hiding on the back of a 2' brown post just as the PCT gets onto the CG road. A 2nd faucet is on a tall brown post further along the road. NOBO:Heading south the spigot is to the left of the trail just before exiting the campground. There are several other spigots in the campground."
-		],
-		[
-			"A3",
-			"26.5",
-			"",
-			"Boulder Oaks Store Closed permanently"
-		],
-		[
-			"A3",
-			"~26.8",
-			"",
-			"Kitchen Creek near I-8",
-			"Dry",
-			"9/21/16",
-			"Mr. Clean"
-		],
-		[
-			"A3",
-			"28.5",
-			"KitchenCrFalls",
-			"*Kitchen Creek Falls [2/10 mi NW]",
-			"So full there's a deepest swimming area downstream about 100yds. ",
-			"3/28/17",
-			"Dalem"
-		],
-		[
-			"A3",
-			"~30",
-			"",
-			"Kitchen Creek [100 feet below trail]",
-			"Weak flow of creek across trail, before reaching Kitchen Creek Rd. I could hear Kitchen Creek flowing well off the trail but did not need to go there. ",
-			"3/13/17",
-			"Jill"
-		],
-		[
-			"Or continue to paved road at 30.6 and take a left and then a dirt road down to the water [~0.4 mile]."
-		],
-		[
-			"A3",
-			"30.2",
-			"WRCS030",
-			"*Kitchen Creek, Yellow Rose Spring\n[4/10 mile N of PCT on road]",
-			"Excellent flow",
-			"3/23/17",
-			"Slingblade"
-		],
-		[
-			"A4",
-			"32",
-			"WRCS032",
-			"Fred Canyon [usually dry]",
-			"Good flow",
-			"3/28/17",
-			"Dalem"
-		],
-		[
-			"Walk 500 ft downhill E, turn right at the first obvious place, almost immediately see a seasonal stream"
-		],
-		[
-			"A4",
-			"32.6",
-			"CibbetsCG",
-			"**Cibbets Flat Campground\n[8/10 mi NW on Fred Cyn Rd]",
-			"Faucets are on",
-			"3/27/17",
-			"PayDay"
-		],
-		[
-			"Campsites are $14 but may be shared by several hikers."
-		],
-		[
-			"A5",
-			"36.9",
-			"WR037",
-			"Long Canyon [next is easier]",
-			"Good flow",
-			"2/13/16",
-			"Mr. Clean"
-		],
-		[
-			"",
-			"~37.5",
-			"",
-			"Long Creek",
-			"there was a creek there that clearly just dried up. You can go a few feet off the trail still to find water, but some were just tiny puddles.",
-			"3/14/17",
-			"Jill"
-		],
-		[
-			"A5",
-			"37.7",
-			"WR038",
-			"*Long Canyon Creek ford",
-			"Excellent flow",
-			"3/24/17",
-			"Slingblade"
-		],
-		[
-			"A5",
-			"38.8",
-			"WRCS039",
-			"*Lower Morris Mdw [3/10 mi NW]",
-			"Water in tank with flow from  pipe at 1 liter/min. Directions to tank: take side trail from PCT; walk west  \r\non path/road approx 150 yds to fence; go thru opening; continue approx 30 yds to a L on dirt road; head downhill approx 40 yds; look for fence posts  on R. Tank to your R - 20 yds.",
-			"5/28/16",
-			"Dave"
-		],
-		[
-			"E. coli reared it's ugly head multiple times in the Mount Laguna area in 2015. Please treat all water sources in this area."
-		],
-		[
-			"Horse camp with a piped spring and water trough. Turn left & walk 0.15 mile up dirt road to fence, continue 50 yards, then left on dirt road to meadow trough."
-		],
-		[
-			"A5",
-			"41.4",
-			"BurntRanchCG",
-			"Burnt Rancheria Campground",
-			"faucets off and restrooms locked ",
-			"3/29/17",
-			"Dalem"
-		],
-		[
-			"Turn left at signed junction where PCT joins the Desert View Trail [sign does not mention campground]. Faucet by site 48 at the south end of campground is closest to the PCT."
-		],
-		[
-			"A6",
-			"41.4",
-			"PO043",
-			"**Mount Laguna town, lodge, store\n[4/10 mi SW of WR043]",
-			"Water fountain is OFF, no water.\n-----\n5/9/16 (John & Tom) : Note Saturday hours for the Mount Laguna PO is 9-11AM.",
-			"3/9/17",
-			"Genesis"
-		],
-		[
-			"The easiest access to Mount Laguna is to follow the sign directing hikers down the trail through the Burnt Rancheria CG and then right on the Sunrise Highway. You will pass a restaurant, an outfitter, and another restaurant on the way to the Mount Laguna Lodge. Non-purist hikers can continue past the lodge to the Desert View Picnic area to rejoin the PCT, bypassing 1.2 miles of the trail, or you can backtrack on the highway to the campground."
-		],
-		[
-			"A6",
-			"41.4",
-			"",
-			"**Mount Laguna Visitor Center\n[just north of the store]",
-			"Water on at restrooms",
-			"3/2/17",
-			"Karl"
-		],
-		[
-			"Per Charlie on 4/6/16: The Pine House Cafe in Mount Laguna will let hikers fill up with water in the bathroom sink. Anything too large to fill from the sink, they'll fill for you. According to the owners, they're on a well that's separate from the store/lodge/visitor center. The water definitely tastes better than the water at the drinking fountain. Current hours are 9A - 3P Monday-Wednesday, 8A - 2:30P/5-7P Thursday, 8-8 Friday and Saturday, 8-7 Sunday. The owners are just about the most hiker friendly people in the world. "
-		],
-		[
-			"A6",
-			"42.1",
-			"WR042",
-			"Burnt Rancheria Drinking Fountain by CG jct\n",
-			"Faucets are off.",
-			"3/3/17",
-			"Larry"
-		],
-		[
-			"Access on left 50 yards after you walk below a picnic table on the left or from the road N of the store. Three water sources here: 1) On SW side of loop at end of road [nearest PCT] is a small, two car parking pad. To left & forward a bit is a heavy metal pipe with faucet in small concrete circle, right next to a big tree. This faucet reported to be insulated and should be on year round. 2) Drinking faucet next to restrooms. 3) Sink in restrooms. Water is off in the restrooms during the winter."
-		],
-		[
-			"A6",
-			"42.6",
-			"WR043",
-			"**Desert View Picnic Area",
-			"Water is on by the car turnaround. \n-----\n9/3/16 (The Optimist) : Restroom faucets OFF. Water fountains OFF. Brass pipe stand with plunge lever ON (located in back of DVPA, and just to the south of four curbed parking spots.)",
-			"12/13/16",
-			"The Optimist"
-		],
-		[
-			"A6",
-			"47.5",
-			"LagunaCG",
-			"**Laguna Campground\n[7/10 mi SW]",
-			"We were told some faucets are on, but neither of us tried it. Showers are out of order. The camp hosts told us they got a lot of snow this winter and had water problems.",
-			"3/14/17",
-			"Jill"
-		],
-		[
-			"Leave trail near wooden overlook. Total walk to the campground and back to the faucet is one mile round trip. "
-		],
-		[
-			"A6",
-			"47.5",
-			"",
-			"Al Bahr Shrine Camp",
-			"The Shrine camp was burned by the 2013 Chariot Fire and it is now closed.",
-			"7/13/13",
-			"News reports"
-		],
-		[
-			"A6",
-			"47.8",
-			"",
-			"Oasis Spring [1/2 mi down]",
-			"Good flow",
-			"3/10/17",
-			"Pebble"
-		],
-		[
-			"A6",
-			"48.7",
-			"WR049",
-			"GATR faucet [1/10 mi W of PCT]",
-			"Pump is off, tank has very foul water",
-			"3/2/17",
-			"Karl"
-		],
-		[
-			"GATR road in WP guidebook is now a trail. At Penny Pines there are 2 trails to the W toward Sunrise Hwy. The S trail is the most direct. Both trails are marked with Carsonite posts with a Noble Canyon Trail decal. Go 100 yards straight; then 50 yards across Sunrise Hwy to trough and faucet. Water system is filled by portable generator and subject to outage.\n3/30/17 (Brandon, US Forest Service) : Penny Pines now has water."
-		],
-		[
-			"A7",
-			"52.6",
-			"WR053",
-			"Pioneer Mail Picnic Area",
-			"Spigot water is clear and fine when filtered.",
-			"3/29/17",
-			"Dalem"
-		],
-		[
-			"At north end of parking area is a trough fed from a water tank [limited supply]. This tank is filled from a fire truck. Filter or treat the water before drinking."
-		],
-		[
-			"A7",
-			"57",
-			"",
-			"Oriflamme Cyn [usually dry]",
-			"Great flow",
-			"3/29/17",
-			"Marissa"
-		],
-		[
-			"A8",
-			"59.5",
-			"WRCS059",
-			"*Sunrise Trailhead [1/2 mi W]",
-			"Trough had usable water but no supply from tank. Float valve no longer in place.",
-			"3/29/17",
-			"Glenn"
-		],
-		[
-			"Follow the trail marked with the sign \"Sunrise Highway .25 Mi\" on a post that travels along the 5,000-foot contour 1/4 mile SW to the highway. Across the highway to the South is a parking lot and outhouse. To W a well and tank are visible. Follow the old road marked \"El Cigna Trail\" W 1/8 mile past the corrals to well. Push down float valve at the trough down to get fresh water, or just filter from trough."
-		],
-		[
-			"E. coli reared it's ugly head multiple times in the Mount Laguna area in 2015. Please treat all water sources in this area."
-		],
-		[
-			"A8",
-			"62.4",
-			"WR062",
-			"Mason Valley Truck Trail\n[fire tank 75 yds E, usually dry]",
-			"Faucet and tank completely dry",
-			"3/27/17",
-			"The Optimist"
-		],
-		[
-			"A8",
-			"63.7",
-			"WR064A, B, C",
-			"Upper Chariot Cyn [8/10 - 1.4 mi N]",
-			"Dry at trail. Good water 0.8 mile up Chariot Canyon Rd at WR064a. WR064a - Flowing well, especially on the west side of the road. 3 liters per minute. WR064b - Turned handle and got a slow, very unsteady flow. No access to tank. WR064c - Very small, slow flow. May dry up soon. ",
-			"3/27/17",
-			"The Optimist"
-		],
-		[
-			"When you reach unpaved Chariot Canyon Rd go right to stay on the PCT. If you turn left you will go N down Chariot Canyon to possible seasonal water. WR064a is a seasonal creek crossing Chariot Canyon Rd, shade, 8/10 mile N of the PCT [2/10 mile N of the StatePark boundary sign]. WR064b is a Fire Tank, 1.2 miles N of the PCT. WR064c is Seasonal Chariot Canyon Spring, 1.4 miles N of the PCT [spring is on the W side of the road hidden from view by several large oak trees].\n"
-		],
-		[
-			"A9",
-			"68.4",
-			"WRCS068",
-			"**Rodriguez Spur Truck Tr\n[Concrete fire tank visible 75 ft W]\n\n-\nWe are especially interested in water reports about this location. Please send info.",
-			"3/23/17 (Mary & Natalie) : Water flowing from black spigot at 2L/1.21min. Be sure to turn off valve before finish filling as water continues to flow after shut off.\n-----\n3/18/17 (Edward) : Medium flow rate.\n-----\n3/17/17 (Anthony) : reat water, spigot is working well.\n-----\n3/14/17 (Genesis) : steady light flow from small black pipe. Use small black valve.\n-----\n2/2/17 (Professor & Rock Head) : Repairs have been completed.\n-----\n1/29/17 (Professor & Rock Head) : Water tank has 9 inches (~1,400 gallons) of water due to recent rains.  Faucet has slow leak, more when turned on.  We attached a smaller faucet and hose to outlet however valves are temperamental.  Please be sure to turn valve as close to 90 degrees in order to stop flow.  We will be making additional repairs next week.\n-----\nPlease turn the knob off as hard as you can to minimize the leaking drips. ",
-			"3/23/17",
-			"Mary & Natalie"
-		],
-		[
-			"Target shooting by multiple parties continues on BLM land below (east of) trail just south of Rodriquez Spur Truck Trail crossing (mile 68.4) per Daytripper on 1/4/14.\nJust south of the Rodriguez Spur Truck Trail intersection, people were target shooting from the dirt road towards the PCT, which zigzags above and parallel to the road. While their trajectory was lower elevation than the trail (I think), there did not appear to be much margin for error. 11/4/13 per Aaron"
-		],
-		[
-			"A9",
-			"68.4",
-			"WR068B",
-			"Spring 1.1 miles NW of PCT",
-			"1/29/17 (Profressor & Rock Head) : Spring has strong flow, about 8 gallons per minute. Note:  If spring is not flowing and you don't have enough to make Scissors Crossing, continue 2.2 miles down Rodriguez Spur Truck Trail to HWY 78.  Banner Store is across the highway to the East about 200 feet.  Water is available and hitching is easy to either Julian or Scissors Crossing.",
-			"1/29/17",
-			"Professor & Rock Head"
-		],
-		[
-			"Spring on Rodriguez Spur Truck Trail, 1.1 miles NW of PCT, 70 feet from the large rust colored water tank.\n2017 Banner Store Hours are 9am-4pm, usually closed Tue/Wed. (James on 3/31/17)"
-		],
-		[
-			"A10",
-			"77",
-			"WRCS077",
-			"Scissors Crossing\n[Cache under a nearby highway bridge]",
-			"Approximately 100 gallons (two tubs each with 50 one-gallon containers).\n-----\nStagecoach Trails Cg and Cabins 4 miles SE on Hwy S2.  Store open till 5pm. NOTE : times can vary dependent on time of year.",
-			"3/13/17",
-			"Chunks"
-		],
-		[
-			"The Scissors Crossing water cache [under a nearby highway bridge] will be maintained in 2017. The cache is maintained 3 times weekly in peak months, and stocked year around by Shelter Valley Civic group.  This cache is in the shade under a highway bridge.  Please escape the desert heat... Shelter Valley Citizens Corp. (Rockhead 2005, Professor 2014). Water can also be found 12 miles West in the small town of Julian, or at the Stagecoach Trails RV park 4 miles S of the PCT on Highway S2."
-		],
-		[
-			"A10",
-			"77.1",
-			"",
-			"San Felipe Creek, Hwy 78\n[.24 miles W bridge, often dry]",
-			"Creek has slow flow 0.1 miles upstream of bridge.  Moderate flow, two feet wide 1.5 inches depth 0.25 miles upstream of bridge.",
-			"3/28/17",
-			"Professor"
-		],
-		[
-			"In spring, there MAY be shallow water running in the creek, .24 miles west of the bridge, waypoint N 33 05.976 W 116 28.535  Follow creek bed west."
-		],
-		[
-			"A11",
-			"91.2",
-			"WRCS091",
-			"Third Gate Cache [1/4 mi E]",
-			"Stocked with approximatley 3 ½ pallets.",
-			"3/29/17",
-			"Rick"
-		],
-		[
-			"A water cache can usually be found 1/4 mile E of the PCT down a side trail labeled with “Water” sign. It’s a lot of work getting the water out there, so take only what you need to hike the 9.9 miles to Barrel Spring. Make NO FIRES and carry out your trash."
-		],
-		[
-			"A11",
-			"91.2",
-			"WR091B",
-			"Underground Cistern [6/10 mi E]"
-		],
-		[
-			"Follow the dirt road leading from the water cache about 4/10 mile to where the road turns right(E) but go left (N/NW) on an old unmarked trail for 1/10 mile to the underground cistern containing untreated water (a rope and bucket are supplied)."
-		],
-		[
-			"A12",
-			"101.1",
-			"WRCS101",
-			"*Barrel Spring",
-			"trough full, good flow from pipe",
-			"3/30/17",
-			"Slingblade"
-		],
-		[
-			"Some hikers are washing unmentionables in the trough.  Please don't do this, since at some point the pipe may stop running and people will need to use the trough water on 4/26 per Cuddles. Ranchita store [4 miles E] may pick up hikers if you call their number 760-782-3476 [ATT has service at the spring area, Verizon and T Mobile no]."
-		],
-		[
-			"A12",
-			"104",
-			"WR104",
-			"Cattle Trough\n[2/10 mi NE, visible from PCT]",
-			"80 gallon galvanized steel tub with slow but adequate water flow from natural spring. Clumps of algae on 40% of surface and some in tub but the water looks very clear. Fresh water available directly from pipe feeding tub.",
-			"3/18/17",
-			"Chunks"
-		],
-		[
-			"A12",
-			"104.4",
-			"WR105",
-			"Concrete trough below mouth of San Ysidro Creek [2/10 mi W]",
-			"Plenty of water flowing out of pipe, and trough is full. This was actually much easier to access from 104.45 because  \nyou can see it from the trail. When I tried at 104.40, I couldn't find it because the view was obstructed by a big tree.",
-			"3/16/15",
-			"Haiku"
-		],
-		[
-			"A13",
-			"105",
-			"WRCS105B",
-			"*San Ysidro Creek",
-			"strong flow",
-			"3/30/17",
-			"Slingblade"
-		],
-		[
-			"San Ysidro Creek often has cattle nearby."
-		],
-		[
-			"A13",
-			"106.2",
-			"WR106",
-			"Eagle Rock Spring"
-		],
-		[
-			"Spring-Fed Metal Trough - 3/10 mile N of Eagle Rock over hill near road "
-		],
-		[
-			"A13",
-			"106.2",
-			"WR016B",
-			"Water Tank [visible 2/10 mi S of PCT at Eagle Rock]",
-			"Good water at water tank 1/3 mile south of trail at 106.2 can see from trail seems pretty full have to go to trough and hold down plunger to get clean water should filter though.",
-			"4/16/15",
-			"Canadoug"
-		],
-		[
-			"A13",
-			"107.9",
-			"WR108",
-			"Canada Verde",
-			"good flow",
-			"3/20/17",
-			"Nightcrawler"
-		],
-		[
-			"WARNING per 1 Speed (9/26/15) : I was day hiking in this area 2 months ago and saw the Bees/Hornets. As I walked past I notices a small inconspicuous sign \"BEE TREE\", you have to look for it and moving quickly to get away from insect attackers you wouldn't see it. Bees, Hornets what ever they are there just look in the crotch of the Oak.\n-----\n5/26/15 (Tuna Helper): Just after gate at mile 109.3, was attacked by hornets while walking by, they were swarming the crotch of a large oak tree 8' off the ground. Stung in the back of the neck while running away."
-		],
-		[
-			"A13",
-			"109.5",
-			"Hwy79",
-			"Hwy 79 [1st crossing, small seasonal creek nearby]",
-			"Flowing",
-			"3/17/17",
-			"Halfmile"
-		],
-		[
-			"Warner Springs Community about 100 yards east of PCT on the N side of Hwy 79."
-		],
-		[
-			"A13",
-			"109.5",
-			"",
-			"**Warner Springs [small town,1.2 mi NE of PCT; WS Resource Center is at the 1st PCT crossing of Hwy 79 across from the Fire Station]",
-			"3/17/17 (Halfmile) : Resource Center open but has limited hours, water spigots on outside, camping area, restrooms open, hot/cold water working behind building.",
-			"3/17/17",
-			"Halfmile"
-		],
-		[
-			"Warner Springs Post Office is open M-F 8-4 & Sat. 8-1:30. Warner Springs Grill (by the golf course) is open and serving food. The gas station/store (next to Post Office) is rumored to reopen around April 1. The Warner Springs Resort remains closed for remodeling.\n-----\nThe hiker-friendly Warner Springs Resource Center [wscrcenter.org, 760-782-0670] is open Mon 1-4, Tue 11-2, Wed-Fri 8-12, Sat 9-1 (hours will be extended during hiker season) and available to hikers. The Resource Center has small store, wi-fi, AC outlets, computers, inside; restrooms [accessible at night] with running water are open across the small parking lot in the building with double green doors; designated camping area is to the left of the restrooms near the large tree (look for small blue tent sign);  hot/cold running water, buckets and outdoor shower stalls behind community center building (use buckets to bring water into the stalls)."
-		],
-		[
-			"A13",
-			"109.5",
-			"PO0110",
-			"Warner Springs PO",
-			"Water spigot across the street of Post office in parking lot of Warner Springs Resort. Flows great.",
-			"2/15/15",
-			"Rainman"
-		],
-		[
-			"CA Section B: Warner Springs to Highway 10"
-		],
-		[
-			"B1",
-			"111.4",
-			"Hwy79b",
-			"Highway 79\n[2nd crossing, Agua Caliente Creek]",
-			"Good flow",
-			"3/17/17",
-			"Snickers"
-		],
-		[
-			"There is a spigot just south of Hwy 79 near a tire swing at about mile 111.3 (Spigot turned off as of 4/27/14 per Alia B.)"
-		],
-		[
-			"B1",
-			"112.6",
-			"WR113",
-			"Agua Caliente Creek\n[near picnic tables]",
-			"flowing good",
-			"3/24/17",
-			"Darren"
-		],
-		[
-			"B1",
-			"114.7",
-			"WR115",
-			"Agua Caliente Creek",
-			"flowing good",
-			"3/24/17",
-			"Darren"
-		],
-		[
-			"B1",
-			"115.5",
-			"WR115B",
-			"*Agua Caliente Creek [last crossing]",
-			"flowing good",
-			"3/24/17",
-			"Darren"
-		],
-		[
-			"B1",
-			"116.04",
-			"",
-			"",
-			"11/1/16 (Pebble) : Spring flowing low but steady, more water in creek below the trail\n-----\n10/28/16 (Gaucha) : *sobo directions* there are 3 muddy spots on trail. The first 2 have no flow or pools. The third, maybe 30 ft down trail, has a spring with good flow above the trail. Another option is from the first muddy spot on  \ntrail, look downhill to see deep pools. If you scramble down 20 ft and walk just upstream there is a great flow.\n-----\n10/8/16 (Rover) : spring right at trail (spring runoff crosses trail). Good flow \u003e 1 liter/minute. Note there are three little springs like this within 20 feet on trail. Southernmost is flowing best.",
-			"11/1/16",
-			"Pebble"
-		],
-		[
-			"B2",
-			"119.6",
-			"WR120",
-			"*Lost Valley Spring [0.2 mi off trail]",
-			"Trough is pretty full but nasty; proceed 20 yards past the spring to a flowing brook. The brook has a 1 foot square by 8 inches deep pool at the base of a 2 foot high waterfall.",
-			"3/27/17",
-			"Chunks"
-		],
-		[
-			"The spring is only 300 yds off trail and 80 ft lower in elevation. Trail signed - look for 3 foot high cement post, then follow the abandoned road downhill 0.2 mi. (PCT turns right before post.)"
-		],
-		[
-			"B2",
-			"127.3",
-			"WR127, B",
-			"**Chihuahua Valley Rd\n[water tank 2/10 mile E]",
-			"tank is full and Mike’s was open",
-			"3/27/17",
-			"Chunks"
-		],
-		[
-			"A trail has been cut about 1/4 mile South of Chihuahua Valley Rd that will bring hikers down to the tank so we don't have to do the RD walk both ways.\n0.2 mi E to driveway 31440 Chihuahua Valley Rd, then 0.1 m N to private NEW water tank above house. \"water in tank should be filtered. If no water in tank there should be water on back porch - go through hole in fence next to water tank and down the trail to house there is a netted porch to keep the bugs off, and a shower out side.\" per Mike Herrera at the house (10/30/09). he is very eager to meet and assist hikers, they are welcome to stop by his place. (This is not an invitation to go in his house!)\n"
-		],
-		[
-			"B4",
-			"136.5",
-			"WR137",
-			"Tule Creek [early season]",
-			"Tule creek has good flow but is shallow, 3 inches deep at best by 2 feet wide.",
-			"3/27/17",
-			"Chunks"
-		],
-		[
-			"B4",
-			"137",
-			"WR137B",
-			"**Tule Spring & Fire Tank\n[Tule Canyon Rd, 0.25 mi SE]",
-			"3/27/17 (Chunks) : Tule fire tank has excellent water available from hose attached to hydrant. Hose is due for replacement. Tule spring is flowing but is poor quality.\n-----\n3/25/17 (Pearl & Roadrunner) : Take fire road down to Tule Spring. Good flow of clear water available from fire tank. Use hose attached to pipe and valve below the tank next to road on embankment. Simple metal bar to turn valve on and off.\n-----\n2/11/17 (Charlie) : flowing, but not such great quality\n-----\n12/27/16 (Volunteer via Nitro) : 1). The tank was 3/4 full maybe from recent rain. A 2 inch water line was found going from the spigot to under the tank. The line is 2 feet below grade and is dry where we potholed. Water comes out strong from the spigot but after 2 minutes it stops. About 130 feet south of the tank we found a water source which was flowing. Then lined it with rock.   This water does not go to the tank, its lower. We will check it out again near the end of February.\n-----\n11/7/16 (Eastwood) : Spring is flowing very slowly.  Very shallow. Lots of algae.  Doesn't smell very good either.  Did not see any water in the tank but when I turned on the spigot, water came out.  Could have been residual water in the pipe between the tank and the spigot. It was extremely dirty.\n-----\n8/6/16 (Fiji McEverest & Nick Namaste) : Spring is dry",
-			"3/27/17",
-			"Chunks"
-		],
-		[
-			"Fill up at the usually reliable and excellent Tule Spring for the 14.9 miles to Hwy 74. The water caches a few miles to the north probably will not be able to keep up with the demand from hikers & may run dry, especially during the peak of the herd."
-		],
-		[
-			"B4",
-			"139.5",
-			"WR140",
-			"Guzzler",
-			"Cistern contains 600 gallons and is 3/4 full but water is greenish with algae.",
-			"3/27/17",
-			"Chunks"
-		],
-		[
-			"CAUTION - top of Guzzler is fragile and unsafe, do not stand on it. In Section 16 just after PCT goes sharp right to follow just below 2,600' contour on Map B4, beside trail on left. (Cistern is underground, looks like an 12x24' old broken parking lot) 1-foot diameter eyebrow opening with new (as of 4/9/14) chrome hand pump with 3-gallon bucket "
-		],
-		[
-			"B4",
-			"140.2",
-			"WRCS140B",
-			"Nance Canyon [early season]",
-			"Puddles in streambed.",
-			"3/27/17",
-			"Chunks"
-		],
-		[
-			"B4",
-			"143.1",
-			"RD0143",
-			"Table Mtn Truck Trail AKA Sandy Jeep Road",
-			"nothing here",
-			"3/25/17",
-			"Darren"
-		],
-		[
-			"An unreliable seasonal water cache can sometimes be found here (DO NOT RELY ON WATER CACHES as water availability changes very quickly dependent on the number of hikers)."
-		],
-		[
-			"B4",
-			"145.4",
-			"",
-			"Walden Water Cache : On private land about 50 feet off trail.",
-			"3/27/17 (Chunks) : 550 gallon tank with 250 gallons of water and small quantity of bottled water available for a donation.\r\n-----\n3/26/17 (Darren) : cache open and stocked.\n-----\n3/20/17 (Snickers) : amazing water cache 200 gallon tank.\n-----\n2/15/17 (Jon) : Trail Angel has created a trail stop named Walden.  2 picnic tables, lending library, and 550 gallon water tank.  Not possible to determine volume of water in tank.  But this stop gives the appearance of being well maintained and that trail angel probably will maintain supply of water.  Sign says \"Water should be filtered\".\n-----\n12/3/16 (Non-Amish Bros.) : Tank nearby with more water. Monitered and dated when last restocked. Last restocked 12/2/2016.\n-----\n11/3/16 (Huckleberry & Macro) : The cache at 145.4 is being well maintained. 16gal, and a tank nearby with more water. It's being monitored and restocked about once a week. Note cards present with last full date, 10.29.16. \n-----\n11/1/16 (Pebble) : About 12 gallons, marked filled on 10/29",
-			"3/27/17",
-			"Chunks"
-		],
-		[
-			"B5",
-			"151.9",
-			"Hwy74",
-			"Pines-to-Palms Hwy 74\n[*Paradise Valley Cafe, 1 mi W]",
-			"Outside faucet is turned off, but Cafe will fill water containers inside when the cafe is open.",
-			"4/6/16",
-			"Two Bar"
-		],
-		[
-			"The hiker-friendly Cafe is open Wed - Sun 8-8, Mon, Tues 9-3. Phone 951-659-FOOD. The Cafe accept hiker resupply packages sent to: Paradise Valley Cafe, 61721 State Highway 74, Mountain Center, Ca 92561. The hose out back has been removed, health dept issues."
-		],
-		[
-			"B6",
-			"155.4",
-			"",
-			"Penrod Cyn [usually dry]",
-			"flowing nicely ",
-			"3/30/17",
-			"Tom"
-		],
-		[
-			"B6",
-			"158.4",
-			"WR158",
-			"*Live Oak Spring [1.0 mi E]",
-			"Water flowing at 2 liters/minute - this report is from 5 hours BEFORE  the first serious rain that came that evening.",
-			"11/26/16",
-			"Pink Gumby"
-		],
-		[
-			"Descend from saddle on trail 1 mile to metal tub fed by metal pipe in middle of trail."
-		],
-		[
-			"B6",
-			"158.4",
-			"WR158B",
-			"*Tunnel Spring [0.3 mi W]",
-			"0.35 miles off trail and 250 vertical feet down. At 33°37′20″ N  116°34′2″ W - no new flow from pipe but trough has ~1 foot of somewhat clear but stagnant water. ",
-			"10/9/16",
-			"Rover"
-		],
-		[
-			"Make sure you take the RIGHT fork of the trail once you reach the bottom. Spring is 40 yards upstream along use trail and dry creek. The trough is slowly fed from spring by pipe. Most report a sulfur taste.\n----------\nIf you head about 150 feet NE from the trough; low on the east embankment of the dry creek bed you will find an opening (about 2' wide X 1.5' high) to the tunnel.  Inside is a long, narrow, shallow pool filled with GREAT tasting cool water.  The only caveat: the bottom of the pool is very fine, easily disturbed sediment.  You will need a long suction tube on your filter system and some means of getting the business end of the tube far into the tunnel.  Use a long stick or a trekking pole to get the tube placed in the middle, and raised off the bottom of the pool. Harold on 6/20/13"
-		],
-		[
-			"B7",
-			"162.6",
-			"WR162",
-			"*Cedar Spring [Trail 4E17, 1 mi N]",
-			"good strong flow but water not flowing from pipe into water trough\n-----\n2/22/16 (Warner Springs Monty) : Trail on left Dropping down to continue north on detour or road toward Idyllild.  At bottom of hill is a spring box. To your left 45 degrees is a VISABLE spring and trough. Excellent water with strong flow.",
-			"3/30/17",
-			"Tom"
-		],
-		[
-			"500 ft drop. Piped tank, but corroded & only holds \u003c6\" water in bottom. A 2nd, 200 gallon green cattle trough w/better flow (esp. in fall) is another 300ft up canyon from 1st tank. Horizontal, USFS taps feed both tanks. "
-		],
-		[
-			"B7",
-			"163.3",
-			"WR163",
-			"Eagle Spring [1/4 mi S, seasonal]",
-			"Dry"
-		],
-		[
-			"Seasonal. 3/4 mile N past Cedar Spr jct, where PCT becomes 10' wide on a ridge \"hogback\", on left a 2\" dia 4'tall white PVC post, ~6-8' off on a side trail, marked \"Eagle Spring, 1/4\" with an arrow pointing W (signpost obscured by bushes & easy to miss). Trail is reasonably clear 4/30/11, however a little rocky in spots. At a lone Spruce tree at dry creekbed, trail resumes past tree thru small overgrown section of trail another 300' to deadend at a 200 gallon cattle trough, perched on hillside, with horizontal pipe tap drizzling into it. [In past rarely used]\nHIKER ACCESS: If problem tap is clogged, or tank either stagnant or dry, access Spring Box directly. 15' directly behind tank is pile of large rocks. At the center is a 25 lb 9\"x9\" nearly square stone, 5\" thick. CAREFULLY remove the stone and set it to side. Under it is 4\"x12\" slot between large rock slabs that access natural rock spring box holding 5-7 gallons of fresh water. The slot is large enough to dip a quart bottle. REINSTALL & ALLIGN the square stone back over access slot to keep frequent cows away from water.\nNote: Lion Spring the other side of PCT is dismantled and dry.                                            "
-		],
-		[
-			"B7",
-			"166.5",
-			"FobesRanchTr",
-			"Fobes Saddle (0.5 m S)",
-			"70 gallon Rubbermaid tub is full.  If water is low, open valve on spigot and put green garden type hose into the tub.    Nearby Scovel Creek is also flowing, but flow is low."
-		],
-		[
-			"The PCT remains closed from Fobes Ranch Trail (mile 166.5) north to Tahquitz Valley Trail (mile 177.3). Reportedly, two hikers received fines of $2,500 each for hiking through the closed section in April 2014. An unofficial Halfmile map around the Mountain Fire closure can be found at www.pctmap.net/corrections/"
-		],
-		[
-			"Walk down old Fobes Trail [NW] ~0.8 mile to Scovel Crk (usually running during thruhike season, may go dry in summer). 100 ft past that creek crossing a forest service spring w/a 70-gallon rubbermaid tub w/pipe. Nice flat camp spot."
-		],
-		[
-			"B8",
-			"169.2",
-			"WRCS169",
-			"Apache Spring (Trail DOWN 0.5 mi E)",
-			"Water in the spring box is stagnant,  smells pungent from ten feet and has lots of dead material in it. Drinkable if you're keen, water much better at 177 mile stream in meadow or at cistern 166.5 "
-		],
-		[
-			"3 x 3 foot spring box, steep rocky trail down to it."
-		],
-		[
-			"B8",
-			"177.2",
-			"WR177",
-			"Tahquitz Creek",
-			"Dry",
-			"8/23/2016",
-			"Rustic"
-		],
-		[
-			"Unofficial Mountain Fire Alternate (see www.pctmap.net/corrections/):\nDetour Mile 1.5 --  flowing strong per FreeRange on 5/23/16 -----\nDetour Mile 6.2 -- Garner Valley Fire Station #53 (Riverside County) at corner of Morris Ranch Rd & CA-74:  (benches & picnic table with hose bib (24/7) out front near fire truck doors (source front desk).  It's 1.1 miles south from Fobes Trail crossing hwy CA-74. per Linda on 8/13/16 -----\nDetour Mile 10.2 -- Lake Hemet Market is open Mo - Thu 7 -7, Fri and Sat 7 - 10, Su 7-7 per Jiri on 5/9/16 -----\nDetour Mile 10.7 -- Hurkey Creek Campground -- open 12 months a year & 24/7.  Flush bathrooms & water spigots available year round (source park range).  Note:  Walk through campground to camp sites 65-66.  Go between camp sites to fence line gate in rear.  Zig-zag opening beginning of bike patr - per Linda on 8/13/16    "
-		],
-		[
-			"B8",
-			"177.3",
-			"TqtzValTr",
-			"Little Tahquitz Valley (Trail, 0.33 mi N)",
-			"Tahquitz Meadow is dry",
-			"8/23/2016",
-			"Rustic"
-		],
-		[
-			"B9",
-			"179.4",
-			"SaddleJct",
-			"Idyllwild 4.5 mi W of Saddle Junction",
-			"right now, the spring that crosses Devils Slide is nothing more than wet dirt teeming with bees ",
-			"8/23/2016",
-			"Rustic"
-		]
-	]
+  "range": "'Campo - Idyllwild'!A11:G142",
+  "majorDimension": "ROWS",
+  "values": [
+    [
+      "A1",
+      "1.2",
+      "WR001",
+      "**Juvenile Ranch Facility [faucet behind Juvenile Ranch sign]",
+      "Water is off",
+      "5/12/17",
+      "Bob Riess"
+    ],
+    [
+      "A1",
+      "1.4",
+      "",
+      "Campo",
+      "Town - Faucet & Store"
+    ],
+    [
+      "A1",
+      "2.68",
+      "",
+      "Seasonal Creek [usually dry]",
+      "Dry",
+      "8/25/17",
+      "Professor"
+    ],
+    [
+      "A1",
+      "4.4",
+      "WR004",
+      "Creeklet [early spring only]\nBeware of poison oak here.",
+      "Stream still got amazing flow.",
+      "11/24/17",
+      "Gretel"
+    ],
+    [
+      "",
+      "5.2 - 7.8",
+      "",
+      "Several small seasonal flows",
+      "Dry",
+      "8/25/17",
+      "Professor"
+    ],
+    [
+      "A2",
+      "~12.7",
+      "",
+      "Seasonal creek [usually dry]",
+      "Flowing",
+      "5/12/17",
+      "Sam Parks"
+    ],
+    [
+      "Mile 15.36 : 3/10/17 (Rebo) : There is a water cistern 1.6 miles down Hauser Creek Road off trail starting at Mile 15.36. Go left (for Nobo's) on Hauser Creek dirt road and walk down past white tube gate. In ~1.4 miles the dirt road ends at two large boulders. Go past the two boulders and walk ~50 feet. Go to your right and then go up the ravine (listen for water). "
+    ],
+    [
+      "A2",
+      "15.4",
+      "WRCS015",
+      "Hauser Creek [early spring only]",
+      "medium flow",
+      "6/8/17",
+      "Jay D"
+    ],
+    [
+      "If dry at creek crossing, try taking a right on the road E & walk up stream 200-300 yards. Periodically walk up to creek and check for pools. These last just a little longer than at trail. [Beware; it often has water in April, only to go dry just before ADZPCTKO]. WATCH OUT FOR POISON OAK in this area."
+    ],
+    [
+      "A2",
+      "15.4",
+      "WACS016",
+      "Cottonwood Creek below Lake Morena [1.6 miles W of PCT on dirt road]"
+    ],
+    [
+      "A2",
+      "20",
+      "LkMorenaCG",
+      "**Lake Morena Campground",
+      "Spigots all on at the campground.",
+      "11/23/17",
+      "Gretel"
+    ],
+    [
+      "Signs will lead hikers to the PCT camping area next to site 85 and still $5 per hiker.  Showers are $0.50 for 4 min."
+    ],
+    [
+      "A3",
+      "24.1",
+      "WR024",
+      "Cottonwood Creek Bridge",
+      "Still plenty of water.",
+      "5/23/17",
+      "Jeff"
+    ],
+    [
+      "A3",
+      "25.5",
+      "WR026",
+      "Cottonwood Creekbed",
+      "Still flowing about a foot deep.",
+      "6/8/17",
+      "Jay D"
+    ],
+    [
+      "A3",
+      "26",
+      "BoulderOaksCG",
+      "**Boulder Oaks Campground",
+      "12/13/17 (Michael) : water spigot was still on.\n11/23/17 (Gretel) : Spigots are on, bathrooms are open too.\n10/28/17 (Hammer) : Faucet is on.\n9/30/17 (Winston L) : Spigots on",
+      "12/13/17",
+      "Michael"
+    ],
+    [
+      "NOBO:First spigot is hard to see - it's hiding on the back of a 2' brown post just as the PCT gets onto the CG road. A 2nd faucet is on a tall brown post further along the road. SOBO:Heading south the spigot is to the left of the trail just before exiting the campground. There are several other spigots in the campground."
+    ],
+    [
+      "10/6/17 : Be sure to filter and/or boil all water in the Mount Laguna area. On October 6th, 2017, the Cleveland National Forest announced that the Mount Laguna Water System failed to meet bacteriological water quality standards required by the state of California. In addition, E. Coli has been detected multiple times in the Mount Laguna area in the past."
+    ],
+    [
+      "A3",
+      "26.5",
+      "",
+      "Boulder Oaks Store Closed permanently"
+    ],
+    [
+      "A3",
+      "~26.8",
+      "",
+      "Kitchen Creek near I-8"
+    ],
+    [
+      "A3",
+      "28.5",
+      "KitchenCrFalls",
+      "*Kitchen Creek Falls [2/10 mi NW]",
+      "Dry",
+      "9/30/17",
+      "Winston L"
+    ],
+    [
+      "A3",
+      "~30",
+      "",
+      "Kitchen Creek [100 feet below trail]",
+      "10/28/17 (Hammer) : Dry.\n10/17/17 (Winston L) : Dry.",
+      "10/28/17",
+      "Hammer"
+    ],
+    [
+      "Or continue to paved road at 30.6 and take a left and then a dirt road down to the water [~0.4 mile]."
+    ],
+    [
+      "A3",
+      "30.2",
+      "WRCS030",
+      "*Kitchen Creek, Yellow Rose Spring\n[4/10 mile N of PCT on road]",
+      "Dry",
+      "10/1/17",
+      "Winston L"
+    ],
+    [
+      "A4",
+      "32",
+      "WRCS032",
+      "Fred Canyon [usually dry]",
+      "10/28/17 (Hammer) : Dry.\n10/17/17 (Winston L) : Dry.",
+      "10/28/17",
+      "Hammer"
+    ],
+    [
+      "Walk 500 ft downhill E, turn right at the first obvious place, almost immediately see a seasonal stream"
+    ],
+    [
+      "A4",
+      "32.6",
+      "CibbetsCG",
+      "**Cibbets Flat Campground\n[8/10 mi NW on Fred Cyn Rd]",
+      "Faucets are on",
+      "10/1/17",
+      "Offtrail"
+    ],
+    [
+      "Campsites are $14 but may be shared by several hikers."
+    ],
+    [
+      "A5",
+      "36.9",
+      "WR037",
+      "Long Canyon [next is easier]",
+      "hard to get to, didn't see the flow but heard water flowing",
+      "10/1/17",
+      "Winston L"
+    ],
+    [
+      "",
+      "~37.1",
+      "",
+      "Long Creek",
+      "Very low flow, a few inches deep",
+      "10/1/17",
+      "Winston L"
+    ],
+    [
+      "A5",
+      "37.7",
+      "WR038",
+      "*Long Canyon Creek ford",
+      "11/22/17 (Gretel) : Great flow. Cold and clear!\u200b\n10/28/17 (Hammer) : creek has running water.\n10/1/17 (Offtrail) : has water (see pic) but bugs intense - better flow south of the ford",
+      "11/22/17",
+      "Gretel"
+    ],
+    [
+      "A5",
+      "38.8",
+      "WRCS039",
+      "*Lower Morris Mdw [trough 3/10 mi NW]"
+    ],
+    [
+      "Directions to trough: take side trail from PCT; walk west on path/road approx 150 yds to fence; go thru opening; continue approx 30 yds to a L on dirt road; head downhill approx 40 yds; look for fence posts  on R. Tank to your R - 20 yds."
+    ],
+    [
+      "E. coli reared it's ugly head multiple times in the Mount Laguna area in 2015. Please treat all water sources in this area."
+    ],
+    [
+      "Horse camp with a piped spring and water trough. Turn left & walk 0.15 mile up dirt road to fence, continue 50 yards, then left on dirt road to meadow trough."
+    ],
+    [
+      "A5",
+      "41.4",
+      "BurntRanchCG",
+      "Burnt Rancheria Campground",
+      "faucets are on",
+      "10/1/17",
+      "Winston L"
+    ],
+    [
+      "Turn left at signed junction where PCT joins the Desert View Trail [sign does not mention campground]. Faucet by site 48 at the south end of campground is closest to the PCT."
+    ],
+    [
+      "A6",
+      "41.4",
+      "PO043",
+      "**Mount Laguna town, lodge, store\n[4/10 mi SW of WR043]",
+      "5/9/16 (John & Tom) : Note Saturday hours for the Mount Laguna PO is 9-11AM.",
+      "5/9/16",
+      "John & Tom"
+    ],
+    [
+      "The easiest access to Mount Laguna is to follow the sign directing hikers down the trail through the Burnt Rancheria CG and then right on the Sunrise Highway. You will pass a restaurant, an outfitter, and another restaurant on the way to the Mount Laguna Lodge. Non-purist hikers can continue past the lodge to the Desert View Picnic area to rejoin the PCT, bypassing 1.2 miles of the trail, or you can backtrack on the highway to the campground."
+    ],
+    [
+      "A6",
+      "41.4",
+      "",
+      "**Mount Laguna Visitor Center\n[just north of the store]",
+      "Sinks were off, fountains were off but there is a hose that sticks out above the urinal if needed. ",
+      "6/11/17",
+      "Will & Mila"
+    ],
+    [
+      "Per Charlie on 4/6/16: The Pine House Cafe in Mount Laguna will let hikers fill up with water in the bathroom sink. Anything too large to fill from the sink, they'll fill for you. According to the owners, they're on a well that's separate from the store/lodge/visitor center. The water definitely tastes better than the water at the drinking fountain. Current hours are 9A - 3P Monday-Wednesday, 8A - 2:30P/5-7P Thursday, 8-8 Friday and Saturday, 8-7 Sunday. The owners are just about the most hiker friendly people in the world. "
+    ],
+    [
+      "A6",
+      "42.1",
+      "WR042",
+      "Burnt Rancheria Drinking Fountain by CG jct\n",
+      "All of the water is off at the campground. The trough has some funky green water that birds were partying in. Fill up at Penny Pines and carry enough!\u200b",
+      "11/22/17",
+      "Gretel"
+    ],
+    [
+      "Access on left 50 yards after you walk below a picnic table on the left or from the road N of the store. Three water sources here: 1) On SW side of loop at end of road [nearest PCT] is a small, two car parking pad. To left & forward a bit is a heavy metal pipe with faucet in small concrete circle, right next to a big tree. This faucet reported to be insulated and should be on year round. 2) Drinking faucet next to restrooms. 3) Sink in restrooms. Water is off in the restrooms during the winter."
+    ],
+    [
+      "A6",
+      "42.6",
+      "WR043",
+      "**Desert View Picnic Area",
+      "Water fountain working and has cold water.",
+      "10/27/17",
+      "Jack"
+    ],
+    [
+      "A6",
+      "47.5",
+      "LagunaCG",
+      "**Laguna Campground\n[7/10 mi SW]",
+      "everything working showers, sinks, toilets, faucets.",
+      "6/11/17",
+      "Will & Mila"
+    ],
+    [
+      "Leave trail near wooden overlook. Total walk to the campground and back to the faucet is one mile round trip. "
+    ],
+    [
+      "A6",
+      "47.5",
+      "",
+      "Al Bahr Shrine Camp",
+      "The Shrine camp was burned by the 2013 Chariot Fire and it is now closed.",
+      "7/13/13",
+      "News reports"
+    ],
+    [
+      "A6",
+      "47.8",
+      "",
+      "Oasis Spring [1/2 mi down]",
+      "Good flow",
+      "3/10/17",
+      "Pebble"
+    ],
+    [
+      "A6",
+      "48.7",
+      "WR049",
+      "GATR faucet [1/10 mi W of PCT]",
+      "11/22/17 (Gretel) :  \u200bP\u200benny \u200bP\u200bines - Amazing water from faucet! SOBO's... turn right down side trail (noble canyon?!) cross the road and there she is...\u200b! \u200b\n10/27/17 (Jack) : Water flowing from spigot.",
+      "11/22/17",
+      "Gretel"
+    ],
+    [
+      "GATR road in WP guidebook is now a trail. At Penny Pines there are 2 trails to the W toward Sunrise Hwy. The S trail is the most direct. Both trails are marked with Carsonite posts with a Noble Canyon Trail decal. Go 100 yards straight; then 50 yards across Sunrise Hwy to trough and faucet. Water system is filled by portable generator and subject to outage.\n4/16/17 (Dan & Lisa) : Penny Pines water faucet still flowing strong."
+    ],
+    [
+      "A7",
+      "52.6",
+      "WR053",
+      "Pioneer Mail Picnic Area",
+      "11/22/17 (Gretel) : There is absolutely water here on the 22nd \u200bN\u200bov. \u200bNO\u200b flow from the top faucet, but the bottom tap is flowing out of the trough. There is also water in the barrel trough. It's looks a little funky, and might do a number on your filter, but IT'S HERE IF YOU\u200b ABSOLUTELY\u200b NEED IT!! Filter it a lot!\u200b \n10/27/17 (Jack) : Picnic site horse trough has clear water from spigot.\n6/15/17 (Mark H.) : faucet on.\n6/10/17 (Stone): Faucet is on at Pioneer Mail picnic area.\n6/1/17 (Ten-Miler) : water is available.\n5/29/17 (Haymaker) : Water is on.\n5/24/17 (Katy): dry, nothing from faucet, sign says: \"no water, this system has been temporarily shut down\"\n5/19/17 (Ray) : I just spoke to a ranger at Boulder Oaks. He says the water at Pioneer Mail is off for a week due to bad testing.",
+      "11/22/17",
+      "Gretel"
+    ],
+    [
+      "At north end of parking area is a trough fed from a water tank [limited supply]. This tank is filled from a fire truck. Filter or treat the water before drinking."
+    ],
+    [
+      "A7",
+      "57.6",
+      "",
+      "Oriflamme Cyn [usually dry]",
+      "5/24/17 (Hilary): Low but flowing a few minutes above the track.\n5/18/17 (Jon): Water flowing well 30 feet above and below trail at 57.63. Water disappears at trail. How mysterious.\n5/14/17 (Sam Parks): Flowing, light trickle\n5/11/17 (Taylor): Low but flowing, algae present but clear flowing water",
+      "5/24/17",
+      "Hilary"
+    ],
+    [
+      "A8",
+      "59.5",
+      "WRCS059",
+      "*Sunrise Trailhead [1/2 mi W]",
+      "10/27/17 (Jack) : Horse trough dry. Tank let out one liter of orange water smelling like sulfur.\n6/13/17 (RJ): Trough full. Skimmed & bailed to below valve level.  Water flowed clear from valve after a couple two liters direct from valve.  No foul smell or taste after Sawyer Squeeze filtering. Fun to watch little bugs swimming in trough. Banged on tank. Sounds full.\n6/9/17 (Stone): Trough is very green.  Incoming pipe has good flow but water is mustard yellow/green.  Filtered through cloth before Squeeze filter, still off-color.\n5/29/17 (Haymaker) : Also the valve on the sunrise trailhead works. Good pressure from the tank. Trough is half full with murky water.\n5/24/17 (Katy): Water in trough, nothing in tank.\n5/12/17 (Noble Hiker): Water in horse trough, but no fresh water flowing from faucet or float valve.\n5/11/17 (Taylor):Trough at sunrise trailhead is full, state park maintenance worker who was working on the trough said that the tank didn't have much if any water in it and that what was in the trough was likely all that was left.",
+      "10/27/17",
+      "Jack"
+    ],
+    [
+      "Follow the trail marked with the sign \"Sunrise Highway .25 Mi\" on a post that travels along the 5,000-foot contour 1/4 mile SW to the highway. Across the highway to the South is a parking lot and outhouse. To W a well and tank are visible. Follow the old road marked \"El Cigna Trail\" W 1/8 mile past the corrals to well. Push down float valve at the trough down to get fresh water, or just filter from trough."
+    ],
+    [
+      "Note that WRCS068 has gone dry. No water northbound after Sunrise Trailhead until Scissors Crossing in 17.6 miles. We know of at least one hiker rescued in this area due to dehydration and several close calls."
+    ],
+    [
+      "A8",
+      "62.4",
+      "WR062",
+      "Mason Valley Truck Trail\n[fire tank 75 yds E, usually dry]",
+      "Faucet and tank completely dry",
+      "6/1/17",
+      "Ten-Miler"
+    ],
+    [
+      "A8",
+      "63.7",
+      "WR064A, B, C",
+      "Upper Chariot Cyn [8/10 - 1.4 mi N]",
+      "6/15/17 (Mark H.) : water in natural spring. Per Evan, smells sulfuric. Orange algae and an oil film on top. Bad taste even after filtering with Sawyer. Took \"Numbers\" suggestion and tried 50ft on the left, but unfortunately was dry at this time. \n4/29/17 (Numbers): Despite Evan's report, I and several others used that source on 4/29 and we're all fine. Go 50 ft past where the water crosses the road and filter from the stream on the left.\n-----\n4/27/17 (Evan): The stream at 0.8 miles down the side road is polluted. It was red tinted, soapy, and smelled like rotten eggs. The fire tank at 1.2 miles was dry and the tank had trash and shotgun shells dumped into it. Would definitely say this water source is a no go.\n-----\n4/26/17 (Amelia): Seasonal spring down the dirt road at mile 63.7 is still flowing",
+      "6/15/17",
+      "Mark H."
+    ],
+    [
+      "When you reach unpaved Chariot Canyon Rd go right to stay on the PCT. If you turn left you will go N down Chariot Canyon to possible seasonal water. WR064a is a seasonal creek crossing Chariot Canyon Rd, shade, 8/10 mile N of the PCT [2/10 mile N of the StatePark boundary sign]. WR064b is a Fire Tank, 1.2 miles N of the PCT. WR064c is Seasonal Chariot Canyon Spring, 1.4 miles N of the PCT [spring is on the W side of the road hidden from view by several large oak trees]."
+    ],
+    [
+      "A9",
+      "68.4",
+      "WRCS068",
+      "**Rodriguez Spur Truck Tr\n[Concrete fire tank visible 75 ft W]\n\n-\nWe are especially interested in water reports about this location. Please send info.",
+      "10/30/17 : Water in tank is too low for it to flow out of the valve. Still water in tank but far down, will have to rig something with ropes or whatever to get out a couple hundred ml at a time. \n10/27/17 (Jack) : Tank was flowing steady.\n10/13/17 (Righteous!) Flowing. Close the valve before your bottle is full, water continues to for from the pipe for several seconds. \n6/16/17 (Mark H.) : Dry in trough, water not flowing. \n5/30/17 (Ten-MIler) : Dry.\n5/20/17 (Eric): Dry\n5/19/17 (Jon): Dry\n5/12/17 (Rockhead): RODRIGUEZ WATER TANK IS EMPTY!!!  Recent rain not withstanding, the tank will REMAIN EMPTY until well into the next rainy season. \n5/9/17 (Malcolm): Dry as of 4 pm\n5/8/17 (Erin): Good water from pipe as of 1700\n5/8/17 (Jake Rabbit): Water flowing, pretty good too.\n5/8/17 (Rachel&Libby): Rodriguez Fire Tank has been replenished after yesterday's rains. Flowing 5L/min at the valve 10am today.\n5/7/17 (Keesha): The tank had water and good flow as of 2 pm.\n5/5/17 (Judd): A few inches of water about 8 feet down in the tank, but no flow from the valve and no access to the water. Someone left both the red and black valves open. If they aren't left closed the tank won't refill from this incoming storm.\n-----\n1/29/17 (Professor & Rockhead) : Water tank has 9 inches (~1,400 gallons) of water due to recent rains.  Faucet has slow leak, more when turned on.  We attached a smaller faucet and hose to outlet however valves are temperamental.  Please be sure to turn valve as close to 90 degrees in order to stop flow.  We will be making additional repairs next week.\n-----\nPlease turn the knobs/valves off as hard as you can to minimize the leaking drips.",
+      "10/30/17",
+      "Bootstraps, Nissan Pathfinder, Sharkbait, Stitch, and Mascot"
+    ],
+    [
+      "Target shooting by multiple parties continues on BLM land below (east of) trail just south of Rodriquez Spur Truck Trail crossing (mile 68.4) per Daytripper on 1/4/14.\nJust south of the Rodriguez Spur Truck Trail intersection, people were target shooting from the dirt road towards the PCT, which zigzags above and parallel to the road. While their trajectory was lower elevation than the trail (I think), there did not appear to be much margin for error. 11/4/13 per Aaron"
+    ],
+    [
+      "A9",
+      "68.4",
+      "WR068B",
+      "Spring 1.1 miles NW of PCT",
+      "5/20/17 (Eric) : Good flow\n5/19/17 (Jon): Good flow\n5/16/17 (Rainman): Good flow\n5/12/17 (Taylor): Flowing well\n5/9/17 (Malcolm): Flowing well\n-----\n1/29/17 (Profressor & Rock Head) : Spring has strong flow, about 8 gallons per minute. Note:  If spring is not flowing and you don't have enough to make Scissors Crossing, continue 2.2 miles down Rodriguez Spur Truck Trail to HWY 78.  Banner Store is across the highway to the East about 200 feet.  Water is available and hitching is easy to either Julian or Scissors Crossing.",
+      "5/20/17",
+      "Eric"
+    ],
+    [
+      "Spring on Rodriguez Spur Truck Trail, 1.1 miles NW of PCT, 70 feet from the large rust colored water tank.\n2017 Banner Store hours are 8am-6pm, closed Wednesdays, from May 15 through Labor Day.  Off season hours8am-6pm, closed Tues/Wed.  Take off-season hours with a grain of salt, it's open when the purveyor feels like opening it. (Professor on 5/31/17)"
+    ],
+    [
+      "10/6/17 : Be sure to filter and/or boil all water in the Mount Laguna area. On October 6th, 2017, the Cleveland National Forest announced that the Mount Laguna Water System failed to meet bacteriological water quality standards required by the state of California. In addition, E. Coli has been detected multiple times in the Mount Laguna area in the past."
+    ],
+    [
+      "A10",
+      "77",
+      "WRCS077",
+      "Scissors Crossing\n[Cache under a nearby highway bridge]",
+      "Cache well stocked.\n-----\nStagecoach Trails Cg and Cabins 4 miles SE on Hwy S2.  Store open till 5pm. NOTE : times can vary dependent on time of year.",
+      "6/16/17",
+      "Mark H."
+    ],
+    [
+      "The Scissors Crossing water cache [under a nearby highway bridge] will be maintained in 2017. The cache is maintained 3 times weekly in peak months, and stocked year around by Shelter Valley Civic group.  This cache is in the shade under a highway bridge.  Please escape the desert heat... Shelter Valley Citizens Corp. (Rockhead 2005, Professor 2014). Water can also be found 12 miles West in the small town of Julian, or at the Stagecoach Trails RV park 4 miles S of the PCT on Highway S2."
+    ],
+    [
+      "A10",
+      "77.1",
+      "",
+      "San Felipe Creek, Hwy 78\n[.24 miles W bridge, often dry]",
+      "Still water cache here on 21st nov! Thank you trail angels. About 18 gallons still. \u200b",
+      "11/21/17",
+      "Gretel"
+    ],
+    [
+      "Cache well stocked."
+    ],
+    [
+      "A11",
+      "91.2",
+      "WRCS091",
+      "Third Gate Cache [1/4 mi E]",
+      "11/20/17 (Gretel) : Side trail here to a massive cache stocked by incredible angels! There's HEAPS. :)  It's a bit of a hike down and back, so drop your packs.\n11/5/17 (Jan) : Cache fully stocked and will last until the new season is underway.  There are over 200 gallons on hand.",
+      "11/20/17",
+      "Gretel"
+    ],
+    [
+      "The 3rd Gate water team is insulted by having to clean up hikers’ poop and toilet paper.  Please practice “leave no trace” principles.\nThe 3rd Gate water cache is on private property 1/4 mile E of the PCT down a side trail with “Water” sign. It’s a lot of work getting water out there, so take only what you need to hike 9.9 miles to Barrel Spring. Practice “leave no trace” principals: NO FIRES, carry out your trash and toilet paper, bury poop 6 inches. Abuse of the property (unburied poop, fires, leaving trash, etc.) may lead to the cache being closed. Only approach Grapevine Ranch in an emergency. vehicles are not allowed on the ranch without prior permission from the owner."
+    ],
+    [
+      "A11",
+      "91.2",
+      "WR091B",
+      "Underground Cistern [6/10 mi E]",
+      "Underground has plenty of water. Be careful when using the bucket and bring something for shade",
+      "5/22/17",
+      "Vallerie"
+    ],
+    [
+      "Follow the dirt road leading from the water cache about 4/10 mile to where the road turns right(E) but go left (N/NW) on an old unmarked trail for 1/10 mile to the underground cistern containing untreated water (a rope and bucket are supplied)."
+    ],
+    [
+      "A12",
+      "101.1",
+      "WRCS101",
+      "*Barrel Spring",
+      "12/2/17 (Jason) : pipe trickling, water clear but has bees floating and flying!\n11/20/17 (Gretel) : Water still flowing well from the spring into the trough and trough still full on Nov 20th. However, there is a huge amount of bees that are set up around the pipes direct outlet flow and around the edges of the trough! Be prepared for a Hunger Games re-enactment or carry water!!",
+      "12/2/17",
+      "Jason"
+    ],
+    [
+      "Some hikers are washing unmentionables in the trough.  Please don't do this, since at some point the pipe may stop running and people will need to use the trough water on 4/26 per Cuddles. Ranchita store [4 miles E] may pick up hikers if you call their number 760-782-3476 [ATT has service at the spring area, Verizon and T Mobile no]."
+    ],
+    [
+      "A12",
+      "104",
+      "WR104",
+      "Cattle Trough\n[2/10 mi NE, visible from PCT]",
+      "80 gallon galvanized steel tub with slow but adequate water flow from natural spring. Clumps of algae on 40% of surface and some in tub but the water looks very clear. Fresh water available directly from pipe feeding tub.",
+      "3/18/17",
+      "Chunks"
+    ],
+    [
+      "A12",
+      "104.4",
+      "WR105",
+      "Concrete trough below mouth of San Ysidro Creek [2/10 mi W]",
+      "Plenty of water flowing out of pipe, and trough is full. This was actually much easier to access from 104.45 because  \nyou can see it from the trail. When I tried at 104.40, I couldn't find it because the view was obstructed by a big tree.",
+      "3/16/15",
+      "Haiku"
+    ],
+    [
+      "A13",
+      "105",
+      "WRCS105B",
+      "*San Ysidro Creek",
+      "Dry",
+      "12/2/17",
+      "Jason"
+    ],
+    [
+      "San Ysidro Creek often has cattle nearby."
+    ],
+    [
+      "A13",
+      "106.2",
+      "WR106",
+      "Eagle Rock Spring"
+    ],
+    [
+      "Spring-Fed Metal Trough - 3/10 mile N of Eagle Rock over hill near road "
+    ],
+    [
+      "A13",
+      "106.2",
+      "WR016B",
+      "Water Tank [visible 2/10 mi S of PCT at Eagle Rock]",
+      "Water tank at WR106B is full, algae on about 75% of surface, water is clear.",
+      "12/2/17",
+      "Jason"
+    ],
+    [
+      "A13",
+      "107.9",
+      "WR108",
+      "Canada Verde\nMaybe better access at mile 108.2 or 108.6",
+      "stream flowing strong with many access points",
+      "6/2/17",
+      "Chris Q."
+    ],
+    [
+      "WARNING per 1 Speed (9/26/15) : I was day hiking in this area 2 months ago and saw the Bees/Hornets. As I walked past I notices a small inconspicuous sign \"BEE TREE\", you have to look for it and moving quickly to get away from insect attackers you wouldn't see it. Bees, Hornets what ever they are there just look in the crotch of the Oak.\n-----\n5/26/15 (Tuna Helper): Just after gate at mile 109.3, was attacked by hornets while walking by, they were swarming the crotch of a large oak tree 8' off the ground. Stung in the back of the neck while running away."
+    ],
+    [
+      "A13",
+      "109.5",
+      "Hwy79",
+      "Hwy 79 [1st crossing, small seasonal creek nearby]",
+      "Flowing",
+      "3/17/17",
+      "Halfmile"
+    ],
+    [
+      "Warner Springs Community about 100 yards east of PCT on the N side of Hwy 79."
+    ],
+    [
+      "A13",
+      "109.5",
+      "",
+      "**Warner Springs [small town,1.2 mi NE of PCT; WS Resource Center is at the 1st PCT crossing of Hwy 79 across from the Fire Station]",
+      "3/17/17 (Halfmile) : Resource Center open but has limited hours, water spigots on outside, camping area, restrooms open, hot/cold water working behind building.",
+      "3/17/17",
+      "Halfmile"
+    ],
+    [
+      "Warner Springs Post Office is open M-F 8-4 & Sat. 8-1:30. Warner Springs Grill (by the golf course) is open and serving food. The gas station/store (next to Post Office) is rumored to reopen around April 1.\n-----\nThe hiker-friendly Warner Springs Resource Center [wscrcenter.org, 760-782-0670] Fall 2017 and Winter hours are usually Tuesday to Saturday 9 to 1, closed Sunday and Monday. Hikers can camp by the bathrooms which are open 24 hours. No showers available pending septic approval. Fill water bottles behind the resource center or in bathrooms. Water doesn't need to be purified."
+    ],
+    [
+      "A13",
+      "109.5",
+      "PO0110",
+      "Warner Springs PO",
+      "Water spigot across the street of Post office in parking lot of Warner Springs Resort. Flows great.",
+      "2/15/15",
+      "Rainman"
+    ],
+    [
+      "LOST FIRE UPDATE\nhttp://www.fire.ca.gov/current_incidents/incidentdetails/Index/1693\nhttps://www.pcta.org/discover-the-trail/trail-condition/lost-fire-warner-springs/\n7/29/17 : Fire is 100% contained. PCT is open."
+    ],
+    [
+      "CA Section B: Warner Springs to Highway 10"
+    ],
+    [
+      "B1",
+      "111.4",
+      "Hwy79b",
+      "Highway 79\n[2nd crossing, Agua Caliente Creek]",
+      "fraction of a liter per minute. Would require a scoop.",
+      "5/3/17",
+      "Numbers"
+    ],
+    [
+      "There is a spigot just south of Hwy 79 near a tire swing at about mile 111.3 (Spigot turned off as of 4/27/14 per Alia B.)"
+    ],
+    [
+      "B1",
+      "112.6",
+      "WR113",
+      "Agua Caliente Creek\n[near picnic tables]",
+      "Dry",
+      "7/4/17",
+      "Hypsy-Gypsy"
+    ],
+    [
+      "B1",
+      "114.7",
+      "WR115",
+      "Agua Caliente Creek",
+      "Dry",
+      "11/19/17",
+      "Gretel"
+    ],
+    [
+      "B1",
+      "115.5",
+      "WR115B",
+      "*Agua Caliente Creek [last crossing]",
+      "Still great flow across the trail here!",
+      "11/19/17",
+      "Gretel"
+    ],
+    [
+      "B2",
+      "119.6",
+      "WR120",
+      "*Lost Valley Spring [0.2 mi off trail]",
+      "12/14/17 (Warner Springs Monty) : Clear and clean water when you push away floating oak leaves. As usual, it has a slight sulphur taste, but just slight right now. Good water with a tint of sulphur.\n11/19/17 (Gretel) : Water still here. There's also a little stream across the trail at 0.1mi south (116mi). SOBO's... If you don’t want to go down to the creek bed, the next source is still flowing south of here.",
+      "12/14/17",
+      "Warner Springs Monty"
+    ],
+    [
+      "The spring is only 300 yds off trail and 80 ft lower in elevation. Trail signed - look for 3 foot high cement post, then follow the abandoned road downhill 0.2 mi. (PCT turns right before post.)"
+    ],
+    [
+      "B2",
+      "127.3",
+      "WR127, B",
+      "**Chihuahua Valley Rd\n[water tank 2/10 mile E]",
+      "The water tank is still stocked.",
+      "11/19/17",
+      "Gretel"
+    ],
+    [
+      "A trail has been cut about 1/4 mile South of Chihuahua Valley Rd that will bring hikers down to the tank so we don't have to do the RD walk both ways.\n0.2 mi E to driveway 31440 Chihuahua Valley Rd, then 0.1 m N to private NEW water tank above house. \"water in tank should be filtered. If no water in tank there should be water on back porch - go through hole in fence next to water tank and down the trail to house there is a netted porch to keep the bugs off, and a shower out side.\" per Mike Herrera at the house (10/30/09). he is very eager to meet and assist hikers, they are welcome to stop by his place. (This is not an invitation to go in his house!)"
+    ],
+    [
+      "B4",
+      "136.5",
+      "WR137",
+      "Tule Creek [early season]",
+      "6/4/17 (Chris Q.) : dry from what I can tell.\n5/28/17 (Katy) : creek is dry.\n5/24/17 (Jon & Tara) : looks and tastes bad.  Foam and residues on surface. \n5/20/17 (Trail Angel Mary) : I maintain the cache at 145.4. Two hikers the morning of 5/20/17 reported starting to vomit shortly after drinking water from the creek below the fire tank at Tule Spring. Both reported filtering the water, but not treating it chemically. It would be prudent for hikers to BOTH filter and treat water from that source.",
+      "6/4/17",
+      "Chris Q."
+    ],
+    [
+      "B4",
+      "137",
+      "WR137B",
+      "**Tule Spring & Fire Tank\n[Tule Canyon Rd, 0.25 mi SE]",
+      "6/7/17 (Stone): Trickle.  Rusty looking.  Down canyon a bit stream is flowing.  Not sure of water quality.\n6/4/17 (Chris Q.) : dry from what I can tell.\n5/28/17 (Katy) : water in creek below is of questionable quality but if you continue out to the right past the valve, past the sandy trail down to the water, there's a little trickle out of the side of the hill, looks better the creek below.\n5/24/17 (Mittens) : Tule creek water tank dry. there is water in the stream below but it's of extremely questionable quality.",
+      "6/7/17",
+      "Stone"
+    ],
+    [
+      "Fill up at the usually reliable and excellent Tule Spring for the 14.9 miles to Hwy 74. The water caches a few miles to the north probably will not be able to keep up with the demand from hikers & may run dry, especially during the peak of the herd."
+    ],
+    [
+      "B4",
+      "139.5",
+      "WR140",
+      "Guzzler",
+      "Guzzler had water, surface 24\" down from broken top.",
+      "6/7/17",
+      "Stone"
+    ],
+    [
+      "CAUTION - top of Guzzler is fragile and unsafe, do not stand on it. In Section 16 just after PCT goes sharp right to follow just below 2,600' contour on Map B4, beside trail on left. (Cistern is underground, looks like an 12x24' old broken parking lot) 1-foot diameter eyebrow opening with new (as of 4/9/14) chrome hand pump with 3-gallon bucket "
+    ],
+    [
+      "B4",
+      "140.2",
+      "WRCS140B",
+      "Nance Canyon [early season]",
+      "Dry",
+      "5/14/17",
+      "Mr. Clean"
+    ],
+    [
+      "B4",
+      "143.1",
+      "RD0143",
+      "Table Mtn Truck Trail AKA Sandy Jeep Road",
+      "The Sandy Road Water cache, at mile marker 143, is officially closed until next spring.",
+      "7/6/17",
+      "Chip & Vicky Hurn"
+    ],
+    [
+      "A seasonal water cache can sometimes be found here (DO NOT RELY ON WATER CACHES as water availability changes very quickly dependent on the number of hikers)."
+    ],
+    [
+      "B4",
+      "145.4",
+      "",
+      "Walden Water Cache, on private land about 50 feet off trail.",
+      "A lovely stop on the PCT. Water still in tank! Hard to know how much, but the wonderful trail angel, Mary, seems to keep it well stocked (even leaving bottled water for hikers without a filter). An awesome little Library bookcase and a beautiful trail log that will get you thinking!! ;) Thank you, Mary!",
+      "11/19/17",
+      "Gretel"
+    ],
+    [
+      "B5",
+      "151.9",
+      "Hwy74",
+      "Pines-to-Palms Hwy 74\n[*Paradise Valley Cafe, 1 mi W]",
+      "Outside faucet is turned off, but Cafe will fill water containers inside when the cafe is open.",
+      "6/3/17",
+      "Avner"
+    ],
+    [
+      "The hiker-friendly Cafe is open Wed - Sun 8-8, Mon, Tues 9-3. Phone 951-659-FOOD. The Cafe accept hiker resupply packages sent to: Paradise Valley Cafe, 61721 State Highway 74, Mountain Center, Ca 92561. The hose out back has been removed, health dept issues."
+    ],
+    [
+      "B6",
+      "155.4",
+      "",
+      "Penrod Cyn [usually dry]",
+      "Large puddles, not flowing.",
+      "5/8/17",
+      "Numbers"
+    ],
+    [
+      "B6",
+      "158.4",
+      "WR158",
+      "*Live Oak Spring [1.0 mi E]",
+      "Very strong flow",
+      "4/26/17",
+      "Cody"
+    ],
+    [
+      "Descend from saddle on trail 1 mile to metal tub fed by metal pipe in middle of trail."
+    ],
+    [
+      "B6",
+      "158.4",
+      "WR158B",
+      "*Tunnel Spring [0.3 mi W]",
+      "flowing at greater than 1 liter per minute",
+      "6/23/17",
+      "Frank"
+    ],
+    [
+      "Make sure you take the RIGHT fork of the trail once you reach the bottom. Spring is 40 yards upstream along use trail and dry creek. The trough is slowly fed from spring by pipe. Most report a sulfur taste.\n----------\nIf you head about 150 feet NE from the trough; low on the east embankment of the dry creek bed you will find an opening (about 2' wide X 1.5' high) to the tunnel.  Inside is a long, narrow, shallow pool filled with GREAT tasting cool water.  The only caveat: the bottom of the pool is very fine, easily disturbed sediment.  You will need a long suction tube on your filter system and some means of getting the business end of the tube far into the tunnel.  Use a long stick or a trekking pole to get the tube placed in the middle, and raised off the bottom of the pool. Harold on 6/20/13"
+    ],
+    [
+      "B7",
+      "162.6",
+      "WR162",
+      "*Cedar Spring [Trail 4E17, 1 mi N]",
+      "11/27/17 (Yukon & Gentle Effect) : Water flowing, trough full.\n11/26/17 (Hammer) : pipe running, trough is full and clear, plenty of campsites.\n11/25/17 (Ken) : has water flowing from pipe (Clearly Marked with sign).  The trough is full, and water looks and tastes fine. Note:  Spring on West Side of Trail ~1.7 miles downhill was also reported to have water by others in our group.  They hiked the additional 1.4 miles West on Cedar Springs trail, because they didn't see a trail listed in GUTHOOK's down to water the on the East side.  GUTHOOK's does show the water if you zoom out far enough, but not the trail to it.  The water on the East side of PCT is closer, and has numerous shaded campsites.  Water trough is slightly up hill from campsites (Yukon).\n10/25/17 (Lonewalker) : The problematic mud tap at the spring has been replaced.  An open spring box has been installed with a 1\" galv pipe leading directly to the 200 gal green cattle trough.  Trough is currently full of clean, cold water and is overflowing, spilling back into the drainage.  Water flowing from the pipe into the trough is at the rate of 1 liter/min.  16' up canyon from the cattle trough is a 36\" dia pool for dipping, if needed.\n-----\n2/22/16 (Warner Springs Monty) : At the PCT and Cedar Spring trail junction, a trail on left Drops down west for 1 mile to continue north on Morris Ranch Rd toward Idyllwild. At bottom of hill is a spring box as you enter the grassy meadow. To your left 45 degrees and about 100 yds away is a VISABLE spring and trough. You will hear the water as you get close to it.  Excellent water with strong flow",
+      "11/27/17",
+      "Yukon & Gentle Effect"
+    ],
+    [
+      "500' drop on rocky trail, 200 gallon piped tank, 50' up canyon."
+    ],
+    [
+      "B7",
+      "163.3",
+      "WR163",
+      "Eagle Spring [1/4 mi S, seasonal]",
+      "Dry, Trail down hill burned from forest fire. Very dangerous, rocky terrain, overgrown. PVC pipe marker melted. Spring extremely difficult to find. Still dry, from what we know. ",
+      "6/2/17",
+      "ARFF & DeepBush"
+    ],
+    [
+      "Seasonal. 3/4 mile N past Cedar Spr jct, where PCT becomes 10' wide on a ridge \"hogback\", on left a 2\" dia 4'tall white PVC post, ~6-8' off on a side trail, marked \"Eagle Spring, 1/4\" with an arrow pointing W (signpost obscured by bushes & easy to miss). Trail is reasonably clear 4/30/11, however a little rocky in spots. At a lone Spruce tree at dry creekbed, trail resumes past tree thru small overgrown section of trail another 300' to deadend at a 200 gallon cattle trough, perched on hillside, with horizontal pipe tap drizzling into it. [In past rarely used]\nHIKER ACCESS: If problem tap is clogged, or tank either stagnant or dry, access Spring Box directly. 15' directly behind tank is pile of large rocks. At the center is a 25 lb 9\"x9\" nearly square stone, 5\" thick. CAREFULLY remove the stone and set it to side. Under it is 4\"x12\" slot between large rock slabs that access natural rock spring box holding 5-7 gallons of fresh water. The slot is large enough to dip a quart bottle. REINSTALL & ALLIGN the square stone back over access slot to keep frequent cows away from water.\nNote: Lion Spring the other side of PCT is dismantled and dry.                                            "
+    ],
+    [
+      "Poodle Dog Bush Report from Pano on 5/14/17:  We encountered living (and a lot of dead) poodle dog bush on the ridgetop north of Eagle Spring (approximately miles 163 and 164)."
+    ],
+    [
+      "B7",
+      "166.5",
+      "FobesRanchTr",
+      "Fobes Saddle (0.5 m S)"
+    ],
+    [
+      "MOUNTAIN FIRE CLOSURE\nhttps://www.pcta.org/wp-content/uploads/2016/11/Mountain-Fire-Closure-map-November-2017.jpg?x92830 (Fire Closure Map)\n11/19/17 (PCTA) : This closure will remain in place for the foreseeable future.The Mountain Fire started on July 15, 2013 near the junction of Highway 243 and Highway 74. The Pacific Crest Trail remains closed from Spitler Trail (mile 168.6) north to Tahquitz Valley Trail (mile 177.3). The Pacific Crest Trail was extensively damaged with up to 2 miles of the trail being lost as a result of damages caused by the Mountain Fire. Years of work has gone into reopening the PCT and the effort continues. The trail is reopening in three phases. Phase 1 opened in November 1016 and phase 2 opened in November 2017 (https://www.pcta.org/2017/burned-fire-two-miles-pct-san-jacinto-mountains-reopen-55167/).\nOfficial documents --\u003e The Mountain Fire closure is administered by San Bernardino National Forest and closure order, map and other documents can be found at https://www.pcta.org/wp-content/uploads/2016/11/Signed-Moutain-Fire-Closure-Order.pdf?x92830.\nDetour information --\u003e We’re working on new maps that will show the route from the Spitler Peak Trail to Idyllwild and then back to the PCT."
+    ],
+    [
+      "Walk down old Fobes Trail [NW] ~0.8 mile to Scovel Crk (usually running during thruhike season, may go dry in summer). 100 ft past that creek crossing a forest service spring w/a 70-gallon rubbermaid tub w/pipe. Nice flat camp spot."
+    ],
+    [
+      "B8",
+      "169.2",
+      "WRCS169",
+      "Apache Spring (Trail DOWN 0.5 mi E)",
+      "Water in the spring box is stagnant,  smells pungent from ten feet and has lots of dead material in it. Drinkable if you're keen, water much better at 177 mile stream in meadow or at cistern 166.5 "
+    ],
+    [
+      "3 x 3 foot spring box, steep rocky trail down to it."
+    ],
+    [
+      "B8",
+      "177.2",
+      "WR177",
+      "Tahquitz Creek",
+      "Dry",
+      "8/23/2016",
+      "Rustic"
+    ],
+    [
+      "Unofficial Mountain Fire Alternate (see www.pctmap.net/corrections/):\nDetour Mile ~1.4 --  5/26/17 (Jon & Tara): Water flowing well at 166 + about 1.5 dow:\n5/9/17 (Numbers): Alternate 1.4 mi from mtn fire closure (on fobes trail), stream is shallow but flowing. Easier to refill 1 or 2 tenths downstream.\nDetour Mile ~1.9 --  5/9/17 (Numbers): Just before parking area, good flow. Right before a road/parking area. The road crosses this stream again, but the first time is the best water per Pika & Paw Patrol on 4/15/17-----\nDetour Mile ~2.5 -- Small patches of Poodle Dog Bush. per Brian on 4/15/17-----\nDetour Mile 6.2 -- Garner Valley Fire Station #53 (Riverside County) at corner of Morris Ranch Rd & CA-74:  (benches & picnic table with hose bib (24/7) out front near fire truck doors (source front desk).  It's 1.1 miles south from Fobes Trail crossing hwy CA-74. per Linda on 8/13/16 -----\nDetour Mile 10.2 -- Lake Hemet Market is open Mo - Thu 8-5, Fri and Sat 7 - 7, Su 7-5 per Pika & Paw Patrol on 4/16/17; Grill at the store doesn't open until 10am but frozen foods and microwave in the back per Pika & Laundry Mat on 5/10/17 -----\nDetour Mile 10.7 -- Hurkey Creek Campground -- open 12 months a year & 24/7.  Flush bathrooms & water spigots available year round (source park range).  \n5/10/17 (Pika and Laundry Mat): We didn't check out site 66 but instead found Coyote Run trailhead next to site 130. The main trail of Coyote Run is wide and easy to follow so be sure to take the (small) left trail at the first trail junction  to get to May Valley road.\n4/9/17 (Dalem): water faucets at Hurkey Campground are on. The next water is on Bonita Vista road starting at the junction of May Valley Rd.  The streams runs down the rut in the road but was sufficient to give me a liter of water in less than a minute. Big Cedar tank is dry and the spring appears to be only a damp spot.\n8/13/16 (Linda): Walk through campground to camp sites 65-66.  Go between camp sites to fence line gate in rear.  Zig-zag opening beginning of bike path\nDetour Mile ~13.5 -- If you are going into Idyllwild via May Valley Road/Saunders Meadow Road: There is water right after junction between 5S05 (May Valley Road) and 5S21 (Saunders Meadow Road, road you turn left on to go down to Idyllwild). The stream on road is located maybe 2.5 miles before Idyllwild. There isn't much water, but it is a fine flow right now. per Pika & Paw Patrol on 4/16/17 -----"
+    ],
+    [
+      "MOUNTAIN FIRE CLOSURE (see note above)"
+    ],
+    [
+      "B8",
+      "177.3",
+      "TqtzValTr",
+      "Little Tahquitz Valley (Trail, 0.33 mi N)",
+      "Little Tahquitz Valley (Trail, 0.33 mi N)  Little Tahquitz Valley is running with water.  Walk over to the creekbed to find water as needed, when the trail begins to parallel the narrow grassy meadow to your R.  If you continue down the trail N another  1/3 mi  into Tahquitz Valley (Tahquitz Meadow), the creek in Tahquitz Valley is also running well and is approx 12\" w X 2-3\" deep, fast moving, clear (you are walking N from the PCT towards Skunk Cabbage on the Tahquitz Valley-Little Tahquitz Valley trail).\n \nIn Tahquitz Valley (Tahquitz Meadow), the Forest Service water tap is approximately 200 yds past Tahquitz Creek.  Running approximately 4 gpm.   As you walk North from the creek, look for a large log to your right (east) about 60' off the trail in the meadow.  Walk towards it.  When you get to the log, turn L (due north).  You will hear water gurgling about 10' from the north tip of the log.  Look down and you will see a 1\" pvc tap from which water is running.  If you miss the log from the trail and hit the 4 way junction (which will take you to Saddle Junction), walk back south approx 100 yards back towards the meadow.  You will pass through a small, shaded ravine on your way back.  The log will appear in the meadow just past that ravine, now on your L.",
+      "6/13/2017",
+      "Lonewalker"
+    ],
+    [
+      "Snow report from Numbers on 5/11/17: South Ridge trail from Idyllwild to PCT is passable without microspikes. "
+    ],
+    [
+      "B9",
+      "179.4",
+      "SaddleJct",
+      "Idyllwild 4.5 mi W of Saddle Junction",
+      "5/13/17 (Michael): Water at approximately 1 mile up from Humber Park and 1.5 miles up. 1.5 mile steam was the best, with a pool above the trail. 2/5 on reliability/flow\n4/17/17 (Pika & Paw Patrol): Devil's Slide Trail water: 1.57, 1.28, 1.14, .82 (This the mile is in order starting from Humber Park leaving Idyllwild)",
+      "5/13/2017",
+      "Michael"
+    ],
+    [
+      "The Idyllwild Public Library [951-659-2300] prints free copies of the Water Report for hikers. The library is located near the center of town in Strawberry Creek Plaza with the Post Office, grocery store, pharmacy, natural food store, & Pizza Co. Library hours are Mo 10-6, Tu 12-8, We 10-6, Th 12-5, Fr 12-5, Sa 10-4, Su closed. The library also has computers, wi-fi, paperback books. Trail register at the Post Office."
+    ],
+    [
+      "These reports are provided as a free service to PCT hikers. I believe the information is accurate but the reports may contain errors. The reports are distributed in the hope that they will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE."
+    ]
+  ]
 }
