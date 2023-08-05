@@ -19,5 +19,8 @@
  - ```APP_URL``` : hostname and context of application (e.g. backcountrywater.info) : default is localhost
  - ```OPENSHIFT_APP_PORT``` : application port (e.g. 80) : default is 80
 
+## Invoke REST
+curl -X POST -d job=fetchsang http://watermap2-watermap.7e14.starter-us-west-2.openshiftapps.com/rest/scheduler
+
 ## Troubleshooting
  - If the maps don't show up, disable HTTPSEverywhere plugin (at least for openstreetmap.org)

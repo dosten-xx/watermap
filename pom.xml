@@ -131,6 +131,20 @@
 			<scope>provided</scope>
 		</dependency>
 
+		<!-- jcache -->
+		<dependency>
+			<groupId>javax.cache</groupId>
+			<artifactId>cache-api</artifactId>
+			<version>1.0.0</version>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.infinispan</groupId>
+			<artifactId>infinispan-jcache</artifactId>
+			<version>8.2.4.Final</version>
+			<scope>provided</scope>
+		</dependency>
+
 		<!-- Annotation processor that raising compilation errors whenever constraint 
 			annotations are incorrectly used. -->
 		<dependency>

@@ -28,8 +28,10 @@ import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
+import java.util.logging.Level;
 import java.util.logging.Logger;
 
+import javax.cache.annotation.CacheResult;
 import javax.ejb.Singleton;
 import javax.ejb.Startup;
 import javax.xml.bind.JAXBContext;
@@ -79,11 +81,12 @@ public class PCTReport
     *
     * @return set of water reports
     */
+   @CacheResult
    public synchronized Set<WaterReport> convert() throws IOException
    {
       Set<WaterReport> results = new HashSet<WaterReport>();
       
-      log.info("dataDir=" + dataDir);
+      log.log(Level.INFO, "Getting PCT report from dataDir {0}; should be cached...", dataDir);
       
       if (waypoints.size() == 0) {
          log.warning("Waypoints empty, re-initializing...");

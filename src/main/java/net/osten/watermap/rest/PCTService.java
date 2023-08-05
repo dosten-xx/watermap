@@ -21,6 +21,7 @@ package net.osten.watermap.rest;
 
 import java.io.IOException;
 import java.util.Set;
+import java.util.logging.Logger;
 
 import javax.ejb.EJB;
 import javax.ws.rs.GET;
@@ -40,6 +41,8 @@ import net.osten.watermap.model.WaterReport;
 @Path("pct")
 public class PCTService
 {
+   private static Logger log = Logger.getLogger(PCTService.class.getName());
+
    @EJB
    private PCTReport converter;
 
@@ -54,6 +57,8 @@ public class PCTService
    @Produces(MediaType.APPLICATION_JSON)
    public FeatureCollection getReport() throws IOException
    {
+      log.info("Getting PCT report...");
+      
       FeatureCollection results = new FeatureCollection();
 
       Set<WaterReport> wrs = converter.convert();
